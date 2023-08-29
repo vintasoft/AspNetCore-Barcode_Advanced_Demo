@@ -1,0 +1,28 @@
+﻿<script src="@Url.Content("~/js/UI/Dialogs/Barcode/BarcodeWriterSettingsDialog.js")" type="text/javascript"></script>
+<div class="modal" id="barcodeWriterSettingDialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Barcode writer settings</h5>
+            </div>
+            <div class="modal-body">
+                <table border="1" class="propertyTable" style="border-bottom:0">
+                    <tr>
+                        <td style="width:200px"><label>Barcode Dimension:</label></td>
+                        <td>
+                            <select id="barcodeDimensionSelect">
+                                <option value="1D" selected>1D</option>
+                                <option value="2D">2D</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <div id="Barcode1DSettingsPropertyGrid"></div>
+                <div id="Barcode2DSettingsPropertyGrid"></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+            </div>
+        </div>
+    </div>
+</div>

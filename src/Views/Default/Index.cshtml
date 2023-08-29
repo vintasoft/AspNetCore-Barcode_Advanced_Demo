@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "VintaSoft Barcode Advanced Demo (ASP.NET Core)";
+    Layout = "~/Views/Shared/_DemoViewLayout.cshtml";
+}
+
+@section demoDescription{
+    <h1>VintaSoft Barcode Advanced Demo (ASP.NET Core)</h1>
+}
+
+@section requiredScripts{
+    <link href="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.DocumentViewer.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/lib/bootstrap-colorpicker/bootstrap-colorpicker.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/lib/bootstrap-multiselect/bootstrap-multiselect.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/css/BarcodeAdvancedDemo.css")" rel="stylesheet" />
+
+    <script src="@Url.Content("~/lib/bootstrap-colorpicker/bootstrap-colorpicker.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/bootstrap-multiselect/bootstrap-multiselect.min.js")" type="text/javascript"></script>
+
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Shared.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Barcode.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.Dialogs.Bootstrap.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.DocumentViewer.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/Vintasoft/Vintasoft.Imaging.DocumentViewer.Dialogs.Bootstrap.js")" type="text/javascript"></script>
+
+    <script src="@Url.Content("~/js/UI/Controls/PropertyGridControl.Bootstrap.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/UI/Dialogs/Barcode/BarcodeRecognitionResultDialog.js")" type="text/javascript"></script>
+}
+
+@section demoContent{
+    <div id="documentViewerContainer"></div>
+
+    @Html.Partial("UI/Dialogs/BlockUiDialog")
+    @Html.Partial("UI/Dialogs/PreviouslyUploadedFilesDialog")
+    @Html.Partial("UI/Dialogs/ImageViewerSettingsDialog")
+    @Html.Partial("UI/Dialogs/BarcodeReaderSettingsDialog")
+    @Html.Partial("UI/Dialogs/BarcodeRecognitionResultDialog")
+    @Html.Partial("UI/Dialogs/BarcodeWriterSettingsDialog")
+
+    <script src="@Url.Content("~/js/OpenFileHelper.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/BarcodeReaderHelper.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/BarcodeReaderUiHelper.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/BarcodeWriterUiHelper.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/js/BarcodeAdvancedDemo.js")" type="text/javascript"></script>
+}

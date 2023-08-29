@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link href="@Url.Content("~/lib/bootstrap/dist/css/bootstrap.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/css/Demo.css")" rel="stylesheet" />
+
+    <script src="@Url.Content("~/lib/jquery/dist/jquery.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/lib/bootstrap/dist/js/bootstrap.bundle.min.js")" type="text/javascript"></script>
+
+    @RenderSection("requiredScripts", false)
+</head>
+<body>
+    <div style="height:100%">
+        <div class="header">
+            @RenderSection("demoDescription", false)
+        </div>
+        
+        <input type="hidden" id="hiddenSessionField" value="@Context.Session.Id" />
+        @RenderSection("demoContent", true)
+
+        @Html.Partial("UI/Dialogs/ErrorMessageDialog")
+    </div>
+</body>
+</html>
