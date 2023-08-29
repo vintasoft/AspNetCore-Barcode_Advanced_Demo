@@ -1,6 +1,6 @@
 # VintaSoft ASP.NET Core Barcode Advanced Demo
 
-This ASP.NET Core project uses <a href="<a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and <a href="<a href="https://www.vintasoft.com/vsbarcode-dotnet-index.html">VintaSoft Barcode .NET SDK</a>.
+This ASP.NET Core project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.html">VintaSoft Imaging .NET SDK</a> and <a href="https://www.vintasoft.com/vsbarcode-dotnet-index.html">VintaSoft Barcode .NET SDK</a>.
 The client-side of project uses HTML+JavaScript+CSS. The server-side of project uses ASP.NET Core API controllers.<br />
 The project demonstrates how to recognize and generate barcodes in ASP.NET Core:
 * Open image with barcodes.
