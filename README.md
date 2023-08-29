@@ -22,12 +22,12 @@ The project demonstrates how to recognize and generate barcodes in ASP.NET Core:
 
 
 ## Screenshot
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-recognized_barcodes.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Recognized barcodes"><br />
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_reader_settings.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode reader settings"><br />
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_recognition_result.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode recognition result"><br />
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_print_quality_test_result.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode print quality test result"><br />
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-generated_barcode.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Generated barcode"><br />
-<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_writer_settings.png" alt="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode writer settings"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-recognized_barcodes.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Recognized barcodes"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_reader_settings.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode reader settings"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_recognition_result.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode recognition result"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_print_quality_test_result.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode print quality test result"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-generated_barcode.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Generated barcode"><br />
+<img src="vintasoft_aspnet.core-barcode_advanced_demo-barcode_writer_settings.png" title="VintaSoft ASP.NET Core Barcode Advanced Demo, Barcode writer settings"><br />
 
 
 ## Usage
