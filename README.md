@@ -47,7 +47,7 @@ The project demonstrates how to recognize and generate barcodes in ASP.NET Core:
 
 
 ## Documentation
-VintaSoft Imaging .NET SDK on-line User Guide and API Reference for .NET developer is available here: https://www.vintasoft.com/docs/vsimaging-dotnet/
+VintaSoft Imaging .NET SDK on-line User Guide and API Reference for Web developer is available here: https://www.vintasoft.com/docs/vsimaging-dotnet-web/
 
 
 ## Support
