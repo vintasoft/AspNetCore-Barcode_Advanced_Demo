@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version>12.2.7.1</Version>
+		<Version>12.2.8.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -76,7 +76,6 @@
   <Content Include="Views\Shared\_DemoViewLayout.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\BlockUiDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\ErrorMessageDialog.cshtml" />
-  <Content Include="Views\Shared\UI\Dialogs\ImageViewerSettingsDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\PreviouslyUploadedFilesDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\BarcodeReaderSettingsDialog.cshtml" />
   <Content Include="Views\Shared\UI\Dialogs\BarcodeRecognitionResultDialog.cshtml" />
@@ -96,7 +95,6 @@
   <None Include="wwwroot\js\UI\Dialogs\Barcode\BarcodeWriterSettingsDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\ErrorMessageDialog.js" />
-  <None Include="wwwroot\js\UI\Dialogs\ImageViewerSettingsDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PreviouslyUploadedFilesDialog.js" />
   <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.js" />
   <None Include="wwwroot\lib\bootstrap-colorpicker\bootstrap-colorpicker.min.js" />
