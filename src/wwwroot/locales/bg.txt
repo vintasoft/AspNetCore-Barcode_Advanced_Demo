@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Преглед"
+		},
+		"toolsLabel": {
+			"text": "Инструменти"
+		},
+		"uploadFileButton": {
+			"title": "Изтеглете и отворете файл"
+		},
+		"previousUploadFilesButton": {
+			"title": "Вижте списък с предварително изтеглени файлове"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Качете и отворете файл с изображение по URL"
+		},
+		"printImagesButton": {
+			"title": "Печат на изображения"
+		},
+		"downloadFileButton": {
+			"title": "Свали файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Експортиране и изтегляне на файл"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Побиране по ширина"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Завъртете всички изгледи обратно на часовниковата стрелка"
+		},
+		"rotateAngleInput": {
+			"title": "Ъгъл на въртене"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Завъртете всички изгледи по часовниковата стрелка"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Настройки за преглед на изображения"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Настройки за преглед на миниатюри"
+		},
+		"panToolButton": {
+			"title": "Панорамиране"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Правоъгълна селекция"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показване на страничната лента"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Миниатюри"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Четене на баркод"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Писане на баркод"
+		},
+		"readBarcodesButton": {
+			"title": "Четене на баркодове"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Настройки на четеца на баркодове"
+		},
+		"writeBarcodeButton": {
+			"title": "Напишете баркод"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Настройки за писане на баркод"
+		},
+		"gotoFirstPageButton": {
+			"title": "Отидете на първото изображение"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Отидете на предишното изображение"
+		},
+		"gotoPageInput": {
+			"title": "Страница"
+		},
+		"gotoNextPageButton": {
+			"title": "Отидете на следващото изображение"
+		},
+		"gotoLastPageButton": {
+			"title": "Отидете на последното изображение"
+		},
+		"zoomOutButton": {
+			"title": "Намаляване"
+		},
+		"zoomValueInput": {
+			"title": "Мащаб"
+		},
+		"zoomInButton": {
+			"title": "Увеличаване"
+		},
+		"normalSizeModeButton": {
+			"title": "Нормално"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Най-подходящ"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Подходяща височина"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Пиксел към пиксел"
+		},
+		"zoomSizeModeButton": {
+			"title": "Мащаб"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Този документ е защитен с парола. Моля, въведете парола."
+			},
+			"passwordLabel": {
+				"text": "Парола:"
+			},
+			"showPasswordLabel": {
+				"text": "Покажи паролата"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Грешна парола"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущо изображение"
+			},
+			"allImagesOption": {
+				"text": "Всички изображения"
+			},
+			"customImagesOption": {
+				"text": "По избор"
+			},
+			"imageRangeLabel": {
+				"text": "Обхват на изображението:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Невалиден диапазон от страници. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущо изображение"
+			},
+			"allImagesOption": {
+				"text": "Всички изображения"
+			},
+			"customImagesOption": {
+				"text": "По избор"
+			},
+			"imageRangeLabel": {
+				"text": "Обхват на изображението:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Невалиден диапазон от страници. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Режим на показване на изображението:"
+			},
+			"imageAnchorLabel": {
+				"text": "Котва на изображение:"
+			},
+			"noneOption": {
+				"text": "Не"
+			},
+			"topLeftOption": {
+				"text": "Горе|Вляво"
+			},
+			"topOption": {
+				"text": "Най-горе"
+			},
+			"topRightOption": {
+				"text": "Горе|Вдясно"
+			},
+			"rightOption": {
+				"text": "Точно"
+			},
+			"bottomRightOption": {
+				"text": "Долу|вдясно"
+			},
+			"bottomOption": {
+				"text": "Отдолу"
+			},
+			"bottomLeftOption": {
+				"text": "Долу|Вляво"
+			},
+			"leftOption": {
+				"text": "Наляво"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Режим на показване на много страници:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Посока на оформлението:"
+			},
+			"horizontalOption": {
+				"text": "Хоризонтално"
+			},
+			"verticalOption": {
+				"text": "Вертикално"
+			},
+			"rowColumnCountLabel": {
+				"text": "Изображения в ред/колона:"
+			},
+			"imagePaddingLabel": {
+				"text": "Подложка на изображения:"
+			},
+			"appearancesLabel": {
+				"text": "Появи"
+			},
+			"imageAppearanceLabel": {
+				"text": "Външен вид на изображението"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Цвят на фона:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Цвят на рамката:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ширина на границата:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Външен вид на фокусирано изображение"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Цвят на фона:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Цвят на рамката:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ширина на границата:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Използване на изгледа на изображението в режим на една страница"
+			},
+			"renderingSettingsLabel": {
+				"text": "Настройки за изобразяване"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Настройки по подразбиране"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Хоризонтална разделителна способност:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Вертикална разделителна способност:"
+			},
+			"smoothingModeLabel": {
+				"text": "Плавен режим:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Не"
+			},
+			"interpolationModeLabel": {
+				"text": "Режим на интерполация:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Други настройки"
+			},
+			"backgroundColorLabel": {
+				"text": "Цвят на фона на програмата за преглед на изображения:"
+			},
+			"centerImageLabel": {
+				"text": "Централно изображение:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Изчакване за преоразмеряване:"
+			},
+			"tileSizeLabel": {
+				"text": "Размер на плочката:"
+			},
+			"colorManagementLabel": {
+				"text": "Активиране на управлението на цветовете:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Използване на векторно изобразяване за документи:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Цвят на фона на векторното съдържание:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отказ"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Размер на миниатюра:"
+			},
+			"scaleLabel": {
+				"text": "Мащаб на миниатюри:"
+			},
+			"smallestOption": {
+				"text": "Най-малко"
+			},
+			"smallOption": {
+				"text": "Малък"
+			},
+			"normalOption": {
+				"text": "Нормално"
+			},
+			"largeOption": {
+				"text": "Голям"
+			},
+			"flowStyleLabel": {
+				"text": "Стил на разположение на миниатюри:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Брой колони:"
+			},
+			"marginLabel": {
+				"text": "Външна подложка:"
+			},
+			"paddingTopLabel": {
+				"text": "Горна подложка:"
+			},
+			"paddingRightLabel": {
+				"text": "Десен отстъп:"
+			},
+			"paddingBottomLabel": {
+				"text": "Долна подложка:"
+			},
+			"paddingLeftLabel": {
+				"text": "Ляв отстъп:"
+			},
+			"showCaptionLabel": {
+				"text": "Показване на надписи с миниатюри:"
+			},
+			"captionFormatLabel": {
+				"text": "Формат на подписа:"
+			},
+			"captionAnchorLabel": {
+				"text": "Котва на подписа:"
+			},
+			"topLeftOption": {
+				"text": "Горе|Вляво"
+			},
+			"topOption": {
+				"text": "Най-горе"
+			},
+			"topRightOption": {
+				"text": "Горе|Вдясно"
+			},
+			"rightOption": {
+				"text": "Точно"
+			},
+			"bottomRightOption": {
+				"text": "Долу|вдясно"
+			},
+			"bottomOption": {
+				"text": "Отдолу"
+			},
+			"bottomLeftOption": {
+				"text": "Долу|Вляво"
+			},
+			"leftOption": {
+				"text": "Наляво"
+			},
+			"centerOption": {
+				"text": "Подравняване в центъра"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус при задържане на курсора на мишката:"
+			},
+			"multiSelectLabel": {
+				"text": "Разрешаване на избор на няколко миниатюри:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Може да плъзгате миниатюри:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отказ"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Настройки на четеца на баркодове",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
+		"vsdv-openFile-addFileString": "Добави файл",
+		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
+		"vsdv-downloadFile-actionMessage": "Свали файл",
+		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsdv-documentPasswordDialog-title": "Парола за документ",
+		"vsdv-dialog-cancelButton": "Отказ",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
+		"vsdv-imageSelectionDialog-title": "Изберете изображения",
+		"vsdv-imageSelectionDialog-currentImageString": "Текущо изображение",
+		"vsdv-imageSelectionDialog-allImagesString": "Всички изображения",
+		"vsdv-imageSelectionDialog-customImagesString": "По избор",
+		"vsdv-printImagesDialog-title": "Печат на изображения",
+		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
+		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:"
+	}
+}

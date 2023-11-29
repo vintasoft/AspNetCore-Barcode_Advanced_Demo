@@ -20,8 +20,8 @@ PreviouslyUploadedFilesDialogJS = function (fileService, docViewer, openFileHelp
             // if file identifier exists
             if (fileId != null && fileId != '') {
                 try {
-                    // open file
-                    openFileHelper.openImageFile(fileId);
+                    // open file with authentication
+                    docViewer.openFileWithAuthentication(fileId);
                 }
                 catch (ex) {
                     showErrorMessage(ex.message);

@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Dosya"
+		},
+		"viewLabel": {
+			"text": "Görüntüle"
+		},
+		"toolsLabel": {
+			"text": "Araçlar"
+		},
+		"uploadFileButton": {
+			"title": "Dosyayı indir ve aç"
+		},
+		"previousUploadFilesButton": {
+			"title": "Önceden indirilen dosyaların listesini görüntüleyin"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Resim dosyasını URL'ye göre yükleyin ve açın"
+		},
+		"printImagesButton": {
+			"title": "Görüntüleri Yazdır"
+		},
+		"downloadFileButton": {
+			"title": "Dosyayı indir"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Dosyayı dışa aktarın ve indirin"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Genişliğe Sığdır"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Tüm görünümleri saat yönünün tersine döndür"
+		},
+		"rotateAngleInput": {
+			"title": "Dönme açısı"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Tüm görünümleri saat yönünde döndür"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Görüntü görüntüleyici ayarları"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Küçük Resim Görüntüleyici Ayarları"
+		},
+		"panToolButton": {
+			"title": "Kaydır"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Dikdörtgen seçim"
+		},
+		"sidePanelCloseButton": {
+			"title": "Kenar çubuğunu göster"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Küçük resimler"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barkod okuma"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Barkod yazma"
+		},
+		"readBarcodesButton": {
+			"title": "Barkodları oku"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Barkod okuyucu ayarları"
+		},
+		"writeBarcodeButton": {
+			"title": "Barkod yaz"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Barkod yazıcı ayarları"
+		},
+		"gotoFirstPageButton": {
+			"title": "İlk resme git"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Önceki resme git"
+		},
+		"gotoPageInput": {
+			"title": "Sayfa"
+		},
+		"gotoNextPageButton": {
+			"title": "Sonraki resme git"
+		},
+		"gotoLastPageButton": {
+			"title": "Son resme git"
+		},
+		"zoomOutButton": {
+			"title": "Uzaklaştır"
+		},
+		"zoomValueInput": {
+			"title": "Ölçek"
+		},
+		"zoomInButton": {
+			"title": "Yakınlaştır"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "En Uygun"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Yüksekliğe Sığdır"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikselden Piksele"
+		},
+		"zoomSizeModeButton": {
+			"title": "Ölçek"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Bu belge parola korumalıdır. Lütfen bir şifre girin."
+			},
+			"passwordLabel": {
+				"text": "Şifre:"
+			},
+			"showPasswordLabel": {
+				"text": "Şifreyi göster"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Yanlış şifre"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Resimler:"
+			},
+			"currentImageOption": {
+				"text": "Geçerli Resim"
+			},
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"customImagesOption": {
+				"text": "Özel"
+			},
+			"imageRangeLabel": {
+				"text": "Görüntü aralığı:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Geçersiz sayfa aralığı. Örnek: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Resimler:"
+			},
+			"currentImageOption": {
+				"text": "Geçerli Resim"
+			},
+			"allImagesOption": {
+				"text": "Tüm resimler"
+			},
+			"customImagesOption": {
+				"text": "Özel"
+			},
+			"imageRangeLabel": {
+				"text": "Görüntü aralığı:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Geçersiz sayfa aralığı. Örnek: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Görüntü görüntüleme modu:"
+			},
+			"imageAnchorLabel": {
+				"text": "Görüntü Bağlantısı:"
+			},
+			"noneOption": {
+				"text": "Hayır"
+			},
+			"topLeftOption": {
+				"text": "Üst|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Üst|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Sağ"
+			},
+			"bottomOption": {
+				"text": "Alt"
+			},
+			"bottomLeftOption": {
+				"text": "Alt|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Çok sayfalı görüntüleme modu:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Yerleşim Yönü:"
+			},
+			"horizontalOption": {
+				"text": "Yatay"
+			},
+			"verticalOption": {
+				"text": "Dikey"
+			},
+			"rowColumnCountLabel": {
+				"text": "Satır/sütundaki resimler:"
+			},
+			"imagePaddingLabel": {
+				"text": "Görüntü dolgusu:"
+			},
+			"appearancesLabel": {
+				"text": "Görünüşler"
+			},
+			"imageAppearanceLabel": {
+				"text": "Görüntü Görünümü"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Arka Plan Rengi:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kenar genişliği:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Odaktaki görüntünün görünümü"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Arka Plan Rengi:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kenar rengi:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kenar genişliği:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Tek Sayfa Modunda Görüntü Görünümünü Kullan"
+			},
+			"renderingSettingsLabel": {
+				"text": "İşleme Ayarları"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Varsayılan ayarlar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Yatay Çözünürlük:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Dikey Çözünürlük:"
+			},
+			"smoothingModeLabel": {
+				"text": "Düzgün Mod:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Hayır"
+			},
+			"interpolationModeLabel": {
+				"text": "İnterpolasyon Modu:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Diğer ayarlar"
+			},
+			"backgroundColorLabel": {
+				"text": "Resim Görüntüleyici Arka Plan Rengi:"
+			},
+			"centerImageLabel": {
+				"text": "Merkez Görüntü:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Yeniden Boyutlandırma Zaman Aşımı:"
+			},
+			"tileSizeLabel": {
+				"text": "Döşeme boyutu:"
+			},
+			"colorManagementLabel": {
+				"text": "Renk yönetimini etkinleştir:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Belgeler için vektör oluşturmayı kullan:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektör içeriği arka plan rengi:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Küçük Resim Boyutu:"
+			},
+			"scaleLabel": {
+				"text": "Küçük Resim Ölçeği:"
+			},
+			"smallestOption": {
+				"text": "En az"
+			},
+			"smallOption": {
+				"text": "Küçük"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Büyük"
+			},
+			"flowStyleLabel": {
+				"text": "Küçük resim yerleştirme stili:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayısı:"
+			},
+			"marginLabel": {
+				"text": "Dış dolgu:"
+			},
+			"paddingTopLabel": {
+				"text": "Üst dolgu:"
+			},
+			"paddingRightLabel": {
+				"text": "Sağ Girinti:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alt dolgu:"
+			},
+			"paddingLeftLabel": {
+				"text": "Sol girinti:"
+			},
+			"showCaptionLabel": {
+				"text": "Küçük resim yazılarını göster:"
+			},
+			"captionFormatLabel": {
+				"text": "İmza Biçimi:"
+			},
+			"captionAnchorLabel": {
+				"text": "İmza Bağlantısı:"
+			},
+			"topLeftOption": {
+				"text": "Üst|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Üst|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Sağ"
+			},
+			"bottomOption": {
+				"text": "Alt"
+			},
+			"bottomLeftOption": {
+				"text": "Alt|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"centerOption": {
+				"text": "Ortaya Hizala"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokusla Odaklanma:"
+			},
+			"multiSelectLabel": {
+				"text": "Birden çok küçük resim seçimine izin ver:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Küçük Resimleri Sürükleyebilir:"
+			},
+			"okButton": {
+				"value": "Tamam"
+			},
+			"сancelButton": {
+				"value": "İptal"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Barkod okuyucu ayarları",
+		"vsdv-dialog-okButton": "Tamam",
+		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
+		"vsdv-openFile-addFileString": "Dosya Ekle",
+		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
+		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
+		"vsdv-documentPasswordDialog-title": "Belge parolası",
+		"vsdv-dialog-cancelButton": "İptal",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsdv-imageSelectionDialog-title": "Görüntüleri Seçin",
+		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
+		"vsdv-imageSelectionDialog-allImagesString": "Tüm resimler",
+		"vsdv-imageSelectionDialog-customImagesString": "Özel",
+		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
+		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
+		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:"
+	}
+}

@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "קובץ"
+		},
+		"viewLabel": {
+			"text": "הצג"
+		},
+		"toolsLabel": {
+			"text": "כלים"
+		},
+		"uploadFileButton": {
+			"title": "הורד ופתח את הקובץ"
+		},
+		"previousUploadFilesButton": {
+			"title": "הצג רשימה של קבצים שהורדו בעבר"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		},
+		"printImagesButton": {
+			"title": "הדפס תמונות"
+		},
+		"downloadFileButton": {
+			"title": "הורד קובץ"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "ייצא והורד קובץ"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "התאם לרוחב"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "סובב את כל התצוגות נגד כיוון השעון"
+		},
+		"rotateAngleInput": {
+			"title": "זווית סיבוב"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "סובב את כל התצוגות בכיוון השעון"
+		},
+		"imageViewerSettingsButton": {
+			"title": "הגדרות מציג תמונות"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "הגדרות מציג תמונות ממוזערות"
+		},
+		"panToolButton": {
+			"title": "פאן"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "מבחר מלבני"
+		},
+		"sidePanelCloseButton": {
+			"title": "הצג סרגל צד"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "תמונות ממוזערות"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "קריאת ברקוד"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "כתיבת ברקוד"
+		},
+		"readBarcodesButton": {
+			"title": "קרא ברקודים"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "הגדרות קורא ברקוד"
+		},
+		"writeBarcodeButton": {
+			"title": "כתוב ברקוד"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "הגדרות של כותב ברקוד"
+		},
+		"gotoFirstPageButton": {
+			"title": "עבור לתמונה הראשונה"
+		},
+		"gotoPreviousPageButton": {
+			"title": "עבור לתמונה הקודמת"
+		},
+		"gotoPageInput": {
+			"title": "דף"
+		},
+		"gotoNextPageButton": {
+			"title": "עבור לתמונה הבאה"
+		},
+		"gotoLastPageButton": {
+			"title": "עבור לתמונה האחרונה"
+		},
+		"zoomOutButton": {
+			"title": "התקרבות"
+		},
+		"zoomValueInput": {
+			"title": "קנה מידה"
+		},
+		"zoomInButton": {
+			"title": "התקרב"
+		},
+		"normalSizeModeButton": {
+			"title": "רגיל"
+		},
+		"bestFitSizeModeButton": {
+			"title": "המתאים ביותר"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "התאמה לגובה"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "פיקסל לפיקסל"
+		},
+		"zoomSizeModeButton": {
+			"title": "קנה מידה"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "מסמך זה מוגן בסיסמה. הכנס סיסמא בבקשה."
+			},
+			"passwordLabel": {
+				"text": "סיסמה:"
+			},
+			"showPasswordLabel": {
+				"text": "הצג סיסמה"
+			},
+			"incorrectPasswordLabel": {
+				"text": "סיסמה שגויה"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "תמונות:"
+			},
+			"currentImageOption": {
+				"text": "תמונה נוכחית"
+			},
+			"allImagesOption": {
+				"text": "כל התמונות"
+			},
+			"customImagesOption": {
+				"text": "מותאם אישית"
+			},
+			"imageRangeLabel": {
+				"text": "טווח תמונות:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "טווח דפים לא חוקי. דוגמה: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "תמונות:"
+			},
+			"currentImageOption": {
+				"text": "תמונה נוכחית"
+			},
+			"allImagesOption": {
+				"text": "כל התמונות"
+			},
+			"customImagesOption": {
+				"text": "מותאם אישית"
+			},
+			"imageRangeLabel": {
+				"text": "טווח תמונות:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "טווח דפים לא חוקי. דוגמה: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "מצב תצוגת תמונה:"
+			},
+			"imageAnchorLabel": {
+				"text": "עוגן תמונה:"
+			},
+			"noneOption": {
+				"text": "לא"
+			},
+			"topLeftOption": {
+				"text": "למעלה|משמאל"
+			},
+			"topOption": {
+				"text": "למעלה"
+			},
+			"topRightOption": {
+				"text": "למעלה|מימין"
+			},
+			"rightOption": {
+				"text": "נכון"
+			},
+			"bottomRightOption": {
+				"text": "למטה|מימין"
+			},
+			"bottomOption": {
+				"text": "למטה"
+			},
+			"bottomLeftOption": {
+				"text": "למטה|שמאל"
+			},
+			"leftOption": {
+				"text": "שמאל"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "מצב תצוגה מרובה עמודים:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "כיוון פריסה:"
+			},
+			"horizontalOption": {
+				"text": "אופקי"
+			},
+			"verticalOption": {
+				"text": "אנכי"
+			},
+			"rowColumnCountLabel": {
+				"text": "תמונות בשורה/עמודה:"
+			},
+			"imagePaddingLabel": {
+				"text": "ריפוד תמונות:"
+			},
+			"appearancesLabel": {
+				"text": "הופעות"
+			},
+			"imageAppearanceLabel": {
+				"text": "מראה התמונה"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "צבע רקע:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "צבע גבול:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "רוחב גבול:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "הופעה של תמונה ממוקדת"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "צבע רקע:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "צבע גבול:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "רוחב גבול:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "השתמש במראה התמונה במצב עמוד יחיד"
+			},
+			"renderingSettingsLabel": {
+				"text": "הגדרות עיבוד"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "הגדרות ברירת מחדל"
+			},
+			"horizontalResolutionLabel": {
+				"text": "רזולוציה אופקית:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "רזולוציה אנכית:"
+			},
+			"smoothingModeLabel": {
+				"text": "מצב חלק:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "לא"
+			},
+			"interpolationModeLabel": {
+				"text": "מצב אינטרפולציה:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "הגדרות אחרות"
+			},
+			"backgroundColorLabel": {
+				"text": "צבע רקע של מציג התמונה:"
+			},
+			"centerImageLabel": {
+				"text": "מרכז תמונה:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "תפוגה לשינוי גודל:"
+			},
+			"tileSizeLabel": {
+				"text": "גודל אריחים:"
+			},
+			"colorManagementLabel": {
+				"text": "אפשר ניהול צבע:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "השתמש בעיבוד וקטורי עבור מסמכים:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "צבע רקע של תוכן וקטור:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "גודל תמונה ממוזערת:"
+			},
+			"scaleLabel": {
+				"text": "קנה מידה של תמונות ממוזערות:"
+			},
+			"smallestOption": {
+				"text": "הכי פחות"
+			},
+			"smallOption": {
+				"text": "קטן"
+			},
+			"normalOption": {
+				"text": "רגיל"
+			},
+			"largeOption": {
+				"text": "גדול"
+			},
+			"flowStyleLabel": {
+				"text": "סגנון מיקום תמונות ממוזערות:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "מספר עמודות:"
+			},
+			"marginLabel": {
+				"text": "ריפוד חיצוני:"
+			},
+			"paddingTopLabel": {
+				"text": "ריפוד עליון:"
+			},
+			"paddingRightLabel": {
+				"text": "כניסה ימנית:"
+			},
+			"paddingBottomLabel": {
+				"text": "ריפוד תחתון:"
+			},
+			"paddingLeftLabel": {
+				"text": "כניסה שמאלית:"
+			},
+			"showCaptionLabel": {
+				"text": "הצג כיתובים של תמונות ממוזערות:"
+			},
+			"captionFormatLabel": {
+				"text": "פורמט חתימה:"
+			},
+			"captionAnchorLabel": {
+				"text": "עוגן חתימה:"
+			},
+			"topLeftOption": {
+				"text": "למעלה|משמאל"
+			},
+			"topOption": {
+				"text": "למעלה"
+			},
+			"topRightOption": {
+				"text": "למעלה|מימין"
+			},
+			"rightOption": {
+				"text": "נכון"
+			},
+			"bottomRightOption": {
+				"text": "למטה|מימין"
+			},
+			"bottomOption": {
+				"text": "למטה"
+			},
+			"bottomLeftOption": {
+				"text": "למטה|שמאל"
+			},
+			"leftOption": {
+				"text": "שמאל"
+			},
+			"centerOption": {
+				"text": "יישור מרכז"
+			},
+			"focusOnHoverLabel": {
+				"text": "מיקוד ריחוף:"
+			},
+			"multiSelectLabel": {
+				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "יכול לגרור תמונות ממוזערות:"
+			},
+			"okButton": {
+				"value": "בסדר"
+			},
+			"сancelButton": {
+				"value": "בטל"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "הגדרות קורא ברקוד",
+		"vsdv-dialog-okButton": "בסדר",
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-openFile-addFileString": "הוסף קובץ",
+		"vsdv-openFile-authenticateFileString": "אימות קובץ",
+		"vsdv-downloadFile-actionMessage": "הורד קובץ",
+		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
+		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
+		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsdv-dialog-cancelButton": "בטל",
+		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
+		"vsdv-imageSelectionDialog-title": "בחר תמונות",
+		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
+		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
+		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsdv-printImagesDialog-title": "הדפס תמונות",
+		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
+		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:"
+	}
+}

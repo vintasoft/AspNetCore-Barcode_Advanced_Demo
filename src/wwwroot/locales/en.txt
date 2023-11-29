@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "File"
+		},
+		"viewLabel": {
+			"text": "View"
+		},
+		"toolsLabel": {
+			"text": "Tools"
+		},
+		"uploadFileButton": {
+			"title": "Upload and open file"
+		},
+		"previousUploadFilesButton": {
+			"title": "Previously Uploaded Files"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Upload and open image file by URL"
+		},
+		"printImagesButton": {
+			"title": "Print images"
+		},
+		"downloadFileButton": {
+			"title": "Download file"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Export and download file"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Fit to width"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotate all views counterclockwise"
+		},
+		"rotateAngleInput": {
+			"title": "Angle"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Rotate all views clockwise"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Image viewer settings"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Thumbnail viewer settings"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rectangular selection"
+		},
+		"sidePanelCloseButton": {
+			"title": "Show Side Panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Thumbnails"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barcode reading"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Barcode writing"
+		},
+		"readBarcodesButton": {
+			"title": "Read barcodes"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Barcode reader settings"
+		},
+		"writeBarcodeButton": {
+			"title": "Write barcode"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Barcode writer settings"
+		},
+		"gotoFirstPageButton": {
+			"title": "Go to the first image"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Go to the previous image"
+		},
+		"gotoPageInput": {
+			"title": "Page"
+		},
+		"gotoNextPageButton": {
+			"title": "Go to the next image"
+		},
+		"gotoLastPageButton": {
+			"title": "Go to the last image"
+		},
+		"zoomOutButton": {
+			"title": "Zoom out"
+		},
+		"zoomValueInput": {
+			"title": "Zoom"
+		},
+		"zoomInButton": {
+			"title": "Zoom in"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Best fit"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Fit to height"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Zoom"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "This document is password protected. Please enter a password."
+			},
+			"passwordLabel": {
+				"text": "Password:"
+			},
+			"showPasswordLabel": {
+				"text": "Show password"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Incorrect password"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Images:"
+			},
+			"currentImageOption": {
+				"text": "Current image"
+			},
+			"allImagesOption": {
+				"text": "All images"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Image range:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Invalid page range. Example: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index out of range of image collection."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Images:"
+			},
+			"currentImageOption": {
+				"text": "Current image"
+			},
+			"allImagesOption": {
+				"text": "All images"
+			},
+			"customImagesOption": {
+				"text": "Custom"
+			},
+			"imageRangeLabel": {
+				"text": "Image range:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Invalid page range. Example: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index out of range of image collection."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Image display mode:"
+			},
+			"imageAnchorLabel": {
+				"text": "Image anchor:"
+			},
+			"noneOption": {
+				"text": "None"
+			},
+			"topLeftOption": {
+				"text": "Top|Left"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Top|Right"
+			},
+			"rightOption": {
+				"text": "Right"
+			},
+			"bottomRightOption": {
+				"text": "Bottom|Right"
+			},
+			"bottomOption": {
+				"text": "Bottom"
+			},
+			"bottomLeftOption": {
+				"text": "Bottom|Left"
+			},
+			"leftOption": {
+				"text": "Left"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Multipage display mode:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layout direction:"
+			},
+			"horizontalOption": {
+				"text": "Horizontal"
+			},
+			"verticalOption": {
+				"text": "Vertical"
+			},
+			"rowColumnCountLabel": {
+				"text": "Images in row/column:"
+			},
+			"imagePaddingLabel": {
+				"text": "Images padding:"
+			},
+			"appearancesLabel": {
+				"text": "Appearances"
+			},
+			"imageAppearanceLabel": {
+				"text": "Image appearance"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Back color:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Border color:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Border width:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Focused image appearance"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Back color:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Border color:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Border width:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Use image appearance in single-page mode"
+			},
+			"renderingSettingsLabel": {
+				"text": "Rendering settings"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Default Settings"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontal Resolution:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertical Resolution:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smoothing Mode:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "None"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolation Mode:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Other settings"
+			},
+			"backgroundColorLabel": {
+				"text": "Viewer background color:"
+			},
+			"centerImageLabel": {
+				"text": "Center image:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Resize timeout:"
+			},
+			"tileSizeLabel": {
+				"text": "Tile size:"
+			},
+			"colorManagementLabel": {
+				"text": "Enable color management:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Use vector rendering for documents:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vector content background color:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Size:"
+			},
+			"scaleLabel": {
+				"text": "Scale:"
+			},
+			"smallestOption": {
+				"text": "Smallest"
+			},
+			"smallOption": {
+				"text": "Small"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Large"
+			},
+			"flowStyleLabel": {
+				"text": "Flow Style:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Column Count:"
+			},
+			"marginLabel": {
+				"text": "Margin:"
+			},
+			"paddingTopLabel": {
+				"text": "Padding Top:"
+			},
+			"paddingRightLabel": {
+				"text": "Padding Right:"
+			},
+			"paddingBottomLabel": {
+				"text": "Padding Bottom:"
+			},
+			"paddingLeftLabel": {
+				"text": "Padding Left:"
+			},
+			"showCaptionLabel": {
+				"text": "Show Captions:"
+			},
+			"captionFormatLabel": {
+				"text": "Caption Format:"
+			},
+			"captionAnchorLabel": {
+				"text": "Caption Anchor:"
+			},
+			"topLeftOption": {
+				"text": "Top|Left"
+			},
+			"topOption": {
+				"text": "Top"
+			},
+			"topRightOption": {
+				"text": "Top|Right"
+			},
+			"rightOption": {
+				"text": "Right"
+			},
+			"bottomRightOption": {
+				"text": "Bottom|Right"
+			},
+			"bottomOption": {
+				"text": "Bottom"
+			},
+			"bottomLeftOption": {
+				"text": "Bottom|Left"
+			},
+			"leftOption": {
+				"text": "Left"
+			},
+			"centerOption": {
+				"text": "Center"
+			},
+			"focusOnHoverLabel": {
+				"text": "Focus OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Multiselect:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Can Drag Thumbnails:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Cancel"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Barcode reader settings",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Upload file",
+		"vsdv-openFile-addFileString": "Add file",
+		"vsdv-openFile-authenticateFileString": "Authenticate file",
+		"vsdv-downloadFile-actionMessage": "Download file",
+		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
+		"vsdv-documentPasswordDialog-title": "Document password",
+		"vsdv-dialog-cancelButton": "Cancel",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
+		"vsdv-imageSelectionDialog-title": "Select images",
+		"vsdv-imageSelectionDialog-currentImageString": "Current image",
+		"vsdv-imageSelectionDialog-allImagesString": "All images",
+		"vsdv-imageSelectionDialog-customImagesString": "Custom",
+		"vsdv-printImagesDialog-title": "Print images",
+		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
+		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:"
+	}
+}

@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Tệp"
+		},
+		"viewLabel": {
+			"text": "Xem"
+		},
+		"toolsLabel": {
+			"text": "Công cụ"
+		},
+		"uploadFileButton": {
+			"title": "Tải xuống và mở tệp"
+		},
+		"previousUploadFilesButton": {
+			"title": "Xem danh sách các tệp đã tải xuống trước đó"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		},
+		"printImagesButton": {
+			"title": "In ảnh"
+		},
+		"downloadFileButton": {
+			"title": "Tải tập tin"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Xuất và tải xuống tệp"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Vừa với Chiều rộng"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Xoay tất cả các chế độ xem ngược chiều kim đồng hồ"
+		},
+		"rotateAngleInput": {
+			"title": "Góc xoay"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Xoay tất cả các chế độ xem theo chiều kim đồng hồ"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Cài đặt trình xem ảnh"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Cài đặt trình xem hình thu nhỏ"
+		},
+		"panToolButton": {
+			"title": "Xoay"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Lựa chọn hình chữ nhật"
+		},
+		"sidePanelCloseButton": {
+			"title": "Hiển thị thanh bên"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Hình thu nhỏ"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Đọc mã vạch"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Viết mã vạch"
+		},
+		"readBarcodesButton": {
+			"title": "Đọc mã vạch"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Cài đặt đầu đọc mã vạch"
+		},
+		"writeBarcodeButton": {
+			"title": "Viết mã vạch"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Cài đặt trình ghi mã vạch"
+		},
+		"gotoFirstPageButton": {
+			"title": "Chuyển đến hình ảnh đầu tiên"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Chuyển đến hình ảnh trước đó"
+		},
+		"gotoPageInput": {
+			"title": "Trang"
+		},
+		"gotoNextPageButton": {
+			"title": "Chuyển đến hình ảnh tiếp theo"
+		},
+		"gotoLastPageButton": {
+			"title": "Chuyển đến hình ảnh cuối cùng"
+		},
+		"zoomOutButton": {
+			"title": "Thu nhỏ"
+		},
+		"zoomValueInput": {
+			"title": "Tỷ lệ"
+		},
+		"zoomInButton": {
+			"title": "Phóng to"
+		},
+		"normalSizeModeButton": {
+			"title": "Bình thường"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Thích hợp nhất"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Chiều cao vừa vặn"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Điểm ảnh đến Điểm ảnh"
+		},
+		"zoomSizeModeButton": {
+			"title": "Tỷ lệ"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Tài liệu này được bảo vệ bằng mật khẩu. Vui lòng nhập mật khẩu."
+			},
+			"passwordLabel": {
+				"text": "Mật khẩu:"
+			},
+			"showPasswordLabel": {
+				"text": "Hiển thị mật khẩu"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Mật khẩu sai"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Hình ảnh:"
+			},
+			"currentImageOption": {
+				"text": "Hình ảnh hiện tại"
+			},
+			"allImagesOption": {
+				"text": "Tất cả hình ảnh"
+			},
+			"customImagesOption": {
+				"text": "Tùy chỉnh"
+			},
+			"imageRangeLabel": {
+				"text": "Phạm vi hình ảnh:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Phạm vi trang không hợp lệ. Ví dụ: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Chỉ mục không nằm trong phạm vi chỉ mục của bộ sưu tập hình ảnh."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Hình ảnh:"
+			},
+			"currentImageOption": {
+				"text": "Hình ảnh hiện tại"
+			},
+			"allImagesOption": {
+				"text": "Tất cả hình ảnh"
+			},
+			"customImagesOption": {
+				"text": "Tùy chỉnh"
+			},
+			"imageRangeLabel": {
+				"text": "Phạm vi hình ảnh:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Phạm vi trang không hợp lệ. Ví dụ: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Chỉ mục không nằm trong phạm vi chỉ mục của bộ sưu tập hình ảnh."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Chế độ hiển thị hình ảnh:"
+			},
+			"imageAnchorLabel": {
+				"text": "Neo ảnh:"
+			},
+			"noneOption": {
+				"text": "Không"
+			},
+			"topLeftOption": {
+				"text": "Trên cùng|Trái"
+			},
+			"topOption": {
+				"text": "Hàng đầu"
+			},
+			"topRightOption": {
+				"text": "Trên cùng|Phải"
+			},
+			"rightOption": {
+				"text": "Đúng"
+			},
+			"bottomRightOption": {
+				"text": "Dưới|Phải"
+			},
+			"bottomOption": {
+				"text": "Dưới cùng"
+			},
+			"bottomLeftOption": {
+				"text": "Dưới|Trái"
+			},
+			"leftOption": {
+				"text": "Trái"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Chế độ hiển thị nhiều trang:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Hướng bố cục:"
+			},
+			"horizontalOption": {
+				"text": "Ngang"
+			},
+			"verticalOption": {
+				"text": "Dọc"
+			},
+			"rowColumnCountLabel": {
+				"text": "Hình ảnh trong hàng/cột:"
+			},
+			"imagePaddingLabel": {
+				"text": "Phần đệm hình ảnh:"
+			},
+			"appearancesLabel": {
+				"text": "Xuất hiện"
+			},
+			"imageAppearanceLabel": {
+				"text": "Hình ảnh xuất hiện"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Màu nền:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Màu đường viền:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Độ rộng đường viền:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Xuất hiện hình ảnh được lấy nét"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Màu nền:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Màu đường viền:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Độ rộng đường viền:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Sử dụng giao diện hình ảnh ở chế độ một trang"
+			},
+			"renderingSettingsLabel": {
+				"text": "Cài đặt hiển thị"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Cài đặt mặc định"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Độ phân giải ngang:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Độ phân giải dọc:"
+			},
+			"smoothingModeLabel": {
+				"text": "Chế độ mượt mà:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Không"
+			},
+			"interpolationModeLabel": {
+				"text": "Chế độ nội suy:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Cài đặt khác"
+			},
+			"backgroundColorLabel": {
+				"text": "Màu nền của trình xem ảnh:"
+			},
+			"centerImageLabel": {
+				"text": "Hình ảnh trung tâm:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Hết thời gian thay đổi kích thước:"
+			},
+			"tileSizeLabel": {
+				"text": "Kích thước ô:"
+			},
+			"colorManagementLabel": {
+				"text": "Bật quản lý màu:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Sử dụng kết xuất véc-tơ cho tài liệu:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Màu nền của nội dung véc tơ:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Hủy"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Kích thước hình thu nhỏ:"
+			},
+			"scaleLabel": {
+				"text": "Tỷ lệ hình thu nhỏ:"
+			},
+			"smallestOption": {
+				"text": "Ít nhất"
+			},
+			"smallOption": {
+				"text": "Nhỏ"
+			},
+			"normalOption": {
+				"text": "Bình thường"
+			},
+			"largeOption": {
+				"text": "Lớn"
+			},
+			"flowStyleLabel": {
+				"text": "Kiểu vị trí hình thu nhỏ:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Số cột:"
+			},
+			"marginLabel": {
+				"text": "Phần đệm bên ngoài:"
+			},
+			"paddingTopLabel": {
+				"text": "Phần đệm trên cùng:"
+			},
+			"paddingRightLabel": {
+				"text": "Thụt lề phải:"
+			},
+			"paddingBottomLabel": {
+				"text": "Phần đệm dưới cùng:"
+			},
+			"paddingLeftLabel": {
+				"text": "Thụt lề trái:"
+			},
+			"showCaptionLabel": {
+				"text": "Hiển thị chú thích hình thu nhỏ:"
+			},
+			"captionFormatLabel": {
+				"text": "Định dạng chữ ký:"
+			},
+			"captionAnchorLabel": {
+				"text": "Neo chữ ký:"
+			},
+			"topLeftOption": {
+				"text": "Trên cùng|Trái"
+			},
+			"topOption": {
+				"text": "Hàng đầu"
+			},
+			"topRightOption": {
+				"text": "Trên cùng|Phải"
+			},
+			"rightOption": {
+				"text": "Đúng"
+			},
+			"bottomRightOption": {
+				"text": "Dưới|Phải"
+			},
+			"bottomOption": {
+				"text": "Dưới cùng"
+			},
+			"bottomLeftOption": {
+				"text": "Dưới|Trái"
+			},
+			"leftOption": {
+				"text": "Trái"
+			},
+			"centerOption": {
+				"text": "Căn giữa"
+			},
+			"focusOnHoverLabel": {
+				"text": "Tiêu điểm di chuột:"
+			},
+			"multiSelectLabel": {
+				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Có thể kéo hình thu nhỏ:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Hủy"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Cài đặt đầu đọc mã vạch",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-openFile-addFileString": "Thêm tập tin",
+		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
+		"vsdv-downloadFile-actionMessage": "Tải tập tin",
+		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
+		"vsdv-dialog-cancelButton": "Hủy",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",
+		"vsdv-imageSelectionDialog-title": "Chọn hình ảnh",
+		"vsdv-imageSelectionDialog-currentImageString": "Hình ảnh hiện tại",
+		"vsdv-imageSelectionDialog-allImagesString": "Tất cả hình ảnh",
+		"vsdv-imageSelectionDialog-customImagesString": "Tùy chỉnh",
+		"vsdv-printImagesDialog-title": "In ảnh",
+		"vsdv-printImagesPanel-imagePrintingString": "Hình ảnh đang được in",
+		"vsdv-imageViewerSettingsDialog-title": "Cài đặt trình xem ảnh",
+		"vsdv-thumbnailViewerSettingDialog-title": "Cài đặt trình xem hình thu nhỏ",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Hiển thị chú thích trên hình thu nhỏ:"
+	}
+}

@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Soubor"
+		},
+		"viewLabel": {
+			"text": "Zobrazit"
+		},
+		"toolsLabel": {
+			"text": "Nástroje"
+		},
+		"uploadFileButton": {
+			"title": "Stáhněte a otevřete soubor"
+		},
+		"previousUploadFilesButton": {
+			"title": "Zobrazit seznam dříve stažených souborů"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Nahrajte a otevřete soubor obrázku podle adresy URL"
+		},
+		"printImagesButton": {
+			"title": "Tisk obrázků"
+		},
+		"downloadFileButton": {
+			"title": "Stáhnout soubor"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportujte a stáhněte soubor"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Přizpůsobit šířce"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Otočte všechny pohledy proti směru hodinových ručiček"
+		},
+		"rotateAngleInput": {
+			"title": "Úhel otočení"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Otočte všechny pohledy ve směru hodinových ručiček"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Nastavení prohlížeče obrázků"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Nastavení prohlížeče miniatur"
+		},
+		"panToolButton": {
+			"title": "Pán"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Obdélníkový výběr"
+		},
+		"sidePanelCloseButton": {
+			"title": "Zobrazit postranní panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatury"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Čtení čárového kódu"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Psaní čárových kódů"
+		},
+		"readBarcodesButton": {
+			"title": "Čtení čárových kódů"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Nastavení čtečky čárových kódů"
+		},
+		"writeBarcodeButton": {
+			"title": "Napište čárový kód"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Nastavení zapisovače čárových kódů"
+		},
+		"gotoFirstPageButton": {
+			"title": "Přejít na první obrázek"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Přejít na předchozí obrázek"
+		},
+		"gotoPageInput": {
+			"title": "Stránka"
+		},
+		"gotoNextPageButton": {
+			"title": "Přejít na další obrázek"
+		},
+		"gotoLastPageButton": {
+			"title": "Přejít na poslední obrázek"
+		},
+		"zoomOutButton": {
+			"title": "Oddálit"
+		},
+		"zoomValueInput": {
+			"title": "Měřítko"
+		},
+		"zoomInButton": {
+			"title": "Přiblížit"
+		},
+		"normalSizeModeButton": {
+			"title": "Normální"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Nejvhodnější"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Přizpůsobit výšku"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel to Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Měřítko"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Tento dokument je chráněn heslem. Prosím, vložte heslo."
+			},
+			"passwordLabel": {
+				"text": "Heslo:"
+			},
+			"showPasswordLabel": {
+				"text": "Zobrazit heslo"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Špatné heslo"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Obrázky:"
+			},
+			"currentImageOption": {
+				"text": "Aktuální obrázek"
+			},
+			"allImagesOption": {
+				"text": "Všechny obrázky"
+			},
+			"customImagesOption": {
+				"text": "Vlastní"
+			},
+			"imageRangeLabel": {
+				"text": "Rozsah obrázků:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neplatný rozsah stránek. Příklad: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index není v rozsahu indexů kolekce obrázků."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Obrázky:"
+			},
+			"currentImageOption": {
+				"text": "Aktuální obrázek"
+			},
+			"allImagesOption": {
+				"text": "Všechny obrázky"
+			},
+			"customImagesOption": {
+				"text": "Vlastní"
+			},
+			"imageRangeLabel": {
+				"text": "Rozsah obrázků:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neplatný rozsah stránek. Příklad: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Index není v rozsahu indexů kolekce obrázků."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Režim zobrazení obrázku:"
+			},
+			"imageAnchorLabel": {
+				"text": "Ukotvení obrázku:"
+			},
+			"noneOption": {
+				"text": "Ne"
+			},
+			"topLeftOption": {
+				"text": "Nahoře|Vlevo"
+			},
+			"topOption": {
+				"text": "Nahoře"
+			},
+			"topRightOption": {
+				"text": "Nahoře|Vpravo"
+			},
+			"rightOption": {
+				"text": "Správně"
+			},
+			"bottomRightOption": {
+				"text": "Dole|Vpravo"
+			},
+			"bottomOption": {
+				"text": "Dolní"
+			},
+			"bottomLeftOption": {
+				"text": "Dole|Vlevo"
+			},
+			"leftOption": {
+				"text": "Vlevo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Režim vícestránkového zobrazení:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Směr rozložení:"
+			},
+			"horizontalOption": {
+				"text": "Horizontální"
+			},
+			"verticalOption": {
+				"text": "Vertikální"
+			},
+			"rowColumnCountLabel": {
+				"text": "Obrázky v řádku/sloupci:"
+			},
+			"imagePaddingLabel": {
+				"text": "Výplň obrázků:"
+			},
+			"appearancesLabel": {
+				"text": "Vzhledy"
+			},
+			"imageAppearanceLabel": {
+				"text": "Vzhled obrázku"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Barva pozadí:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Barva ohraničení:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Šířka okraje:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Vzhled zaostřeného obrazu"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Barva pozadí:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Barva ohraničení:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Šířka okraje:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Použít vzhled obrazu v režimu jedné stránky"
+			},
+			"renderingSettingsLabel": {
+				"text": "Nastavení vykreslování"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Výchozí nastavení"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontální rozlišení:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikální rozlišení:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smooth Mode:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Ne"
+			},
+			"interpolationModeLabel": {
+				"text": "Režim interpolace:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Další nastavení"
+			},
+			"backgroundColorLabel": {
+				"text": "Barva pozadí prohlížeče obrázků:"
+			},
+			"centerImageLabel": {
+				"text": "Obrázek uprostřed:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Časový limit změny velikosti:"
+			},
+			"tileSizeLabel": {
+				"text": "Velikost dlaždice:"
+			},
+			"colorManagementLabel": {
+				"text": "Povolit správu barev:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Použít vektorové vykreslování pro dokumenty:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Barva pozadí vektorového obsahu:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Zrušit"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Velikost miniatury:"
+			},
+			"scaleLabel": {
+				"text": "Měřítko miniatur:"
+			},
+			"smallestOption": {
+				"text": "Nejméně"
+			},
+			"smallOption": {
+				"text": "Malé"
+			},
+			"normalOption": {
+				"text": "Normální"
+			},
+			"largeOption": {
+				"text": "Velký"
+			},
+			"flowStyleLabel": {
+				"text": "Styl umístění miniatur:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Počet sloupců:"
+			},
+			"marginLabel": {
+				"text": "Vnější polstrování:"
+			},
+			"paddingTopLabel": {
+				"text": "Horní výplň:"
+			},
+			"paddingRightLabel": {
+				"text": "Pravé odsazení:"
+			},
+			"paddingBottomLabel": {
+				"text": "Spodní výplň:"
+			},
+			"paddingLeftLabel": {
+				"text": "Levé odsazení:"
+			},
+			"showCaptionLabel": {
+				"text": "Zobrazit titulky miniatur:"
+			},
+			"captionFormatLabel": {
+				"text": "Formát podpisu:"
+			},
+			"captionAnchorLabel": {
+				"text": "Ukotvení podpisu:"
+			},
+			"topLeftOption": {
+				"text": "Nahoře|Vlevo"
+			},
+			"topOption": {
+				"text": "Nahoře"
+			},
+			"topRightOption": {
+				"text": "Nahoře|Vpravo"
+			},
+			"rightOption": {
+				"text": "Správně"
+			},
+			"bottomRightOption": {
+				"text": "Dole|Vpravo"
+			},
+			"bottomOption": {
+				"text": "Dolní"
+			},
+			"bottomLeftOption": {
+				"text": "Dole|Vlevo"
+			},
+			"leftOption": {
+				"text": "Vlevo"
+			},
+			"centerOption": {
+				"text": "Zarovnat na střed"
+			},
+			"focusOnHoverLabel": {
+				"text": "Zaměření kurzoru:"
+			},
+			"multiSelectLabel": {
+				"text": "Povolit výběr více miniatur:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Může přetahovat miniatury:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Zrušit"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Nastavení čtečky čárových kódů",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
+		"vsdv-openFile-addFileString": "Přidat soubor",
+		"vsdv-openFile-authenticateFileString": "Ověření souboru",
+		"vsdv-downloadFile-actionMessage": "Stáhnout soubor",
+		"vsdv-saveChanges-saveChangesInImages": "Uložte změny v obrázcích",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte změny v anotacích",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Vypálit poznámky na obrázky",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte změny do dokumentu PDF",
+		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsdv-dialog-cancelButton": "Zrušit",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Ověření souboru",
+		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuální obrázek",
+		"vsdv-imageSelectionDialog-allImagesString": "Všechny obrázky",
+		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
+		"vsdv-printImagesDialog-title": "Tisk obrázků",
+		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
+		"vsdv-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
+		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:"
+	}
+}

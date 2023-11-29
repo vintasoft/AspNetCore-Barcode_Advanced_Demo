@@ -19,6 +19,7 @@ The project demonstrates how to recognize and generate barcodes in ASP.NET Core:
 * Supported postal 2/4-state barcodes (1D): Australian Post; Dutch KIX; Royal Mail; Postnet; Planet; Intelligent Mail; Mailmark 4-state barcode C; Mailmark 4-state barcode L
 * Supported 2D barcodes: Aztec, Aztec Compact, Aztec Rune; GS1 Aztec; XFA Compressed Aztec; HIBC LIC Aztec Code; Data Matrix; GS1 Data Matrix; PPN; Royal Mail Mailmark CMDM Type7, Type9, Type29; XFA Compressed DataMatrix; ISBT 128 Data Matrix; HIBC LIC Data Matrix; DotCode; GS1 DotCode; Han Xin Code; PDF417, PDF417 Compact, Macro PDF417; AAMVA; XFA Compressed PDF417; Micro PDF417; QR Code; GS1 QR Code; XFA Compressed QR Code; HIBC LIC QR Code; Swiss QR Code; Micro QR Code; MaxiCode
 * Supported composite barcodes: GS1-128 CC-A, GS1-128 CC-B, GS1-128 CC-C; GS1 DataBar CC-A, GS1 DataBarCC-B; GS1 DataBar Expanded CC-A, GS1 DataBar Expanded CC-B; GS1 DataBar Expanded Stacked CC-A, GS1 DataBar Expanded Stacked CC-B; GS1 DataBar Limited CC-A, GS1 DataBar Limited CC-B; GS1 DataBar Stacked CC-A, GS1 DataBar Stacked CC-B; EAN-13 CC-A, EAN-13 CC-B; EAN-8 CC-A, EAN-8 CC-B; UPC-A CC-A, UPC-A CC-B; UPC-E CC-A, UPC-E CC-B
+* The application UI is localized into 45 languages (Afrikaans, Arabic, Armenian, Azerbaijan, Belarusian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Georgian, German, Greece, Hebrew, Hindi, Hungarian, Italian, Japanese, Kazakh, Korean, Kyrgyz, Latvian, Lithuanian, Norwegian, Portugese, Romanian, Russian, Slovakian, Slovenian, Spanish, Swahili, Swedish, Tajik, Tatar, Turkish, Turkmen, Ukrainian, Uzbek, Vietnamese, Zulu).
 
 
 ## Screenshot
@@ -38,9 +39,9 @@ The project demonstrates how to recognize and generate barcodes in ASP.NET Core:
    Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
    ```
 
-3. Build the project ("AspNetCoreBarcodeAdvancedDemo.Net7.csproj" file) in Visual Studio or using .NET CLI:
+3. Build the project ("AspNetCoreBarcodeAdvancedDemo.Net8.csproj" file) in Visual Studio or using .NET CLI:
    ```
-   dotnet build AspNetCoreBarcodeAdvancedDemo.Net7.csproj
+   dotnet build AspNetCoreBarcodeAdvancedDemo.Net8.csproj
    ```
 
 4. Run compiled application and try to recognize and generate barcodes.

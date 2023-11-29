@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fichier"
+		},
+		"viewLabel": {
+			"text": "Voir"
+		},
+		"toolsLabel": {
+			"text": "Outils"
+		},
+		"uploadFileButton": {
+			"title": "Télécharger et ouvrir le fichier"
+		},
+		"previousUploadFilesButton": {
+			"title": "Afficher une liste des fichiers précédemment téléchargés"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Téléchargez et ouvrez le fichier image par URL"
+		},
+		"printImagesButton": {
+			"title": "Imprimer des images"
+		},
+		"downloadFileButton": {
+			"title": "Télécharger un fichier"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exporter et télécharger le fichier"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Ajuster à la largeur"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Faire pivoter toutes les vues dans le sens inverse des aiguilles d'une montre"
+		},
+		"rotateAngleInput": {
+			"title": "Angle de rotation"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Faire pivoter toutes les vues dans le sens des aiguilles d'une montre"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Paramètres de la visionneuse d'images"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Paramètres de la visionneuse de miniatures"
+		},
+		"panToolButton": {
+			"title": "Poêle"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Sélection rectangulaire"
+		},
+		"sidePanelCloseButton": {
+			"title": "Afficher la barre latérale"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatures"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Lecture de codes à barres"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Écriture de codes à barres"
+		},
+		"readBarcodesButton": {
+			"title": "Lire les codes-barres"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Paramètres du lecteur de codes-barres"
+		},
+		"writeBarcodeButton": {
+			"title": "Écrire un code-barres"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Paramètres du rédacteur de codes-barres"
+		},
+		"gotoFirstPageButton": {
+			"title": "Aller à la première image"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Aller à l'image précédente"
+		},
+		"gotoPageInput": {
+			"title": "Page"
+		},
+		"gotoNextPageButton": {
+			"title": "Aller à l'image suivante"
+		},
+		"gotoLastPageButton": {
+			"title": "Aller à la dernière image"
+		},
+		"zoomOutButton": {
+			"title": "Zoom arrière"
+		},
+		"zoomValueInput": {
+			"title": "Échelle"
+		},
+		"zoomInButton": {
+			"title": "Zoomer"
+		},
+		"normalSizeModeButton": {
+			"title": "Normale"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Le plus approprié"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Ajuster la hauteur"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel à Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Échelle"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ce document est protégé par un mot de passe. Veuillez entrer un mot de passe."
+			},
+			"passwordLabel": {
+				"text": "Mot de passe :"
+			},
+			"showPasswordLabel": {
+				"text": "Afficher le mot de passe"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Mauvais mot de passe"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Images :"
+			},
+			"currentImageOption": {
+				"text": "Image actuelle"
+			},
+			"allImagesOption": {
+				"text": "Toutes les images"
+			},
+			"customImagesOption": {
+				"text": "Personnalisé"
+			},
+			"imageRangeLabel": {
+				"text": "Plage d'images :"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Images :"
+			},
+			"currentImageOption": {
+				"text": "Image actuelle"
+			},
+			"allImagesOption": {
+				"text": "Toutes les images"
+			},
+			"customImagesOption": {
+				"text": "Personnalisé"
+			},
+			"imageRangeLabel": {
+				"text": "Plage d'images :"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Mode d'affichage des images :"
+			},
+			"imageAnchorLabel": {
+				"text": "Ancre d'image :"
+			},
+			"noneOption": {
+				"text": "Non"
+			},
+			"topLeftOption": {
+				"text": "Haut|Gauche"
+			},
+			"topOption": {
+				"text": "Haut"
+			},
+			"topRightOption": {
+				"text": "Haut|Droite"
+			},
+			"rightOption": {
+				"text": "Droit"
+			},
+			"bottomRightOption": {
+				"text": "Bas|Droite"
+			},
+			"bottomOption": {
+				"text": "Bas"
+			},
+			"bottomLeftOption": {
+				"text": "Bas|Gauche"
+			},
+			"leftOption": {
+				"text": "Gauche"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Mode d'affichage multi-pages :"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Sens de mise en page :"
+			},
+			"horizontalOption": {
+				"text": "Horizontale"
+			},
+			"verticalOption": {
+				"text": "Verticale"
+			},
+			"rowColumnCountLabel": {
+				"text": "Images en ligne/colonne :"
+			},
+			"imagePaddingLabel": {
+				"text": "Remplissage des images :"
+			},
+			"appearancesLabel": {
+				"text": "Apparitions"
+			},
+			"imageAppearanceLabel": {
+				"text": "Apparence de l'image"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Couleur de fond :"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Couleur de bordure :"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Largeur de la bordure :"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Apparition de l'image mise au point"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Couleur de fond :"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Couleur de bordure :"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Largeur de la bordure :"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Utiliser l'apparence de l'image en mode page unique"
+			},
+			"renderingSettingsLabel": {
+				"text": "Paramètres de rendu"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Paramètres par défaut"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Résolution horizontale :"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Résolution verticale :"
+			},
+			"smoothingModeLabel": {
+				"text": "Mode fluide :"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Non"
+			},
+			"interpolationModeLabel": {
+				"text": "Mode d'interpolation :"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Autres paramètres"
+			},
+			"backgroundColorLabel": {
+				"text": "Couleur d'arrière-plan de la visionneuse d'images :"
+			},
+			"centerImageLabel": {
+				"text": "Centrer l'image :"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Délai de redimensionnement :"
+			},
+			"tileSizeLabel": {
+				"text": "Taille de tuile :"
+			},
+			"colorManagementLabel": {
+				"text": "Activer la gestion des couleurs :"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Utiliser le rendu vectoriel pour les documents :"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Couleur d'arrière-plan du contenu vectoriel :"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuler"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Taille de la miniature :"
+			},
+			"scaleLabel": {
+				"text": "Échelle des vignettes :"
+			},
+			"smallestOption": {
+				"text": "Moins"
+			},
+			"smallOption": {
+				"text": "Petit"
+			},
+			"normalOption": {
+				"text": "Normale"
+			},
+			"largeOption": {
+				"text": "Grand"
+			},
+			"flowStyleLabel": {
+				"text": "Style de placement des vignettes :"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Nombre de colonnes :"
+			},
+			"marginLabel": {
+				"text": "Rembourrage extérieur :"
+			},
+			"paddingTopLabel": {
+				"text": "Rembourrage supérieur :"
+			},
+			"paddingRightLabel": {
+				"text": "Retrait à droite :"
+			},
+			"paddingBottomLabel": {
+				"text": "Rembourrage inférieur :"
+			},
+			"paddingLeftLabel": {
+				"text": "Retrait gauche :"
+			},
+			"showCaptionLabel": {
+				"text": "Afficher les légendes des miniatures :"
+			},
+			"captionFormatLabel": {
+				"text": "Format des signatures :"
+			},
+			"captionAnchorLabel": {
+				"text": "Ancre de signature :"
+			},
+			"topLeftOption": {
+				"text": "Haut|Gauche"
+			},
+			"topOption": {
+				"text": "Haut"
+			},
+			"topRightOption": {
+				"text": "Haut|Droite"
+			},
+			"rightOption": {
+				"text": "Droit"
+			},
+			"bottomRightOption": {
+				"text": "Bas|Droite"
+			},
+			"bottomOption": {
+				"text": "Bas"
+			},
+			"bottomLeftOption": {
+				"text": "Bas|Gauche"
+			},
+			"leftOption": {
+				"text": "Gauche"
+			},
+			"centerOption": {
+				"text": "Aligner au centre"
+			},
+			"focusOnHoverLabel": {
+				"text": "Survoler le focus :"
+			},
+			"multiSelectLabel": {
+				"text": "Autoriser la sélection de vignettes multiples :"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Peut faire glisser des vignettes :"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Annuler"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Paramètres du lecteur de codes-barres",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Téléverser un fichier",
+		"vsdv-openFile-addFileString": "Ajouter le fichier",
+		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
+		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",
+		"vsdv-saveChanges-saveChangesInImages": "Enregistrer les modifications dans les images",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
+		"vsdv-documentPasswordDialog-title": "Mot de passe du document",
+		"vsdv-dialog-cancelButton": "Annuler",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Authentifier le fichier",
+		"vsdv-imageSelectionDialog-title": "Sélectionner des images",
+		"vsdv-imageSelectionDialog-currentImageString": "Image actuelle",
+		"vsdv-imageSelectionDialog-allImagesString": "Toutes les images",
+		"vsdv-imageSelectionDialog-customImagesString": "Personnalisé",
+		"vsdv-printImagesDialog-title": "Imprimer des images",
+		"vsdv-printImagesPanel-imagePrintingString": "L'image est en cours d'impression",
+		"vsdv-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
+		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :"
+	}
+}

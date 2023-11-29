@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fayl"
+		},
+		"viewLabel": {
+			"text": "Baxın"
+		},
+		"toolsLabel": {
+			"text": "Alətlər"
+		},
+		"uploadFileButton": {
+			"title": "Faylı yükləyin və açın"
+		},
+		"previousUploadFilesButton": {
+			"title": "Əvvəllər yüklənmiş fayllar"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "URL ilə şəkil faylını yükləyin və açın"
+		},
+		"printImagesButton": {
+			"title": "Şəkilləri çap edin"
+		},
+		"downloadFileButton": {
+			"title": "Faylı yüklə"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Faylı ixrac edin və yükləyin"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Genişliyə uyğun"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Bütün görünüşləri saat yönünün əksinə çevirin"
+		},
+		"rotateAngleInput": {
+			"title": "Bucaq"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Bütün görünüşləri saat yönünə çevirin"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Şəkillərə baxmaq parametrləri"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Miniatür baxıcı parametrləri"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Düzbucaqlı seçim"
+		},
+		"sidePanelCloseButton": {
+			"title": "Yan Paneli göstərin"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatürlər"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barkod oxu"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Barkod yazmaq"
+		},
+		"readBarcodesButton": {
+			"title": "Barkodları oxuyun"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Barkod oxuyucu parametrləri"
+		},
+		"writeBarcodeButton": {
+			"title": "Barkod yazın"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Barkod yazıcı parametrləri"
+		},
+		"gotoFirstPageButton": {
+			"title": "Birinci şəkilə keçin"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Əvvəlki şəkilə keçin"
+		},
+		"gotoPageInput": {
+			"title": "Səhifə"
+		},
+		"gotoNextPageButton": {
+			"title": "Növbəti şəkilə keçin"
+		},
+		"gotoLastPageButton": {
+			"title": "Son şəkilə keçin"
+		},
+		"zoomOutButton": {
+			"title": "Küçült"
+		},
+		"zoomValueInput": {
+			"title": "Zoom"
+		},
+		"zoomInButton": {
+			"title": "Yaxınlaşdırma"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Ən yaxşı seçimdir"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Hündürlüyə uyğun"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikseldən pikselə"
+		},
+		"zoomSizeModeButton": {
+			"title": "Zoom"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Bu sənəd parolla qorunur. Zəhmət olmasa parol daxil edin."
+			},
+			"passwordLabel": {
+				"text": "Şifrə:"
+			},
+			"showPasswordLabel": {
+				"text": "Parol göstərin"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Yanlış parol"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"сancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Şəkillər:"
+			},
+			"currentImageOption": {
+				"text": "Cari şəkil"
+			},
+			"allImagesOption": {
+				"text": "Bütün şəkillər"
+			},
+			"customImagesOption": {
+				"text": "Xüsusi"
+			},
+			"imageRangeLabel": {
+				"text": "Şəkil diapazonu:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Yanlış səhifə diapazonu. Misal: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"сancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Şəkillər:"
+			},
+			"currentImageOption": {
+				"text": "Cari şəkil"
+			},
+			"allImagesOption": {
+				"text": "Bütün şəkillər"
+			},
+			"customImagesOption": {
+				"text": "Xüsusi"
+			},
+			"imageRangeLabel": {
+				"text": "Şəkil diapazonu:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Yanlış səhifə diapazonu. Misal: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Şəkil göstərmə rejimi:"
+			},
+			"imageAnchorLabel": {
+				"text": "Şəkil ankeri:"
+			},
+			"noneOption": {
+				"text": "Heç biri"
+			},
+			"topLeftOption": {
+				"text": "Yuxarı|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Yuxarı|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Aşağı|Sağ"
+			},
+			"bottomOption": {
+				"text": "Aşağı"
+			},
+			"bottomLeftOption": {
+				"text": "Aşağı|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Çox səhifəli ekran rejimi:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layout istiqaməti:"
+			},
+			"horizontalOption": {
+				"text": "Üfüqi"
+			},
+			"verticalOption": {
+				"text": "Şaquli"
+			},
+			"rowColumnCountLabel": {
+				"text": "Sətir/sütundakı şəkillər:"
+			},
+			"imagePaddingLabel": {
+				"text": "Şəkillərin doldurulması:"
+			},
+			"appearancesLabel": {
+				"text": "Görünüşlər"
+			},
+			"imageAppearanceLabel": {
+				"text": "Şəklin görünüşü"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Arxa rəng:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Haşiyə rəngi:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Sərhəd eni:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokuslanmış görüntü görünüşü"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Arxa rəng:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Haşiyə rəngi:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Sərhəd eni:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Tək səhifə rejimində şəkil görünüşündən istifadə edin"
+			},
+			"renderingSettingsLabel": {
+				"text": "Render parametrləri"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Defolt Parametrlər"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontal Resolution:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Şaquli Çözünürlük:"
+			},
+			"smoothingModeLabel": {
+				"text": "Hamarlaşdırma rejimi:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Heç biri"
+			},
+			"interpolationModeLabel": {
+				"text": "İnterpolyasiya rejimi:"
+			},
+			"Bicubic": {
+				"text": "bikubik"
+			},
+			"Bilinear": {
+				"text": "Billinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Digər parametrlər"
+			},
+			"backgroundColorLabel": {
+				"text": "Baxıcı fon rəngi:"
+			},
+			"centerImageLabel": {
+				"text": "Mərkəz şəkli:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Ölçüsünü dəyişmək vaxtı:"
+			},
+			"tileSizeLabel": {
+				"text": "Kafel ölçüsü:"
+			},
+			"colorManagementLabel": {
+				"text": "Rəng idarəçiliyini aktivləşdirin:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Sənədlər üçün vektor renderindən istifadə edin:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektor məzmununun fon rəngi:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"сancelButton": {
+				"value": "Ləğv et"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Ölçü:"
+			},
+			"scaleLabel": {
+				"text": "Ölçek:"
+			},
+			"smallestOption": {
+				"text": "Ən kiçik"
+			},
+			"smallOption": {
+				"text": "Kiçik"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Böyük"
+			},
+			"flowStyleLabel": {
+				"text": "Axın tərzi:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayı:"
+			},
+			"marginLabel": {
+				"text": "Haşiyə:"
+			},
+			"paddingTopLabel": {
+				"text": "Doldurma Üstü:"
+			},
+			"paddingRightLabel": {
+				"text": "Doldurma Sağ:"
+			},
+			"paddingBottomLabel": {
+				"text": "Doldurma alt:"
+			},
+			"paddingLeftLabel": {
+				"text": "Doldurma Sol:"
+			},
+			"showCaptionLabel": {
+				"text": "Altyazıları göstərin:"
+			},
+			"captionFormatLabel": {
+				"text": "Başlıq Formatı:"
+			},
+			"captionAnchorLabel": {
+				"text": "Başlıq Ankrajı:"
+			},
+			"topLeftOption": {
+				"text": "Yuxarı|Sol"
+			},
+			"topOption": {
+				"text": "Üst"
+			},
+			"topRightOption": {
+				"text": "Yuxarı|Sağ"
+			},
+			"rightOption": {
+				"text": "Sağ"
+			},
+			"bottomRightOption": {
+				"text": "Aşağı|Sağ"
+			},
+			"bottomOption": {
+				"text": "Aşağı"
+			},
+			"bottomLeftOption": {
+				"text": "Aşağı|Sol"
+			},
+			"leftOption": {
+				"text": "Sol"
+			},
+			"centerOption": {
+				"text": "Mərkəz"
+			},
+			"focusOnHoverLabel": {
+				"text": "OnHover üzərində fokuslayın:"
+			},
+			"multiSelectLabel": {
+				"text": "Çoxseçim:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Miniatürləri sürükləyə bilər:"
+			},
+			"okButton": {
+				"value": "tamam"
+			},
+			"сancelButton": {
+				"value": "Ləğv et"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Barkod oxuyucu parametrləri",
+		"vsdv-dialog-okButton": "tamam",
+		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
+		"vsdv-openFile-addFileString": "Fayl əlavə edin",
+		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
+		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
+		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
+		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
+		"vsdv-dialog-cancelButton": "Ləğv et",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
+		"vsdv-imageSelectionDialog-title": "Şəkilləri seçin",
+		"vsdv-imageSelectionDialog-currentImageString": "Cari şəkil",
+		"vsdv-imageSelectionDialog-allImagesString": "Bütün şəkillər",
+		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
+		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
+		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:"
+	}
+}

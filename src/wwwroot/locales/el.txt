@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Αρχείο"
+		},
+		"viewLabel": {
+			"text": "Προβολή"
+		},
+		"toolsLabel": {
+			"text": "Εργαλεία"
+		},
+		"uploadFileButton": {
+			"title": "Λήψη και άνοιγμα αρχείου"
+		},
+		"previousUploadFilesButton": {
+			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		},
+		"printImagesButton": {
+			"title": "Εκτύπωση εικόνων"
+		},
+		"downloadFileButton": {
+			"title": "Λήψη αρχείου"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Εξαγωγή και λήψη αρχείου"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Προσαρμογή στο πλάτος"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Περιστρέψτε όλες τις προβολές αριστερόστροφα"
+		},
+		"rotateAngleInput": {
+			"title": "Γωνία περιστροφής"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Περιστρέψτε όλες τις προβολές δεξιόστροφα"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Ρυθμίσεις προβολής εικόνων"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Ρυθμίσεις προβολής μικρογραφιών"
+		},
+		"panToolButton": {
+			"title": "Παν"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ορθογώνια επιλογή"
+		},
+		"sidePanelCloseButton": {
+			"title": "Εμφάνιση πλαϊνής γραμμής"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Μικρογραφίες"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Ανάγνωση γραμμωτού κώδικα"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Γράψιμο barcode"
+		},
+		"readBarcodesButton": {
+			"title": "Διαβάστε γραμμωτούς κώδικες"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Ρυθμίσεις ανάγνωσης γραμμωτού κώδικα"
+		},
+		"writeBarcodeButton": {
+			"title": "Γράψτε barcode"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Ρυθμίσεις εγγραφής γραμμωτού κώδικα"
+		},
+		"gotoFirstPageButton": {
+			"title": "Μετάβαση στην πρώτη εικόνα"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Μετάβαση στην προηγούμενη εικόνα"
+		},
+		"gotoPageInput": {
+			"title": "Σελίδα"
+		},
+		"gotoNextPageButton": {
+			"title": "Μετάβαση στην επόμενη εικόνα"
+		},
+		"gotoLastPageButton": {
+			"title": "Μετάβαση στην τελευταία εικόνα"
+		},
+		"zoomOutButton": {
+			"title": "Σμίκρυνση"
+		},
+		"zoomValueInput": {
+			"title": "Κλίμακα"
+		},
+		"zoomInButton": {
+			"title": "Μεγέθυνση"
+		},
+		"normalSizeModeButton": {
+			"title": "Κανονικό"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Πιο κατάλληλο"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Καθορισμένο ύψος"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel σε Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Κλίμακα"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Αυτό το έγγραφο προστατεύεται με κωδικό πρόσβασης. Εισαγάγετε έναν κωδικό πρόσβασης."
+			},
+			"passwordLabel": {
+				"text": "Κωδικός πρόσβασης:"
+			},
+			"showPasswordLabel": {
+				"text": "Εμφάνιση κωδικού πρόσβασης"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Λάθος κωδικός πρόσβασης"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"сancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Εικόνες:"
+			},
+			"currentImageOption": {
+				"text": "Τρέχουσα εικόνα"
+			},
+			"allImagesOption": {
+				"text": "Όλες οι εικόνες"
+			},
+			"customImagesOption": {
+				"text": "Προσαρμοσμένο"
+			},
+			"imageRangeLabel": {
+				"text": "Εύρος εικόνων:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Μη έγκυρο εύρος σελίδων. Παράδειγμα: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"сancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Εικόνες:"
+			},
+			"currentImageOption": {
+				"text": "Τρέχουσα εικόνα"
+			},
+			"allImagesOption": {
+				"text": "Όλες οι εικόνες"
+			},
+			"customImagesOption": {
+				"text": "Προσαρμοσμένο"
+			},
+			"imageRangeLabel": {
+				"text": "Εύρος εικόνων:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Μη έγκυρο εύρος σελίδων. Παράδειγμα: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Λειτουργία προβολής εικόνας:"
+			},
+			"imageAnchorLabel": {
+				"text": "Άγκυρα εικόνας:"
+			},
+			"noneOption": {
+				"text": "Όχι"
+			},
+			"topLeftOption": {
+				"text": "Επάνω|Αριστερά"
+			},
+			"topOption": {
+				"text": "Κορυφ"
+			},
+			"topRightOption": {
+				"text": "Επάνω|Δεξιά"
+			},
+			"rightOption": {
+				"text": "Σωστά"
+			},
+			"bottomRightOption": {
+				"text": "Κάτω|Δεξιά"
+			},
+			"bottomOption": {
+				"text": "Κάτω"
+			},
+			"bottomLeftOption": {
+				"text": "Κάτω|Αριστερά"
+			},
+			"leftOption": {
+				"text": "Αριστερά"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Λειτουργία προβολής πολλών σελίδων:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Κατεύθυνση διάταξης:"
+			},
+			"horizontalOption": {
+				"text": "Οριζόντια"
+			},
+			"verticalOption": {
+				"text": "Κάθετη"
+			},
+			"rowColumnCountLabel": {
+				"text": "Εικόνες σε σειρά/στήλη:"
+			},
+			"imagePaddingLabel": {
+				"text": "Επένδυση εικόνων:"
+			},
+			"appearancesLabel": {
+				"text": "Εμφανίσεις"
+			},
+			"imageAppearanceLabel": {
+				"text": "Εμφάνιση εικόνας"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Χρώμα φόντου:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Χρώμα περιγράμματος:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Πλάτος περιγράμματος:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Εμφάνιση εικόνας σε εστίαση"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Χρώμα φόντου:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Χρώμα περιγράμματος:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Πλάτος περιγράμματος:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Χρησιμοποιήστε την εμφάνιση εικόνας σε λειτουργία μίας σελίδας"
+			},
+			"renderingSettingsLabel": {
+				"text": "Ρυθμίσεις απόδοσης"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Προεπιλεγμένες ρυθμίσεις"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Οριζόντια ανάλυση:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Κάθετη ανάλυση:"
+			},
+			"smoothingModeLabel": {
+				"text": "Ομαλή λειτουργία:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Όχι"
+			},
+			"interpolationModeLabel": {
+				"text": "Λειτουργία παρεμβολής:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Άλλες ρυθμίσεις"
+			},
+			"backgroundColorLabel": {
+				"text": "Χρώμα φόντου προβολής εικόνων:"
+			},
+			"centerImageLabel": {
+				"text": "Κεντρική εικόνα:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Χρονικό όριο αλλαγής μεγέθους:"
+			},
+			"tileSizeLabel": {
+				"text": "Μέγεθος πλακιδίων:"
+			},
+			"colorManagementLabel": {
+				"text": "Ενεργοποίηση διαχείρισης χρωμάτων:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Χρησιμοποιήστε διανυσματική απόδοση για έγγραφα:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Χρώμα φόντου περιεχομένου διάνυσμα:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"сancelButton": {
+				"value": "Ακύρωση"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Μέγεθος μικρογραφίας:"
+			},
+			"scaleLabel": {
+				"text": "Κλίμακα μικρογραφιών:"
+			},
+			"smallestOption": {
+				"text": "Ελάχιστο"
+			},
+			"smallOption": {
+				"text": "Μικρό"
+			},
+			"normalOption": {
+				"text": "Κανονικό"
+			},
+			"largeOption": {
+				"text": "Μεγάλο"
+			},
+			"flowStyleLabel": {
+				"text": "Στιλ τοποθέτησης μικρογραφίας:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Αριθμός στηλών:"
+			},
+			"marginLabel": {
+				"text": "Εξωτερική επένδυση:"
+			},
+			"paddingTopLabel": {
+				"text": " Επάνω γέμιση:"
+			},
+			"paddingRightLabel": {
+				"text": "Δεξιά εσοχή:"
+			},
+			"paddingBottomLabel": {
+				"text": "Κάτω γέμιση:"
+			},
+			"paddingLeftLabel": {
+				"text": "Αριστερή εσοχή:"
+			},
+			"showCaptionLabel": {
+				"text": "Εμφάνιση λεζάντας μικρογραφιών:"
+			},
+			"captionFormatLabel": {
+				"text": "Μορφή υπογραφής:"
+			},
+			"captionAnchorLabel": {
+				"text": "Άγκυρα υπογραφής:"
+			},
+			"topLeftOption": {
+				"text": "Επάνω|Αριστερά"
+			},
+			"topOption": {
+				"text": "Κορυφ"
+			},
+			"topRightOption": {
+				"text": "Επάνω|Δεξιά"
+			},
+			"rightOption": {
+				"text": "Σωστά"
+			},
+			"bottomRightOption": {
+				"text": "Κάτω|Δεξιά"
+			},
+			"bottomOption": {
+				"text": "Κάτω"
+			},
+			"bottomLeftOption": {
+				"text": "Κάτω|Αριστερά"
+			},
+			"leftOption": {
+				"text": "Αριστερά"
+			},
+			"centerOption": {
+				"text": "Στοίχιση στο κέντρο"
+			},
+			"focusOnHoverLabel": {
+				"text": "Εστίαση με το δείκτη του ποντικιού:"
+			},
+			"multiSelectLabel": {
+				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Μπορεί να σύρει μικρογραφίες:"
+			},
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"сancelButton": {
+				"value": "Ακύρωση"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Ρυθμίσεις ανάγνωσης γραμμωτού κώδικα",
+		"vsdv-dialog-okButton": "ΟΚ",
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
+		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
+		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
+		"vsdv-dialog-cancelButton": "Ακύρωση",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
+		"vsdv-imageSelectionDialog-title": "Επιλέξτε Εικόνες",
+		"vsdv-imageSelectionDialog-currentImageString": "Τρέχουσα εικόνα",
+		"vsdv-imageSelectionDialog-allImagesString": "Όλες οι εικόνες",
+		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
+		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
+		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
+		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:"
+	}
+}

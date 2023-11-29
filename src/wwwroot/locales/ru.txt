@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Файл"
+		},
+		"viewLabel": {
+			"text": "Просмотр"
+		},
+		"toolsLabel": {
+			"text": "Инструменты"
+		},
+		"uploadFileButton": {
+			"title": "Загрузить и открыть файл"
+		},
+		"previousUploadFilesButton": {
+			"title": "Посмотреть список ранее загруженных файлов"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Загрузить и откройть файл изображения по URL-адресу"
+		},
+		"printImagesButton": {
+			"title": "Распечатать изображения"
+		},
+		"downloadFileButton": {
+			"title": "Загрузить файл"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Экспортировать и скачать файл"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "По ширине"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Повернуть все виды против часовой стрелки"
+		},
+		"rotateAngleInput": {
+			"title": "Угол поворота"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Повернуть все виды по часовой стрелке"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Настройки просмотрщика изображений"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Настройки просмотрщика миниатюр"
+		},
+		"panToolButton": {
+			"title": "Панорамирование"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Прямоугольное выделение"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показать боковую панель"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Миниатюры"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Распознавание штрих-кодов"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Генерация штрих-кода"
+		},
+		"readBarcodesButton": {
+			"title": "Распознать штрих-коды"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Настройки распознавателя штрих-кодов"
+		},
+		"writeBarcodeButton": {
+			"title": "Сгенерировать штрих-код"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Настройки генератора штрих-кода"
+		},
+		"gotoFirstPageButton": {
+			"title": "Перейти к первому изображению"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Перейти к предыдущему изображению"
+		},
+		"gotoPageInput": {
+			"title": "Страница"
+		},
+		"gotoNextPageButton": {
+			"title": "Перейти к следующему изображению"
+		},
+		"gotoLastPageButton": {
+			"title": "Перейти к последнему изображению"
+		},
+		"zoomOutButton": {
+			"title": "Уменьшить масштаб"
+		},
+		"zoomValueInput": {
+			"title": "Масштаб"
+		},
+		"zoomInButton": {
+			"title": "Увеличить масштаб"
+		},
+		"normalSizeModeButton": {
+			"title": "Нормальный"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Наиболее подходящий"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "По высоте"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Пиксель в пиксель"
+		},
+		"zoomSizeModeButton": {
+			"title": "Масштаб"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Этот документ защищен паролем. Пожалуйста, введите пароль."
+			},
+			"passwordLabel": {
+				"text": "Пароль:"
+			},
+			"showPasswordLabel": {
+				"text": "Показать пароль"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Неверный пароль"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущее изображение"
+			},
+			"allImagesOption": {
+				"text": "Все изображения"
+			},
+			"customImagesOption": {
+				"text": "Пользовательский"
+			},
+			"imageRangeLabel": {
+				"text": "Диапазон изображений:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Не верный диапазон страниц. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Изображения:"
+			},
+			"currentImageOption": {
+				"text": "Текущее изображение"
+			},
+			"allImagesOption": {
+				"text": "Все изображения"
+			},
+			"customImagesOption": {
+				"text": "Пользовательский"
+			},
+			"imageRangeLabel": {
+				"text": "Диапазон изображений:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Не верный диапазон страниц. Пример: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Режим отображения изображения:"
+			},
+			"imageAnchorLabel": {
+				"text": "Привязка изображения:"
+			},
+			"noneOption": {
+				"text": "Нет"
+			},
+			"topLeftOption": {
+				"text": "Сверху|Слева"
+			},
+			"topOption": {
+				"text": "Сверху"
+			},
+			"topRightOption": {
+				"text": "Сверху|Справа"
+			},
+			"rightOption": {
+				"text": "Справа"
+			},
+			"bottomRightOption": {
+				"text": "Снизу|Справа"
+			},
+			"bottomOption": {
+				"text": "Снизу"
+			},
+			"bottomLeftOption": {
+				"text": "Снизу|Слева"
+			},
+			"leftOption": {
+				"text": "Слева"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Многостраничный режим отображения:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Направление макета:"
+			},
+			"horizontalOption": {
+				"text": "Горизонтальное"
+			},
+			"verticalOption": {
+				"text": "Вертикальное"
+			},
+			"rowColumnCountLabel": {
+				"text": "Изображения в строке/столбце:"
+			},
+			"imagePaddingLabel": {
+				"text": "Заполнение изображений:"
+			},
+			"appearancesLabel": {
+				"text": "Внешние виды"
+			},
+			"imageAppearanceLabel": {
+				"text": "Внешний вид изображения"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Цвет фона:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Цвет границы:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ширина границы:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Внешний вид сфокусированного изображения"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Цвет фона:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Цвет границы:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ширина границы:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Использовать внешний вид изображения в одностраничном режиме"
+			},
+			"renderingSettingsLabel": {
+				"text": "Настройки рендеринга"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Настройки по умолчанию"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Разрешение по горизонтали:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Разрешение по вертикали:"
+			},
+			"smoothingModeLabel": {
+				"text": "Режим сглаживания:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Нет"
+			},
+			"interpolationModeLabel": {
+				"text": "Режим интерполяции:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Другие настройки"
+			},
+			"backgroundColorLabel": {
+				"text": "Цвет фона просмотрщика изображений:"
+			},
+			"centerImageLabel": {
+				"text": "Центрировать изображение:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Таймаут изменения размера:"
+			},
+			"tileSizeLabel": {
+				"text": "Размер тайла:"
+			},
+			"colorManagementLabel": {
+				"text": "Включить управление цветом:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Использовать векторный рендеринг для документов:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Цвет фона векторного содержимого:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Размер миниатюры:"
+			},
+			"scaleLabel": {
+				"text": "Масштаб миниатюры:"
+			},
+			"smallestOption": {
+				"text": "Наименьший"
+			},
+			"smallOption": {
+				"text": "Маленький"
+			},
+			"normalOption": {
+				"text": "Нормальный"
+			},
+			"largeOption": {
+				"text": "Большой"
+			},
+			"flowStyleLabel": {
+				"text": "Стиль размещения миниатюр:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Количество столбцов:"
+			},
+			"marginLabel": {
+				"text": "Внешний отступ:"
+			},
+			"paddingTopLabel": {
+				"text": "Внутренный отступ сверху:"
+			},
+			"paddingRightLabel": {
+				"text": "Внутренный отступ справа:"
+			},
+			"paddingBottomLabel": {
+				"text": "Внутренный отступ снизу:"
+			},
+			"paddingLeftLabel": {
+				"text": "Внутренный отступ слева:"
+			},
+			"showCaptionLabel": {
+				"text": "Показать подписи к миниатюрам:"
+			},
+			"captionFormatLabel": {
+				"text": "Формат подписи:"
+			},
+			"captionAnchorLabel": {
+				"text": "Якорь подписи:"
+			},
+			"topLeftOption": {
+				"text": "Сверху|Слева"
+			},
+			"topOption": {
+				"text": "Сверху"
+			},
+			"topRightOption": {
+				"text": "Сверху|Справа"
+			},
+			"rightOption": {
+				"text": "Справа"
+			},
+			"bottomRightOption": {
+				"text": "Снизу|Справа"
+			},
+			"bottomOption": {
+				"text": "Снизу"
+			},
+			"bottomLeftOption": {
+				"text": "Снизу|Слева"
+			},
+			"leftOption": {
+				"text": "Слева"
+			},
+			"centerOption": {
+				"text": "Выровнять по центру"
+			},
+			"focusOnHoverLabel": {
+				"text": "Фокус при наведении:"
+			},
+			"multiSelectLabel": {
+				"text": "Разрешить выбор нескольких миниатюр:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Можно перетаскивать миниатюры:"
+			},
+			"okButton": {
+				"value": "ОК"
+			},
+			"сancelButton": {
+				"value": "Отмена"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Настройки распознавателя штрих-кодов",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
+		"vsdv-openFile-addFileString": "Добавить файл",
+		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
+		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsdv-documentPasswordDialog-title": "Пароль к документу",
+		"vsdv-dialog-cancelButton": "Отмена",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
+		"vsdv-imageSelectionDialog-title": "Выберите изображения",
+		"vsdv-imageSelectionDialog-currentImageString": "Текущее изображение",
+		"vsdv-imageSelectionDialog-allImagesString": "Все изображения",
+		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
+		"vsdv-printImagesDialog-title": "Распечатать изображения",
+		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
+		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:"
+	}
+}

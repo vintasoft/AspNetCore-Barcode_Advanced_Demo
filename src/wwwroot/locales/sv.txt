@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fil"
+		},
+		"viewLabel": {
+			"text": "Visa"
+		},
+		"toolsLabel": {
+			"text": "Verktyg"
+		},
+		"uploadFileButton": {
+			"title": "Ladda ner och öppna filen"
+		},
+		"previousUploadFilesButton": {
+			"title": "Visa en lista över tidigare nedladdade filer"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Ladda upp och öppna bildfilen via URL"
+		},
+		"printImagesButton": {
+			"title": "Skriv ut bilder"
+		},
+		"downloadFileButton": {
+			"title": "Nedladdning fil"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Exportera och ladda ner fil"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Anpassa till bredd"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Rotera alla vyer moturs"
+		},
+		"rotateAngleInput": {
+			"title": "Rotationsvinkel"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Rotera alla vyer medurs"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Inställningar för bildvisning"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Inställningar för miniatyrvisning"
+		},
+		"panToolButton": {
+			"title": "Panera"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Rektangulärt urval"
+		},
+		"sidePanelCloseButton": {
+			"title": "Visa sidofältet"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatyrer"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Streckkodsläsning"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Streckkodsskrivning"
+		},
+		"readBarcodesButton": {
+			"title": "Läs streckkoder"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Inställningar för streckkodsläsare"
+		},
+		"writeBarcodeButton": {
+			"title": "Skriv streckkod"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Inställningar för streckkodsskrivare"
+		},
+		"gotoFirstPageButton": {
+			"title": "Gå till första bilden"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Gå till föregående bild"
+		},
+		"gotoPageInput": {
+			"title": "Sida"
+		},
+		"gotoNextPageButton": {
+			"title": "Gå till nästa bild"
+		},
+		"gotoLastPageButton": {
+			"title": "Gå till sista bilden"
+		},
+		"zoomOutButton": {
+			"title": "Zooma ut"
+		},
+		"zoomValueInput": {
+			"title": "Skala"
+		},
+		"zoomInButton": {
+			"title": "Zooma in"
+		},
+		"normalSizeModeButton": {
+			"title": "Normal"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Best lämplig"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Finhöjd"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pixel till Pixel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Skala"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Detta dokument är lösenordsskyddat. Vänligen ange ett lösenord."
+			},
+			"passwordLabel": {
+				"text": "Lösenord:"
+			},
+			"showPasswordLabel": {
+				"text": "Visa lösenord"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Fel lösenord"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Aktuell bild"
+			},
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"customImagesOption": {
+				"text": "Anpassad"
+			},
+			"imageRangeLabel": {
+				"text": "Bildintervall:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ogiltigt sidintervall. Exempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Bilder:"
+			},
+			"currentImageOption": {
+				"text": "Aktuell bild"
+			},
+			"allImagesOption": {
+				"text": "Alla bilder"
+			},
+			"customImagesOption": {
+				"text": "Anpassad"
+			},
+			"imageRangeLabel": {
+				"text": "Bildintervall:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Ogiltigt sidintervall. Exempel: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Bildvisningsläge:"
+			},
+			"imageAnchorLabel": {
+				"text": "Bildankare:"
+			},
+			"noneOption": {
+				"text": "Nej"
+			},
+			"topLeftOption": {
+				"text": "Överst|Vänster"
+			},
+			"topOption": {
+				"text": "Överst"
+			},
+			"topRightOption": {
+				"text": "Överst|Höger"
+			},
+			"rightOption": {
+				"text": "Höger"
+			},
+			"bottomRightOption": {
+				"text": "Nedre|Höger"
+			},
+			"bottomOption": {
+				"text": "Nedertill"
+			},
+			"bottomLeftOption": {
+				"text": "Nedre|Vänster"
+			},
+			"leftOption": {
+				"text": "Vänster"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Visningsläge för flera sidor:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Layoutriktning:"
+			},
+			"horizontalOption": {
+				"text": "Horisontell"
+			},
+			"verticalOption": {
+				"text": "Vertikal"
+			},
+			"rowColumnCountLabel": {
+				"text": "Bilder i rad/kolumn:"
+			},
+			"imagePaddingLabel": {
+				"text": "Utfyllnad av bilder:"
+			},
+			"appearancesLabel": {
+				"text": "Utseende"
+			},
+			"imageAppearanceLabel": {
+				"text": "Bildens utseende"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Bakgrundsfärg:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kantbredd:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Utseendet på bilden i fokus"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Bakgrundsfärg:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kantfärg:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kantbredd:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Använd bildens utseende i ensidigt läge"
+			},
+			"renderingSettingsLabel": {
+				"text": "Återgivningsinställningar"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Standardinställningar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horisontell upplösning:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikal upplösning:"
+			},
+			"smoothingModeLabel": {
+				"text": "Smidigt läge:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nej"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolationsläge:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Andra inställningar"
+			},
+			"backgroundColorLabel": {
+				"text": "Bildvisarens bakgrundsfärg:"
+			},
+			"centerImageLabel": {
+				"text": "Centerbild:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Timeout för ändra storlek:"
+			},
+			"tileSizeLabel": {
+				"text": "Brickstorlek:"
+			},
+			"colorManagementLabel": {
+				"text": "Aktivera färghantering:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Använd vektorrendering för dokument:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorinnehållets bakgrundsfärg:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Miniatyrstorlek:"
+			},
+			"scaleLabel": {
+				"text": "Miniatyrskala:"
+			},
+			"smallestOption": {
+				"text": "Minst"
+			},
+			"smallOption": {
+				"text": "Liten"
+			},
+			"normalOption": {
+				"text": "Normal"
+			},
+			"largeOption": {
+				"text": "Stor"
+			},
+			"flowStyleLabel": {
+				"text": "Miniatyrplaceringsstil:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Antal kolumner:"
+			},
+			"marginLabel": {
+				"text": "Utanvänd stoppning:"
+			},
+			"paddingTopLabel": {
+				"text": "Övre stoppning:"
+			},
+			"paddingRightLabel": {
+				"text": "Höger indrag:"
+			},
+			"paddingBottomLabel": {
+				"text": "Undertillsats:"
+			},
+			"paddingLeftLabel": {
+				"text": "Vänster indrag:"
+			},
+			"showCaptionLabel": {
+				"text": "Visa miniatyrbildstexter:"
+			},
+			"captionFormatLabel": {
+				"text": "Signaturformat:"
+			},
+			"captionAnchorLabel": {
+				"text": "Signaturankare:"
+			},
+			"topLeftOption": {
+				"text": "Överst|Vänster"
+			},
+			"topOption": {
+				"text": "Överst"
+			},
+			"topRightOption": {
+				"text": "Överst|Höger"
+			},
+			"rightOption": {
+				"text": "Höger"
+			},
+			"bottomRightOption": {
+				"text": "Nedre|Höger"
+			},
+			"bottomOption": {
+				"text": "Nedertill"
+			},
+			"bottomLeftOption": {
+				"text": "Nedre|Vänster"
+			},
+			"leftOption": {
+				"text": "Vänster"
+			},
+			"centerOption": {
+				"text": "Justera centrera"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus vid muspekaren:"
+			},
+			"multiSelectLabel": {
+				"text": "Tillåt val av flera miniatyrer:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Kan dra miniatyrer:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Avbryt"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Inställningar för streckkodsläsare",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
+		"vsdv-openFile-addFileString": "Lägg till fil",
+		"vsdv-openFile-authenticateFileString": "Autentisera fil",
+		"vsdv-downloadFile-actionMessage": "Nedladdning fil",
+		"vsdv-saveChanges-saveChangesInImages": "Spara ändringar i bilder",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Spara ändringar i kommentarer",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Bränn kommentarer på bilder",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Spara ändringar i PDF-dokument",
+		"vsdv-documentPasswordDialog-title": "Dokumentlösenord",
+		"vsdv-dialog-cancelButton": "Avbryt",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentisera fil",
+		"vsdv-imageSelectionDialog-title": "Välj bilder",
+		"vsdv-imageSelectionDialog-currentImageString": "Aktuell bild",
+		"vsdv-imageSelectionDialog-allImagesString": "Alla bilder",
+		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
+		"vsdv-printImagesDialog-title": "Skriv ut bilder",
+		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
+		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:"
+	}
+}

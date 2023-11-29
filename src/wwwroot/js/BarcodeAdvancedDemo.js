@@ -2,6 +2,8 @@
 
 var _docViewer;
 
+var _localizer;
+
 var _openFileHelper;
 
 var _previouslyUploadedFilesDialog;
@@ -200,52 +202,8 @@ function __thumbnailsPanelActivated() {
 */
 function __initializeVisualTools(docViewer) {
     var panTool = docViewer.getVisualToolById("PanTool");
-    var panCursorUrl = __getApplicationUrl() + 'Content/Cursors/CloseHand.cur';
-    var panCursor = "url('" + panCursorUrl + "'), auto";
-
     panTool.set_Cursor("pointer");
-    panTool.set_ActionCursor(panCursor);
-}
-
-
-
-// === Utils ===
-
-/**
- Blocks the UI. 
- @param {string} text Message that describes why UI is blocked.
-*/
-function __blockUI(text) {
-    _blockUiDialog = new BlockUiDialogJS(text);
-}
-
-/**
- Unblocks the UI.
-*/
-function __unblockUI() {
-    if (_blockUiDialog != null) {
-        _blockUiDialog.close();
-        _blockUiDialog = null;
-    }
-}
-
-/**
- Shows an error message.
- @param {object} data Information about error.
-*/
-function __showErrorMessage(data) {
-    __unblockUI();
-    new ErrorMessageDialogJS(data);
-}
-
-/**
- Returns application URL.
-*/
-function __getApplicationUrl() {
-    var applicationUrl = window.location.toString();
-    if (applicationUrl[applicationUrl.length - 1] != '/')
-        applicationUrl = applicationUrl + '/';
-    return applicationUrl;
+    panTool.set_ActionCursor("grabbing");
 }
 
 
@@ -293,12 +251,127 @@ function __docViewer_asyncOperationFailed(event, data) {
 
 
 
+// === Utils ===
+
+/**
+ Blocks the UI. 
+ @param {string} text Message that describes why UI is blocked.
+*/
+function __blockUI(text) {
+    _blockUiDialog = new BlockUiDialogJS(text);
+}
+
+/**
+ Unblocks the UI.
+*/
+function __unblockUI() {
+    if (_blockUiDialog != null) {
+        _blockUiDialog.close();
+        _blockUiDialog = null;
+    }
+}
+
+/**
+ Shows an error message.
+ @param {object} data Information about error.
+*/
+function __showErrorMessage(data) {
+    __unblockUI();
+    new ErrorMessageDialogJS(data);
+}
+
+/**
+ Returns application URL.
+*/
+function __getApplicationUrl() {
+    var applicationUrl = window.location.toString();
+    if (applicationUrl[applicationUrl.length - 1] != '/')
+        applicationUrl = applicationUrl + '/';
+    return applicationUrl;
+}
+
+
+
+// === Localization
+
+/**
+ Creates the dictionary for localization of application UI.
+*/
+function __createUiLocalizationDictionary() {
+    var tempDialogs = [];
+    __createDocumentViewerDialogsForLocalization(tempDialogs);
+
+    var localizationDict = _localizer.getDocumentLocalizationDictionary();
+    var localizationDictString = JSON.stringify(localizationDict, null, '\t');
+    console.log(localizationDictString);
+
+    var floatingContainer = document.getElementById("documentViewerContainer");
+    for (var i = 0; i < tempDialogs.length; i++) {
+        floatingContainer.removeChild(tempDialogs[i].get_DomElement());
+        delete tempDialogs[i];
+    }
+}
+
+/**
+ Creates the dialogs, which are used in Web Document Viewer, for localization.
+*/
+function __createDocumentViewerDialogsForLocalization(tempDialogs) {
+    var floatingContainer = document.getElementById("documentViewerContainer");
+
+    var documentPasswordDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiDocumentPasswordDialogJS();
+    documentPasswordDialog.render(floatingContainer);
+    tempDialogs.push(documentPasswordDialog);
+
+    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    imageSelectionDialog.render(floatingContainer);
+    tempDialogs.push(imageSelectionDialog);
+
+    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    printImagesDialog.render(floatingContainer);
+    tempDialogs.push(printImagesDialog);
+
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    imageViewerSettingsDialog.render(floatingContainer);
+    tempDialogs.push(imageViewerSettingsDialog);
+
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    thumbnailViewerSettingsDialog.render(floatingContainer);
+    tempDialogs.push(thumbnailViewerSettingsDialog);
+}
+
+/**
+ Enables the localization of application UI.
+*/
+function __enableUiLocalization() {
+    // if localizer is ready (localizer loaded localization dictionary)
+    if (_localizer.get_IsReady()) {
+        // localize DOM-elements of web page
+        _localizer.localizeDocument();
+    }
+    // if localizer is NOT ready
+    else
+        // wait when localizer will be ready
+        Vintasoft.Shared.subscribeToEvent(_localizer, "ready", function () {
+            // localize DOM-elements of web page
+            _localizer.localizeDocument();
+        });
+
+    // subscribe to the "dialogShown" event of document viewer
+    Vintasoft.Shared.subscribeToEvent(_docViewer, "dialogShown", function (event, data) {
+        _localizer.localizeDocument();
+    });
+}
+
+
+
 // === Main ===
 
 /**
  Main function.
 */
 function __main() {
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReaderSettingsDialog-title", "Barcode reader settings");
+
     // set the session identifier
     var hiddenSessionFieldElement = document.getElementById('hiddenSessionField');
     Vintasoft.Shared.WebImagingEnviromentJS.set_SessionId(hiddenSessionFieldElement.value);
@@ -312,11 +385,16 @@ function __main() {
     Vintasoft.Shared.WebServiceJS.defaultImageService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftImageApi");
     Vintasoft.Shared.WebServiceJS.defaultBarcodeService = new Vintasoft.Shared.WebServiceControllerJS(__getApplicationUrl() + "vintasoft/api/MyVintasoftBarcodeApi");
 
+    // create UI localizer
+    _localizer = new Vintasoft.Shared.VintasoftLocalizationJS();
+
     // register new UI elements
     __registerNewUiElements();
 
     // create the document viewer settings
     var docViewerSettings = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerSettingsJS("documentViewerContainer", "documentViewer");
+    // enable image uploading from URL
+    docViewerSettings.set_CanUploadImageFromUrl(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);
@@ -361,6 +439,14 @@ function __main() {
     // copy the default file to the uploaded image files directory and open the file
     _openFileHelper = new OpenFileHelperJS(_docViewer, __showErrorMessage);
     _openFileHelper.openDefaultImageFile("VintasoftBarcodeDemo.png");
+
+    $(document).ready(function () {
+        //// create the dictionary for localization of application UI
+        //__createUiLocalizationDictionary();
+
+        // enable the localization of application UI
+        __enableUiLocalization();
+    });
 }
 
 

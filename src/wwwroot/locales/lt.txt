@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Failas"
+		},
+		"viewLabel": {
+			"text": "Žiūrėti"
+		},
+		"toolsLabel": {
+			"text": "Įrankiai"
+		},
+		"uploadFileButton": {
+			"title": "Įkelti ir atidaryti failą"
+		},
+		"previousUploadFilesButton": {
+			"title": "Anksčiau įkelti failai"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Įkelkite ir atidarykite vaizdo failą pagal URL"
+		},
+		"printImagesButton": {
+			"title": "Spausdinti vaizdus"
+		},
+		"downloadFileButton": {
+			"title": "Atsisiųsti failą"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Eksportuoti ir atsisiųsti failą"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Tinka pločiui"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Pasukite visus vaizdus prieš laikrodžio rodyklę"
+		},
+		"rotateAngleInput": {
+			"title": "Kampas"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Pasukite visus vaizdus pagal laikrodžio rodyklę"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Vaizdų peržiūros programos nustatymai"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Miniatiūrų peržiūros priemonės nustatymai"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Stačiakampis pasirinkimas"
+		},
+		"sidePanelCloseButton": {
+			"title": "Rodyti šoninį skydelį"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatiūros"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Brūkšninio kodo skaitymas"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Brūkšninio kodo rašymas"
+		},
+		"readBarcodesButton": {
+			"title": "Skaityti brūkšninius kodus"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Brūkšninių kodų skaitytuvo nustatymai"
+		},
+		"writeBarcodeButton": {
+			"title": "Rašyti brūkšninį kodą"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Brūkšninių kodų rašymo nustatymai"
+		},
+		"gotoFirstPageButton": {
+			"title": "Eikite į pirmąjį vaizdą"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Eikite į ankstesnį vaizdą"
+		},
+		"gotoPageInput": {
+			"title": "Puslapis"
+		},
+		"gotoNextPageButton": {
+			"title": "Eikite į kitą vaizdą"
+		},
+		"gotoLastPageButton": {
+			"title": "Eikite į paskutinį vaizdą"
+		},
+		"zoomOutButton": {
+			"title": "Nutolinti"
+		},
+		"zoomValueInput": {
+			"title": "Padidinti"
+		},
+		"zoomInButton": {
+			"title": "Priartinti"
+		},
+		"normalSizeModeButton": {
+			"title": "Normalus"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Geriausiai tinkantis"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Tinka ūgiui"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikselis prie pikselio"
+		},
+		"zoomSizeModeButton": {
+			"title": "Padidinti"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Šis dokumentas yra apsaugotas slaptažodžiu. Įveskite slaptažodį."
+			},
+			"passwordLabel": {
+				"text": "Slaptažodis:"
+			},
+			"showPasswordLabel": {
+				"text": "Rodyti slaptažodį"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Neteisingas slaptažodis"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"сancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Vaizdai:"
+			},
+			"currentImageOption": {
+				"text": "Dabartinis vaizdas"
+			},
+			"allImagesOption": {
+				"text": "Visi vaizdai"
+			},
+			"customImagesOption": {
+				"text": "Pasirinktinis"
+			},
+			"imageRangeLabel": {
+				"text": "Vaizdo diapazonas:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Netinkamas puslapių diapazonas. Pavyzdys: 1–5, 8, 12–15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"сancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Vaizdai:"
+			},
+			"currentImageOption": {
+				"text": "Dabartinis vaizdas"
+			},
+			"allImagesOption": {
+				"text": "Visi vaizdai"
+			},
+			"customImagesOption": {
+				"text": "Pasirinktinis"
+			},
+			"imageRangeLabel": {
+				"text": "Vaizdo diapazonas:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Netinkamas puslapių diapazonas. Pavyzdys: 1–5, 8, 12–15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Vaizdo rodymo režimas:"
+			},
+			"imageAnchorLabel": {
+				"text": "Vaizdo inkaras:"
+			},
+			"noneOption": {
+				"text": "Nė vienas"
+			},
+			"topLeftOption": {
+				"text": "Viršus | Kairė"
+			},
+			"topOption": {
+				"text": "Į viršų"
+			},
+			"topRightOption": {
+				"text": "Į viršų | Dešinėje"
+			},
+			"rightOption": {
+				"text": "Teisingai"
+			},
+			"bottomRightOption": {
+				"text": "Apačia|Dešinėje"
+			},
+			"bottomOption": {
+				"text": "Apačia"
+			},
+			"bottomLeftOption": {
+				"text": "Apačia|Kairėje"
+			},
+			"leftOption": {
+				"text": "Kairė"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Kelių puslapių rodymo režimas:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Išdėstymo kryptis:"
+			},
+			"horizontalOption": {
+				"text": "Horizontaliai"
+			},
+			"verticalOption": {
+				"text": "Vertikalus"
+			},
+			"rowColumnCountLabel": {
+				"text": "Vaizdai eilutėje / stulpelyje:"
+			},
+			"imagePaddingLabel": {
+				"text": "Vaizdų užpildymas:"
+			},
+			"appearancesLabel": {
+				"text": "Išvaizdos"
+			},
+			"imageAppearanceLabel": {
+				"text": "Vaizdo išvaizda"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Nugaros spalva:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Kraštinės spalva:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Kraštinės plotis:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokusuota vaizdo išvaizda"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Nugaros spalva:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Kraštinės spalva:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Kraštinės plotis:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Naudokite vaizdo išvaizdą vieno puslapio režimu"
+			},
+			"renderingSettingsLabel": {
+				"text": "Atvaizdavimo nustatymai"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Numatytieji nustatymai"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horizontali skiriamoji geba:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikali skiriamoji geba:"
+			},
+			"smoothingModeLabel": {
+				"text": "Išlyginimo režimas:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Nė vienas"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpoliacijos režimas:"
+			},
+			"Bicubic": {
+				"text": "Bikubinis"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Kiti nustatymai"
+			},
+			"backgroundColorLabel": {
+				"text": "Žiūrovo fono spalva:"
+			},
+			"centerImageLabel": {
+				"text": "Centrinis vaizdas:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Dydžio keitimo skirtasis laikas:"
+			},
+			"tileSizeLabel": {
+				"text": "Plytelių dydis:"
+			},
+			"colorManagementLabel": {
+				"text": "Įgalinti spalvų valdymą:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Dokumentams naudokite vektorinį atvaizdavimą:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektorinio turinio fono spalva:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"сancelButton": {
+				"value": "Atšaukti"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Dydis:"
+			},
+			"scaleLabel": {
+				"text": "Skalė:"
+			},
+			"smallestOption": {
+				"text": "Mažiausias"
+			},
+			"smallOption": {
+				"text": "Mažas"
+			},
+			"normalOption": {
+				"text": "Normalus"
+			},
+			"largeOption": {
+				"text": "Didelis"
+			},
+			"flowStyleLabel": {
+				"text": "Srauto stilius:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Stulpelių skaičius:"
+			},
+			"marginLabel": {
+				"text": "Marža:"
+			},
+			"paddingTopLabel": {
+				"text": "Viršutinis pamušalas:"
+			},
+			"paddingRightLabel": {
+				"text": "Pamušalas dešinėje:"
+			},
+			"paddingBottomLabel": {
+				"text": "Paminkštinimas apačioje:"
+			},
+			"paddingLeftLabel": {
+				"text": "Kairysis užpildas:"
+			},
+			"showCaptionLabel": {
+				"text": "Rodyti antraštes:"
+			},
+			"captionFormatLabel": {
+				"text": "Antraštės formatas:"
+			},
+			"captionAnchorLabel": {
+				"text": "Antraštės prierašas:"
+			},
+			"topLeftOption": {
+				"text": "Viršus | Kairė"
+			},
+			"topOption": {
+				"text": "Į viršų"
+			},
+			"topRightOption": {
+				"text": "Į viršų | Dešinėje"
+			},
+			"rightOption": {
+				"text": "Teisingai"
+			},
+			"bottomRightOption": {
+				"text": "Apačia|Dešinėje"
+			},
+			"bottomOption": {
+				"text": "Apačia"
+			},
+			"bottomLeftOption": {
+				"text": "Apačia|Kairėje"
+			},
+			"leftOption": {
+				"text": "Kairė"
+			},
+			"centerOption": {
+				"text": "centras"
+			},
+			"focusOnHoverLabel": {
+				"text": "Focus OnHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Keli pasirinkimai:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Galima vilkti miniatiūras:"
+			},
+			"okButton": {
+				"value": "Gerai"
+			},
+			"сancelButton": {
+				"value": "Atšaukti"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Brūkšninių kodų skaitytuvo nustatymai",
+		"vsdv-dialog-okButton": "Gerai",
+		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
+		"vsdv-openFile-addFileString": "Pridėti failą",
+		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
+		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
+		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
+		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsdv-dialog-cancelButton": "Atšaukti",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
+		"vsdv-imageSelectionDialog-title": "Pasirinkite vaizdus",
+		"vsdv-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
+		"vsdv-imageSelectionDialog-allImagesString": "Visi vaizdai",
+		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
+		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
+		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
+		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:"
+	}
+}

@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Faýl"
+		},
+		"viewLabel": {
+			"text": "Gör"
+		},
+		"toolsLabel": {
+			"text": "Gurallar"
+		},
+		"uploadFileButton": {
+			"title": "Faýly ýükläň we açyň"
+		},
+		"previousUploadFilesButton": {
+			"title": "Öň ýüklenen faýllar"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Surat faýlyny URL boýunça ýükläň we açyň"
+		},
+		"printImagesButton": {
+			"title": "Suratlary çap ediň"
+		},
+		"downloadFileButton": {
+			"title": "Faýly göçürip al"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Faýly eksport ediň we göçürip alyň"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Inine laýyk"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Viewshli görnüşleri sagat tersine öwüriň"
+		},
+		"rotateAngleInput": {
+			"title": "Burç"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Viewshli görnüşleri sagat ugruna öwüriň"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Surat görüjiniň sazlamalary"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Kiçijik tomaşaçy sazlamalary"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Gönüburçly saýlama"
+		},
+		"sidePanelCloseButton": {
+			"title": "Tarap paneli görkez"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Suratlar"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Ştrih-kod okamak"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Ştrih-kod ýazmak"
+		},
+		"readBarcodesButton": {
+			"title": "Ştrih-kodlary okaň"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Ştrih-kod okaýjy sazlamalary"
+		},
+		"writeBarcodeButton": {
+			"title": "Ştrih-kod ýazyň"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Ştrih-kod ýazyjy sazlamalary"
+		},
+		"gotoFirstPageButton": {
+			"title": "Birinji surata geçiň"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Öňki surata geçiň"
+		},
+		"gotoPageInput": {
+			"title": "Sahypa"
+		},
+		"gotoNextPageButton": {
+			"title": "Indiki surata geçiň"
+		},
+		"gotoLastPageButton": {
+			"title": "Iň soňky surata geçiň"
+		},
+		"zoomOutButton": {
+			"title": "Ulaltmak"
+		},
+		"zoomValueInput": {
+			"title": "Ulaltmak"
+		},
+		"zoomInButton": {
+			"title": "Ýakynlaşdyrmak"
+		},
+		"normalSizeModeButton": {
+			"title": "Adaty"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Iň oňat"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Boýuna laýyk"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikselden piksel"
+		},
+		"zoomSizeModeButton": {
+			"title": "Ulaltmak"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Bu resminama parol bilen goralandyr. Parol giriziň"
+			},
+			"passwordLabel": {
+				"text": "Parol:"
+			},
+			"showPasswordLabel": {
+				"text": "Paroly görkez"
+			},
+			"incorrectPasswordLabel": {
+				"text": "nädogry parol"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"сancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Suratlar:"
+			},
+			"currentImageOption": {
+				"text": "Häzirki surat"
+			},
+			"allImagesOption": {
+				"text": "Imageshli suratlar"
+			},
+			"customImagesOption": {
+				"text": "Omörite"
+			},
+			"imageRangeLabel": {
+				"text": "Surat aralygy:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nädogry sahypa aralygy. Mysal: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Surat ýygnamagyň çäginden çykma."
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"сancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Suratlar:"
+			},
+			"currentImageOption": {
+				"text": "Häzirki surat"
+			},
+			"allImagesOption": {
+				"text": "Imageshli suratlar"
+			},
+			"customImagesOption": {
+				"text": "Omörite"
+			},
+			"imageRangeLabel": {
+				"text": "Surat aralygy:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Nädogry sahypa aralygy. Mysal: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Surat ýygnamagyň çäginden çykma."
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Surat görkezmek tertibi:"
+			},
+			"imageAnchorLabel": {
+				"text": "Surat labyry:"
+			},
+			"noneOption": {
+				"text": "Hiç"
+			},
+			"topLeftOption": {
+				"text": "Topokarky | Çep"
+			},
+			"topOption": {
+				"text": "Topokarky"
+			},
+			"topRightOption": {
+				"text": "Topokarky | Dogry"
+			},
+			"rightOption": {
+				"text": "Dogry"
+			},
+			"bottomRightOption": {
+				"text": "Aşakda | Dogry"
+			},
+			"bottomOption": {
+				"text": "Aşakda"
+			},
+			"bottomLeftOption": {
+				"text": "Aşakda | Çep"
+			},
+			"leftOption": {
+				"text": "Çep"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Köp basgançakly re modeim:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Salgy ugry:"
+			},
+			"horizontalOption": {
+				"text": "Gorizontal"
+			},
+			"verticalOption": {
+				"text": "Dik"
+			},
+			"rowColumnCountLabel": {
+				"text": "Setir / sütündäki suratlar:"
+			},
+			"imagePaddingLabel": {
+				"text": "Suratlar ýerleşdirilýär:"
+			},
+			"appearancesLabel": {
+				"text": "Daş görnüşler"
+			},
+			"imageAppearanceLabel": {
+				"text": "Surat görnüşi"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Yzky reňk:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Serhet reňki:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Serhet giňligi:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokusirlenen şekil"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Yzky reňk:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Serhet reňki:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Serhet giňligi:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Bir sahypalyk re modeimde şekil görnüşini ulanyň"
+			},
+			"renderingSettingsLabel": {
+				"text": "Sazlamalary görkezmek"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Bellenen sazlamalar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Gorizontal çözgüt:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Dik çözgüt:"
+			},
+			"smoothingModeLabel": {
+				"text": "Düzeltmek tertibi:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Hiç"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolýasiýa tertibi:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Beýleki sazlamalar"
+			},
+			"backgroundColorLabel": {
+				"text": "Tomaşaçylaryň fon reňki:"
+			},
+			"centerImageLabel": {
+				"text": "Merkeziň suraty:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Wagtyň ölçegini üýtgediň:"
+			},
+			"tileSizeLabel": {
+				"text": "Kafeliň ululygy:"
+			},
+			"colorManagementLabel": {
+				"text": "Reňk dolandyryşyny işjeňleşdiriň:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Resminamalar üçin wektor görnüşini ulanyň:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Wektor mazmunynyň fon reňki:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"сancelButton": {
+				"value": "Elatyr"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Ölçegi:"
+			},
+			"scaleLabel": {
+				"text": "Terezisi:"
+			},
+			"smallestOption": {
+				"text": "Iň kiçi"
+			},
+			"smallOption": {
+				"text": "Kiçi"
+			},
+			"normalOption": {
+				"text": "Adaty"
+			},
+			"largeOption": {
+				"text": "Uly"
+			},
+			"flowStyleLabel": {
+				"text": "Akym stili:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Sütüniň sany:"
+			},
+			"marginLabel": {
+				"text": "Margin:"
+			},
+			"paddingTopLabel": {
+				"text": "Padding Top:"
+			},
+			"paddingRightLabel": {
+				"text": "Padding sag:"
+			},
+			"paddingBottomLabel": {
+				"text": "Aşakdaky gaplama:"
+			},
+			"paddingLeftLabel": {
+				"text": "Çep gaplama:"
+			},
+			"showCaptionLabel": {
+				"text": "Tionsazgylary görkez:"
+			},
+			"captionFormatLabel": {
+				"text": "Tionazgynyň formaty:"
+			},
+			"captionAnchorLabel": {
+				"text": "Tionazgy ýazgysy:"
+			},
+			"topLeftOption": {
+				"text": "Topokarky | Çep"
+			},
+			"topOption": {
+				"text": "Topokarky"
+			},
+			"topRightOption": {
+				"text": "Topokarky | Dogry"
+			},
+			"rightOption": {
+				"text": "Dogry"
+			},
+			"bottomRightOption": {
+				"text": "Aşakda | Dogry"
+			},
+			"bottomOption": {
+				"text": "Aşakda"
+			},
+			"bottomLeftOption": {
+				"text": "Aşakda | Çep"
+			},
+			"leftOption": {
+				"text": "Çep"
+			},
+			"centerOption": {
+				"text": "Merkez"
+			},
+			"focusOnHoverLabel": {
+				"text": "Üns beriň:"
+			},
+			"multiSelectLabel": {
+				"text": "Köp saýlaw:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Suratlary süýräp biler:"
+			},
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"сancelButton": {
+				"value": "Elatyr"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Ştrih-kod okaýjy sazlamalary",
+		"vsdv-dialog-okButton": "Bolýar",
+		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
+		"vsdv-openFile-addFileString": "Faýl goşuň",
+		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
+		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
+		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsdv-dialog-cancelButton": "Elatyr",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
+		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
+		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
+		"vsdv-imageSelectionDialog-allImagesString": "Imageshli suratlar",
+		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
+		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
+		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
+		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:"
+	}
+}

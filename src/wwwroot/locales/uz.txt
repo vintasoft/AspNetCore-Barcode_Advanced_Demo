@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fayl"
+		},
+		"viewLabel": {
+			"text": "Ko'rinish"
+		},
+		"toolsLabel": {
+			"text": "Asboblar"
+		},
+		"uploadFileButton": {
+			"title": "Faylni yuklang va oching"
+		},
+		"previousUploadFilesButton": {
+			"title": "Oldin yuklangan fayllar"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Rasm faylini URL orqali yuklang va oching"
+		},
+		"printImagesButton": {
+			"title": "Rasmlarni chop etish"
+		},
+		"downloadFileButton": {
+			"title": "Faylni yuklab oling"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Faylni eksport qilish va yuklab olish"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Kenglikka moslash"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Barcha ko'rinishlarni soat sohasi farqli ravishda aylantiring"
+		},
+		"rotateAngleInput": {
+			"title": "Burchak"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Barcha ko'rinishlarni soat yo'nalishi bo'yicha aylantiring"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Rasmlarni ko'rish sozlamalari"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Eskizni ko'rish sozlamalari"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "To'rtburchaklar tanlovi"
+		},
+		"sidePanelCloseButton": {
+			"title": "Yon panelni ko'rsatish"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Eskizlar"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Shtrix-kodni o'qish"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Shtrix kod yozish"
+		},
+		"readBarcodesButton": {
+			"title": "Shtrix-kodlarni o'qing"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Shtrix-kodni o'quvchi sozlamalari"
+		},
+		"writeBarcodeButton": {
+			"title": "Shtrix kodini yozing"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Shtrix-kod yozuvchisi sozlamalari"
+		},
+		"gotoFirstPageButton": {
+			"title": "Birinchi rasmga o'ting"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Oldingi rasmga o'ting"
+		},
+		"gotoPageInput": {
+			"title": "Sahifa"
+		},
+		"gotoNextPageButton": {
+			"title": "Keyingi rasmga o'ting"
+		},
+		"gotoLastPageButton": {
+			"title": "Oxirgi rasmga o'ting"
+		},
+		"zoomOutButton": {
+			"title": "Kichraytirish"
+		},
+		"zoomValueInput": {
+			"title": "Kattalashtirish"
+		},
+		"zoomInButton": {
+			"title": "Kattalashtirish"
+		},
+		"normalSizeModeButton": {
+			"title": "Oddiy"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Eng yaxshi mos"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Balandlikka mos"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikseldan pikselga"
+		},
+		"zoomSizeModeButton": {
+			"title": "Kattalashtirish"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ushbu hujjat parol bilan himoyalangan. Iltimos, parol kiriting."
+			},
+			"passwordLabel": {
+				"text": "Parol:"
+			},
+			"showPasswordLabel": {
+				"text": "Parolni ko'rsatish"
+			},
+			"incorrectPasswordLabel": {
+				"text": "Noto'g'ri parol"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"сancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Rasmlar:"
+			},
+			"currentImageOption": {
+				"text": "Joriy rasm"
+			},
+			"allImagesOption": {
+				"text": "Barcha rasmlar"
+			},
+			"customImagesOption": {
+				"text": "Maxsus"
+			},
+			"imageRangeLabel": {
+				"text": "Rasm diapazoni:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Sahifalar oralig‘i noto‘g‘ri. Misol: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"сancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Rasmlar:"
+			},
+			"currentImageOption": {
+				"text": "Joriy rasm"
+			},
+			"allImagesOption": {
+				"text": "Barcha rasmlar"
+			},
+			"customImagesOption": {
+				"text": "Maxsus"
+			},
+			"imageRangeLabel": {
+				"text": "Rasm diapazoni:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Sahifalar oralig‘i noto‘g‘ri. Misol: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Rasmni ko'rsatish rejimi:"
+			},
+			"imageAnchorLabel": {
+				"text": "Rasm langari:"
+			},
+			"noneOption": {
+				"text": "Yo'q"
+			},
+			"topLeftOption": {
+				"text": "Yuqori|Chap"
+			},
+			"topOption": {
+				"text": "Yuqori"
+			},
+			"topRightOption": {
+				"text": "Yuqori|O'ng"
+			},
+			"rightOption": {
+				"text": "To'g'ri"
+			},
+			"bottomRightOption": {
+				"text": "Pastki|Oʻng"
+			},
+			"bottomOption": {
+				"text": "Pastki"
+			},
+			"bottomLeftOption": {
+				"text": "Pastki|Chap"
+			},
+			"leftOption": {
+				"text": "Chapga"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Ko'p sahifali ekran rejimi:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Joylashtirish yo'nalishi:"
+			},
+			"horizontalOption": {
+				"text": "Gorizontal"
+			},
+			"verticalOption": {
+				"text": "Vertikal"
+			},
+			"rowColumnCountLabel": {
+				"text": "Qator/ustundagi rasmlar:"
+			},
+			"imagePaddingLabel": {
+				"text": "Rasmlarni to'ldirish:"
+			},
+			"appearancesLabel": {
+				"text": "Ko'rinishlar"
+			},
+			"imageAppearanceLabel": {
+				"text": "Rasm ko'rinishi"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Orqa rang:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Chegara rangi:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Chegara kengligi:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokuslangan tasvir ko'rinishi"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Orqa rang:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Chegara rangi:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Chegara kengligi:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Bir sahifali rejimda tasvir ko'rinishidan foydalaning"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderlash sozlamalari"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Standart sozlamalar"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Gorizontal ruxsat:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikal ruxsat:"
+			},
+			"smoothingModeLabel": {
+				"text": "Silliqlash rejimi:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Yo'q"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolatsiya rejimi:"
+			},
+			"Bicubic": {
+				"text": "Ikki kubik"
+			},
+			"Bilinear": {
+				"text": "Ikki chiziqli"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Boshqa sozlamalar"
+			},
+			"backgroundColorLabel": {
+				"text": "Tomoshabin fon rangi:"
+			},
+			"centerImageLabel": {
+				"text": "Markaziy rasm:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Oʻlchamini oʻzgartirish vaqti:"
+			},
+			"tileSizeLabel": {
+				"text": "Plitka o'lchami:"
+			},
+			"colorManagementLabel": {
+				"text": "Rang boshqaruvini yoqing:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Hujjatlar uchun vektor renderlashdan foydalaning:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektor mazmuni fon rangi:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"сancelButton": {
+				"value": "Bekor qilish"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Hajmi:"
+			},
+			"scaleLabel": {
+				"text": "Masshtab:"
+			},
+			"smallestOption": {
+				"text": "Eng kichik"
+			},
+			"smallOption": {
+				"text": "Kichik"
+			},
+			"normalOption": {
+				"text": "Oddiy"
+			},
+			"largeOption": {
+				"text": "Katta"
+			},
+			"flowStyleLabel": {
+				"text": "Oqim uslubi:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Ustunlar soni:"
+			},
+			"marginLabel": {
+				"text": "Chegara:"
+			},
+			"paddingTopLabel": {
+				"text": "To'ldiruvchi tepa:"
+			},
+			"paddingRightLabel": {
+				"text": "To'ldirish o'ng:"
+			},
+			"paddingBottomLabel": {
+				"text": "Pastki to'ldirish:"
+			},
+			"paddingLeftLabel": {
+				"text": "Chapga to'ldirish:"
+			},
+			"showCaptionLabel": {
+				"text": "Taglavhalarni ko'rsatish:"
+			},
+			"captionFormatLabel": {
+				"text": "Sarlavha formati:"
+			},
+			"captionAnchorLabel": {
+				"text": "Sarlavha langari:"
+			},
+			"topLeftOption": {
+				"text": "Yuqori|Chap"
+			},
+			"topOption": {
+				"text": "Yuqori"
+			},
+			"topRightOption": {
+				"text": "Yuqori|O'ng"
+			},
+			"rightOption": {
+				"text": "To'g'ri"
+			},
+			"bottomRightOption": {
+				"text": "Pastki|Oʻng"
+			},
+			"bottomOption": {
+				"text": "Pastki"
+			},
+			"bottomLeftOption": {
+				"text": "Pastki|Chap"
+			},
+			"leftOption": {
+				"text": "Chapga"
+			},
+			"centerOption": {
+				"text": "Markaz"
+			},
+			"focusOnHoverLabel": {
+				"text": "Hoverga e'tibor qarating:"
+			},
+			"multiSelectLabel": {
+				"text": "Ko'p tanlov:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Eskizlarni tortib olish mumkin:"
+			},
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"сancelButton": {
+				"value": "Bekor qilish"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Shtrix-kodni o'quvchi sozlamalari",
+		"vsdv-dialog-okButton": "KELISHDIKMI",
+		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
+		"vsdv-openFile-addFileString": "Fayl qo'shish",
+		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
+		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
+		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsdv-dialog-cancelButton": "Bekor qilish",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsdv-imageSelectionDialog-title": "Rasmlarni tanlang",
+		"vsdv-imageSelectionDialog-currentImageString": "Joriy rasm",
+		"vsdv-imageSelectionDialog-allImagesString": "Barcha rasmlar",
+		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
+		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
+		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
+		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:"
+	}
+}

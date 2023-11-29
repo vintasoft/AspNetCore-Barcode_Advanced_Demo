@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Fail"
+		},
+		"viewLabel": {
+			"text": "Vaade"
+		},
+		"toolsLabel": {
+			"text": "Tööriistad"
+		},
+		"uploadFileButton": {
+			"title": "Laadige üles ja avage fail"
+		},
+		"previousUploadFilesButton": {
+			"title": "Varem üleslaaditud failid"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Laadige üles ja avage pildifail URL-i järgi"
+		},
+		"printImagesButton": {
+			"title": "Printige pilte"
+		},
+		"downloadFileButton": {
+			"title": "Laadige fail alla"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Faili eksportimine ja allalaadimine"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Sobivad laiusele"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Pöörake kõiki vaateid vastupäeva"
+		},
+		"rotateAngleInput": {
+			"title": "Nurk"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Pöörake kõiki vaateid päripäeva"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Pildivaaturi seaded"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Pisipiltide vaataja seaded"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Ristkülikukujuline valik"
+		},
+		"sidePanelCloseButton": {
+			"title": "Näita külgpaneeli"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Pisipildid"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Vöötkoodi lugemine"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Vöötkoodi kirjutamine"
+		},
+		"readBarcodesButton": {
+			"title": "Lugege vöötkoode"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Vöötkoodilugeja seaded"
+		},
+		"writeBarcodeButton": {
+			"title": "Kirjutage vöötkood"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Vöötkoodikirjutaja seaded"
+		},
+		"gotoFirstPageButton": {
+			"title": "Mine esimese pildi juurde"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Mine eelmisele pildile"
+		},
+		"gotoPageInput": {
+			"title": "Lehekülg"
+		},
+		"gotoNextPageButton": {
+			"title": "Mine järgmise pildi juurde"
+		},
+		"gotoLastPageButton": {
+			"title": "Mine viimase pildi juurde"
+		},
+		"zoomOutButton": {
+			"title": "Suumi välja"
+		},
+		"zoomValueInput": {
+			"title": "Suumi"
+		},
+		"zoomInButton": {
+			"title": "Suurenda"
+		},
+		"normalSizeModeButton": {
+			"title": "Tavaline"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Parim sobivus"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Sobivad kõrgusele"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Pikslist piksliteni"
+		},
+		"zoomSizeModeButton": {
+			"title": "Suumi"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "See dokument on parooliga kaitstud. Palun sisesta parool."
+			},
+			"passwordLabel": {
+				"text": "Parool:"
+			},
+			"showPasswordLabel": {
+				"text": "Näita salasõna"
+			},
+			"incorrectPasswordLabel": {
+				"text": "vale salasõna"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"сancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Pildid:"
+			},
+			"currentImageOption": {
+				"text": "Praegune pilt"
+			},
+			"allImagesOption": {
+				"text": "Kõik pildid"
+			},
+			"customImagesOption": {
+				"text": "Kohandatud"
+			},
+			"imageRangeLabel": {
+				"text": "Pildivahemik:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Sobimatu lehevahemik. Näide: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks pildikogu ulatusest väljas."
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"сancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Pildid:"
+			},
+			"currentImageOption": {
+				"text": "Praegune pilt"
+			},
+			"allImagesOption": {
+				"text": "Kõik pildid"
+			},
+			"customImagesOption": {
+				"text": "Kohandatud"
+			},
+			"imageRangeLabel": {
+				"text": "Pildivahemik:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Sobimatu lehevahemik. Näide: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks pildikogu ulatusest väljas."
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Pildi kuvamise režiim:"
+			},
+			"imageAnchorLabel": {
+				"text": "Pildi ankur:"
+			},
+			"noneOption": {
+				"text": "Mitte ühtegi"
+			},
+			"topLeftOption": {
+				"text": "Ülemine|Vasak"
+			},
+			"topOption": {
+				"text": "Üles"
+			},
+			"topRightOption": {
+				"text": "Üles | Paremal"
+			},
+			"rightOption": {
+				"text": "Õige"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Paremal"
+			},
+			"bottomOption": {
+				"text": "Altpoolt"
+			},
+			"bottomLeftOption": {
+				"text": "All|Vasak"
+			},
+			"leftOption": {
+				"text": "Vasakule"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Mitmeleheküljeline kuvarežiim:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Paigutuse suund:"
+			},
+			"horizontalOption": {
+				"text": "Horisontaalne"
+			},
+			"verticalOption": {
+				"text": "Vertikaalne"
+			},
+			"rowColumnCountLabel": {
+				"text": "Pildid reas/veerus:"
+			},
+			"imagePaddingLabel": {
+				"text": "Piltide polsterdus:"
+			},
+			"appearancesLabel": {
+				"text": "Esinemised"
+			},
+			"imageAppearanceLabel": {
+				"text": "Pildi välimus"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Selja värv:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Äärise värv:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Ääriste laius:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Fokuseeritud pildi välimus"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Selja värv:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Äärise värv:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Ääriste laius:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Kasutage pildi välimust ühe lehekülje režiimis"
+			},
+			"renderingSettingsLabel": {
+				"text": "Renderdusseaded"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Vaikeseaded"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Horisontaalne eraldusvõime:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Vertikaalne eraldusvõime:"
+			},
+			"smoothingModeLabel": {
+				"text": "Silumisrežiim:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Mitte ühtegi"
+			},
+			"interpolationModeLabel": {
+				"text": "Interpolatsiooni režiim:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilineaarne"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Muud seaded"
+			},
+			"backgroundColorLabel": {
+				"text": "Vaataja taustavärv:"
+			},
+			"centerImageLabel": {
+				"text": "Keskmise pilt:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Suuruse muutmise ajalõpp:"
+			},
+			"tileSizeLabel": {
+				"text": "Plaatide suurus:"
+			},
+			"colorManagementLabel": {
+				"text": "Luba värvihaldus:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Kasutage dokumentide jaoks vektorrenderdust:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Vektori sisu taustavärv:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"сancelButton": {
+				"value": "Tühista"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Suurus:"
+			},
+			"scaleLabel": {
+				"text": "Kaal:"
+			},
+			"smallestOption": {
+				"text": "Väikseim"
+			},
+			"smallOption": {
+				"text": "Väike"
+			},
+			"normalOption": {
+				"text": "Tavaline"
+			},
+			"largeOption": {
+				"text": "Suur"
+			},
+			"flowStyleLabel": {
+				"text": "Voolustiil:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Veergude arv:"
+			},
+			"marginLabel": {
+				"text": "Marginaal:"
+			},
+			"paddingTopLabel": {
+				"text": "Polsterdus ülaosa:"
+			},
+			"paddingRightLabel": {
+				"text": "Parempoolne polsterdus:"
+			},
+			"paddingBottomLabel": {
+				"text": "Alumine polsterdus:"
+			},
+			"paddingLeftLabel": {
+				"text": "Täidis vasakpoolne:"
+			},
+			"showCaptionLabel": {
+				"text": "Näita pealdisi:"
+			},
+			"captionFormatLabel": {
+				"text": "Tiitrite vorming:"
+			},
+			"captionAnchorLabel": {
+				"text": "Tiitrite ankur:"
+			},
+			"topLeftOption": {
+				"text": "Ülemine|Vasak"
+			},
+			"topOption": {
+				"text": "Üles"
+			},
+			"topRightOption": {
+				"text": "Üles | Paremal"
+			},
+			"rightOption": {
+				"text": "Õige"
+			},
+			"bottomRightOption": {
+				"text": "Alt|Paremal"
+			},
+			"bottomOption": {
+				"text": "Altpoolt"
+			},
+			"bottomLeftOption": {
+				"text": "All|Vasak"
+			},
+			"leftOption": {
+				"text": "Vasakule"
+			},
+			"centerOption": {
+				"text": "Keskus"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fookus onHover:"
+			},
+			"multiSelectLabel": {
+				"text": "Mitmikvalimine:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Pisipilte saab lohistada:"
+			},
+			"okButton": {
+				"value": "Okei"
+			},
+			"сancelButton": {
+				"value": "Tühista"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Vöötkoodilugeja seaded",
+		"vsdv-dialog-okButton": "Okei",
+		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
+		"vsdv-openFile-addFileString": "Lisa fail",
+		"vsdv-openFile-authenticateFileString": "Autentige fail",
+		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
+		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
+		"vsdv-dialog-cancelButton": "Tühista",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
+		"vsdv-imageSelectionDialog-title": "Valige pildid",
+		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
+		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
+		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsdv-printImagesDialog-title": "Printige pilte",
+		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
+		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:"
+	}
+}

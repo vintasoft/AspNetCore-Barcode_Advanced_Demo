@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "ფაილი"
+		},
+		"viewLabel": {
+			"text": "ხედი"
+		},
+		"toolsLabel": {
+			"text": "ხელსაწყოები"
+		},
+		"uploadFileButton": {
+			"title": "ატვირთეთ და გახსენით ფაილი"
+		},
+		"previousUploadFilesButton": {
+			"title": "ადრე ატვირთული ფაილები"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "ატვირთეთ და გახსენით სურათის ფაილი URL-ით"
+		},
+		"printImagesButton": {
+			"title": "სურათების დაბეჭდვა"
+		},
+		"downloadFileButton": {
+			"title": "Გადმოწერეთ ფაილი"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "ფაილის ექსპორტი და ჩამოტვირთვა"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "მოერგება სიგანეს"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "ყველა ხედის როტაცია საათის ისრის საწინააღმდეგოდ"
+		},
+		"rotateAngleInput": {
+			"title": "კუთხე"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "ყველა ხედის როტაცია საათის ისრის მიმართულებით"
+		},
+		"imageViewerSettingsButton": {
+			"title": "სურათების მაყურებლის პარამეტრები"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "მინიატურების მაყურებლის პარამეტრები"
+		},
+		"panToolButton": {
+			"title": "პან"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "მართკუთხა შერჩევა"
+		},
+		"sidePanelCloseButton": {
+			"title": "გვერდითი პანელის ჩვენება"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "ესკიზები"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "შტრიხკოდის კითხვა"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "შტრიხკოდის წერა"
+		},
+		"readBarcodesButton": {
+			"title": "წაიკითხეთ შტრიხკოდები"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "შტრიხკოდების წამკითხველის პარამეტრები"
+		},
+		"writeBarcodeButton": {
+			"title": "დაწერეთ შტრიხკოდი"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "შტრიხკოდის დამწერის პარამეტრები"
+		},
+		"gotoFirstPageButton": {
+			"title": "გადადით პირველ სურათზე"
+		},
+		"gotoPreviousPageButton": {
+			"title": "გადადით წინა სურათზე"
+		},
+		"gotoPageInput": {
+			"title": "გვერდი"
+		},
+		"gotoNextPageButton": {
+			"title": "გადადით შემდეგ სურათზე"
+		},
+		"gotoLastPageButton": {
+			"title": "გადადით ბოლო სურათზე"
+		},
+		"zoomOutButton": {
+			"title": "მასშტაბირება"
+		},
+		"zoomValueInput": {
+			"title": "მასშტაბირება"
+		},
+		"zoomInButton": {
+			"title": "Მიახლოება"
+		},
+		"normalSizeModeButton": {
+			"title": "ნორმალური"
+		},
+		"bestFitSizeModeButton": {
+			"title": "საუკეთესო მორგება"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "შეესაბამება სიმაღლეს"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "პიქსელი პიქსელამდე"
+		},
+		"zoomSizeModeButton": {
+			"title": "მასშტაბირება"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "ეს დოკუმენტი დაცულია პაროლით. გთხოვთ შეიყვანოთ პაროლი."
+			},
+			"passwordLabel": {
+				"text": "პაროლი:"
+			},
+			"showPasswordLabel": {
+				"text": "Აჩვენე პაროლი"
+			},
+			"incorrectPasswordLabel": {
+				"text": "არასწორი პაროლი"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "სურათები:"
+			},
+			"currentImageOption": {
+				"text": "მიმდინარე სურათი"
+			},
+			"allImagesOption": {
+				"text": "ყველა სურათი"
+			},
+			"customImagesOption": {
+				"text": "საბაჟო"
+			},
+			"imageRangeLabel": {
+				"text": "გამოსახულების დიაპაზონი:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "არასწორი გვერდის დიაპაზონი. მაგალითი: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "სურათები:"
+			},
+			"currentImageOption": {
+				"text": "მიმდინარე სურათი"
+			},
+			"allImagesOption": {
+				"text": "ყველა სურათი"
+			},
+			"customImagesOption": {
+				"text": "საბაჟო"
+			},
+			"imageRangeLabel": {
+				"text": "გამოსახულების დიაპაზონი:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "არასწორი გვერდის დიაპაზონი. მაგალითი: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "გამოსახულების ჩვენების რეჟიმი:"
+			},
+			"imageAnchorLabel": {
+				"text": "გამოსახულების წამყვანი:"
+			},
+			"noneOption": {
+				"text": "არცერთი"
+			},
+			"topLeftOption": {
+				"text": "ზედა|მარცხნივ"
+			},
+			"topOption": {
+				"text": "ზედა"
+			},
+			"topRightOption": {
+				"text": "ზედა|მარჯვნივ"
+			},
+			"rightOption": {
+				"text": "უფლება"
+			},
+			"bottomRightOption": {
+				"text": "ქვედა|მარჯვნივ"
+			},
+			"bottomOption": {
+				"text": "ქვედა"
+			},
+			"bottomLeftOption": {
+				"text": "ქვედა|მარცხნივ"
+			},
+			"leftOption": {
+				"text": "მარცხენა"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "მრავალგვერდიანი ჩვენების რეჟიმი:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "განლაგების მიმართულება:"
+			},
+			"horizontalOption": {
+				"text": "Ჰორიზონტალური"
+			},
+			"verticalOption": {
+				"text": "ვერტიკალური"
+			},
+			"rowColumnCountLabel": {
+				"text": "სურათები მწკრივში/სვეტში:"
+			},
+			"imagePaddingLabel": {
+				"text": "სურათების შევსება:"
+			},
+			"appearancesLabel": {
+				"text": "გარეგნობა"
+			},
+			"imageAppearanceLabel": {
+				"text": "გამოსახულების გარეგნობა"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "უკანა ფერი:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "საზღვრის სიგანე:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "ორიენტირებული გამოსახულების გარეგნობა"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "უკანა ფერი:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "საზღვრის ფერი:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "საზღვრის სიგანე:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "გამოიყენეთ გამოსახულების გარეგნობა ერთგვერდიან რეჟიმში"
+			},
+			"renderingSettingsLabel": {
+				"text": "რენდერის პარამეტრები"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "ნაგულისხმევი პარამეტრები"
+			},
+			"horizontalResolutionLabel": {
+				"text": "ჰორიზონტალური გარჩევადობა:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "ვერტიკალური გარჩევადობა:"
+			},
+			"smoothingModeLabel": {
+				"text": "გლუვი რეჟიმი:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "არცერთი"
+			},
+			"interpolationModeLabel": {
+				"text": "ინტერპოლაციის რეჟიმი:"
+			},
+			"Bicubic": {
+				"text": "ბიკუბური"
+			},
+			"Bilinear": {
+				"text": "ორხაზოვანი"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "სხვა პარამეტრები"
+			},
+			"backgroundColorLabel": {
+				"text": "მნახველის ფონის ფერი:"
+			},
+			"centerImageLabel": {
+				"text": "ცენტრალური სურათი:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "ზომის შეცვლა დროის ამოწურვა:"
+			},
+			"tileSizeLabel": {
+				"text": "კრამიტის ზომა:"
+			},
+			"colorManagementLabel": {
+				"text": "ფერების მართვის ჩართვა:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "გამოიყენეთ ვექტორული რენდერი დოკუმენტებისთვის:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "ვექტორული შინაარსის ფონის ფერი:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "ზომა:"
+			},
+			"scaleLabel": {
+				"text": "მასშტაბი:"
+			},
+			"smallestOption": {
+				"text": "ყველაზე პატარა"
+			},
+			"smallOption": {
+				"text": "Პატარა"
+			},
+			"normalOption": {
+				"text": "ნორმალური"
+			},
+			"largeOption": {
+				"text": "დიდი"
+			},
+			"flowStyleLabel": {
+				"text": "ნაკადის სტილი:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "სვეტების რაოდენობა:"
+			},
+			"marginLabel": {
+				"text": "ზღვარი:"
+			},
+			"paddingTopLabel": {
+				"text": "ბალიშის ზედა:"
+			},
+			"paddingRightLabel": {
+				"text": "შეფუთვა მარჯვნივ:"
+			},
+			"paddingBottomLabel": {
+				"text": "ბალიშის ქვედა ნაწილი:"
+			},
+			"paddingLeftLabel": {
+				"text": "მარცხნივ შეფუთვა:"
+			},
+			"showCaptionLabel": {
+				"text": "წარწერების ჩვენება:"
+			},
+			"captionFormatLabel": {
+				"text": "წარწერის ფორმატი:"
+			},
+			"captionAnchorLabel": {
+				"text": "წარწერის წამყვანი:"
+			},
+			"topLeftOption": {
+				"text": "ზედა|მარცხნივ"
+			},
+			"topOption": {
+				"text": "ზედა"
+			},
+			"topRightOption": {
+				"text": "ზედა|მარჯვნივ"
+			},
+			"rightOption": {
+				"text": "უფლება"
+			},
+			"bottomRightOption": {
+				"text": "ქვედა|მარჯვნივ"
+			},
+			"bottomOption": {
+				"text": "ქვედა"
+			},
+			"bottomLeftOption": {
+				"text": "ქვედა|მარცხნივ"
+			},
+			"leftOption": {
+				"text": "მარცხენა"
+			},
+			"centerOption": {
+				"text": "ცენტრი"
+			},
+			"focusOnHoverLabel": {
+				"text": "ფოკუსირება ჰოვერზე:"
+			},
+			"multiSelectLabel": {
+				"text": "მრავალჯერადი შერჩევა:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "შეუძლია მინიატურების გადატანა:"
+			},
+			"okButton": {
+				"value": "კარგი"
+			},
+			"сancelButton": {
+				"value": "გაუქმება"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "შტრიხკოდების წამკითხველის პარამეტრები",
+		"vsdv-dialog-okButton": "კარგი",
+		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
+		"vsdv-openFile-addFileString": "Ფაილის დამატება",
+		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
+		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
+		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
+		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsdv-dialog-cancelButton": "გაუქმება",
+		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsdv-imageSelectionDialog-title": "აირჩიეთ სურათები",
+		"vsdv-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
+		"vsdv-imageSelectionDialog-allImagesString": "ყველა სურათი",
+		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
+		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
+		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
+		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:"
+	}
+}

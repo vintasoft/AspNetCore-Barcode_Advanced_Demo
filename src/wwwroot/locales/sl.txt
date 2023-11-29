@@ -1,0 +1,482 @@
+﻿{
+	"documentViewer": {
+		"fileLabel": {
+			"text": "Mapa"
+		},
+		"viewLabel": {
+			"text": "Pogled"
+		},
+		"toolsLabel": {
+			"text": "Orodja"
+		},
+		"uploadFileButton": {
+			"title": "Naloži in odpri datoteko"
+		},
+		"previousUploadFilesButton": {
+			"title": "Prej naložene datoteke"
+		},
+		"uploadImageFromUrlButton": {
+			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		},
+		"printImagesButton": {
+			"title": "Natisnite slike"
+		},
+		"downloadFileButton": {
+			"title": "Prenesi datoteko"
+		},
+		"exportAndDownloadFileButton": {
+			"title": "Izvozi in prenesi datoteko"
+		},
+		"fitToWidthSizeModeButton": {
+			"title": "Prilagodi širini"
+		},
+		"rotateViewsCounterClockwiseButton": {
+			"title": "Zasukajte vse poglede v nasprotni smeri urinega kazalca"
+		},
+		"rotateAngleInput": {
+			"title": "Kot"
+		},
+		"rotateViewsClockwiseButton": {
+			"title": "Zasukaj vse poglede v smeri urinega kazalca"
+		},
+		"imageViewerSettingsButton": {
+			"title": "Nastavitve pregledovalnika slik"
+		},
+		"thumbnailViewerSettingsButton": {
+			"title": "Nastavitve pregledovalnika sličic"
+		},
+		"panToolButton": {
+			"title": "Pan"
+		},
+		"rectangularSelectionToolButton": {
+			"title": "Pravokotna izbira"
+		},
+		"sidePanelCloseButton": {
+			"title": "Pokaži stransko ploščo"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sličice"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Branje črtne kode"
+		},
+		"barcodeWriterPanelButton": {
+			"title": "Pisanje črtne kode"
+		},
+		"readBarcodesButton": {
+			"title": "Branje črtnih kod"
+		},
+		"barcodeReaderSettingsButton": {
+			"title": "Nastavitve bralnika črtne kode"
+		},
+		"writeBarcodeButton": {
+			"title": "Napišite črtno kodo"
+		},
+		"barcodeWriterSettingsButton": {
+			"title": "Nastavitve zapisovalnika črtne kode"
+		},
+		"gotoFirstPageButton": {
+			"title": "Pojdite na prvo sliko"
+		},
+		"gotoPreviousPageButton": {
+			"title": "Pojdi na prejšnjo sliko"
+		},
+		"gotoPageInput": {
+			"title": "Stran"
+		},
+		"gotoNextPageButton": {
+			"title": "Pojdite na naslednjo sliko"
+		},
+		"gotoLastPageButton": {
+			"title": "Pojdi na zadnjo sliko"
+		},
+		"zoomOutButton": {
+			"title": "Pomanjšanje"
+		},
+		"zoomValueInput": {
+			"title": "Zoom"
+		},
+		"zoomInButton": {
+			"title": "Približaj"
+		},
+		"normalSizeModeButton": {
+			"title": "normalno"
+		},
+		"bestFitSizeModeButton": {
+			"title": "Najbolj ustrezajo"
+		},
+		"fitToHeightSizeModeButton": {
+			"title": "Prilega se višini"
+		},
+		"pixelToPixelSizeModeButton": {
+			"title": "Piksel za pikselom"
+		},
+		"zoomSizeModeButton": {
+			"title": "Zoom"
+		},
+		"documentPasswordDialog": {
+			"pleaseEnterPasswordLabel": {
+				"text": "Ta dokument je zaščiten z geslom. Prosim vnesite geslo."
+			},
+			"passwordLabel": {
+				"text": "Geslo:"
+			},
+			"showPasswordLabel": {
+				"text": "Pokaži geslo"
+			},
+			"incorrectPasswordLabel": {
+				"text": "napačno geslo"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"selectImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Vse slike"
+			},
+			"customImagesOption": {
+				"text": "Po meri"
+			},
+			"imageRangeLabel": {
+				"text": "Obseg slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neveljaven obseg strani. Primer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks izven obsega zbirke slik."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"printImagesDialog": {
+			"imagesLabel": {
+				"text": "Slike:"
+			},
+			"currentImageOption": {
+				"text": "Trenutna slika"
+			},
+			"allImagesOption": {
+				"text": "Vse slike"
+			},
+			"customImagesOption": {
+				"text": "Po meri"
+			},
+			"imageRangeLabel": {
+				"text": "Obseg slike:"
+			},
+			"invalidRangeErrorMessageLabel": {
+				"text": "Neveljaven obseg strani. Primer: 1-5, 8, 12-15."
+			},
+			"outOfRangeErrorMessageLabel": {
+				"text": "Indeks izven obsega zbirke slik."
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"imageViewerSettingsDialog": {
+			"imageDisplayModeLabel": {
+				"text": "Način prikaza slike:"
+			},
+			"imageAnchorLabel": {
+				"text": "Sidro slike:"
+			},
+			"noneOption": {
+				"text": "Noben"
+			},
+			"topLeftOption": {
+				"text": "Zgoraj|Levo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Zgoraj|desno"
+			},
+			"rightOption": {
+				"text": "Prav"
+			},
+			"bottomRightOption": {
+				"text": "Spodaj|desno"
+			},
+			"bottomOption": {
+				"text": "Spodaj"
+			},
+			"bottomLeftOption": {
+				"text": "Spodaj|levo"
+			},
+			"leftOption": {
+				"text": "Levo"
+			},
+			"multipageDisplayModeLabel": {
+				"text": "Večstranski način prikaza:"
+			},
+			"allImagesOption": {
+				"text": "AllImages"
+			},
+			"fixedImagesOption": {
+				"text": "FixedImages"
+			},
+			"layoutDirectionLabel": {
+				"text": "Smer postavitve:"
+			},
+			"horizontalOption": {
+				"text": "Vodoravno"
+			},
+			"verticalOption": {
+				"text": "Navpično"
+			},
+			"rowColumnCountLabel": {
+				"text": "Slike v vrstici/stolpcu:"
+			},
+			"imagePaddingLabel": {
+				"text": "Oblazinjenje slik:"
+			},
+			"appearancesLabel": {
+				"text": "Nastopi"
+			},
+			"imageAppearanceLabel": {
+				"text": "Videz slike"
+			},
+			"imageAppearanceBackColorLabel": {
+				"text": "Barva hrbta:"
+			},
+			"imageAppearanceBorderColorLabel": {
+				"text": "Barva obrobe:"
+			},
+			"imageAppearanceBorderWidthLabel": {
+				"text": "Širina obrobe:"
+			},
+			"focusedImageAppearanceLabel": {
+				"text": "Osredotočen videz slike"
+			},
+			"focusedImageAppearanceBackColorLabel": {
+				"text": "Barva hrbta:"
+			},
+			"focusedImageAppearanceBorderColorLabel": {
+				"text": "Barva obrobe:"
+			},
+			"focusedImageAppearanceBorderWidthLabel": {
+				"text": "Širina obrobe:"
+			},
+			"useAppearanceInSinglePageModeLabel": {
+				"text": "Uporabite videz slike v enostranskem načinu"
+			},
+			"renderingSettingsLabel": {
+				"text": "Nastavitve upodabljanja"
+			},
+			"defaultRenderingSettingsLabel": {
+				"text": "Privzete nastavitve"
+			},
+			"horizontalResolutionLabel": {
+				"text": "Vodoravna ločljivost:"
+			},
+			"verticalResolutionLabel ": {
+				"text": "Navpična ločljivost:"
+			},
+			"smoothingModeLabel": {
+				"text": "Način glajenja:"
+			},
+			"AntiAlias": {
+				"text": "AntiAlias"
+			},
+			"None": {
+				"text": "Noben"
+			},
+			"interpolationModeLabel": {
+				"text": "Način interpolacije:"
+			},
+			"Bicubic": {
+				"text": "Bicubic"
+			},
+			"Bilinear": {
+				"text": "Bilinear"
+			},
+			"HighQualityBicubic": {
+				"text": "HighQualityBicubic"
+			},
+			"HighQualityBilinear": {
+				"text": "HighQualityBilinear"
+			},
+			"NearestNeighbor": {
+				"text": "NearestNeighbor"
+			},
+			"otherSettingsLabel": {
+				"text": "Druge nastavitve"
+			},
+			"backgroundColorLabel": {
+				"text": "Barva ozadja pregledovalnika:"
+			},
+			"centerImageLabel": {
+				"text": "Slika na sredini:"
+			},
+			"resizeTimeoutLabel ": {
+				"text": "Časovna omejitev za spremembo velikosti:"
+			},
+			"tileSizeLabel": {
+				"text": "Velikost ploščice:"
+			},
+			"colorManagementLabel": {
+				"text": "Omogoči upravljanje barv:"
+			},
+			"useVectorRenderingLabel": {
+				"text": "Uporabi vektorsko upodabljanje za dokumente:"
+			},
+			"vectorContentBackgroundColorLabel": {
+				"text": "Barva ozadja vektorske vsebine:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Prekliči"
+			}
+		},
+		"thumbnailViewerSettingsDialog": {
+			"sizeLabel": {
+				"text": "Velikost:"
+			},
+			"scaleLabel": {
+				"text": "Lestvica:"
+			},
+			"smallestOption": {
+				"text": "Najmanjši"
+			},
+			"smallOption": {
+				"text": "Majhna"
+			},
+			"normalOption": {
+				"text": "normalno"
+			},
+			"largeOption": {
+				"text": "Velik"
+			},
+			"flowStyleLabel": {
+				"text": "Slog toka:"
+			},
+			"singleColumnOption": {
+				"text": "SingleColumn"
+			},
+			"singleRowOption": {
+				"text": "SingleRow"
+			},
+			"fixedColumnsOption": {
+				"text": "FixedColumns"
+			},
+			"wrappedRowsOption": {
+				"text": "WrappedRows"
+			},
+			"columnCountLabel": {
+				"text": "Število stolpcev:"
+			},
+			"marginLabel": {
+				"text": "Rob:"
+			},
+			"paddingTopLabel": {
+				"text": "Oblazinjenje na vrhu:"
+			},
+			"paddingRightLabel": {
+				"text": "Oblazinjenje desno:"
+			},
+			"paddingBottomLabel": {
+				"text": "Oblazinjenje na dnu:"
+			},
+			"paddingLeftLabel": {
+				"text": "Oblazinjenje levo:"
+			},
+			"showCaptionLabel": {
+				"text": "Pokaži napise:"
+			},
+			"captionFormatLabel": {
+				"text": "Oblika napisa:"
+			},
+			"captionAnchorLabel": {
+				"text": "Sidro napisa:"
+			},
+			"topLeftOption": {
+				"text": "Zgoraj|Levo"
+			},
+			"topOption": {
+				"text": "Vrh"
+			},
+			"topRightOption": {
+				"text": "Zgoraj|desno"
+			},
+			"rightOption": {
+				"text": "Prav"
+			},
+			"bottomRightOption": {
+				"text": "Spodaj|desno"
+			},
+			"bottomOption": {
+				"text": "Spodaj"
+			},
+			"bottomLeftOption": {
+				"text": "Spodaj|levo"
+			},
+			"leftOption": {
+				"text": "Levo"
+			},
+			"centerOption": {
+				"text": "Center"
+			},
+			"focusOnHoverLabel": {
+				"text": "Fokus pri lebdenju:"
+			},
+			"multiSelectLabel": {
+				"text": "Večkratna izbira:"
+			},
+			"canDragThumbnailsLabel": {
+				"text": "Lahko povlečete sličice:"
+			},
+			"okButton": {
+				"value": "OK"
+			},
+			"сancelButton": {
+				"value": "Prekliči"
+			}
+		}
+	},
+	"strings": {
+		"vsdv-barcodeReaderSettingsDialog-title": "Nastavitve bralnika črtne kode",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-openFile-addFileString": "Dodaj datoteko",
+		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
+		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
+		"vsdv-saveChanges-saveChangesInImages": "Shranite spremembe v slikah",
+		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
+		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
+		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
+		"vsdv-dialog-cancelButton": "Prekliči",
+		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
+		"vsdv-imageSelectionDialog-title": "Izberite slike",
+		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsdv-imageSelectionDialog-allImagesString": "Vse slike",
+		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
+		"vsdv-printImagesDialog-title": "Natisnite slike",
+		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
+		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:"
+	}
+}
