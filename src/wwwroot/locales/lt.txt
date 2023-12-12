@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Atšaukti"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Gerai"
+			},
+			"cancelButton": {
+				"value": "Atšaukti"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Norėdami nuskaityti brūkšninį kodą, atlikite šiuos veiksmus:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Pasirinkite regioną paveikslėlyje naudodami pasirinkimo įrankį, jei regione reikia ieškoti brūkšninių kodų.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Spustelėkite mygtuką 'Brūkšninio kodo skaitytuvo nustatymai' ir nurodykite reikiamus nustatymus.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Spustelėkite mygtuką 'Skaityti brūkšninius kodus' ir šiame teksto laukelyje bus rodomi brūkšninio kodo atpažinimo rezultatai.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Vaizdų peržiūros priemonėje spustelėkite pažymėtą brūkšninį kodą ir pamatysite išplėstinę informaciją apie atpažintą brūkšninį kodą.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Brūkšninių kodų nerasta.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Turėtumėte pabandyti pakeisti brūkšninio kodo atpažinimo nustatymus, pavyzdžiui, sumažinti nuskaitymo intervalą, pridėti naują nuskaitymo kryptį ir pan., jei esate tikri, kad vaizde yra brūkšninis kodas.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Jei negalite atpažinti brūkšninio kodo, atsiųskite vaizdą su brūkšniniu kodu adresu support@vintasoft.com – mes padarysime viską, kad jums padėtume.",
+		"vsdv-barcodeWritingInformationText-start": "Norėdami rašyti brūkšninį kodą, atlikite šiuos veiksmus:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Spustelėkite mygtuką 'Brūkšninio kodo rašytuvo nustatymai' ir nurodykite reikiamus nustatymus.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Spustelėkite mygtuką 'Rašyti brūkšninį kodą' ir naujas brūkšninio kodo vaizdas bus pridėtas prie vaizdų peržiūros priemonės.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Atpažįstami brūkšniniai kodai:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Brūkšninių kodų skaitytuvo nustatymai",
 		"vsdv-dialog-okButton": "Gerai",
 		"vsdv-uploadFileButton-uploadFileString": "Įkelti failą",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
 		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
 		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
+		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL"
 	}
 }

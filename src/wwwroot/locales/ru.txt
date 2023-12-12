@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Отмена"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отмена"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Для считывания штрих-кода выполните следующие действия:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Выберите регион на изображении с помощью инструмента 'Прямоугольное выделение', если штрих-коды нужно искать в определенном регионе.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Нажмите кнопку 'Настройки распознавателя штрих-кодов' и укажите необходимые настройки.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Нажмите кнопку 'Распознать штрих-коды', и результаты распознавания штрих-кодов будут показаны в этом текстовом поле.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Кликните по выделенному штрих-коду в просмотрщике изображений, и вы увидите расширенную информацию о распознанном штрих-коде.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрих-коды не найдены.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вам следует попытаться изменить настройки распознавателя штрих-кодов, например уменьшить интервал сканирования, добавить новое направление сканирования и т. д., если вы уверены, что изображение содержит штрих-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Если вы не можете распознать штрих-код, отправьте изображение с штрих-кодом на адрес support@vintasoft.com — мы сделаем все возможное, чтобы вам помочь.",
+		"vsdv-barcodeWritingInformationText-start": "Для генерации штрих-кода выполните следующие действия:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Нажмите кнопку 'Настройки генератора штрих-кода' и укажите необходимые настройки.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Нажмите кнопку 'Сгенерировать штрих-код', и новое изображение штрих-кода будет добавлено в просмотрщик изображений.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Распознанные штрих-коды:",
+		"vsdv-barcodeReader-barcodeType": "Тип штрихкода: ",
+		"vsdv-barcodeReader-value": "Значение: ",
+		"vsdv-barcodeReader-baseValue": "Базовое значение: ",
+		"vsdv-barcodeReader-confidence": "Достоверность: ",
+		"vsdv-barcodeReader-readingQuality": "Качество чтения: ",
+		"vsdv-barcodeReader-threshold": "Порог: ",
+		"vsdv-barcodeReader-region": "Регион: ",
+		"vsdv-barcodeReader-angle": "Угол: ",
+		"vsdv-barcodeReader-narrowBarCount": "Количество уких полос: ",
+		"vsdv-barcodeReader-narrowBarSize": "Размер узкой полосы: ",
+		"vsdv-barcodeReader-matrixSize": "Размер матрицы: ",
+		"vsdv-barcodeReader-cellSize": "Размер ячейки: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Центр Bulleye: ",
+		"vsdv-barcodeReader-hexValue": "Шестнадцатеричное значение:",
+		"vsdv-barcodeReader-qualityTestInformation": "Информация теста качества: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки распознавателя штрих-кодов",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Пользовательский",
 		"vsdv-printImagesDialog-title": "Распечатать изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображение печатается",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с аннотациями",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
+		"vsdv-uploadImageFromUrlDialog-title": "Открыть изображение с URL"
 	}
 }

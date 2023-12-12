@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Скасувати"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "В порядку"
+			},
+			"cancelButton": {
+				"value": "Скасувати"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Щоб зчитати штрих-код, виконайте такі дії:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Виберіть регіон на зображенні за допомогою інструмента виділення, якщо в цьому регіоні потрібно шукати штрих-коди.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Натисніть кнопку 'Налаштування зчитувача штрих-кодів' і вкажіть необхідні параметри.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Натисніть кнопку 'Прочитати штрих-коди', і результати розпізнавання штрих-коду будуть показані в цьому текстовому полі.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Натисніть виділений штрих-код у програмі перегляду зображень, і ви побачите розширену інформацію про розпізнаний штрих-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрих-коди не знайдено.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Спробуйте змінити налаштування розпізнавання штрих-коду, наприклад, зменшити інтервал сканування, додати новий напрямок сканування тощо, якщо ви впевнені, що зображення містить штрих-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Будь ласка, надішліть зображення зі штрих-кодом на support@vintasoft.com, якщо ви не можете розпізнати штрих-код - ми зробимо все можливе, щоб допомогти вам.",
+		"vsdv-barcodeWritingInformationText-start": "Щоб написати штрих-код, виконайте такі дії:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Натисніть кнопку 'Параметри запису штрих-коду' та вкажіть необхідні параметри.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Натисніть кнопку 'Написати штрих-код', і нове зображення штрих-коду буде додано до засобу перегляду зображень.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Розпізнані штрих-коди:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Налаштування зчитувача штрих-кодів",
 		"vsdv-dialog-okButton": "В порядку",
 		"vsdv-uploadFileButton-uploadFileString": "Завантажити файл",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Custom",
 		"vsdv-printImagesDialog-title": "Друк зображень",
 		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL"
 	}
 }

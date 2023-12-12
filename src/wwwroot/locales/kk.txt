@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Болдырмау"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ЖАРАЙДЫ МА"
+			},
+			"cancelButton": {
+				"value": "Болдырмау"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Штрих-кодты оқу үшін келесі қадамдарды орындаңыз:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Аймақта штрих-кодтарды іздеу керек болса, таңдау құралы арқылы суреттегі аймақты таңдаңыз.",
+		"vsdv-barcodeReadingInformationText-step2": "2. 'Штрих-код оқу құралының параметрлері' түймесін басып, қажетті параметрлерді көрсетіңіз.",
+		"vsdv-barcodeReadingInformationText-step3": "3. 'Штрих-кодтарды оқу' түймесін басыңыз және штрих-кодты тану нәтижелері осы мәтін жолағында көрсетіледі.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Кескінді қарау құралында бөлектелген штрих-кодты басыңыз, сонда сіз танылған штрих-код туралы кеңейтілген ақпаратты көресіз.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрихкодтар табылмады.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Штрих-кодты тану параметрлерін өзгертуге тырысу керек, мысалы, сканерлеу аралығын азайту, жаңа сканерлеу бағытын қосу, т.б. суретте штрих-код бар екеніне сенімді болсаңыз.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Штрих-кодты тани алмасаңыз, штрих-кодпен суретті support@vintasoft.com мекенжайына жіберіңіз - біз сізге көмектесу үшін бар күшімізді саламыз.",
+		"vsdv-barcodeWritingInformationText-start": "Штрих-код жазу үшін келесі қадамдарды орындаңыз:",
+		"vsdv-barcodeWritingInformationText-step1": "1. 'Штрих-код жазу құралының параметрлері' түймесін басып, қажетті параметрлерді көрсетіңіз.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Штрих-кодты жазу' түймесін басыңыз, сонда суретті қарау құралына жаңа штрих-код кескіні қосылады.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Танылған штрих-кодтар:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код оқу құралының параметрлері",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз"
 	}
 }

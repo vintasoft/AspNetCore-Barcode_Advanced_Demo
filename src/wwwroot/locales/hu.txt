@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Mégse"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Rendben"
+			},
+			"cancelButton": {
+				"value": "Mégse"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Kérjük, kövesse a következő lépéseket a vonalkód olvasásához:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Válassza ki a képen a régiót a kijelölő eszközzel, ha vonalkódokat kell keresni a régióban.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Kattintson a 'Vonalkódolvasó beállításai' gombra, és adja meg a szükséges beállításokat.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Kattintson a 'Vonalkódok olvasása' gombra, és a vonalkód-felismerési eredmények megjelennek ebben a szövegmezőben.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Kattintson a kiemelt vonalkódra a képnézegetőben, és megjelenik egy kibővített információ a felismert vonalkódról.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nem található vonalkód.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Meg kell próbálnia módosítani a vonalkód felismerési beállításokat, például csökkenteni a szkennelési intervallumot, új szkennelési irányt adni stb., ha biztos abban, hogy a kép vonalkódot tartalmaz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Kérjük, küldje el a képet vonalkóddal a support@vintasoft.com címre, ha nem tudja felismerni a vonalkódot - mi mindent megteszünk, hogy segítsünk.",
+		"vsdv-barcodeWritingInformationText-start": "A vonalkód írásához kövesse az alábbi lépéseket:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Kattintson a 'Vonalkódíró beállításai' gombra, és adja meg a szükséges beállításokat.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Kattintson a 'Vonalkód írása' gombra, és az új vonalkód kép hozzáadódik a képnézegetőhöz.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Felismert vonalkódok:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Vonalkód olvasó beállításai",
 		"vsdv-dialog-okButton": "Rendben",
 		"vsdv-uploadFileButton-uploadFileString": "Fájl feltöltés",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
 		"vsdv-printImagesDialog-title": "Képek nyomtatása",
 		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
 		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről"
 	}
 }

@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "בטל"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "בסדר"
+			},
+			"cancelButton": {
+				"value": "בטל"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "אנא בצע את השלבים הבאים לקריאת ברקוד:",
+		"vsdv-barcodeReadingInformationText-step1": "1. בחר אזור בתמונה באמצעות כלי הבחירה אם יש לחפש ברקודים באזור.",
+		"vsdv-barcodeReadingInformationText-step2": "2. לחץ על הלחצן 'הגדרות קורא ברקוד' וציין את ההגדרות הדרושות.",
+		"vsdv-barcodeReadingInformationText-step3": "3. לחץ על הלחצן 'קרא ברקודים' ותוצאות זיהוי ברקוד יוצגו בתיבת טקסט זו.",
+		"vsdv-barcodeReadingInformationText-step4": "4. לחץ על ברקוד מודגש במציג התמונות ותראה מידע מורחב על ברקוד מוכר.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "לא נמצאו ברקודים.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "אתה צריך לנסות לשנות את הגדרות זיהוי הברקוד, למשל להקטין את מרווח הסריקה, להוסיף כיוון סריקה חדש וכו' אם אתה בטוח שהתמונה מכילה ברקוד.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "אנא שלח תמונה עם ברקוד אל support@vintasoft.com אם אינך יכול לזהות ברקוד - אנו נעשה כמיטב יכולתנו לעזור לך.",
+		"vsdv-barcodeWritingInformationText-start": "אנא בצע את השלבים הבאים לכתיבת ברקוד:",
+		"vsdv-barcodeWritingInformationText-step1": "1. לחץ על הלחצן 'הגדרות כותב ברקוד' וציין את ההגדרות הדרושות.",
+		"vsdv-barcodeWritingInformationText-step2": "2. לחץ על הלחצן 'כתוב ברקוד' ותמונת ברקוד חדשה תתווסף למציג התמונות.",
+		"vsdv-barcodeReader-recognizedBarcodes": "ברקודים מזוהים:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "הגדרות קורא ברקוד",
 		"vsdv-dialog-okButton": "בסדר",
 		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
 		"vsdv-printImagesDialog-title": "הדפס תמונות",
 		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
 		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
 		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL"
 	}
 }

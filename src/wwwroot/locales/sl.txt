@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Prekliči"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Prekliči"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Za branje črtne kode naredite naslednje:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Izberite regijo na sliki z orodjem za izbiro, če je treba v regiji iskati črtne kode.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Kliknite gumb 'Nastavitve bralnika črtne kode' in določite potrebne nastavitve.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Kliknite gumb 'Preberi črtne kode' in v tem besedilnem polju bodo prikazani rezultati prepoznavanja črtne kode.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Kliknite označeno črtno kodo v pregledovalniku slik in videli boste razširjene informacije o prepoznani črtni kodi.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ni črtne kode.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Če ste prepričani, da slika vsebuje črtno kodo, poskusite spremeniti nastavitve prepoznavanja črtne kode, na primer zmanjšati interval skeniranja, dodati novo smer skeniranja itd.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Če črtne kode ne prepoznate, pošljite sliko s črtno kodo na support@vintasoft.com - potrudili se bomo, da vam pomagamo.",
+		"vsdv-barcodeWritingInformationText-start": "Za pisanje črtne kode naredite naslednje:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Kliknite gumb 'Barcode Writer Settings' in določite potrebne nastavitve.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Kliknite gumb 'Napiši črtno kodo' in nova slika črtne kode bo dodana v pregledovalnik slik.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Prepoznane črtne kode:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Nastavitve bralnika črtne kode",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
 		"vsdv-printImagesDialog-title": "Natisnite slike",
 		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
+		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL"
 	}
 }

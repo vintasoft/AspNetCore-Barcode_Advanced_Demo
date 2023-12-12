@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Bekor qilish"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "KELISHDIKMI"
+			},
+			"cancelButton": {
+				"value": "Bekor qilish"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Shtrix-kodni o'qish uchun quyidagi amallarni bajaring:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Agar mintaqada shtrix-kodlarni qidirish kerak bo'lsa, tanlash vositasidan foydalanib, rasmdagi hududni tanlang.",
+		"vsdv-barcodeReadingInformationText-step2": "2. 'Shtrix-kodni o'qish moslamasi sozlamalari' tugmasini bosing va kerakli sozlamalarni belgilang.",
+		"vsdv-barcodeReadingInformationText-step3": "3. 'Shtrix-kodlarni o'qish' tugmasini bosing va shtrix-kodni aniqlash natijalari ushbu matn maydonida ko'rsatiladi.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Tasvirni ko'rish dasturida ajratilgan shtrix-kodni bosing va siz tan olingan shtrix-kod haqida kengaytirilgan ma'lumotni ko'rasiz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Hech qanday shtrix kod topilmadi.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Rasmda shtrix kod borligiga ishonchingiz komil bo'lsa, shtrix kodni aniqlash sozlamalarini o'zgartirishga harakat qilishingiz kerak, masalan, skanerlash oralig'ini kamaytirish, yangi skanerlash yo'nalishini qo'shish va hokazo.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Agar shtrix-kodni taniy olmasangiz, shtrixli rasmni support@vintasoft.com manziliga yuboring - biz sizga yordam berish uchun barcha imkoniyatlarni ishga solamiz.",
+		"vsdv-barcodeWritingInformationText-start": "Shtrix-kod yozish uchun quyidagi amallarni bajaring:",
+		"vsdv-barcodeWritingInformationText-step1": "1. 'Shtrix-kod yozuvchisi sozlamalari' tugmasini bosing va kerakli sozlamalarni belgilang.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Shtrix-kod yozish' tugmasini bosing va yangi shtrix-kod tasviri tasvirni ko'ruvchiga qo'shiladi.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Taniqli shtrix kodlar:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Shtrix-kodni o'quvchi sozlamalari",
 		"vsdv-dialog-okButton": "KELISHDIKMI",
 		"vsdv-uploadFileButton-uploadFileString": "Faylni yuklash",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
 		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
 		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
 		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang"
 	}
 }

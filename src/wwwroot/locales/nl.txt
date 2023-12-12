@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Annuleren"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuleren"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Voer de volgende stappen uit om de streepjescode te lezen:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Selecteer een regio op de afbeelding met behulp van het selectiehulpmiddel als er in de regio naar streepjescodes moet worden gezocht.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klik op de knop 'Instellingen streepjescodelezer' en geef de benodigde instellingen op.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klik op de knop 'Barcodes lezen'. De resultaten van de streepjescodeherkenning worden in dit tekstvak weergegeven.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klik op de gemarkeerde barcode in de afbeeldingsviewer en u ziet uitgebreide informatie over de herkende barcode.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Geen streepjescodes gevonden.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Probeer de instellingen voor streepjescodeherkenning te wijzigen, bijvoorbeeld het scaninterval te verkleinen, een nieuwe scanrichting toe te voegen, enzovoort, als u zeker weet dat de afbeelding een streepjescode bevat.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Stuur een afbeelding met streepjescode naar support@vintasoft.com als u de streepjescode niet herkent - wij zullen ons best doen om u te helpen.",
+		"vsdv-barcodeWritingInformationText-start": "Voer de volgende stappen uit voor het schrijven van een streepjescode:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klik op de knop 'Instellingen voor streepjescodeschrijver' en geef de benodigde instellingen op.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klik op de knop 'Schrijf streepjescode' en er wordt een nieuwe streepjescodeafbeelding toegevoegd aan de afbeeldingsviewer.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Herkende barcodes:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Instellingen streepjescodelezer",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Upload bestand",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Aangepast",
 		"vsdv-printImagesDialog-title": "Afbeeldingen afdrukken",
 		"vsdv-printImagesPanel-imagePrintingString": "Afbeelding wordt afgedrukt",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met annotaties",
 		"vsdv-imageViewerSettingsDialog-title": "Instellingen afbeeldingsviewer",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatuurweergave-instellingen",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Toon annotaties op miniaturen:",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload afbeelding vanaf URL"
 	}
 }

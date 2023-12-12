@@ -337,6 +337,71 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
+
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    uploadImageFromUrlDialog.render(floatingContainer);
+    tempDialogs.push(uploadImageFromUrlDialog);
+}
+
+
+/**
+ Creates localization for instructions.
+*/
+function __createInstructionsLocalization() {
+    var barcodeReadingInformationText_start = "Please do the following steps for reading barcode:";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-start", barcodeReadingInformationText_start);
+
+    var barcodeReadingInformationText_step1 = "1. Select region on image using the selection tool if barcodes must be searched in the region.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-step1", barcodeReadingInformationText_step1);
+    var barcodeReadingInformationText_step2 = "2. Click the 'Barcode Reader Settings' button and specify necessary settings.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-step2", barcodeReadingInformationText_step2);
+    var barcodeReadingInformationText_step3 = "3. Click the 'Read Barcodes' button and barcode recognition results will be shown in this text box.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-step3", barcodeReadingInformationText_step3);
+    var barcodeReadingInformationText_step4 = "4. Click on highlighted barcode in image viewer and you will see an extended information about recognized barcode.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-step4", barcodeReadingInformationText_step4);
+
+
+    var barcodeReadingNoBarcodesInformationText_str1 = "No barcodes found.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str1", barcodeReadingNoBarcodesInformationText_str1);
+    var barcodeReadingNoBarcodesInformationText_str2 = "You should try to change barcode recognition settings, for example decrease scan interval, add new scan direction, etc if you are sure that image contains a barcode.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str2", barcodeReadingNoBarcodesInformationText_str2);
+    var barcodeReadingNoBarcodesInformationText_str3 = "Please send image with barcode to support@vintasoft.com if you cannot recognize barcode - we will do the best to help you.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str3", barcodeReadingNoBarcodesInformationText_str3);
+
+
+    var barcodeWritingInformationText_start = "Please do the following steps for writing barcode:";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeWritingInformationText-start", barcodeWritingInformationText_start);
+
+    var barcodeWritingInformationText_step1 = "1. Click the 'Barcode Writer Settings' button and specify necessary settings.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeWritingInformationText-step1", barcodeWritingInformationText_step1);
+    var barcodeWritingInformationText_step2 = "2. Click the 'Write Barcode' button and new barcode image will be added to image viewer.";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeWritingInformationText-step2", barcodeWritingInformationText_step2);
+}
+
+/**
+ Creates about barcodes information localization.
+*/
+function __createAboutBarcodesInformationLocalization() {    
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-recognizedBarcodes", "Recognized barcodes: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-barcodeType", "Barcode Type: ");
+
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-value", "Value: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-baseValue", "Base value: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-confidence", "Confidence: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-readingQuality", "Reading Quality: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-threshold", "Threshold: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-region", "Region: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-angle", "Angle: ");
+
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-narrowBarCount", "Narrow Bar Count: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-narrowBarSize", "Narrow Bar Size: ");
+
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-matrixSize", "Matrix Size: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-cellSize", "Cell Size: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-bulleyeCenter", "Bulleye Center: ");
+
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-hexValue", "HEX Value: ");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-qualityTestInformation", "Quality Test Information: ");
 }
 
 /**
@@ -370,6 +435,9 @@ function __enableUiLocalization() {
  Main function.
 */
 function __main() {
+    __createInstructionsLocalization();
+    __createAboutBarcodesInformationLocalization()
+
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReaderSettingsDialog-title", "Barcode reader settings");
 
     // set the session identifier

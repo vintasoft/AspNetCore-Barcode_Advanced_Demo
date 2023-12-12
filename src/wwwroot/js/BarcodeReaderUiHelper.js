@@ -6,22 +6,16 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
     var _docViewer;
     var _barcodeReaderHelper;
     var _readBarcodesButton = null;
-    var _defaultBarcodeReadingInformationText = 'Please do the following steps for reading barcode:\n\n1. Select region on image using the selection tool if barcodes must be searched in the region.\n\n2. Click the "Barcode Reader Settings" button and specify necessary settings.\n\n3. Click the "Read Barcodes" button and barcode recognition results will be shown in this text box.\n\n4. Click on highlighted barcode in image viewer and you will see an extended information about recognized barcode.';
     var _recognizedInformationTextarea;
 
     var _barcodeReaderSettings = new Vintasoft.Barcode.WebBarcodeReaderSettingsJS();
     _barcodeReaderSettings.set_SearchQRModel1Barcodes(true);
-    // create the property grid with information about interactive field properties
-    var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(_barcodeReaderSettings);
-    // create the barcode reader settings dialog
-    var _barcodeReaderSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
-        propertyGrid,
-        {
-            title: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReaderSettingsDialog-title"),
-            cssClass: "vsui-dialog barcodeReaderSettings",
-            localizationId: "barcodeReaderSettingsDialog"
-        });
 
+    var _barcodeReaderSettingsDialog = null;
+
+    var _defaultBarcodeReadingInformationText = null;
+
+    
 
     /**
      Creates UI panel with barcode recognition functionality.
@@ -47,7 +41,7 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
 
         // create the text area, where information about recognized barcodes will be shown
         _recognizedInformationTextarea = new Vintasoft.Imaging.UI.UIElements.WebUiTextareaElementJS({
-            text: _defaultBarcodeReadingInformationText,
+            text: "",
             readonly: true,
             css: {
                 position: "relative", width: "100%", height: "calc(100% - 45px)", "border-top": "1px solid #dddddd",
@@ -84,6 +78,21 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
     }
 
     function __barcodeReaderSettingsButton_clicked(event, uiElement) {
+        // if dialog not created
+        if (_barcodeReaderSettingsDialog == null) {
+            // create the property grid with information about interactive field properties
+            var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(_barcodeReaderSettings);
+            // create the barcode reader settings dialog
+            _barcodeReaderSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+                propertyGrid,
+                {
+                    title: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReaderSettingsDialog-title"),
+                    cssClass: "vsui-dialog barcodeReaderSettings",
+                });
+
+            _docViewer.get_Items().addItem(_barcodeReaderSettingsDialog);
+        }
+
         // show the barcode reader settings dialog
         _barcodeReaderSettingsDialog.show();
     }
@@ -110,8 +119,6 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
         Vintasoft.Shared.subscribeToEvent(imageViewerControl, 'pointerdown', __onViewerDoubleClick);
         // specify that barcode recognition result must be shown when right mouse button is clicked over the recognized barcode in image viewer
         imageViewer.set_ContextMenuFunc(__onViewerDoubleClick);
-
-        _docViewer.get_Items().addItem(_barcodeReaderSettingsDialog);
     }
 
     function __images_changing() {
@@ -151,6 +158,10 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
             if (highLightTool != null)
                 // clear the previous barcode recognition results
                 highLightTool.clearItems();
+
+            if (_defaultBarcodeReadingInformationText == null) {
+                __createDefaultBarcodeReadingInformationText();
+            }
 
             _barcodeReaderHelper.writeBarcodeInformation(_defaultBarcodeReadingInformationText);
 
@@ -196,6 +207,15 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
     */
     function __showBarcodeResultDialog(barcodeInfo, barcodeQualityTestInfo) {
         new BarcodeRecognitionResultDialogJS(_barcodeReaderHelper, barcodeInfo, barcodeQualityTestInfo);
+    }
+
+    function __createDefaultBarcodeReadingInformationText() {
+        _defaultBarcodeReadingInformationText =
+            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingInformationText-start") + "\n\n" +
+            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingInformationText-step1") + "\n\n" +
+            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingInformationText-step2") + "\n\n" +
+            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingInformationText-step3") + "\n\n" +
+            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingInformationText-step4");
     }
 
 }

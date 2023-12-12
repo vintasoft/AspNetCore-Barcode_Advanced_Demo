@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Peruuta"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Peruuta"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Lue viivakoodi seuraavasti:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Valitse alue kuvasta valintatyökalulla, jos alueelta on etsittävä viivakoodeja.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Napsauta Viivakoodinlukijan asetukset -painiketta ja määritä tarvittavat asetukset.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Napsauta 'Lue viivakoodit' -painiketta, jolloin viivakoodin tunnistustulokset näkyvät tässä tekstiruudussa.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Napsauta korostettua viivakoodia kuvankatseluohjelmassa, niin näet laajennetun tiedon tunnistetusta viivakoodista.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Viivakoodeja ei löytynyt.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Sinun tulisi yrittää muuttaa viivakoodin tunnistusasetuksia, esimerkiksi lyhentää skannausväliä, lisätä uusi skannaussuunta jne., jos olet varma, että kuva sisältää viivakoodin.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Lähetä kuva viivakoodilla osoitteeseen support@vintasoft.com, jos et tunnista viivakoodia - autamme sinua parhaamme mukaan.",
+		"vsdv-barcodeWritingInformationText-start": "Kirjoita viivakoodi seuraavasti:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Napsauta 'Barcode Writer Settings' -painiketta ja määritä tarvittavat asetukset.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Napsauta Kirjoita viivakoodi -painiketta, niin uusi viivakoodikuva lisätään kuvan katseluohjelmaan.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Tunnistetut viivakoodit:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Viivakoodinlukijan asetukset",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
 		"vsdv-printImagesDialog-title": "Tulosta kuvat",
 		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
 		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta"
 	}
 }

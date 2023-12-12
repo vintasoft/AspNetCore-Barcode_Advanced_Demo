@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Avbryt"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Avbryt"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Gör följande för att läsa streckkoder:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Välj region på bild med hjälp av markeringsverktyget om streckkoder måste sökas i regionen.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klicka på knappen 'Inställningar för streckkodsläsare' och ange nödvändiga inställningar.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klicka på knappen 'Läs streckkoder' så visas resultat för streckkodsigenkänning i den här textrutan.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klicka på markerad streckkod i bildvisaren så kommer du att se en utökad information om igenkänd streckkod.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Inga streckkoder hittades.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Du bör försöka ändra inställningar för streckkodsigenkänning, till exempel minska skanningsintervall, lägga till ny skanningsriktning, etc om du är säker på att bilden innehåller en streckkod.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Skicka bild med streckkod till support@vintasoft.com om du inte kan känna igen streckkoden - vi kommer att göra vårt bästa för att hjälpa dig.",
+		"vsdv-barcodeWritingInformationText-start": "Gör följande för att skriva streckkoder:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klicka på knappen 'Inställningar för streckkodsskrivare' och ange nödvändiga inställningar.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klicka på knappen 'Skriv streckkod' så läggs en ny streckkodsbild till i bildvisaren.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Igenkända streckkoder:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Inställningar för streckkodsläsare",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Ladda upp fil",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Anpassad",
 		"vsdv-printImagesDialog-title": "Skriv ut bilder",
 		"vsdv-printImagesPanel-imagePrintingString": "Bilden skrivs ut",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med kommentarer",
 		"vsdv-imageViewerSettingsDialog-title": "Inställningar för bildvisning",
 		"vsdv-thumbnailViewerSettingDialog-title": "Inställningar för miniatyrvisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visa kommentarer på miniatyrer:",
+		"vsdv-uploadImageFromUrlDialog-title": "Ladda upp bild från URL"
 	}
 }

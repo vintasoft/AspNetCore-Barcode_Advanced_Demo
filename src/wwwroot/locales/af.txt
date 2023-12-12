@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Kanselleer"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Kanselleer"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Doen asseblief die volgende stappe om strepieskode te lees:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Kies streek op prent met die seleksie-instrument as strepieskodes in die streek gesoek moet word.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klik die 'Barcode Reader Settings'-knoppie en spesifiseer die nodige instellings.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klik die 'Lees strepieskodes'-knoppie en strepieskode-herkenningsresultate sal in hierdie tekskassie gewys word.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klik op gemerkte strepieskode in beeldkyker en jy sal 'n uitgebreide inligting oor herkende strepieskode sien.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Geen strepieskodes gevind nie.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Jy moet probeer om strepieskodeherkenningsinstellings te verander, byvoorbeeld om skanderingsinterval te verminder, nuwe skanderingsrigting by te voeg, ens. as jy seker is dat daardie prent 'n strepieskode bevat.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Stuur asseblief prent met strepieskode na support@vintasoft.com as jy nie strepieskode kan herken nie - ons sal die beste doen om jou te help.",
+		"vsdv-barcodeWritingInformationText-start": "Doen asseblief die volgende stappe om strepieskode te skryf:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klik die 'Barcode Writer Settings'-knoppie en spesifiseer die nodige instellings.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klik op die 'Skryf strepieskode'-knoppie en nuwe strepieskodeprent sal by beeldkyker gevoeg word.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Herkende strepieskodes:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Streepkodeleserinstellings",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Gepasmaak",
 		"vsdv-printImagesDialog-title": "Druk prente",
 		"vsdv-printImagesPanel-imagePrintingString": "Prent word druk",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "met aantekeninge",
 		"vsdv-imageViewerSettingsDialog-title": "Beeldkyker-instellings",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kleinkiekie-kyker-instellings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vertoon aantekeninge op duimnaels:",
+		"vsdv-uploadImageFromUrlDialog-title": "Laai prent op vanaf URL"
 	}
 }

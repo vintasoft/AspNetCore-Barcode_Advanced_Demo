@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "İptal"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Tamam"
+			},
+			"cancelButton": {
+				"value": "İptal"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Barkodu okumak için lütfen aşağıdaki adımları uygulayın:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Bölgede barkodların aranması gerekiyorsa seçim aracını kullanarak resimdeki bölgeyi seçin.",
+		"vsdv-barcodeReadingInformationText-step2": "2. 'Barkod Okuyucu Ayarları' butonuna tıklayın ve gerekli ayarları belirtin.",
+		"vsdv-barcodeReadingInformationText-step3": "3. 'Barkodları Oku' düğmesine tıklayın; barkod tanıma sonuçları bu metin kutusunda gösterilecektir.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Resim görüntüleyicide vurgulanan barkoda tıklayın; tanınan barkod hakkında genişletilmiş bilgi göreceksiniz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Barkod bulunamadı.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Görüntünün barkod içerdiğinden eminseniz, barkod tanıma ayarlarını değiştirmeyi denemelisiniz; örneğin tarama aralığını azaltın, yeni tarama yönü ekleyin vb.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Barkodu tanıyamıyorsanız lütfen barkodlu resmi support@vintasoft.com adresine gönderin; size yardımcı olmak için elimizden geleni yapacağız.",
+		"vsdv-barcodeWritingInformationText-start": "Barkod yazmak için lütfen aşağıdaki adımları uygulayın:",
+		"vsdv-barcodeWritingInformationText-step1": "1. 'Barkod Yazıcı Ayarları' butonuna tıklayın ve gerekli ayarları belirtin.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Barkod Yaz' düğmesine tıklayın; resim görüntüleyiciye yeni barkod resmi eklenecektir.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Tanınan barkodlar:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Barkod okuyucu ayarları",
 		"vsdv-dialog-okButton": "Tamam",
 		"vsdv-uploadFileButton-uploadFileString": "Dosya yükleme",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Özel",
 		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
 		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
 		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
 		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle"
 	}
 }

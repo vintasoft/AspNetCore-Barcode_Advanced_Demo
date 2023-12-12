@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Отказ"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ОК"
+			},
+			"cancelButton": {
+				"value": "Отказ"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Моля, изпълнете следните стъпки за четене на баркод:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Изберете регион на изображението с помощта на инструмента за избор, ако трябва да се търсят баркодове в региона.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Щракнете върху бутона 'Настройки на четеца на баркодове' и задайте необходимите настройки.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Щракнете върху бутона 'Четене на баркодове' и резултатите от разпознаването на баркод ще бъдат показани в това текстово поле.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Щракнете върху маркирания баркод в програмата за преглед на изображения и ще видите разширена информация за разпознатия баркод.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Няма намерени баркодове.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Трябва да опитате да промените настройките за разпознаване на баркод, например да намалите интервала на сканиране, да добавите нова посока на сканиране и т.н., ако сте сигурни, че изображението съдържа баркод.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Моля, изпратете изображение с баркод на support@vintasoft.com, ако не можете да разпознаете баркода - ние ще направим всичко възможно, за да ви помогнем.",
+		"vsdv-barcodeWritingInformationText-start": "Моля, изпълнете следните стъпки за писане на баркод:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Щракнете върху бутона 'Настройки на запис на баркод' и задайте необходимите настройки.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Щракнете върху бутона 'Напиши баркод' и ново изображение на баркод ще бъде добавено към програмата за преглед на изображения.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Разпознати баркодове:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки на четеца на баркодове",
 		"vsdv-dialog-okButton": "ОК",
 		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "По избор",
 		"vsdv-printImagesDialog-title": "Печат на изображения",
 		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "с анотации",
 		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
+		"vsdv-uploadImageFromUrlDialog-title": "Качете изображение от URL"
 	}
 }

@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Khansela"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "KULUNGILE"
+			},
+			"cancelButton": {
+				"value": "Khansela"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Sicela wenze lezi zinyathelo ezilandelayo zokufunda ibhakhodi:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Khetha isifunda esithombeni usebenzisa ithuluzi lokukhetha uma amabhakhodi kufanele aseshwe esifundeni.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Chofoza inkinobho ethi 'Izilungiselelo Zokufunda Ibhakhodi' futhi ucacise izilungiselelo ezidingekayo.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Chofoza inkinobho ethi 'Funda Amabhakhodi' futhi imiphumela yokuqaphela ibhakhodi izoboniswa kuleli bhokisi lombhalo.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Chofoza ibhakhodi egqanyisiwe kusibuki sesithombe futhi uzobona ulwazi olunwetshiwe mayelana nebhakhodi eyaziwayo.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Awekho amabhakhodi atholiwe.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Kufanele uzame ukushintsha izilungiselelo zokubonwa kwebhakhodi, isibonelo nciphisa isikhawu sokuskena, wengeze indlela entsha yokuskena, njll uma uqinisekile ukuthi leso sithombe siqukethe ibhakhodi.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Sicela uthumele isithombe esinebhakhodi ku-support@vintasoft.com uma ungakwazi ukubona ibhakhodi - sizokwenza konke okusemandleni ukukusiza.",
+		"vsdv-barcodeWritingInformationText-start": "Sicela wenze lezi zinyathelo ezilandelayo zokubhala ibhakhodi:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Chofoza inkinobho ethi 'Izilungiselelo Zombhali Webhakhodi' futhi ucacise izilungiselelo ezidingekayo.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Chofoza inkinobho ethi 'Bhala Ibhakhodi' futhi isithombe esisha sebhakhodi sizokwengezwa kusibukeli sesithombe.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Amabhakhodi aziwayo:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Izilungiselelo zokufunda ibhakhodi",
 		"vsdv-dialog-okButton": "KULUNGILE",
 		"vsdv-uploadFileButton-uploadFileString": "Layisha ifayela",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
 		"vsdv-printImagesDialog-title": "Phrinta izithombe",
 		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
 		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
 		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL"
 	}
 }

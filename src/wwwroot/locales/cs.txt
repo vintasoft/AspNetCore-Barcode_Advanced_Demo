@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Zrušit"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Zrušit"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Pro načtení čárového kódu proveďte prosím následující kroky:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Vyberte oblast na obrázku pomocí nástroje pro výběr, pokud je třeba v oblasti vyhledávat čárové kódy.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klepněte na tlačítko 'Nastavení čtečky čárových kódů' a zadejte potřebná nastavení.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klikněte na tlačítko 'Číst čárové kódy' a v tomto textovém poli se zobrazí výsledky rozpoznání čárových kódů.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klikněte na zvýrazněný čárový kód v prohlížeči obrázků a zobrazí se rozšířené informace o rozpoznaném čárovém kódu.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nebyly nalezeny žádné čárové kódy.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Měli byste zkusit změnit nastavení rozpoznávání čárových kódů, například snížit interval skenování, přidat nový směr skenování atd., pokud jste si jisti, že obrázek obsahuje čárový kód.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Pokud nemůžete rozpoznat čárový kód, pošlete prosím obrázek s čárovým kódem na adresu support@vintasoft.com - uděláme, co bude nejlepší, abychom vám pomohli.",
+		"vsdv-barcodeWritingInformationText-start": "Pro zápis čárového kódu proveďte následující kroky:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klepněte na tlačítko 'Barcode Writer Settings' a zadejte potřebná nastavení.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klikněte na tlačítko 'Write Barcode' (Zapsat čárový kód) a nový obrázek čárového kódu bude přidán do prohlížeče obrázků.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Rozpoznané čárové kódy:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Nastavení čtečky čárových kódů",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Nahrát soubor",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Vlastní",
 		"vsdv-printImagesDialog-title": "Tisk obrázků",
 		"vsdv-printImagesPanel-imagePrintingString": "Obrázek se tiskne",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "s poznámkami",
 		"vsdv-imageViewerSettingsDialog-title": "Nastavení prohlížeče obrázků",
 		"vsdv-thumbnailViewerSettingDialog-title": "Nastavení prohlížeče miniatur",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobrazení poznámek na miniaturách:",
+		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázek z adresy URL"
 	}
 }

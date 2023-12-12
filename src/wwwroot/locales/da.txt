@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Annuller"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Annuller"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Udfør venligst følgende trin for at læse stregkoden:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Vælg område på billede ved hjælp af markeringsværktøjet, hvis stregkoder skal søges i området.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klik på knappen 'Stregkodelæserindstillinger' og angiv de nødvendige indstillinger.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klik på knappen 'Læs stregkoder', og resultaterne af stregkodegenkendelse vises i denne tekstboks.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klik på fremhævet stregkode i billedfremviseren, og du vil se en udvidet information om genkendt stregkode.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ingen stregkoder fundet.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Du bør prøve at ændre indstillinger for stregkodegenkendelse, for eksempel reducere scanningsintervallet, tilføje ny scanningsretning osv., hvis du er sikker på, at billedet indeholder en stregkode.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Send venligst billede med stregkode til support@vintasoft.com, hvis du ikke kan genkende stregkoden - vi vil gøre det bedste for at hjælpe dig.",
+		"vsdv-barcodeWritingInformationText-start": "Udfør venligst følgende trin for at skrive stregkode:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klik på knappen 'Stregkodeskriverindstillinger' og angiv de nødvendige indstillinger.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klik på knappen 'Skriv stregkode', og et nyt stregkodebillede vil blive tilføjet til billedfremviseren.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Genkendte stregkoder:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Indstillinger for stregkodelæser",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Upload fil",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Brugerdefineret",
 		"vsdv-printImagesDialog-title": "Udskriv billeder",
 		"vsdv-printImagesPanel-imagePrintingString": "Billedet udskrives",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "med anmærkninger",
 		"vsdv-imageViewerSettingsDialog-title": "Indstillinger for billedfremviser",
 		"vsdv-thumbnailViewerSettingDialog-title": "Indstillinger for miniaturefremviser",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis annoteringer på miniaturebilleder:",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload billede fra URL"
 	}
 }

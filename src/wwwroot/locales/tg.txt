@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Бекор кардан"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ДУРУСТ"
+			},
+			"cancelButton": {
+				"value": "Бекор кардан"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Лутфан барои хондани штрих-код қадамҳои зеринро иҷро кунед:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Минтақаро дар тасвир бо истифода аз асбоби интихоб интихоб кунед, агар штрих-кодҳо дар минтақа ҷустуҷӯ карда шаванд.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Тугмаи 'Танзимоти штрих-код хонанда' -ро клик кунед ва танзимоти заруриро муайян кунед.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Тугмаи 'Хондани штрих-кодҳо' -ро клик кунед ва натиҷаҳои шинохти штрих-код дар ин қуттии матнӣ нишон дода мешаванд.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Дар намоишгари тасвир штрих-коди таъкидшударо клик кунед ва шумо маълумоти васеъро дар бораи штрих-коди эътирофшуда хоҳед дид.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ягон штрих-код ёфт нашуд.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Шумо бояд кӯшиш кунед, ки танзимоти шинохти штрих-кодро тағир диҳед, масалан, кам кардани фосилаи скан, илова кардани самти нави скан ва ғайра, агар шумо боварӣ дошта бошед, ки тасвир дорои штрих-код мебошад.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Лутфан тасвирро бо штрих-код ба суроғаи support@vintasoft.com фиристед, агар шумо штрих-кодро эътироф карда натавонед - мо тамоми кӯшишро ба харҷ медиҳем, то ба шумо кумак кунем.",
+		"vsdv-barcodeWritingInformationText-start": "Лутфан барои навиштани штрих-код қадамҳои зеринро иҷро кунед:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Тугмаи 'Танзимоти штрих-код нависанда' -ро клик кунед ва танзимоти заруриро муайян кунед.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Тугмаи 'Штрих-кодро нависед' -ро клик кунед ва тасвири нави штрих-код ба намоишгари тасвир илова карда мешавад.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Штрих-кодҳои эътирофшуда:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Танзимоти хонандаи штрих-код",
 		"vsdv-dialog-okButton": "ДУРУСТ",
 		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед"
 	}
 }

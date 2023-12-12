@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Ləğv et"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "tamam"
+			},
+			"cancelButton": {
+				"value": "Ləğv et"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Ştrix kodu oxumaq üçün aşağıdakı addımları yerinə yetirin:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Bölgədə ştrixkodlar axtarılmalıdırsa, seçim alətindən istifadə edərək şəkildəki bölgəni seçin.",
+		"vsdv-barcodeReadingInformationText-step2": "2. 'Barkod oxuyucu parametrləri' düyməsini klikləyin və lazımi parametrləri təyin edin.",
+		"vsdv-barcodeReadingInformationText-step3": "3. 'Ştrixkodları oxuyun' düyməsini klikləyin və barkodun tanınması nəticələri bu mətn qutusunda göstəriləcək.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Şəkil görüntüləyicisində vurğulanmış barkoda klikləyin və siz tanınmış barkod haqqında geniş məlumat görəcəksiniz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Heç bir barkod tapılmadı.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ştrix kodun tanınması parametrlərini dəyişməyə cəhd etməlisiniz, məsələn, skan intervalını azaltmaq, yeni skan istiqaməti əlavə etmək və s.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Lütfən, barkodu tanıya bilmirsinizsə support@vintasoft.com ünvanına barkodlu şəkli göndərin - biz sizə kömək etmək üçün əlimizdən gələni edəcəyik.",
+		"vsdv-barcodeWritingInformationText-start": "Barkod yazmaq üçün aşağıdakı addımları yerinə yetirin:",
+		"vsdv-barcodeWritingInformationText-step1": "1. 'Barcode Writer Settings' düyməsini klikləyin və lazımi parametrləri təyin edin.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Ştrix-kod yaz' düyməsinə klikləyin və yeni barkod şəkli şəkil görüntüləyicisinə əlavə olunacaq.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Tanınmış barkodlar:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Barkod oxuyucu parametrləri",
 		"vsdv-dialog-okButton": "tamam",
 		"vsdv-uploadFileButton-uploadFileString": "Fayl yükləyin",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
 		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
 		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
 		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin"
 	}
 }

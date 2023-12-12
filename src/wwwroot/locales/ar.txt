@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "إلغاء"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "موافق"
+			},
+			"cancelButton": {
+				"value": "إلغاء"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "يرجى القيام بالخطوات التالية لقراءة الباركود:",
+		"vsdv-barcodeReadingInformationText-step1": "1. حدد المنطقة الموجودة على الصورة باستخدام أداة التحديد إذا كان يجب البحث عن الرموز الشريطية في المنطقة.",
+		"vsdv-barcodeReadingInformationText-step2": "2. انقر فوق الزر 'إعدادات قارئ الباركود' وحدد الإعدادات الضرورية.",
+		"vsdv-barcodeReadingInformationText-step3": "3. انقر فوق الزر 'قراءة الرموز الشريطية' وستظهر نتائج التعرف على الرمز الشريطي في مربع النص هذا.",
+		"vsdv-barcodeReadingInformationText-step4": "4. انقر فوق الرمز الشريطي المميز في عارض الصور وسترى معلومات موسعة حول الرمز الشريطي الذي تم التعرف عليه.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "لم يتم العثور على رموز شريطية.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "يجب أن تحاول تغيير إعدادات التعرف على الرمز الشريطي، على سبيل المثال تقليل الفاصل الزمني للمسح، وإضافة اتجاه مسح جديد، وما إلى ذلك إذا كنت متأكدًا من أن الصورة تحتوي على رمز شريطي.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "يرجى إرسال الصورة مع الرمز الشريطي إلى support@vintasoft.com إذا لم تتمكن من التعرف على الرمز الشريطي - فسنبذل قصارى جهدنا لمساعدتك.",
+		"vsdv-barcodeWritingInformationText-start": "يرجى القيام بالخطوات التالية لكتابة الباركود:",
+		"vsdv-barcodeWritingInformationText-step1": "1. انقر فوق الزر 'إعدادات كاتب الباركود' وحدد الإعدادات الضرورية.",
+		"vsdv-barcodeWritingInformationText-step2": "2. انقر فوق الزر 'كتابة باركود' وستتم إضافة صورة باركود جديدة إلى عارض الصور.",
+		"vsdv-barcodeReader-recognizedBarcodes": "الباركود المعترف به:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "إعدادات قارئ الباركود",
 		"vsdv-dialog-okButton": "موافق",
 		"vsdv-uploadFileButton-uploadFileString": "رفع ملف",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
 		"vsdv-printImagesDialog-title": "طباعة الصور",
 		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
 		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
 		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL"
 	}
 }

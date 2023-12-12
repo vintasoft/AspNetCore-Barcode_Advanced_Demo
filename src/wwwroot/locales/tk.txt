@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Elatyr"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Bolýar"
+			},
+			"cancelButton": {
+				"value": "Elatyr"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Ştrih-kod okamak üçin aşakdaky ädimleri ýerine ýetirmegiňizi haýyş edýäris:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Sebitde ştrih-kodlar gözlenmeli bolsa, saýlama guralyny ulanyp, suratdaky sebiti saýlaň.",
+		"vsdv-barcodeReadingInformationText-step2": "2. 'Ştrih-kod okaýjy sazlamalary' düwmesine basyň we zerur sazlamalary görkeziň.",
+		"vsdv-barcodeReadingInformationText-step3": "3. 'Ştrih-kodlary oka' düwmesine basyň we ştrih-kod tanamak netijeleri bu tekst gutusynda görkeziler.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Surat görkezijisinde görkezilen ştrih-kody basyň we ykrar edilen ştrih-kod hakda giňişleýin maglumatlary görersiňiz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ştrih-kod tapylmady",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ştrih-kod tanamak sazlamalaryny üýtgetmäge synanyşmaly, mysal üçin skaner aralygyny azaltmak, täze skaner ugruny goşmak we ş.m. şekilde ştrih-koduň bardygyna ynanýan bolsaňyz.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Ştrih-kod bilen tanşyp bilmeýän bolsaňyz, ştrih-kodly suraty support@vintasoft.com adresine iberiň - size kömek etmek üçin elimizden gelenini ederis.",
+		"vsdv-barcodeWritingInformationText-start": "Ştrih-kod ýazmak üçin aşakdaky ädimleri etmegiňizi haýyş edýäris:",
+		"vsdv-barcodeWritingInformationText-step1": "1. 'Ştrih-kod ýazyjy sazlamalary' düwmesine basyň we zerur sazlamalary görkeziň.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Ştrih-kod ýazmak' düwmesine basyň we şekil görkezijisine täze ştrih-kod goşular.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Ykrar edilen ştrih-kodlar:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Ştrih-kod okaýjy sazlamalary",
 		"vsdv-dialog-okButton": "Bolýar",
 		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň"
 	}
 }

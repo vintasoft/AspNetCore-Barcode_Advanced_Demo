@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Ακύρωση"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "ΟΚ"
+			},
+			"cancelButton": {
+				"value": "Ακύρωση"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Ακολουθήστε τα παρακάτω βήματα για την ανάγνωση του γραμμωτού κώδικα:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Επιλέξτε περιοχή στην εικόνα χρησιμοποιώντας το εργαλείο επιλογής εάν πρέπει να αναζητηθούν γραμμικοί κώδικες στην περιοχή.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Κάντε κλικ στο κουμπί 'Ρυθμίσεις ανάγνωσης γραμμικού κώδικα' και καθορίστε τις απαραίτητες ρυθμίσεις.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Κάντε κλικ στο κουμπί 'Read Barcodes' και τα αποτελέσματα αναγνώρισης γραμμωτού κώδικα θα εμφανιστούν σε αυτό το πλαίσιο κειμένου.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Κάντε κλικ στον επισημασμένο γραμμωτό κώδικα στο πρόγραμμα προβολής εικόνων και θα δείτε εκτεταμένες πληροφορίες σχετικά με τον αναγνωρισμένο γραμμωτό κώδικα.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Δεν βρέθηκαν γραμμικοί κώδικες.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Θα πρέπει να προσπαθήσετε να αλλάξετε τις ρυθμίσεις αναγνώρισης γραμμικού κώδικα, για παράδειγμα να μειώσετε το διάστημα σάρωσης, να προσθέσετε νέα κατεύθυνση σάρωσης, κ.λπ. εάν είστε βέβαιοι ότι η εικόνα περιέχει γραμμωτό κώδικα.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Στείλτε εικόνα με γραμμωτό κώδικα στη διεύθυνση support@vintasoft.com εάν δεν μπορείτε να αναγνωρίσετε τον γραμμωτό κώδικα - θα κάνουμε ό,τι καλύτερο για να σας βοηθήσουμε.",
+		"vsdv-barcodeWritingInformationText-start": "Ακολουθήστε τα παρακάτω βήματα για να γράψετε γραμμωτό κώδικα:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Κάντε κλικ στο κουμπί 'Ρυθμίσεις εγγραφής γραμμωτού κώδικα' και καθορίστε τις απαραίτητες ρυθμίσεις.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Κάντε κλικ στο κουμπί 'Εγγραφή γραμμικού κώδικα' και νέα εικόνα γραμμικού κώδικα θα προστεθεί στο πρόγραμμα προβολής εικόνων.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Αναγνωρισμένοι γραμμικοί κώδικες:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Ρυθμίσεις ανάγνωσης γραμμωτού κώδικα",
 		"vsdv-dialog-okButton": "ΟΚ",
 		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Προσαρμοσμένο",
 		"vsdv-printImagesDialog-title": "Εκτύπωση εικόνων",
 		"vsdv-printImagesPanel-imagePrintingString": "Η εικόνα εκτυπώνεται",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "με σχολιασμούς",
 		"vsdv-imageViewerSettingsDialog-title": "Ρυθμίσεις προβολής εικόνων",
 		"vsdv-thumbnailViewerSettingDialog-title": "Ρυθμίσεις προβολής μικρογραφιών",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Εμφάνιση σχολιασμών σε μικρογραφίες:",
+		"vsdv-uploadImageFromUrlDialog-title": "Μεταφόρτωση εικόνας από τη διεύθυνση URL"
 	}
 }

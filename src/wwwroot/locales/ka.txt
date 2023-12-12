@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "გაუქმება"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "კარგი"
+			},
+			"cancelButton": {
+				"value": "გაუქმება"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "გთხოვთ, შეასრულოთ შემდეგი ნაბიჯები შტრიხკოდის წასაკითხად:",
+		"vsdv-barcodeReadingInformationText-step1": "1. აირჩიეთ რეგიონი სურათზე შერჩევის ხელსაწყოს გამოყენებით, თუ რეგიონში უნდა მოძებნოთ შტრიხკოდები.",
+		"vsdv-barcodeReadingInformationText-step2": "2. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის წამკითხველის პარამეტრები' და მიუთითეთ საჭირო პარამეტრები.",
+		"vsdv-barcodeReadingInformationText-step3": "3. დააწკაპუნეთ ღილაკზე 'შტრიხკოდების წაკითხვა' და შტრიხკოდების ამოცნობის შედეგები გამოჩნდება ამ ტექსტურ ველში.",
+		"vsdv-barcodeReadingInformationText-step4": "4. დააწკაპუნეთ ხაზგასმული შტრიხკოდზე გამოსახულების მაყურებელში და დაინახავთ გაფართოებულ ინფორმაციას აღიარებული შტრიხკოდის შესახებ.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "შტრიხკოდები ვერ მოიძებნა.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "თქვენ უნდა შეეცადოთ შეცვალოთ შტრიხკოდის ამოცნობის პარამეტრები, მაგალითად, შეამციროთ სკანირების ინტერვალი, დაამატოთ სკანირების ახალი მიმართულება და ა.შ. თუ დარწმუნებული ხართ, რომ სურათი შეიცავს შტრიხ კოდს.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "გთხოვთ, გამოაგზავნოთ სურათი შტრიხკოდით მისამართზე support@vintasoft.com, თუ ვერ ცნობთ შტრიხკოდს - ჩვენ ყველაფერს გავაკეთებთ, რომ დაგეხმაროთ.",
+		"vsdv-barcodeWritingInformationText-start": "გთხოვთ, შეასრულოთ შემდეგი ნაბიჯები შტრიხკოდის დასაწერად:",
+		"vsdv-barcodeWritingInformationText-step1": "1. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის დამწერის პარამეტრები' და მიუთითეთ საჭირო პარამეტრები.",
+		"vsdv-barcodeWritingInformationText-step2": "2. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის ჩაწერა' და ახალი შტრიხკოდის სურათი დაემატება სურათების მაყურებელს.",
+		"vsdv-barcodeReader-recognizedBarcodes": "აღიარებული შტრიხკოდები:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "შტრიხკოდების წამკითხველის პარამეტრები",
 		"vsdv-dialog-okButton": "კარგი",
 		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
+		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან"
 	}
 }

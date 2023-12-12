@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Ghairi"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "sawa"
+			},
+			"cancelButton": {
+				"value": "Ghairi"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Tafadhali fanya hatua zifuatazo kusoma msimbo pau:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Chagua eneo kwenye picha kwa kutumia zana ya uteuzi ikiwa misimbopau lazima itafutwe katika eneo hilo.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Bofya kitufe cha 'Mipangilio ya Kisoma Msimbo' na ubainishe mipangilio muhimu.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Bofya kitufe cha 'Soma Misimbo pau' na matokeo ya utambuzi wa misimbopau yataonyeshwa katika kisanduku hiki cha maandishi.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Bofya msimbopau iliyoangaziwa katika kitazamaji picha na utaona maelezo marefu kuhusu msimbopau unaotambulika.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Hakuna misimbo pau iliyopatikana.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Unapaswa kujaribu kubadilisha mipangilio ya utambuzi wa msimbopau, kwa mfano kupunguza muda wa kuchanganua, kuongeza mwelekeo mpya wa kutambaza, n.k ikiwa una uhakika kuwa picha hiyo ina msimbopau.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Tafadhali tuma picha iliyo na msimbopau kwa support@vintasoft.com ikiwa huwezi kutambua msimbopau - tutafanya vyema zaidi kukusaidia.",
+		"vsdv-barcodeWritingInformationText-start": "Tafadhali fanya hatua zifuatazo za kuandika msimbo pau:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Bofya kitufe cha 'Mipangilio ya Mwandishi wa Barcode' na ubainishe mipangilio muhimu.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Bofya kitufe cha 'Andika Msimbo Pau' na picha mpya ya msimbopau itaongezwa kwa kitazamaji picha.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Misimbopau inayotambulika:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Mipangilio ya kisoma msimbopau",
 		"vsdv-dialog-okButton": "sawa",
 		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
 		"vsdv-printImagesDialog-title": "Chapisha picha",
 		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
 		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
 		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL"
 	}
 }

@@ -227,13 +227,19 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
     function __getTextInformationAboutBarcodes(barcodeInfoArray) {
         var information = "";
         if (barcodeInfoArray.length == 0) {
+            // get localized strings
+            var str1 = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str1");
+            var str2 = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str2");
+            var str3 = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str3");
+
             // show a message with the barcode recognition result
-            information += 'No barcodes found.\n\n You should try to change barcode recognition settings, for example decrease scan interval, add new scan direction, etc if you are sure that image contains a barcode.\n\n Please send image with barcode to support@vintasoft.com if you cannot recognize barcode - we will do the best to help you.';
+            information += str1 + '\n\n'+ str2 + '\n\n' + str3;
         }
         // else
         else {
+            var recognizedBarcodesText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-recognizedBarcodes");
             // show the count of recognized barcodes
-            information += 'Recognized barcodes: ' + barcodeInfoArray.length + '.\n\n';
+            information += recognizedBarcodesText + barcodeInfoArray.length + '.\n\n';
             // for each recognized barcode
             for (var i = 0; i < barcodeInfoArray.length; i++) {
                 var barcodeInfo = barcodeInfoArray[i];
@@ -255,18 +261,26 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
                     barcodeValue = barcodeInfo.value;
                 }
 
+
+                var valueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-value");
+                var confidenceText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-confidence");
+                var readingQualityText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-readingQuality");
+                var thresholdText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-threshold");
+                var regionText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-region");
+                var angleText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-angle");
+                
                 // create a string with information about barcode
                 information += '[' + (i + 1) + ':' + barcodeInfo.barcodeType + ']\n' +
-                    'Value: ' + barcodeValue + '\n' +
-                    'Confidence: ' + barcodeInfo.confidence + '\n' +
-                    'ReadingQuality: ' + barcodeInfo.readingQuality.toFixed(2) + '\n' +
-                    'Threshold: ' + barcodeInfo.threshold + '\n' +
-                    'Region: ' +
+                    valueText + barcodeValue + '\n' +
+                    confidenceText + barcodeInfo.confidence + '\n' +
+                    readingQualityText + barcodeInfo.readingQuality.toFixed(2) + '\n' +
+                    thresholdText + barcodeInfo.threshold + '\n' +
+                    regionText +
                     'LT=(' + barcodeInfo.region.leftTop.x + ',' + barcodeInfo.region.leftTop.y +
                     '); RT=(' + barcodeInfo.region.rightTop.x + ',' + barcodeInfo.region.rightTop.y +
                     '); LB=(' + barcodeInfo.region.leftBottom.x + ',' + barcodeInfo.region.leftBottom.y +
                     '); RB=(' + barcodeInfo.region.rightBottom.x + ',' + barcodeInfo.region.rightBottom.y + '); ' +
-                    'Angle=' + barcodeInfo.region.angle.toFixed(1) + '°\n\n';
+                    angleText + barcodeInfo.region.angle.toFixed(1) + '°\n\n';
             }
         }
         return information;
@@ -327,58 +341,86 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
      @param {object} barcodeQualityTestInfo Information about quality test.
     */
     BarcodeReaderHelperJS.prototype.createHtmlMarkupForBarcodeReadingResult = function (barcodeInfo, barcodeQualityTestInfo) {
-        var htmlMarkup = '<b>BarcodeType: </b>' + barcodeInfo.barcodeType + '<br />';
+        var barcodeTypeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-barcodeType");
+        var htmlMarkup = '<b>' + barcodeTypeText + '</b>' + barcodeInfo.barcodeType + '<br />';
 
+        
+        var valueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-value");
+        htmlMarkup += '<b>' + valueText + '</b>';
+
+        var isWriteBaseValue = true;
         if (barcodeInfo.barcodeType == "Mailmark CMDM Type7" || barcodeInfo.barcodeType == "Mailmark CMDM Type9" || barcodeInfo.barcodeType == "Mailmark CMDM Type29") {
-            htmlMarkup += '<b>Value: </b><br />';
-            htmlMarkup += __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, true, '<br />') + '<br />';
-            htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += '<br />' + __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, true, '<br />');
         }
         else if (barcodeInfo.barcodeType == "PPN") {
-            htmlMarkup += '<b>Value: </b><br />';
-            htmlMarkup += __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, true, '<br />') + '<br />';
-            htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += '<br />' + __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, true, '<br />');
         }
         else if (barcodeInfo.barcodeType == "AAMVA") {
-            htmlMarkup += '<b>Value: </b><br />';
-            htmlMarkup += __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, true, '<br />') + '<br />';
-            htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += '<br />' + __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, true, '<br />');
         }
         else if (barcodeInfo.barcodeType == "Swiss QR Code") {
-            htmlMarkup += '<b>Value: </b><br />';
-            htmlMarkup += __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, true, '<br />') + '<br />';
-            htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += '<br />' + __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, true, '<br />');
         }
         else {
-            htmlMarkup += '<b>Value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.value) + '<br />';
-            if (barcodeInfo.baseValue != null && barcodeInfo.value != barcodeInfo.baseValue) {
-                htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += __replaceSpecialHtmlChars(barcodeInfo.value);
+            if (barcodeInfo.baseValue == null || barcodeInfo.value == barcodeInfo.baseValue) {
+                isWriteBaseValue = false;
             }
         }
+        htmlMarkup += '<br />';
 
-        htmlMarkup += '<b>Confidence: </b>' + barcodeInfo.confidence + '<br />';
-        htmlMarkup += '<b>ReadingQuality: </b>' + barcodeInfo.readingQuality.toFixed(2) + '<br />';
-        htmlMarkup += '<b>Threshold: </b>' + barcodeInfo.threshold + '<br />';
-        htmlMarkup += '<b>Region: </b>' + 'LT=(' + barcodeInfo.region.leftTop.x + ',' + barcodeInfo.region.leftTop.y + '); RT=(' + barcodeInfo.region.rightTop.x + ',' + barcodeInfo.region.rightTop.y +
+        if (isWriteBaseValue) {
+            var baseValueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-baseValue");
+            htmlMarkup += '<b>' + baseValueText + '</b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+        }
+
+
+        var confidenceText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-confidence");
+        htmlMarkup += '<b>' + confidenceText + '</b>' + barcodeInfo.confidence + '<br />';
+
+        var readingQualityText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-readingQuality");
+        htmlMarkup += '<b>' + readingQualityText + '</b>' + barcodeInfo.readingQuality.toFixed(2) + '<br />';
+
+        var thresholdText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-threshold");
+        htmlMarkup += '<b>' + thresholdText + '</b>' + barcodeInfo.threshold + '<br />';
+
+        var regionText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-region");
+        htmlMarkup += '<b>' + regionText + '</b>' + 'LT=(' + barcodeInfo.region.leftTop.x + ',' + barcodeInfo.region.leftTop.y + '); RT=(' + barcodeInfo.region.rightTop.x + ',' + barcodeInfo.region.rightTop.y +
             '); LB=(' + barcodeInfo.region.leftBottom.x + ',' + barcodeInfo.region.leftBottom.y + '); RB=(' + barcodeInfo.region.rightBottom.x + ',' + barcodeInfo.region.rightBottom.y + '); ' + 'Angle' + '=' +
             barcodeInfo.region.angle.toFixed(1) + '°<br />';
+
+
         // 1D
         if (barcodeInfo.narrowBarCount) {
-            htmlMarkup += '<b>NarrowBarCount: </b>' + barcodeInfo.narrowBarCount + '<br />';
-            htmlMarkup += '<b>NarrowBarSize: </b>' + barcodeInfo.narrowBarSize.toFixed(2) + '<br /><br />';
+            var narrowBarCountText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-narrowBarCount");
+            htmlMarkup += '<b>' + narrowBarCountText + '</b>' + barcodeInfo.narrowBarCount + '<br />';
+
+            var narrowBarSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-narrowBarSize");
+            htmlMarkup += '<b>' + narrowBarSizeText + '</b>' + barcodeInfo.narrowBarSize.toFixed(2) + '<br /><br />';
         }
         // 2D
         else if (barcodeInfo.matrixSize) {
-            htmlMarkup += '<b>MatrixSize: </b>' + barcodeInfo.matrixSize.x + "x" + barcodeInfo.matrixSize.y + '<br />';
-            htmlMarkup += '<b>CellSize: </b>' + barcodeInfo.cellSize.x.toFixed(2) + "x" + barcodeInfo.cellSize.y.toFixed(2) + '<br />';
-            if (barcodeInfo.bulleyeCenter != null)
-                htmlMarkup += '<b>BulleyeCenter: </b>(' + barcodeInfo.bulleyeCenter.x.toFixed(2) + "," + barcodeInfo.bulleyeCenter.y.toFixed(2) + ')<br />';
+            var matrixSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-matrixSize");
+            htmlMarkup += '<b>' + matrixSizeText + '</b>' + barcodeInfo.matrixSize.x + "x" + barcodeInfo.matrixSize.y + '<br />';
+
+            var cellSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-cellSize");
+            htmlMarkup += '<b>' + cellSizeText + '</b>' + barcodeInfo.cellSize.x.toFixed(2) + "x" + barcodeInfo.cellSize.y.toFixed(2) + '<br />';
+
+            if (barcodeInfo.bulleyeCenter != null) {
+                var bulleyeCenterText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-bulleyeCenter");
+                htmlMarkup += '<b>' + bulleyeCenterText + '</b>(' + barcodeInfo.bulleyeCenter.x.toFixed(2) + "," + barcodeInfo.bulleyeCenter.y.toFixed(2) + ')<br />';
+            }
+
             htmlMarkup += "<br />"
         }
-        htmlMarkup += '<b>HEXValue: </b><br /><div style="font-family:\'Courier New\'">' + barcodeInfo.hexValue + '</div>';
+
+        var hexValueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-hexValue");
+        htmlMarkup += '<b>' + hexValueText + '</b><br /><div style="font-family:\'Courier New\'">' + barcodeInfo.hexValue + '</div>';
 
         if (barcodeQualityTestInfo != null) {
-            htmlMarkup += "<br /><b>QualityTestInformation</b>:<br />";
+            var qualityTestInformationText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation");
+            htmlMarkup += "<br /><b>" + qualityTestInformationText + "</b>:<br />";
+
             if (barcodeQualityTestInfo.tests != null) {
                 htmlMarkup += __createMarkupForISO15416TestResult(barcodeQualityTestInfo.tests);
             }

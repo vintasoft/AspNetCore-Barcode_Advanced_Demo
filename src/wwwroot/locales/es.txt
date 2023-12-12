@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Cancelar"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Cancelar"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Realice los siguientes pasos para leer el código de barras:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Seleccione la región en la imagen usando la herramienta de selección si se deben buscar códigos de barras en la región.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Haga clic en el botón 'Configuración del lector de código de barras' y especifique la configuración necesaria.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Haga clic en el botón 'Leer códigos de barras' y los resultados del reconocimiento de códigos de barras se mostrarán en este cuadro de texto.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Haga clic en el código de barras resaltado en el visor de imágenes y verá información ampliada sobre el código de barras reconocido.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "No se encontraron códigos de barras.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Debería intentar cambiar la configuración de reconocimiento de códigos de barras, por ejemplo, disminuir el intervalo de escaneo, agregar una nueva dirección de escaneo, etc., si está seguro de que la imagen contiene un código de barras.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Envíe la imagen con el código de barras a support@vintasoft.com si no puede reconocer el código de barras; haremos todo lo posible para ayudarlo.",
+		"vsdv-barcodeWritingInformationText-start": "Siga los siguientes pasos para escribir el código de barras:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Haga clic en el botón 'Configuración del escritor de códigos de barras' y especifique la configuración necesaria.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Haga clic en el botón 'Escribir código de barras' y se agregará una nueva imagen de código de barras al visor de imágenes.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Códigos de barras reconocidos:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Configuración del lector de códigos de barras",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Subir archivo",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Personalizado",
 		"vsdv-printImagesDialog-title": "Imprimir imágenes",
 		"vsdv-printImagesPanel-imagePrintingString": "La imagen se está imprimiendo",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "con anotaciones",
 		"vsdv-imageViewerSettingsDialog-title": "Configuración del visor de imágenes",
 		"vsdv-thumbnailViewerSettingDialog-title": "Configuración del visor de miniaturas",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Mostrar anotaciones en miniaturas:",
+		"vsdv-uploadImageFromUrlDialog-title": "Subir imagen desde URL"
 	}
 }

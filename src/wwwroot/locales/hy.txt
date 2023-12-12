@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Չեղարկել"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "լավ"
+			},
+			"cancelButton": {
+				"value": "Չեղարկել"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Շտրիխ կոդը կարդալու համար խնդրում ենք կատարել հետևյալ քայլերը.",
+		"vsdv-barcodeReadingInformationText-step1": "1. Ընտրեք նկարի տարածքը, օգտագործելով ընտրության գործիքը, եթե շտրիխ կոդերը պետք է որոնվեն տարածաշրջանում:",
+		"vsdv-barcodeReadingInformationText-step2": "2. Սեղմեք 'Շտրիխ կոդերի ընթերցման կարգավորումներ' կոճակը և նշեք անհրաժեշտ կարգավորումները:",
+		"vsdv-barcodeReadingInformationText-step3": "3. Սեղմեք 'Կարդալ շտրիխ կոդերը' կոճակը և շտրիխ կոդերի ճանաչման արդյունքները կցուցադրվեն այս տեքստային վանդակում:",
+		"vsdv-barcodeReadingInformationText-step4": "4. Կտտացրեք ընդգծված շտրիխ կոդի վրա պատկերների դիտիչում և կտեսնեք ընդլայնված տեղեկատվություն ճանաչված շտրիխ կոդի մասին:",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Շտրիխ կոդեր չեն գտնվել:",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Դուք պետք է փորձեք փոխել շտրիխ կոդի ճանաչման կարգավորումները, օրինակ՝ նվազեցնել սկանավորման միջակայքը, ավելացնել սկանավորման նոր ուղղություն և այլն, եթե վստահ եք, որ պատկերը պարունակում է շտրիխ կոդ:",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Խնդրում ենք ուղարկել շտրիխ կոդով պատկեր support@vintasoft.com հասցեին, եթե չեք կարողանում ճանաչել շտրիխ կոդը, մենք կանենք լավագույնը ձեզ օգնելու համար:",
+		"vsdv-barcodeWritingInformationText-start": "Շտրիխ կոդ գրելու համար խնդրում ենք կատարել հետևյալ քայլերը.",
+		"vsdv-barcodeWritingInformationText-step1": "1. Սեղմեք 'Շտրիխ գրողի կարգավորումներ' կոճակը և նշեք անհրաժեշտ կարգավորումները:",
+		"vsdv-barcodeWritingInformationText-step2": "2. Սեղմեք 'Գրել շտրիխ կոդ' կոճակը և շտրիխ կոդի նոր պատկերը կավելացվի պատկերների դիտողին:",
+		"vsdv-barcodeReader-recognizedBarcodes": "Ճանաչված շտրիխ կոդեր.",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Շտրիխ կոդ ընթերցողի կարգավորումներ",
 		"vsdv-dialog-okButton": "լավ",
 		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները."
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից"
 	}
 }

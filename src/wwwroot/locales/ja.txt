@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "キャンセル"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "キャンセル"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "バーコードを読み取るには、次の手順を実行してください。",
+		"vsdv-barcodeReadingInformationText-step1": "1. 領域内でバーコードを検索する必要がある場合は、選択ツールを使用して画像上の領域を選択します。",
+		"vsdv-barcodeReadingInformationText-step2": "2. 「バーコードリーダー設定」ボタンをクリックし、必要な設定を行います。",
+		"vsdv-barcodeReadingInformationText-step3": "3. [バーコードの読み取り] ボタンをクリックすると、バーコード認識結果がこのテキスト ボックスに表示されます。",
+		"vsdv-barcodeReadingInformationText-step4": "4. 画像ビューアで強調表示されたバーコードをクリックすると、認識されたバーコードに関する拡張情報が表示されます。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "バーコードが見つかりませんでした。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "画像にバーコードが含まれていることが確実な場合は、スキャン間隔を減らす、新しいスキャン方向を追加するなど、バーコード認識設定の変更を試みる必要があります。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "バーコードを認識できない場合は、バーコード付きの画像を support@vintasoft.com に送信してください。最善を尽くしてお手伝いいたします。",
+		"vsdv-barcodeWritingInformationText-start": "バーコードを書き込むには、次の手順を実行してください。",
+		"vsdv-barcodeWritingInformationText-step1": "1. 「バーコードライタ設定」ボタンをクリックし、必要な設定を行います。",
+		"vsdv-barcodeWritingInformationText-step2": "2. [バーコードの書き込み] ボタンをクリックすると、新しいバーコード画像が画像ビューアに追加されます。",
+		"vsdv-barcodeReader-recognizedBarcodes": "認識されるバーコード:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "バーコードリーダーの設定",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
 		"vsdv-printImagesDialog-title": "画像を印刷",
 		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
 		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
 		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vsdv-uploadImageFromUrlDialog-title": "URLから画像をアップロード"
 	}
 }

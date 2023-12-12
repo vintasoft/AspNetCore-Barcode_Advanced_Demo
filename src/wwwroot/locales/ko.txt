@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "취소"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "확인"
+			},
+			"cancelButton": {
+				"value": "취소"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "바코드를 읽으려면 다음 단계를 수행하십시오.",
+		"vsdv-barcodeReadingInformationText-step1": "1. 해당 지역에서 바코드를 검색해야 하는 경우 선택 도구를 사용하여 이미지에서 해당 지역을 선택합니다.",
+		"vsdv-barcodeReadingInformationText-step2": "2. '바코드 리더 설정' 버튼을 클릭하고 필요한 설정을 지정하세요.",
+		"vsdv-barcodeReadingInformationText-step3": "3. '바코드 읽기' 버튼을 클릭하면 바코드 인식 결과가 이 텍스트 상자에 표시됩니다.",
+		"vsdv-barcodeReadingInformationText-step4": "4. 이미지 뷰어에서 강조 표시된 바코드를 클릭하면 인식된 바코드에 대한 자세한 정보를 볼 수 있습니다.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "바코드를 찾을 수 없습니다.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "이미지에 바코드가 포함되어 있다고 확신하는 경우 스캔 간격 감소, 새 스캔 방향 추가 등 바코드 인식 설정을 변경해야 합니다.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "바코드를 인식할 수 없는 경우 바코드가 포함된 이미지를 support@vintasoft.com으로 보내주세요. 최선을 다해 도와드리겠습니다.",
+		"vsdv-barcodeWritingInformationText-start": "바코드를 작성하려면 다음 단계를 수행하십시오.",
+		"vsdv-barcodeWritingInformationText-step1": "1. '바코드 작성기 설정' 버튼을 클릭하고 필요한 설정을 지정합니다.",
+		"vsdv-barcodeWritingInformationText-step2": "2. '바코드 쓰기' 버튼을 클릭하면 이미지 뷰어에 새로운 바코드 이미지가 추가됩니다.",
+		"vsdv-barcodeReader-recognizedBarcodes": "인식된 바코드:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "바코드 리더 설정",
 		"vsdv-dialog-okButton": "확인",
 		"vsdv-uploadFileButton-uploadFileString": "파일 업로드",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
 		"vsdv-printImagesDialog-title": "이미지 인쇄",
 		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
 		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
 		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드"
 	}
 }

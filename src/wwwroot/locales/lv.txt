@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Atcelt"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "labi"
+			},
+			"cancelButton": {
+				"value": "Atcelt"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Lūdzu, veiciet šādas darbības, lai nolasītu svītrkodu:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Ja šajā reģionā ir jāmeklē svītrkodi, atlasiet attēla reģionu, izmantojot atlases rīku.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Noklikšķiniet uz pogas Svītrkoda lasītāja iestatījumi un norādiet nepieciešamos iestatījumus.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Noklikšķiniet uz pogas Lasīt svītrkodus, un šajā tekstlodziņā tiks parādīti svītrkoda atpazīšanas rezultāti.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Noklikšķiniet uz iezīmētā svītrkoda attēlu skatītājā, un jūs redzēsiet paplašinātu informāciju par atpazīto svītrkodu.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nav atrasts neviens svītrkods.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ja esat pārliecināts, ka attēlā ir svītrkods, mēģiniet mainīt svītrkoda atpazīšanas iestatījumus, piemēram, samazināt skenēšanas intervālu, pievienot jaunu skenēšanas virzienu utt.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Lūdzu, nosūtiet attēlu ar svītrkodu uz support@vintasoft.com, ja nevarat atpazīt svītrkodu - mēs darīsim visu iespējamo, lai jums palīdzētu.",
+		"vsdv-barcodeWritingInformationText-start": "Lūdzu, veiciet šādas darbības, lai ierakstītu svītrkodu:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Noklikšķiniet uz pogas Svītrkoda rakstītāja iestatījumi un norādiet nepieciešamos iestatījumus.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Noklikšķiniet uz pogas 'Rakstīt svītrkodu', un attēlu skatītājam tiks pievienots jauns svītrkoda attēls.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Atpazītie svītrkodi:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Svītrkoda lasītāja iestatījumi",
 		"vsdv-dialog-okButton": "labi",
 		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL"
 	}
 }

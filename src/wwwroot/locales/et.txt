@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Tühista"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "Okei"
+			},
+			"cancelButton": {
+				"value": "Tühista"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Vöötkoodi lugemiseks toimige järgmiselt.",
+		"vsdv-barcodeReadingInformationText-step1": "1. Kui piirkonnast tuleb otsida vöötkoode, valige pildil piirkond valikutööriista abil.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Klõpsake nuppu 'Vöötkoodilugeja sätted' ja määrake vajalikud sätted.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Klõpsake nuppu 'Loe vöötkoode' ja selles tekstikastis kuvatakse vöötkoodi tuvastamise tulemused.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Klõpsake pildivaaturis esiletõstetud vöötkoodil ja näete laiendatud teavet tuvastatud vöötkoodi kohta.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Vöötkoode ei leitud.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Kui olete kindel, et pilt sisaldab vöötkoodi, peaksite proovima muuta vöötkoodi tuvastamise sätteid, näiteks vähendada skaneerimisintervalli, lisada uus skannimissuund jne.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Palun saatke pilt koos vöötkoodiga aadressile support@vintasoft.com, kui te vöötkoodi ära ei tunne – me anname teile parima, et aidata.",
+		"vsdv-barcodeWritingInformationText-start": "Vöötkoodi kirjutamiseks toimige järgmiselt.",
+		"vsdv-barcodeWritingInformationText-step1": "1. Klõpsake nuppu 'Vöötkoodikirjutaja sätted' ja määrake vajalikud sätted.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klõpsake nuppu 'Kirjuta vöötkood' ja uus vöötkoodi pilt lisatakse pildivaaturisse.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Tunnustatud vöötkoodid:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Vöötkoodilugeja seaded",
 		"vsdv-dialog-okButton": "Okei",
 		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist"
 	}
 }

@@ -453,9 +453,44 @@
 			"сancelButton": {
 				"value": "Адмяніць"
 			}
+		},
+		"uploadImageFromUrlDialog": {
+			"okButton": {
+				"value": "OK"
+			},
+			"cancelButton": {
+				"value": "Адмяніць"
+			}
 		}
 	},
 	"strings": {
+		"vsdv-barcodeReadingInformationText-start": "Каб прачытаць штрых-код, выканайце наступныя дзеянні:",
+		"vsdv-barcodeReadingInformationText-step1": "1. Выберыце рэгіён на малюнку з дапамогай інструмента выбару, калі ў рэгіёне трэба шукаць штрых-коды.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Націсніце кнопку 'Настройкі счытвальніка штрых-кодаў' і задайце неабходныя налады.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Націсніце кнопку 'Прачытаць штрых-коды', і ў гэтым тэкставым полі будуць паказаны вынікі распазнавання штрых-кодаў.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Націсніце на вылучаны штрых-код у праграме прагляду малюнкаў, і вы ўбачыце пашыраную інфармацыю аб распазнаным штрых-кодзе.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрых-коды не знойдзены.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вы павінны паспрабаваць змяніць налады распазнання штрых-кода, напрыклад, паменшыць інтэрвал сканавання, дадаць новы кірунак сканавання і г.д., калі вы ўпэўнены, што выява змяшчае штрых-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Дашліце выяву са штрых-кодам на адрас support@vintasoft.com, калі вы не можаце распазнаць штрых-код - мы зробім усё магчымае, каб дапамагчы вам.",
+		"vsdv-barcodeWritingInformationText-start": "Каб напісаць штрых-код, выканайце наступныя дзеянні:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Націсніце кнопку 'Настройкі запісу штрых-кодаў' і задайце неабходныя параметры.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Націсніце кнопку 'Напісаць штрых-код', і новая выява штрых-кода будзе дададзена ў праграму прагляду малюнкаў.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Распазнаныя штрых-коды:",
+		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
+		"vsdv-barcodeReader-value": "Value: ",
+		"vsdv-barcodeReader-baseValue": "Base value: ",
+		"vsdv-barcodeReader-confidence": "Confidence: ",
+		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
+		"vsdv-barcodeReader-threshold": "Threshold: ",
+		"vsdv-barcodeReader-region": "Region: ",
+		"vsdv-barcodeReader-angle": "Angle: ",
+		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
+		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
+		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
+		"vsdv-barcodeReader-cellSize": "Cell Size: ",
+		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
+		"vsdv-barcodeReader-hexValue": "HEX Value: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Налады счытвальніка штрых-кодаў",
 		"vsdv-dialog-okButton": "OK",
 		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
@@ -475,8 +510,10 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
 		"vsdv-printImagesDialog-title": "Друк малюнкаў",
 		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
 		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
 		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:"
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL"
 	}
 }
