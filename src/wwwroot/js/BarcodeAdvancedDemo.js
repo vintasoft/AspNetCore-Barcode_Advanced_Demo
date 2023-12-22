@@ -318,7 +318,7 @@ function __createUiLocalizationDictionary() {
 function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var floatingContainer = document.getElementById("documentViewerContainer");
 
-    var documentPasswordDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiDocumentPasswordDialogJS();
+    var documentPasswordDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiDocumentPasswordDialogJS();
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 

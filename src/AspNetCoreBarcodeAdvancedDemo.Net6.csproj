@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
-		<Version>12.3.1.1</Version>
+		<Version>12.3.2.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -14,17 +14,17 @@
 
 	<ItemGroup>
     <PackageReference Include="Vintasoft.Shared" Version="4.1.0.3" />
-    <PackageReference Include="Vintasoft.Imaging" Version="12.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.1.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="12.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="12.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="9.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="8.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="4.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="9.3.2.1" />
     <PackageReference Include="Vintasoft.Barcode" Version="14.2.0.3" />
     <PackageReference Include="Vintasoft.Barcode.SkiaSharp" Version="14.2.0.3" />
     <PackageReference Include="Vintasoft.Shared.Web" Version="4.1.0.3" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.3.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.3.1.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="12.3.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="12.3.2.1" />
     <PackageReference Include="Vintasoft.Barcode.Web.Services" Version="14.2.0.3" />
     <PackageReference Include="Vintasoft.Barcode.AspNetCore.ApiControllers" Version="14.2.0.3" />
 	</ItemGroup>
@@ -48,22 +48,7 @@
   <Content Include="wwwroot\favicon.ico" />
   <Content Include="wwwroot\Images\fileUploadProgress.gif" />
   <Content Include="wwwroot\Images\VintaSoftLogo.png" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
   <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
-  <Content Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
   <Content Include="wwwroot\lib\jquery\LICENSE.txt" />
   <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.css" />
   <Content Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.css" />
@@ -129,38 +114,9 @@
   <None Include="wwwroot\js\UI\Dialogs\BlockUiDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\ErrorMessageDialog.js" />
   <None Include="wwwroot\js\UI\Dialogs\PreviouslyUploadedFilesDialog.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
   <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
-  <None Include="wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
   <None Include="wwwroot\lib\bootstrap\LICENSE" />
-  <None Include="wwwroot\lib\jquery\dist\jquery.js" />
   <None Include="wwwroot\lib\jquery\dist\jquery.min.js" />
-  <None Include="wwwroot\lib\jquery\dist\jquery.min.map" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Barcode.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.Dialogs.Bootstrap.js" />
   <None Include="wwwroot\lib\Vintasoft\Vintasoft.Imaging.DocumentViewer.Dialogs.Bootstrap.js" />

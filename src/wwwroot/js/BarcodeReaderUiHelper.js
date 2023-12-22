@@ -83,7 +83,7 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
             // create the property grid with information about interactive field properties
             var propertyGrid = new Vintasoft.Shared.WebPropertyGridJS(_barcodeReaderSettings);
             // create the barcode reader settings dialog
-            _barcodeReaderSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiPropertyGridDialogJS(
+            _barcodeReaderSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiPropertyGridDialogJS(
                 propertyGrid,
                 {
                     title: Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReaderSettingsDialog-title"),
