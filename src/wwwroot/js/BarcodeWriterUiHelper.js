@@ -17,7 +17,7 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
     var barcode2DPropertyGrid = new Vintasoft.Shared.WebPropertyGridJS(_barcode2DWriterSettings);
 
     // create dialog for changing settings
-    var _barcodeWriterSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiMultiPropertyGridDialogJS(
+    var _barcodeWriterSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiMultiPropertyGridDialogJS(
         {
             title: "Barcode dimension:",
             selectors: [
