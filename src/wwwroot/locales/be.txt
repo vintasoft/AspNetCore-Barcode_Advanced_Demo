@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Iнструменты"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузіць і адкрыць файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Раней загружаныя файлы"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузіце і адкрыйце файл выявы па URL"
+		"uploadAndAddFileButton": {
+			"title": "Загрузіць і дадаць файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Адкрыць файл з URL"
 		},
 		"printImagesButton": {
 			"title": "Друк малюнкаў"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспартаваць і спампаваць файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Ачысціць кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Падганяць па шырыні"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Множны выбар:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Выкарыстоўвайце сцяжкі для мініяцюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Выкарыстоўвайце панэль дзеянняў для мініяцюры:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
@@ -470,30 +482,31 @@
 		"vsdv-barcodeReadingInformationText-step3": "3. Націсніце кнопку 'Прачытаць штрых-коды', і ў гэтым тэкставым полі будуць паказаны вынікі распазнавання штрых-кодаў.",
 		"vsdv-barcodeReadingInformationText-step4": "4. Націсніце на вылучаны штрых-код у праграме прагляду малюнкаў, і вы ўбачыце пашыраную інфармацыю аб распазнаным штрых-кодзе.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрых-коды не знойдзены.",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вы павінны паспрабаваць змяніць налады распазнання штрых-кода, напрыклад, паменшыць інтэрвал сканавання, дадаць новы кірунак сканавання і г.д., калі вы ўпэўнены, што выява змяшчае штрых-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вы павінны паспрабаваць змяніць налады распазнавання штрых-кода, напрыклад, паменшыць інтэрвал сканавання, дадаць новы кірунак сканавання і г.д., калі вы ўпэўнены, што выява змяшчае штрых-код.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Дашліце выяву са штрых-кодам на адрас support@vintasoft.com, калі вы не можаце распазнаць штрых-код - мы зробім усё магчымае, каб дапамагчы вам.",
-		"vsdv-barcodeWritingInformationText-start": "Каб напісаць штрых-код, выканайце наступныя дзеянні:",
-		"vsdv-barcodeWritingInformationText-step1": "1. Націсніце кнопку 'Настройкі запісу штрых-кодаў' і задайце неабходныя параметры.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Націсніце кнопку 'Напісаць штрых-код', і новая выява штрых-кода будзе дададзена ў праграму прагляду малюнкаў.",
+		"vsdv-barcodeWritingInformationText-start": "Каб згенераваць штрых-код, выканайце наступныя дзеянні:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Націсніце кнопку 'Настройкі запісу штрых-кодаў' і задайце неабходныя налады.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Націсніце кнопку 'Стварыць штрых-код', і новая выява штрых-кода будзе дададзена ў праграму прагляду малюнкаў.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Распазнаныя штрых-коды:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Тып штрых-кода:",
+		"vsdv-barcodeReader-value": "Значэнне штрых-кода:",
+		"vsdv-barcodeReader-baseValue": "Базавае значэнне штрых-кода:",
+		"vsdv-barcodeReader-confidence": "Упэўненасць у выніку:",
+		"vsdv-barcodeReader-readingQuality": "Якасць чытання выніку:",
+		"vsdv-barcodeReader-threshold": "Парог:",
+		"vsdv-barcodeReader-region": "Рэгіён выявы:",
+		"vsdv-barcodeReader-angle": "кут:",
+		"vsdv-barcodeReader-narrowBarCount": "Колькасць вузкіх штрых-кодаў:",
+		"vsdv-barcodeReader-narrowBarSize": "Памер вузкай паласы штрых-кода:",
+		"vsdv-barcodeReader-matrixSize": "Памер матрыцы:",
+		"vsdv-barcodeReader-cellSize": "Памер ячэйкі:",
+		"vsdv-barcodeReader-bulleyeCenter": "Цэнтр штрых-кода Aztec:",
+		"vsdv-barcodeReader-hexValue": "Шаснаццатковае значэнне:",
+		"vsdv-barcodeReader-qualityTestInformation": "Інфармацыя пра тэст якасці друку штрых-кода:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Налады счытвальніка штрых-кодаў",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
 		"vsdv-openFile-addFileString": "Дадаць файл",
 		"vsdv-openFile-authenticateFileString": "Аўтэнтыфікаваць файл",
 		"vsdv-downloadFile-actionMessage": "Спампаваць файл",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузіць файл",
 		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
 		"vsdv-dialog-cancelButton": "Адмяніць",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",

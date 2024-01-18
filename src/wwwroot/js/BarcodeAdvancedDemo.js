@@ -118,7 +118,7 @@ function __initMenu(docViewerSettings) {
 
     var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
     if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .emf, .gif, .ico, .cur, .jpg, .jpeg, .jls, .pcx, .png, .tif, .tiff, .wmf, .jb2, .jbig2, .jp2, .j2k, .j2c, .jpc, .pdf, .docx, .doc, .xlsx, .xls");
+        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xls, .xlsx");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -463,6 +463,7 @@ function __main() {
     var docViewerSettings = new Vintasoft.Imaging.DocumentViewer.WebDocumentViewerSettingsJS("documentViewerContainer", "documentViewer");
     // enable image uploading from URL
     docViewerSettings.set_CanUploadImageFromUrl(true);
+    docViewerSettings.set_CanClearSessionCache(true);
 
     // initialize main menu of document viewer
     __initMenu(docViewerSettings);

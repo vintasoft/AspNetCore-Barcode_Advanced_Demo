@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "工具"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "上传并打开文件"
 		},
 		"previousUploadFilesButton": {
 			"title": "之前上传的文件"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "通过URL上传并打开图像文件"
+		"uploadAndAddFileButton": {
+			"title": "上傳並新增文件"
+		},
+		"openFileFromUrlButton": {
+			"title": "從 URL 開啟文件"
 		},
 		"printImagesButton": {
 			"title": "打印图像"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "导出和下载文件"
+		},
+		"clearSessionCacheButton": {
+			"title": "清除會話快取"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "适合宽度"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "多选："
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "使用縮圖複選框："
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "使用縮圖的操作面板："
+			},
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
@@ -464,36 +476,37 @@
 		}
 	},
 	"strings": {
-		"vsdv-barcodeReadingInformationText-start": "读取条码请按以下步骤操作：",
-		"vsdv-barcodeReadingInformationText-step1": "1. 如果必须在该区域中搜索条码，请使用选择工具在图像上选择区域。",
-		"vsdv-barcodeReadingInformationText-step2": "2. 单击'条形码读取器设置'按钮并指定必要的设置。",
-		"vsdv-barcodeReadingInformationText-step3": "3. 单击'读取条码'按钮，条码识别结果将显示在该文本框中。",
-		"vsdv-barcodeReadingInformationText-step4": "4. 单击图像查看器中突出显示的条形码，您将看到有关已识别条形码的扩展信息。",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "没有找到条形码。",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "如果您确定图像包含条形码，您应该尝试更改条形码识别设置，例如减少扫描间隔、添加新的扫描方向等。",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "如果您无法识别条形码，请将带有条形码的图像发送至 support@vintasoft.com - 我们将尽力帮助您。",
-		"vsdv-barcodeWritingInformationText-start": "请按照以下步骤写入条形码：",
-		"vsdv-barcodeWritingInformationText-step1": "1. 单击'条形码写入器设置'按钮并指定必要的设置。",
-		"vsdv-barcodeWritingInformationText-step2": "2. 单击'写入条形码'按钮，新的条形码图像将添加到图像查看器中。",
-		"vsdv-barcodeReader-recognizedBarcodes": "识别的条形码：",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReadingInformationText-start": "讀取條碼請依照下列步驟操作：",
+		"vsdv-barcodeReadingInformationText-step1": "1. 如果必須在該區域中搜尋條碼，請使用選擇工具在影像上選擇區域。",
+		"vsdv-barcodeReadingInformationText-step2": "2. 點選「條碼讀取器設定」按鈕並指定必要的設定。",
+		"vsdv-barcodeReadingInformationText-step3": "3. 按一下「讀取條碼」按鈕，條碼識別結果會顯示在該文字方塊中。",
+		"vsdv-barcodeReadingInformationText-step4": "4. 按一下影像檢視器中所反白的條碼，您將看到有關已辨識條碼的擴充資訊。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "沒有找到條碼。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "如果您確定影像包含條碼，您應該嘗試變更條碼識別設置，例如減少掃描間隔、新增新的掃描方向等。",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "如果您無法識別條碼，請將帶有條碼的圖像發送至 support@vintasoft.com - 我們將盡力幫助您。",
+		"vsdv-barcodeWritingInformationText-start": "請執行下列步驟來產生條碼：",
+		"vsdv-barcodeWritingInformationText-step1": "1. 按一下「條碼寫入器設定」按鈕並指定必要的設定。",
+		"vsdv-barcodeWritingInformationText-step2": "2. 點選「生成條碼」按鈕，新的條碼圖像將會加入到圖像檢視器中。",
+		"vsdv-barcodeReader-recognizedBarcodes": "識別的條碼：",
+		"vsdv-barcodeReader-barcodeType": "條碼類型：",
+		"vsdv-barcodeReader-value": "條碼值：",
+		"vsdv-barcodeReader-baseValue": "基本條碼值：",
+		"vsdv-barcodeReader-confidence": "結果信賴度：",
+		"vsdv-barcodeReader-readingQuality": "結果閱讀品質：",
+		"vsdv-barcodeReader-threshold": "臨界點：",
+		"vsdv-barcodeReader-region": "影像區域：",
+		"vsdv-barcodeReader-angle": "角度：",
+		"vsdv-barcodeReader-narrowBarCount": "窄條碼條數：",
+		"vsdv-barcodeReader-narrowBarSize": "窄條碼尺寸：",
+		"vsdv-barcodeReader-matrixSize": "矩陣大小：",
+		"vsdv-barcodeReader-cellSize": "細胞尺寸：",
+		"vsdv-barcodeReader-bulleyeCenter": "阿茲特克條碼的中心：",
+		"vsdv-barcodeReader-hexValue": "十六進位值：",
+		"vsdv-barcodeReader-qualityTestInformation": "條碼列印品質測試資訊：",
 		"vsdv-barcodeReaderSettingsDialog-title": "条形码阅读器设置",
 		"vsdv-dialog-okButton": "好的",
-		"vsdv-uploadFileButton-uploadFileString": "上传文件",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
+		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
 		"vsdv-openFile-addFileString": "添加文件",
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
+		"vsdv-uploadFileButton-uploadFileString": "上传文件",
 		"vsdv-documentPasswordDialog-title": "文档密码",
 		"vsdv-dialog-cancelButton": "取消",
 		"vsdv-documentPasswordPanel-authenticateFileString": "验证文件",
@@ -514,6 +528,6 @@
 		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
 		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
-		"vsdv-uploadImageFromUrlDialog-title": "从 URL 上传图像"
+		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像"
 	}
 }

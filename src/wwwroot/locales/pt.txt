@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Ferramentas"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Baixe e abra o arquivo"
 		},
 		"previousUploadFilesButton": {
 			"title": "Ver uma lista de arquivos baixados anteriormente"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Carregar e abrir arquivo de imagem por URL"
+		"uploadAndAddFileButton": {
+			"title": "Carregar e adicionar arquivo"
+		},
+		"openFileFromUrlButton": {
+			"title": "Abrir arquivo do URL"
 		},
 		"printImagesButton": {
 			"title": "imprimir imagens"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportar e baixar arquivo"
+		},
+		"clearSessionCacheButton": {
+			"title": "Limpar cache da sessão"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajustar à largura"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Permitir seleção de várias miniaturas:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Use caixas de seleção para miniaturas:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Use o painel de ações para miniaturas:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pode arrastar miniaturas:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nenhum código de barras encontrado.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Você deve tentar alterar as configurações de reconhecimento de código de barras, por exemplo, diminuir o intervalo de leitura, adicionar uma nova direção de leitura, etc., se tiver certeza de que a imagem contém um código de barras.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Por favor, envie a imagem com o código de barras para support@vintasoft.com se você não conseguir reconhecer o código de barras - faremos o melhor para ajudá-lo.",
-		"vsdv-barcodeWritingInformationText-start": "Execute as seguintes etapas para escrever o código de barras:",
+		"vsdv-barcodeWritingInformationText-start": "Execute as seguintes etapas para gerar o código de barras:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Clique no botão 'Configurações do gravador de código de barras' e especifique as configurações necessárias.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Clique no botão 'Escrever código de barras' e uma nova imagem de código de barras será adicionada ao visualizador de imagens.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Códigos de barras reconhecidos:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Clique no botão 'Gerar código de barras' e uma nova imagem de código de barras será adicionada ao visualizador de imagens.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Os códigos de barras reconhecidos:",
+		"vsdv-barcodeReader-barcodeType": "Tipo de código de barras:",
+		"vsdv-barcodeReader-value": "Um valor de código de barras:",
+		"vsdv-barcodeReader-baseValue": "Um valor de código de barras básico:",
+		"vsdv-barcodeReader-confidence": "A confiança do resultado:",
+		"vsdv-barcodeReader-readingQuality": "A qualidade de leitura do resultado:",
+		"vsdv-barcodeReader-threshold": "Limite:",
+		"vsdv-barcodeReader-region": "Uma região de imagem:",
+		"vsdv-barcodeReader-angle": "Ângulo:",
+		"vsdv-barcodeReader-narrowBarCount": "Contagem de barras estreitas de código de barras:",
+		"vsdv-barcodeReader-narrowBarSize": "Tamanho da barra estreita do código de barras:",
+		"vsdv-barcodeReader-matrixSize": "Tamanho da matriz:",
+		"vsdv-barcodeReader-cellSize": "Tamanho da célula:",
+		"vsdv-barcodeReader-bulleyeCenter": "O centro do código de barras asteca:",
+		"vsdv-barcodeReader-hexValue": "Valor hexadecimal:",
+		"vsdv-barcodeReader-qualityTestInformation": "Informações de teste de qualidade de impressão de código de barras:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Configurações do leitor de código de barras",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Baixe e abra o arquivo",
+		"vsdv-uploadAndAddFileButton-addFileString": "Carregar e adicionar arquivo",
 		"vsdv-openFile-addFileString": "Adicionar ficheiro",
 		"vsdv-openFile-authenticateFileString": "Autenticar arquivo",
 		"vsdv-downloadFile-actionMessage": "Baixar arquivo",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvar alterações nas anotações",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Gravar anotações em imagens",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvar alterações no documento PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Subir arquivo",
 		"vsdv-documentPasswordDialog-title": "Senha do documento",
 		"vsdv-dialog-cancelButton": "Cancelar",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autenticar arquivo",

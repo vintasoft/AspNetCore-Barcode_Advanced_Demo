@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Unelte"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
 		},
 		"previousUploadFilesButton": {
 			"title": "Vedeți o listă de fișiere descărcate anterior"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Încărcați și deschideți fișierul imagine după adresa URL"
+		"uploadAndAddFileButton": {
+			"title": "Încărcați și adăugați fișier"
+		},
+		"openFileFromUrlButton": {
+			"title": "Deschideți fișierul de la URL"
 		},
 		"printImagesButton": {
 			"title": "Tipărește imagini"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exportați și descărcați fișierul"
+		},
+		"clearSessionCacheButton": {
+			"title": "Goliți memoria cache a sesiunii"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Potrivire la lățime"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Permite selecția mai multor miniaturi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilizați casetele de selectare pentru miniatură:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utilizați panoul de acțiuni pentru miniatură:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nu s-au găsit coduri de bare.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ar trebui să încercați să modificați setările de recunoaștere a codurilor de bare, de exemplu, micșorați intervalul de scanare, adăugați o nouă direcție de scanare etc. dacă sunteți sigur că imaginea conține un cod de bare.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Vă rugăm să trimiteți imaginea cu codul de bare la support@vintasoft.com dacă nu puteți recunoaște codul de bare - vom face tot posibilul să vă ajutăm.",
-		"vsdv-barcodeWritingInformationText-start": "Vă rugăm să efectuați următorii pași pentru a scrie codul de bare:",
+		"vsdv-barcodeWritingInformationText-start": "Vă rugăm să faceți următorii pași pentru a genera codul de bare:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Faceți clic pe butonul 'Setări cod de bare Writer' și specificați setările necesare.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Faceți clic pe butonul 'Scrie cod de bare' și o nouă imagine cu cod de bare va fi adăugată la vizualizatorul de imagini.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Coduri de bare recunoscute:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Faceți clic pe butonul 'Generează cod de bare' și o nouă imagine cu cod de bare va fi adăugată la vizualizatorul de imagini.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Codurile de bare recunoscute:",
+		"vsdv-barcodeReader-barcodeType": "Tip cod de bare:",
+		"vsdv-barcodeReader-value": "O valoare de cod de bare:",
+		"vsdv-barcodeReader-baseValue": "O valoare de bază a codului de bare:",
+		"vsdv-barcodeReader-confidence": "Încrederea rezultatului:",
+		"vsdv-barcodeReader-readingQuality": "Calitatea citirii rezultatului:",
+		"vsdv-barcodeReader-threshold": "Prag:",
+		"vsdv-barcodeReader-region": "O regiune a imaginii:",
+		"vsdv-barcodeReader-angle": "Unghi:",
+		"vsdv-barcodeReader-narrowBarCount": "Numărul de bare înguste de coduri de bare:",
+		"vsdv-barcodeReader-narrowBarSize": "Dimensiunea barei înguste de cod de bare:",
+		"vsdv-barcodeReader-matrixSize": "Dimensiunea matricei:",
+		"vsdv-barcodeReader-cellSize": "Dimensiunea celulei:",
+		"vsdv-barcodeReader-bulleyeCenter": "Centrul codului de bare aztec:",
+		"vsdv-barcodeReader-hexValue": "Valoare HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "Informații despre testarea calității imprimării codurilor de bare:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Setări cititor cod de bare",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
+		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-openFile-addFileString": "Adauga fisier",
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Incarca fisier",
 		"vsdv-documentPasswordDialog-title": "Parola documentului",
 		"vsdv-dialog-cancelButton": "Anulează",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",

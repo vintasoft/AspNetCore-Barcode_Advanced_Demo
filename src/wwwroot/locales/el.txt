@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Εργαλεία"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
 		},
 		"previousUploadFilesButton": {
 			"title": "Προβολή λίστας αρχείων που έχετε λάβει προηγουμένως"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Μεταφόρτωση και άνοιγμα αρχείου εικόνας κατά διεύθυνση URL"
+		"uploadAndAddFileButton": {
+			"title": "Μεταφόρτωση και προσθήκη αρχείου"
+		},
+		"openFileFromUrlButton": {
+			"title": "Άνοιγμα αρχείου από τη διεύθυνση URL"
 		},
 		"printImagesButton": {
 			"title": "Εκτύπωση εικόνων"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Εξαγωγή και λήψη αρχείου"
+		},
+		"clearSessionCacheButton": {
+			"title": "Εκκαθάριση προσωρινής μνήμης περιόδου λειτουργίας"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Προσαρμογή στο πλάτος"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Να επιτρέπεται η επιλογή πολλαπλών μικρογραφιών:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Χρησιμοποιήστε πλαίσια ελέγχου για μικρογραφία:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Χρησιμοποιήστε το πλαίσιο ενεργειών για μικρογραφία:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Μπορεί να σύρει μικρογραφίες:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Δεν βρέθηκαν γραμμικοί κώδικες.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Θα πρέπει να προσπαθήσετε να αλλάξετε τις ρυθμίσεις αναγνώρισης γραμμικού κώδικα, για παράδειγμα να μειώσετε το διάστημα σάρωσης, να προσθέσετε νέα κατεύθυνση σάρωσης, κ.λπ. εάν είστε βέβαιοι ότι η εικόνα περιέχει γραμμωτό κώδικα.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Στείλτε εικόνα με γραμμωτό κώδικα στη διεύθυνση support@vintasoft.com εάν δεν μπορείτε να αναγνωρίσετε τον γραμμωτό κώδικα - θα κάνουμε ό,τι καλύτερο για να σας βοηθήσουμε.",
-		"vsdv-barcodeWritingInformationText-start": "Ακολουθήστε τα παρακάτω βήματα για να γράψετε γραμμωτό κώδικα:",
+		"vsdv-barcodeWritingInformationText-start": "Ακολουθήστε τα παρακάτω βήματα για να δημιουργήσετε γραμμωτό κώδικα:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Κάντε κλικ στο κουμπί 'Ρυθμίσεις εγγραφής γραμμωτού κώδικα' και καθορίστε τις απαραίτητες ρυθμίσεις.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Κάντε κλικ στο κουμπί 'Εγγραφή γραμμικού κώδικα' και νέα εικόνα γραμμικού κώδικα θα προστεθεί στο πρόγραμμα προβολής εικόνων.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Αναγνωρισμένοι γραμμικοί κώδικες:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Κάντε κλικ στο κουμπί 'Δημιουργία γραμμικού κώδικα' και νέα εικόνα γραμμικού κώδικα θα προστεθεί στο πρόγραμμα προβολής εικόνων.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Οι αναγνωρισμένοι γραμμωτοί κώδικες:",
+		"vsdv-barcodeReader-barcodeType": "Τύπος γραμμικού κώδικα:",
+		"vsdv-barcodeReader-value": "Μια τιμή γραμμικού κώδικα:",
+		"vsdv-barcodeReader-baseValue": "Μια βασική τιμή γραμμικού κώδικα:",
+		"vsdv-barcodeReader-confidence": "Το αποτέλεσμα εμπιστοσύνη:",
+		"vsdv-barcodeReader-readingQuality": "Ποιότητα ανάγνωσης του αποτελέσματος:",
+		"vsdv-barcodeReader-threshold": "Κατώφλι:",
+		"vsdv-barcodeReader-region": "Μια περιοχή εικόνας:",
+		"vsdv-barcodeReader-angle": "Γωνία:",
+		"vsdv-barcodeReader-narrowBarCount": "Πλήθος στενών γραμμών γραμμωτού κώδικα:",
+		"vsdv-barcodeReader-narrowBarSize": "Μέγεθος στενής γραμμής γραμμωτού κώδικα:",
+		"vsdv-barcodeReader-matrixSize": "Μέγεθος μήτρας:",
+		"vsdv-barcodeReader-cellSize": "Μέγεθος κελιού:",
+		"vsdv-barcodeReader-bulleyeCenter": "Το κέντρο των Αζτέκων barcode:",
+		"vsdv-barcodeReader-hexValue": "Τιμή HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "Πληροφορίες δοκιμής ποιότητας εκτύπωσης γραμμωτού κώδικα:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Ρυθμίσεις ανάγνωσης γραμμωτού κώδικα",
 		"vsdv-dialog-okButton": "ΟΚ",
-		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Λήψη και άνοιγμα αρχείου",
+		"vsdv-uploadAndAddFileButton-addFileString": "Μεταφόρτωση και προσθήκη αρχείου",
 		"vsdv-openFile-addFileString": "Προσθήκη αρχείου",
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Αποθηκεύστε τις αλλαγές σε έγγραφο PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Ανέβασμα αρχείου",
 		"vsdv-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",
 		"vsdv-dialog-cancelButton": "Ακύρωση",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",

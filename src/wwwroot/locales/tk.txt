@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Gurallar"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
 		},
 		"previousUploadFilesButton": {
 			"title": "Öň ýüklenen faýllar"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Surat faýlyny URL boýunça ýükläň we açyň"
+		"uploadAndAddFileButton": {
+			"title": "Faýl ýükläň we goşuň"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL-den faýl açyň"
 		},
 		"printImagesButton": {
 			"title": "Suratlary çap ediň"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faýly eksport ediň we göçürip alyň"
+		},
+		"clearSessionCacheButton": {
+			"title": "Sessiýa keşini arassalaň"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inine laýyk"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Köp saýlaw:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Eskiz üçin bellik gutularyny ulanyň:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Eskiz üçin hereketler panelini ulanyň:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ştrih-kod tapylmady",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ştrih-kod tanamak sazlamalaryny üýtgetmäge synanyşmaly, mysal üçin skaner aralygyny azaltmak, täze skaner ugruny goşmak we ş.m. şekilde ştrih-koduň bardygyna ynanýan bolsaňyz.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Ştrih-kod bilen tanşyp bilmeýän bolsaňyz, ştrih-kodly suraty support@vintasoft.com adresine iberiň - size kömek etmek üçin elimizden gelenini ederis.",
-		"vsdv-barcodeWritingInformationText-start": "Ştrih-kod ýazmak üçin aşakdaky ädimleri etmegiňizi haýyş edýäris:",
+		"vsdv-barcodeWritingInformationText-start": "Ştrih-kod döretmek üçin aşakdaky ädimleri etmegiňizi haýyş edýäris:",
 		"vsdv-barcodeWritingInformationText-step1": "1. 'Ştrih-kod ýazyjy sazlamalary' düwmesine basyň we zerur sazlamalary görkeziň.",
-		"vsdv-barcodeWritingInformationText-step2": "2. 'Ştrih-kod ýazmak' düwmesine basyň we şekil görkezijisine täze ştrih-kod goşular.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Ştrih-kod döretmek' düwmesine basyň we şekil görkezijisine täze ştrih-kod şekili goşular.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Ykrar edilen ştrih-kodlar:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Ştrih-kod görnüşi:",
+		"vsdv-barcodeReader-value": "Ştrih-kod bahasy:",
+		"vsdv-barcodeReader-baseValue": "Esasy ştrih-kod bahasy:",
+		"vsdv-barcodeReader-confidence": "Netijäniň ynamy:",
+		"vsdv-barcodeReader-readingQuality": "Netijeleri okamagyň hili:",
+		"vsdv-barcodeReader-threshold": "Bosgun:",
+		"vsdv-barcodeReader-region": "Surat sebiti:",
+		"vsdv-barcodeReader-angle": "Burç:",
+		"vsdv-barcodeReader-narrowBarCount": "Dar ştrih kodlarynyň sany:",
+		"vsdv-barcodeReader-narrowBarSize": "Dar ştrih kodunyň ululygy:",
+		"vsdv-barcodeReader-matrixSize": "Matrisa ölçegi:",
+		"vsdv-barcodeReader-cellSize": "Öýjük ölçegi:",
+		"vsdv-barcodeReader-bulleyeCenter": "Aztek ştrih kodunyň merkezi:",
+		"vsdv-barcodeReader-hexValue": "HEX gymmaty:",
+		"vsdv-barcodeReader-qualityTestInformation": "Ştrih-kod çap etmegiň hili barada maglumat:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Ştrih-kod okaýjy sazlamalary",
 		"vsdv-dialog-okButton": "Bolýar",
-		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
+		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
 		"vsdv-openFile-authenticateFileString": "Faýly tassyklamak",
 		"vsdv-downloadFile-actionMessage": "Faýly göçürip al",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
+		"vsdv-uploadFileButton-uploadFileString": "Faýl ýükläň",
 		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
 		"vsdv-dialog-cancelButton": "Elatyr",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
 		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
 		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
 		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
 		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",

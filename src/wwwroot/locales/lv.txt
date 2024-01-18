@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Rīki"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
 		},
 		"previousUploadFilesButton": {
 			"title": "Iepriekš augšupielādētie faili"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Augšupielādējiet un atveriet attēla failu pēc URL"
+		"uploadAndAddFileButton": {
+			"title": "Augšupielādējiet un pievienojiet failu"
+		},
+		"openFileFromUrlButton": {
+			"title": "Atveriet failu no URL"
 		},
 		"printImagesButton": {
 			"title": "Drukāt attēlus"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Eksportēt un lejupielādēt failu"
+		},
+		"clearSessionCacheButton": {
+			"title": "Notīrīt sesijas kešatmiņu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Piemērots platumam"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Vairāku atlase:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Izmantojiet izvēles rūtiņas sīktēlam:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Izmantojiet darbību paneli sīktēlam:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nav atrasts neviens svītrkods.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Ja esat pārliecināts, ka attēlā ir svītrkods, mēģiniet mainīt svītrkoda atpazīšanas iestatījumus, piemēram, samazināt skenēšanas intervālu, pievienot jaunu skenēšanas virzienu utt.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Lūdzu, nosūtiet attēlu ar svītrkodu uz support@vintasoft.com, ja nevarat atpazīt svītrkodu - mēs darīsim visu iespējamo, lai jums palīdzētu.",
-		"vsdv-barcodeWritingInformationText-start": "Lūdzu, veiciet šādas darbības, lai ierakstītu svītrkodu:",
+		"vsdv-barcodeWritingInformationText-start": "Lūdzu, veiciet šādas darbības, lai ģenerētu svītrkodu:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Noklikšķiniet uz pogas Svītrkoda rakstītāja iestatījumi un norādiet nepieciešamos iestatījumus.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Noklikšķiniet uz pogas 'Rakstīt svītrkodu', un attēlu skatītājam tiks pievienots jauns svītrkoda attēls.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Noklikšķiniet uz pogas Izveidot svītrkodu, un attēlu skatītājam tiks pievienots jauns svītrkoda attēls.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Atpazītie svītrkodi:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Svītrkoda veids:",
+		"vsdv-barcodeReader-value": "Svītrkoda vērtība:",
+		"vsdv-barcodeReader-baseValue": "Pamata svītrkoda vērtība:",
+		"vsdv-barcodeReader-confidence": "Rezultāta pārliecība:",
+		"vsdv-barcodeReader-readingQuality": "Rezultāta lasīšanas kvalitāte:",
+		"vsdv-barcodeReader-threshold": "Slieksnis:",
+		"vsdv-barcodeReader-region": "Attēla apgabals:",
+		"vsdv-barcodeReader-angle": "Leņķis:",
+		"vsdv-barcodeReader-narrowBarCount": "Šauru svītrkoda joslu skaits:",
+		"vsdv-barcodeReader-narrowBarSize": "Šaurās svītrkoda joslas izmērs:",
+		"vsdv-barcodeReader-matrixSize": "Matricas izmērs:",
+		"vsdv-barcodeReader-cellSize": "Šūnas lielums:",
+		"vsdv-barcodeReader-bulleyeCenter": "Acteku svītrkoda centrs:",
+		"vsdv-barcodeReader-hexValue": "HEX vērtība:",
+		"vsdv-barcodeReader-qualityTestInformation": "Informācija par svītrkoda drukas kvalitātes pārbaudi:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Svītrkoda lasītāja iestatījumi",
 		"vsdv-dialog-okButton": "labi",
-		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
+		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-openFile-addFileString": "Pievienot failu",
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
+		"vsdv-uploadFileButton-uploadFileString": "Augšupielādēt failu",
 		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
 		"vsdv-dialog-cancelButton": "Atcelt",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
 		"vsdv-printImagesDialog-title": "Drukāt attēlus",
 		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
 		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",

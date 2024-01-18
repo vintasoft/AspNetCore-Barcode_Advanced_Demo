@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Alati"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Preuzmi i otvori datoteku"
 		},
 		"previousUploadFilesButton": {
 			"title": "Pogledajte popis prethodno preuzetih datoteka"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Prenesite i otvorite slikovnu datoteku prema URL-u"
+		"uploadAndAddFileButton": {
+			"title": "Prenesi i dodaj datoteku"
+		},
+		"openFileFromUrlButton": {
+			"title": "Otvori datoteku s URL-a"
 		},
 		"printImagesButton": {
 			"title": "Ispis slika"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvoz i preuzimanje datoteke"
+		},
+		"clearSessionCacheButton": {
+			"title": "Očisti predmemoriju sesije"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Dopusti odabir više sličica:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Koristite potvrdne okvire za minijaturu:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Koristite radnu ploču za minijaturu:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Mogu povlačiti sličice:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Nisu pronađeni crtični kodovi.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Trebali biste pokušati promijeniti postavke prepoznavanja crtičnog koda, na primjer smanjiti interval skeniranja, dodati novi smjer skeniranja itd. ako ste sigurni da slika sadrži crtični kod.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Molimo pošaljite sliku s crtičnim kodom na support@vintasoft.com ako ne prepoznajete crtični kod - mi ćemo dati sve od sebe da vam pomognemo.",
-		"vsdv-barcodeWritingInformationText-start": "Učinite sljedeće korake za pisanje crtičnog koda:",
+		"vsdv-barcodeWritingInformationText-start": "Učinite sljedeće korake za generiranje crtičnog koda:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Pritisnite gumb 'Postavke pisača crtičnog koda' i odredite potrebne postavke.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Pritisnite gumb 'Napiši crtični kod' i nova slika crtičnog koda bit će dodana u preglednik slika.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Pritisnite gumb 'Generiraj crtični kod' i nova slika crtičnog koda bit će dodana u preglednik slika.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Prepoznati crtični kodovi:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Vrsta crtičnog koda:",
+		"vsdv-barcodeReader-value": "Vrijednost crtičnog koda:",
+		"vsdv-barcodeReader-baseValue": "Osnovna vrijednost crtičnog koda:",
+		"vsdv-barcodeReader-confidence": "Pouzdanost rezultata:",
+		"vsdv-barcodeReader-readingQuality": "Kvaliteta očitavanja rezultata:",
+		"vsdv-barcodeReader-threshold": "Prag:",
+		"vsdv-barcodeReader-region": "Regija slike:",
+		"vsdv-barcodeReader-angle": "Kut:",
+		"vsdv-barcodeReader-narrowBarCount": "Broj uskih traka crtičnog koda:",
+		"vsdv-barcodeReader-narrowBarSize": "Veličina uske trake crtičnog koda:",
+		"vsdv-barcodeReader-matrixSize": "Veličina matrice:",
+		"vsdv-barcodeReader-cellSize": "Veličina ćelije:",
+		"vsdv-barcodeReader-bulleyeCenter": "Središte Aztec crtičnog koda:",
+		"vsdv-barcodeReader-hexValue": "HEX vrijednost:",
+		"vsdv-barcodeReader-qualityTestInformation": "Informacije o ispitivanju kvalitete ispisa crtičnog koda:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Postavke čitača crtičnog koda",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Preuzmi i otvori datoteku",
+		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
 		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
+		"vsdv-uploadFileButton-uploadFileString": "Učitaj datoteku",
 		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
 		"vsdv-dialog-cancelButton": "Odustani",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",

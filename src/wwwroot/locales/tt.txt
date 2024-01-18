@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Кораллар"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлны йөкләү һәм ачу"
 		},
 		"previousUploadFilesButton": {
 			"title": "Элегерәк йөкләнгән файллар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL аша рәсем файлын йөкләү һәм ачу"
+		"uploadAndAddFileButton": {
+			"title": "Файлны йөкләү һәм өстәү"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL'тан файлны ачу"
 		},
 		"printImagesButton": {
 			"title": "Рәсемнәрне бастыру"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлны экспортлау һәм йөкләү"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сессия кэшын чистарту"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Киңлеккә туры килә"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Күпкырлы:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Эскиз өчен пунктларны кулланыгыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Эскиз өчен эш панелен кулланыгыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Эскизларны тартырга мөмкин:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрих-кодлар табылмады.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Сез штрих-код тану көйләнмәләрен үзгәртергә тырышырга тиеш, мәсәлән, сканер интервалын киметү, яңа сканер юнәлешен өстәү һ.б. рәсемдә штрих-код барлыгына ышансагыз.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Штрих-код белән рәсемне support@vintasoft.com адресына җибәрегез, штрих-кодны таный алмасагыз - без сезгә ярдәм итәр өчен бар көчебезне куярбыз.",
-		"vsdv-barcodeWritingInformationText-start": "Зинһар, штрих-код язу өчен түбәндәге адымнарны эшләгез:",
+		"vsdv-barcodeWritingInformationText-start": "Зинһар, штрих-код ясау өчен түбәндәге адымнарны эшләгез:",
 		"vsdv-barcodeWritingInformationText-step1": "1. 'Штрих-код язучы көйләүләре' төймәсенә басыгыз һәм кирәкле көйләүләрне күрсәтегез.",
-		"vsdv-barcodeWritingInformationText-step2": "2. 'Штрих-код язу' төймәсенә басыгыз һәм рәсем караучыга яңа штрих-код өстәләчәк.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Штрих-код ясау' төймәсенә басыгыз һәм рәсем караучыга яңа штрих-код өстәләчәк.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Танылган штрих-кодлар:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Штрих-код төре:",
+		"vsdv-barcodeReader-value": "Штрих-код бәясе:",
+		"vsdv-barcodeReader-baseValue": "Төп штрих-код бәясе:",
+		"vsdv-barcodeReader-confidence": "Нәтиҗә ышаныч:",
+		"vsdv-barcodeReader-readingQuality": "Нәтиҗә уку сыйфаты:",
+		"vsdv-barcodeReader-threshold": "Бусага:",
+		"vsdv-barcodeReader-region": "Рәсем өлкәсе:",
+		"vsdv-barcodeReader-angle": "Почмак:",
+		"vsdv-barcodeReader-narrowBarCount": "Тар штрих-кодлар саны:",
+		"vsdv-barcodeReader-narrowBarSize": "Тар штрих-штрихның зурлыгы:",
+		"vsdv-barcodeReader-matrixSize": "Матрицаның размеры:",
+		"vsdv-barcodeReader-cellSize": "Күзәнәк күләме:",
+		"vsdv-barcodeReader-bulleyeCenter": "Aztec штрих-код үзәге:",
+		"vsdv-barcodeReader-hexValue": "HEX кыйммәте:",
+		"vsdv-barcodeReader-qualityTestInformation": "Штрих-код бастыру сыйфаты тест мәгълүматлары:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код көйләүләре",
 		"vsdv-dialog-okButton": "ЯРАРМЫ",
-		"vsdv-uploadFileButton-uploadFileString": "Файлны йөкләү",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлны йөкләү һәм ачу",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлны йөкләү һәм өстәү",
 		"vsdv-openFile-addFileString": "Файл өстәү",
 		"vsdv-openFile-authenticateFileString": "Файлны раслау",
 		"vsdv-downloadFile-actionMessage": "Файлны йөкләү",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияләрдәге үзгәрешләрне саклагыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Рәсемнәргә аннотацияләр яндырыгыз",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
+		"vsdv-uploadFileButton-uploadFileString": "Файлны йөкләү",
 		"vsdv-documentPasswordDialog-title": "Документ серсүзе",
 		"vsdv-dialog-cancelButton": "Баш тарту",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлны раслау",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
 		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
 		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
 		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
 		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",

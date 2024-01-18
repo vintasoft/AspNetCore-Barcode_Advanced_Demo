@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Құралдар"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлды жүктеп алыңыз және ашыңыз"
 		},
 		"previousUploadFilesButton": {
 			"title": "Бұрын жүктелген файлдар"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Сурет файлын URL мекенжайы бойынша жүктеп салыңыз және ашыңыз"
+		"uploadAndAddFileButton": {
+			"title": "Файлды жүктеп салыңыз және қосыңыз"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL мекенжайынан файлды ашыңыз"
 		},
 		"printImagesButton": {
 			"title": "Суреттерді басып шығару"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлды экспорттау және жүктеп алу"
+		},
+		"clearSessionCacheButton": {
+			"title": "Сеанс кэшін тазалау"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Енге сәйкес"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Көп таңдау:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Нобай үшін құсбелгілерді пайдаланыңыз:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Нобай үшін әрекеттер тақтасын пайдаланыңыз:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрихкодтар табылмады.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Штрих-кодты тану параметрлерін өзгертуге тырысу керек, мысалы, сканерлеу аралығын азайту, жаңа сканерлеу бағытын қосу, т.б. суретте штрих-код бар екеніне сенімді болсаңыз.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Штрих-кодты тани алмасаңыз, штрих-кодпен суретті support@vintasoft.com мекенжайына жіберіңіз - біз сізге көмектесу үшін бар күшімізді саламыз.",
-		"vsdv-barcodeWritingInformationText-start": "Штрих-код жазу үшін келесі қадамдарды орындаңыз:",
+		"vsdv-barcodeWritingInformationText-start": "Штрих-кодты жасау үшін келесі қадамдарды орындаңыз:",
 		"vsdv-barcodeWritingInformationText-step1": "1. 'Штрих-код жазу құралының параметрлері' түймесін басып, қажетті параметрлерді көрсетіңіз.",
-		"vsdv-barcodeWritingInformationText-step2": "2. 'Штрих-кодты жазу' түймесін басыңыз, сонда суретті қарау құралына жаңа штрих-код кескіні қосылады.",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'Штрих-кодты жасау' түймесін басыңыз, сонда жаңа штрих-код кескіні кескінді қарау құралына қосылады.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Танылған штрих-кодтар:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Штрихкод түрі:",
+		"vsdv-barcodeReader-value": "Штрих-код мәні:",
+		"vsdv-barcodeReader-baseValue": "Штрих-кодтың негізгі мәні:",
+		"vsdv-barcodeReader-confidence": "Нәтиженің сенімділігі:",
+		"vsdv-barcodeReader-readingQuality": "Нәтиженің оқу сапасы:",
+		"vsdv-barcodeReader-threshold": "Шекті:",
+		"vsdv-barcodeReader-region": "Сурет аймағы:",
+		"vsdv-barcodeReader-angle": "Бұрыш:",
+		"vsdv-barcodeReader-narrowBarCount": "Тар штрих-код жолақтарының саны:",
+		"vsdv-barcodeReader-narrowBarSize": "Тар штрих-код жолағының өлшемі:",
+		"vsdv-barcodeReader-matrixSize": "Матрица өлшемі:",
+		"vsdv-barcodeReader-cellSize": "Ұяшық өлшемі:",
+		"vsdv-barcodeReader-bulleyeCenter": "Ацтек штрих-кодының орталығы:",
+		"vsdv-barcodeReader-hexValue": "HEX мәні:",
+		"vsdv-barcodeReader-qualityTestInformation": "Штрих-кодты басып шығару сапасын тексеру туралы ақпарат:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код оқу құралының параметрлері",
 		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
-		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-openFile-addFileString": "Файл қосу",
 		"vsdv-openFile-authenticateFileString": "Файлдың аутентификациясы",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктеп алу",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
+		"vsdv-uploadFileButton-uploadFileString": "Файлды жүктеп салу",
 		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
 		"vsdv-dialog-cancelButton": "Болдырмау",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
 		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
 		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
 		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",

@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Zana"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
 		},
 		"previousUploadFilesButton": {
 			"title": "Faili Zilizopakiwa Hapo awali"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Pakia na ufungue faili ya picha kwa URL"
+		"uploadAndAddFileButton": {
+			"title": "Pakia na uongeze faili"
+		},
+		"openFileFromUrlButton": {
+			"title": "Fungua faili kutoka kwa URL"
 		},
 		"printImagesButton": {
 			"title": "Chapisha picha"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Hamisha na kupakua faili"
+		},
+		"clearSessionCacheButton": {
+			"title": "Futa akiba ya kipindi"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Inafaa kwa upana"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Chaguo nyingi:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Tumia visanduku vya kuteua kwa kijipicha:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Tumia paneli ya vitendo kwa kijipicha:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Hakuna misimbo pau iliyopatikana.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Unapaswa kujaribu kubadilisha mipangilio ya utambuzi wa msimbopau, kwa mfano kupunguza muda wa kuchanganua, kuongeza mwelekeo mpya wa kutambaza, n.k ikiwa una uhakika kuwa picha hiyo ina msimbopau.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Tafadhali tuma picha iliyo na msimbopau kwa support@vintasoft.com ikiwa huwezi kutambua msimbopau - tutafanya vyema zaidi kukusaidia.",
-		"vsdv-barcodeWritingInformationText-start": "Tafadhali fanya hatua zifuatazo za kuandika msimbo pau:",
+		"vsdv-barcodeWritingInformationText-start": "Tafadhali fanya hatua zifuatazo ili kuzalisha msimbo pau:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Bofya kitufe cha 'Mipangilio ya Mwandishi wa Barcode' na ubainishe mipangilio muhimu.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Bofya kitufe cha 'Andika Msimbo Pau' na picha mpya ya msimbopau itaongezwa kwa kitazamaji picha.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Bofya kitufe cha 'Tengeneza Msimbo Pau' na picha mpya ya msimbopau itaongezwa kwa kitazamaji picha.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Misimbopau inayotambulika:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Aina ya Msimbo Pau:",
+		"vsdv-barcodeReader-value": "Thamani ya msimbo upau:",
+		"vsdv-barcodeReader-baseValue": "Thamani ya msimbo pau msingi:",
+		"vsdv-barcodeReader-confidence": "Kujiamini kwa matokeo:",
+		"vsdv-barcodeReader-readingQuality": "Ubora wa kusoma matokeo:",
+		"vsdv-barcodeReader-threshold": "Kizingiti:",
+		"vsdv-barcodeReader-region": "Eneo la picha:",
+		"vsdv-barcodeReader-angle": "Pembe:",
+		"vsdv-barcodeReader-narrowBarCount": "Idadi ya pau finyu za msimbo pau:",
+		"vsdv-barcodeReader-narrowBarSize": "Ukubwa wa upau finyu wa msimbo pau:",
+		"vsdv-barcodeReader-matrixSize": "Ukubwa wa Matrix:",
+		"vsdv-barcodeReader-cellSize": "Ukubwa wa Kiini:",
+		"vsdv-barcodeReader-bulleyeCenter": "Msimbo wa katikati wa Aztec:",
+		"vsdv-barcodeReader-hexValue": "Thamani ya HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "Maelezo ya mtihani wa ubora wa uchapishaji wa msimbo pau:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Mipangilio ya kisoma msimbopau",
 		"vsdv-dialog-okButton": "sawa",
-		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
+		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-openFile-addFileString": "Ongeza faili",
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Pakia faili",
 		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
 		"vsdv-dialog-cancelButton": "Ghairi",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",

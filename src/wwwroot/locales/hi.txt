@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "उपकरण"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "फ़ाइल डाउनलोड करें और खोलें"
 		},
 		"previousUploadFilesButton": {
 			"title": "पहले डाउनलोड की गई फ़ाइलों की सूची देखें"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URL द्वारा छवि फ़ाइल अपलोड करें और खोलें"
+		"uploadAndAddFileButton": {
+			"title": "फ़ाइल अपलोड करें और जोड़ें"
+		},
+		"openFileFromUrlButton": {
+			"title": "URL से फ़ाइल खोलें"
 		},
 		"printImagesButton": {
 			"title": "छवियाँ मुद्रित करें"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "फ़ाइल निर्यात करें और डाउनलोड करें"
+		},
+		"clearSessionCacheButton": {
+			"title": "सत्र कैश साफ़ करें"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "चौड़ाई के अनुरूप"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "एकाधिक थंबनेल चयन की अनुमति दें:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "थंबनेल के लिए चेकबॉक्स का उपयोग करें:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "थंबनेल के लिए क्रिया पैनल का उपयोग करें:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "थंबनेल खींच सकते हैं:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "कोई बारकोड नहीं मिला.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "यदि आप सुनिश्चित हैं कि छवि में बारकोड है, तो आपको बारकोड पहचान सेटिंग्स को बदलने का प्रयास करना चाहिए, उदाहरण के लिए स्कैन अंतराल को कम करना, नई स्कैन दिशा जोड़ना आदि।",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "यदि आप बारकोड को नहीं पहचान पाते हैं तो कृपया बारकोड के साथ छवि support@vintasoft.com पर भेजें - हम आपकी मदद करने की पूरी कोशिश करेंगे।",
-		"vsdv-barcodeWritingInformationText-start": "कृपया बारकोड लिखने के लिए निम्नलिखित चरण अपनाएँ:",
+		"vsdv-barcodeWritingInformationText-start": "बारकोड जनरेट करने के लिए कृपया निम्नलिखित चरण अपनाएँ:",
 		"vsdv-barcodeWritingInformationText-step1": "1. 'बारकोड राइटर सेटिंग्स' बटन पर क्लिक करें और आवश्यक सेटिंग्स निर्दिष्ट करें।",
-		"vsdv-barcodeWritingInformationText-step2": "2. 'बारकोड लिखें' बटन पर क्लिक करें और नई बारकोड छवि छवि दर्शक में जोड़ दी जाएगी।",
+		"vsdv-barcodeWritingInformationText-step2": "2. 'जनरेट बारकोड' बटन पर क्लिक करें और नई बारकोड छवि इमेज व्यूअर में जोड़ दी जाएगी।",
 		"vsdv-barcodeReader-recognizedBarcodes": "मान्यता प्राप्त बारकोड:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "बारकोड प्रकार:",
+		"vsdv-barcodeReader-value": "एक बारकोड मान:",
+		"vsdv-barcodeReader-baseValue": "एक आधार बारकोड मान:",
+		"vsdv-barcodeReader-confidence": "परिणाम आत्मविश्वास:",
+		"vsdv-barcodeReader-readingQuality": "परिणाम पढ़ने की गुणवत्ता:",
+		"vsdv-barcodeReader-threshold": "सीमा:",
+		"vsdv-barcodeReader-region": "एक छवि क्षेत्र:",
+		"vsdv-barcodeReader-angle": "कोण:",
+		"vsdv-barcodeReader-narrowBarCount": "संकीर्ण बारकोड बार की संख्या:",
+		"vsdv-barcodeReader-narrowBarSize": "संकीर्ण बारकोड बार का आकार:",
+		"vsdv-barcodeReader-matrixSize": "मैट्रिक्स का आकार:",
+		"vsdv-barcodeReader-cellSize": "कोशिका का आकार:",
+		"vsdv-barcodeReader-bulleyeCenter": "एज़्टेक बारकोड का केंद्र:",
+		"vsdv-barcodeReader-hexValue": "हेक्स मान:",
+		"vsdv-barcodeReader-qualityTestInformation": "बारकोड प्रिंट गुणवत्ता परीक्षण जानकारी:",
 		"vsdv-barcodeReaderSettingsDialog-title": "बारकोड रीडर सेटिंग्स",
 		"vsdv-dialog-okButton": "ठीक है",
-		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "फ़ाइल डाउनलोड करें और खोलें",
+		"vsdv-uploadAndAddFileButton-addFileString": "फ़ाइल अपलोड करें और जोड़ें",
 		"vsdv-openFile-addFileString": "फ़ाइल जोड़ें",
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "पीडीएफ दस्तावेज़ में परिवर्तन सहेजें",
+		"vsdv-uploadFileButton-uploadFileString": "फ़ाइल अपलोड करें",
 		"vsdv-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",
 		"vsdv-dialog-cancelButton": "रद्द करें",
 		"vsdv-documentPasswordPanel-authenticateFileString": "फ़ाइल प्रमाणित करें",
@@ -514,6 +528,6 @@
 		"vsdv-imageViewerSettingsDialog-title": "छवि दर्शक सेटिंग्स",
 		"vsdv-thumbnailViewerSettingDialog-title": "थंबनेल व्यूअर सेटिंग्स",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "थंबनेल पर एनोटेशन प्रदर्शित करें:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL से छवि अपलोड करें"
+		"vsdv-uploadImageFromUrlDialog-title": "यूआरएल से छवि अपलोड करें"
 	}
 }

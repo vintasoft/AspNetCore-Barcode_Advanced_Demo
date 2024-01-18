@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Инструменти"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Изтеглете и отворете файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Вижте списък с предварително изтеглени файлове"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Качете и отворете файл с изображение по URL"
+		"uploadAndAddFileButton": {
+			"title": "Качете и добавете файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Отворете файл от URL"
 		},
 		"printImagesButton": {
 			"title": "Печат на изображения"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Експортиране и изтегляне на файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Изчистване на кеша на сесията"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Побиране по ширина"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешаване на избор на няколко миниатюри:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Използвайте квадратчета за отметка за миниизображение:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Използвайте панела с действия за миниатюра:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Може да плъзгате миниатюри:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Няма намерени баркодове.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Трябва да опитате да промените настройките за разпознаване на баркод, например да намалите интервала на сканиране, да добавите нова посока на сканиране и т.н., ако сте сигурни, че изображението съдържа баркод.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Моля, изпратете изображение с баркод на support@vintasoft.com, ако не можете да разпознаете баркода - ние ще направим всичко възможно, за да ви помогнем.",
-		"vsdv-barcodeWritingInformationText-start": "Моля, изпълнете следните стъпки за писане на баркод:",
+		"vsdv-barcodeWritingInformationText-start": "Моля, изпълнете следните стъпки, за да генерирате баркод:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Щракнете върху бутона 'Настройки на запис на баркод' и задайте необходимите настройки.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Щракнете върху бутона 'Напиши баркод' и ново изображение на баркод ще бъде добавено към програмата за преглед на изображения.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Разпознати баркодове:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Щракнете върху бутона 'Генериране на баркод' и новото изображение на баркод ще бъде добавено към програмата за преглед на изображения.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Разпознатите баркодове:",
+		"vsdv-barcodeReader-barcodeType": "Тип баркод:",
+		"vsdv-barcodeReader-value": "Стойност на баркод:",
+		"vsdv-barcodeReader-baseValue": "Основна стойност на баркод:",
+		"vsdv-barcodeReader-confidence": "Доверието на резултата:",
+		"vsdv-barcodeReader-readingQuality": "Качество на четене на резултата:",
+		"vsdv-barcodeReader-threshold": "Праг:",
+		"vsdv-barcodeReader-region": "Регион на изображение:",
+		"vsdv-barcodeReader-angle": "Ъгъл:",
+		"vsdv-barcodeReader-narrowBarCount": "Брой тесни ленти с баркод:",
+		"vsdv-barcodeReader-narrowBarSize": "Размер на тясната лента с баркод:",
+		"vsdv-barcodeReader-matrixSize": "Размер на матрицата:",
+		"vsdv-barcodeReader-cellSize": "Размер на клетката:",
+		"vsdv-barcodeReader-bulleyeCenter": "Центърът на баркода на Aztec:",
+		"vsdv-barcodeReader-hexValue": "HEX стойност:",
+		"vsdv-barcodeReader-qualityTestInformation": "Информация за проверка на качеството на печат на баркод:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки на четеца на баркодове",
 		"vsdv-dialog-okButton": "ОК",
-		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Изтеглете и отворете файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Качете и добавете файл",
 		"vsdv-openFile-addFileString": "Добави файл",
 		"vsdv-openFile-authenticateFileString": "Удостоверете файла",
 		"vsdv-downloadFile-actionMessage": "Свали файл",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
+		"vsdv-uploadFileButton-uploadFileString": "Качи файл",
 		"vsdv-documentPasswordDialog-title": "Парола за документ",
 		"vsdv-dialog-cancelButton": "Отказ",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Удостоверете файла",

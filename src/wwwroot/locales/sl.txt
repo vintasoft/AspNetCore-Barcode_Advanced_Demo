@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Orodja"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
 		},
 		"previousUploadFilesButton": {
 			"title": "Prej naložene datoteke"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Naložite in odprite slikovno datoteko po URL-ju"
+		"uploadAndAddFileButton": {
+			"title": "Naložite in dodajte datoteko"
+		},
+		"openFileFromUrlButton": {
+			"title": "Odpri datoteko z naslova URL"
 		},
 		"printImagesButton": {
 			"title": "Natisnite slike"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Izvozi in prenesi datoteko"
+		},
+		"clearSessionCacheButton": {
+			"title": "Počisti predpomnilnik seje"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Prilagodi širini"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Večkratna izbira:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Uporabite potrditvena polja za sličico:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Uporabi ploščo z dejanji za sličico:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ni črtne kode.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Če ste prepričani, da slika vsebuje črtno kodo, poskusite spremeniti nastavitve prepoznavanja črtne kode, na primer zmanjšati interval skeniranja, dodati novo smer skeniranja itd.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Če črtne kode ne prepoznate, pošljite sliko s črtno kodo na support@vintasoft.com - potrudili se bomo, da vam pomagamo.",
-		"vsdv-barcodeWritingInformationText-start": "Za pisanje črtne kode naredite naslednje:",
+		"vsdv-barcodeWritingInformationText-start": "Za ustvarjanje črtne kode naredite naslednje:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Kliknite gumb 'Barcode Writer Settings' in določite potrebne nastavitve.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Kliknite gumb 'Napiši črtno kodo' in nova slika črtne kode bo dodana v pregledovalnik slik.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Kliknite gumb 'Ustvari črtno kodo' in nova slika črtne kode bo dodana v pregledovalnik slik.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Prepoznane črtne kode:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Vrsta črtne kode:",
+		"vsdv-barcodeReader-value": "Vrednost črtne kode:",
+		"vsdv-barcodeReader-baseValue": "Osnovna vrednost črtne kode:",
+		"vsdv-barcodeReader-confidence": "Zaupanje v rezultat:",
+		"vsdv-barcodeReader-readingQuality": "Kakovost branja rezultata:",
+		"vsdv-barcodeReader-threshold": "Prag:",
+		"vsdv-barcodeReader-region": "Regija slike:",
+		"vsdv-barcodeReader-angle": "Kot:",
+		"vsdv-barcodeReader-narrowBarCount": "Število ozkih črt črtne kode:",
+		"vsdv-barcodeReader-narrowBarSize": "Velikost ozke vrstice črtne kode:",
+		"vsdv-barcodeReader-matrixSize": "Velikost matrice:",
+		"vsdv-barcodeReader-cellSize": "Velikost celice:",
+		"vsdv-barcodeReader-bulleyeCenter": "Središče črtne kode Aztec:",
+		"vsdv-barcodeReader-hexValue": "HEX vrednost:",
+		"vsdv-barcodeReader-qualityTestInformation": "Informacije o preskusu kakovosti tiska črtne kode:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Nastavitve bralnika črtne kode",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
+		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
 		"vsdv-openFile-authenticateFileString": "Preveri pristnost datoteke",
 		"vsdv-downloadFile-actionMessage": "Prenesi datoteko",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Naloži datoteko",
 		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
 		"vsdv-dialog-cancelButton": "Prekliči",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",

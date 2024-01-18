@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Công cụ"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
 		},
 		"previousUploadFilesButton": {
 			"title": "Xem danh sách các tệp đã tải xuống trước đó"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Tải lên và mở tệp hình ảnh bằng URL"
+		"uploadAndAddFileButton": {
+			"title": "Tải lên và thêm tập tin"
+		},
+		"openFileFromUrlButton": {
+			"title": "Mở tệp từ URL"
 		},
 		"printImagesButton": {
 			"title": "In ảnh"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Xuất và tải xuống tệp"
+		},
+		"clearSessionCacheButton": {
+			"title": "Xóa bộ nhớ đệm phiên"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Vừa với Chiều rộng"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Cho phép lựa chọn nhiều hình thu nhỏ:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Sử dụng các hộp kiểm cho hình thu nhỏ:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Sử dụng bảng hành động cho hình thu nhỏ:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Có thể kéo hình thu nhỏ:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Không tìm thấy mã vạch.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Bạn nên cố gắng thay đổi cài đặt nhận dạng mã vạch, ví dụ như giảm khoảng thời gian quét, thêm hướng quét mới, v.v. nếu bạn chắc chắn rằng hình ảnh đó có chứa mã vạch.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Vui lòng gửi hình ảnh có mã vạch tới support@vintasoft.com nếu bạn không thể nhận ra mã vạch - chúng tôi sẽ cố gắng hết sức để giúp bạn.",
-		"vsdv-barcodeWritingInformationText-start": "Vui lòng thực hiện các bước sau để viết mã vạch:",
+		"vsdv-barcodeWritingInformationText-start": "Vui lòng thực hiện các bước sau để tạo mã vạch:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Nhấp vào nút 'Cài đặt Trình ghi Mã vạch' và chỉ định các cài đặt cần thiết.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Nhấp vào nút 'Viết mã vạch' và hình ảnh mã vạch mới sẽ được thêm vào trình xem hình ảnh.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Nhấp vào nút 'Tạo mã vạch' và hình ảnh mã vạch mới sẽ được thêm vào trình xem hình ảnh.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Mã vạch được công nhận:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Loại mã vạch:",
+		"vsdv-barcodeReader-value": "Giá trị mã vạch:",
+		"vsdv-barcodeReader-baseValue": "Giá trị mã vạch cơ sở:",
+		"vsdv-barcodeReader-confidence": "Độ tin cậy của kết quả:",
+		"vsdv-barcodeReader-readingQuality": "Chất lượng đọc kết quả:",
+		"vsdv-barcodeReader-threshold": "Ngưỡng:",
+		"vsdv-barcodeReader-region": "Một vùng hình ảnh:",
+		"vsdv-barcodeReader-angle": "Góc:",
+		"vsdv-barcodeReader-narrowBarCount": "Số lượng thanh mã vạch hẹp:",
+		"vsdv-barcodeReader-narrowBarSize": "Kích thước thanh mã vạch hẹp:",
+		"vsdv-barcodeReader-matrixSize": "Kích thước ma trận:",
+		"vsdv-barcodeReader-cellSize": "Kich thươc tê bao:",
+		"vsdv-barcodeReader-bulleyeCenter": "Trung tâm của mã vạch Aztec:",
+		"vsdv-barcodeReader-hexValue": "Giá trị HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "Thông tin kiểm tra chất lượng in mã vạch:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Cài đặt đầu đọc mã vạch",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Tải xuống và mở tệp",
+		"vsdv-uploadAndAddFileButton-addFileString": "Tải lên và thêm tập tin",
 		"vsdv-openFile-addFileString": "Thêm tập tin",
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Lưu các thay đổi trong tài liệu PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Cập nhật dử liệu",
 		"vsdv-documentPasswordDialog-title": "Mật khẩu tài liệu",
 		"vsdv-dialog-cancelButton": "Hủy",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Xác thực tập tin",

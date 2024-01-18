@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Воситаҳо"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
 		},
 		"previousUploadFilesButton": {
 			"title": "Файлҳои қаблан боршуда"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Файли тасвириро тавассути URL бор кунед ва кушоед"
+		"uploadAndAddFileButton": {
+			"title": "Файлро бор кунед ва илова кунед"
+		},
+		"openFileFromUrlButton": {
+			"title": "Файлро аз URL кушоед"
 		},
 		"printImagesButton": {
 			"title": "Тасвирҳоро чоп кунед"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Файлро содирот ва зеркашӣ кунед"
+		},
+		"clearSessionCacheButton": {
+			"title": "Тоза кардани кэши сессия"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ба паҳнои мувофиқ"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Интихоби бисёрҷониба:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Барои эскиз қуттиҳои қайдкуниро истифода баред:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Панели амалҳоро барои эскиз истифода баред:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Ягон штрих-код ёфт нашуд.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Шумо бояд кӯшиш кунед, ки танзимоти шинохти штрих-кодро тағир диҳед, масалан, кам кардани фосилаи скан, илова кардани самти нави скан ва ғайра, агар шумо боварӣ дошта бошед, ки тасвир дорои штрих-код мебошад.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Лутфан тасвирро бо штрих-код ба суроғаи support@vintasoft.com фиристед, агар шумо штрих-кодро эътироф карда натавонед - мо тамоми кӯшишро ба харҷ медиҳем, то ба шумо кумак кунем.",
-		"vsdv-barcodeWritingInformationText-start": "Лутфан барои навиштани штрих-код қадамҳои зеринро иҷро кунед:",
+		"vsdv-barcodeWritingInformationText-start": "Лутфан барои тавлиди штрих-код қадамҳои зеринро иҷро кунед:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Тугмаи 'Танзимоти штрих-код нависанда' -ро клик кунед ва танзимоти заруриро муайян кунед.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Тугмаи 'Штрих-кодро нависед' -ро клик кунед ва тасвири нави штрих-код ба намоишгари тасвир илова карда мешавад.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Тугмаи 'Таҷдиди штрих-код' -ро клик кунед ва тасвири нави штрих-код ба намоишгари тасвир илова карда мешавад.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Штрих-кодҳои эътирофшуда:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Навъи штрих-код:",
+		"vsdv-barcodeReader-value": "Арзиши штрих-код:",
+		"vsdv-barcodeReader-baseValue": "Арзиши асосии штрих-код:",
+		"vsdv-barcodeReader-confidence": "Эътимоди натиҷа:",
+		"vsdv-barcodeReader-readingQuality": "Сифати хондани натиҷа:",
+		"vsdv-barcodeReader-threshold": "Ҳадди:",
+		"vsdv-barcodeReader-region": "Минтақаи тасвир:",
+		"vsdv-barcodeReader-angle": "Кунҷ:",
+		"vsdv-barcodeReader-narrowBarCount": "Шумораи штрих-кодҳои танг:",
+		"vsdv-barcodeReader-narrowBarSize": "Андозаи сатри штрих-коди танг:",
+		"vsdv-barcodeReader-matrixSize": "Андозаи матритса:",
+		"vsdv-barcodeReader-cellSize": "Андозаи ҳуҷайра:",
+		"vsdv-barcodeReader-bulleyeCenter": "Маркази штрих-коди Aztec:",
+		"vsdv-barcodeReader-hexValue": "Арзиши HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "Маълумоти санҷиши сифати чопи штрих-код:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Танзимоти хонандаи штрих-код",
 		"vsdv-dialog-okButton": "ДУРУСТ",
-		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
+		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
+		"vsdv-uploadFileButton-uploadFileString": "Файлро бор кунед",
 		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
 		"vsdv-dialog-cancelButton": "Бекор кардан",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
 		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
 		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
 		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
 		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",

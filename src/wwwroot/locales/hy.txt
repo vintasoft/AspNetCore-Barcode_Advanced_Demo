@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Գործիքներ"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Վերբեռնեք և բացեք ֆայլը"
 		},
 		"previousUploadFilesButton": {
 			"title": "Նախկինում բեռնված ֆայլեր"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Վերբեռնեք և բացեք պատկերի ֆայլը URL-ով"
+		"uploadAndAddFileButton": {
+			"title": "Վերբեռնեք և ավելացրեք ֆայլ"
+		},
+		"openFileFromUrlButton": {
+			"title": "Բացեք ֆայլը URL-ից"
 		},
 		"printImagesButton": {
 			"title": "Տպել պատկերներ"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Արտահանել և ներբեռնել ֆայլը"
+		},
+		"clearSessionCacheButton": {
+			"title": "Մաքրել նստաշրջանի քեշը"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Հարմարեցրեք լայնությանը"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Բազմակի ընտրություն."
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Օգտագործեք վանդակները մանրապատկերների համար."
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Օգտագործեք գործողությունների վահանակը մանրապատկերների համար."
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Շտրիխ կոդեր չեն գտնվել:",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Դուք պետք է փորձեք փոխել շտրիխ կոդի ճանաչման կարգավորումները, օրինակ՝ նվազեցնել սկանավորման միջակայքը, ավելացնել սկանավորման նոր ուղղություն և այլն, եթե վստահ եք, որ պատկերը պարունակում է շտրիխ կոդ:",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Խնդրում ենք ուղարկել շտրիխ կոդով պատկեր support@vintasoft.com հասցեին, եթե չեք կարողանում ճանաչել շտրիխ կոդը, մենք կանենք լավագույնը ձեզ օգնելու համար:",
-		"vsdv-barcodeWritingInformationText-start": "Շտրիխ կոդ գրելու համար խնդրում ենք կատարել հետևյալ քայլերը.",
+		"vsdv-barcodeWritingInformationText-start": "Խնդրում ենք կատարել հետևյալ քայլերը՝ շտրիխ կոդ ստեղծելու համար.",
 		"vsdv-barcodeWritingInformationText-step1": "1. Սեղմեք 'Շտրիխ գրողի կարգավորումներ' կոճակը և նշեք անհրաժեշտ կարգավորումները:",
-		"vsdv-barcodeWritingInformationText-step2": "2. Սեղմեք 'Գրել շտրիխ կոդ' կոճակը և շտրիխ կոդի նոր պատկերը կավելացվի պատկերների դիտողին:",
-		"vsdv-barcodeReader-recognizedBarcodes": "Ճանաչված շտրիխ կոդեր.",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Սեղմեք 'Ստեղծել շտրիխ կոդ' կոճակը և նոր շտրիխ կոդի պատկերը կավելացվի պատկերների դիտողին:",
+		"vsdv-barcodeReader-recognizedBarcodes": "Ճանաչված շտրիխ կոդերը.",
+		"vsdv-barcodeReader-barcodeType": "Շտրիխ կոդի տեսակը:",
+		"vsdv-barcodeReader-value": "Շտրիխ կոդի արժեքը.",
+		"vsdv-barcodeReader-baseValue": "Հիմնական շտրիխ կոդի արժեքը.",
+		"vsdv-barcodeReader-confidence": "Արդյունքի վստահությունը.",
+		"vsdv-barcodeReader-readingQuality": "Արդյունքի ընթերցման որակը.",
+		"vsdv-barcodeReader-threshold": "Շեմը:",
+		"vsdv-barcodeReader-region": "Պատկերի տարածաշրջան.",
+		"vsdv-barcodeReader-angle": "Անկյուն:",
+		"vsdv-barcodeReader-narrowBarCount": "Նեղ շտրիխ կոդերի քանակը.",
+		"vsdv-barcodeReader-narrowBarSize": "Նեղ շտրիխ կոդերի չափը.",
+		"vsdv-barcodeReader-matrixSize": "Մատրիցայի չափը:",
+		"vsdv-barcodeReader-cellSize": "Բջջի չափը:",
+		"vsdv-barcodeReader-bulleyeCenter": "Ացտեկների շտրիխ կոդի կենտրոնը.",
+		"vsdv-barcodeReader-hexValue": "HEX արժեքը:",
+		"vsdv-barcodeReader-qualityTestInformation": "Շտրիխ կոդի տպման որակի փորձարկման տեղեկատվություն.",
 		"vsdv-barcodeReaderSettingsDialog-title": "Շտրիխ կոդ ընթերցողի կարգավորումներ",
 		"vsdv-dialog-okButton": "լավ",
-		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
+		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
+		"vsdv-uploadFileButton-uploadFileString": "Ներբեռնել ֆայլ",
 		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
 		"vsdv-dialog-cancelButton": "Չեղարկել",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
 		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
 		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
 		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",

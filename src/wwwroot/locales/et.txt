@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Tööriistad"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laadige üles ja avage fail"
 		},
 		"previousUploadFilesButton": {
 			"title": "Varem üleslaaditud failid"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laadige üles ja avage pildifail URL-i järgi"
+		"uploadAndAddFileButton": {
+			"title": "Laadige üles ja lisage fail"
+		},
+		"openFileFromUrlButton": {
+			"title": "Ava fail URL-ist"
 		},
 		"printImagesButton": {
 			"title": "Printige pilte"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Faili eksportimine ja allalaadimine"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tühjendage seansi vahemälu"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sobivad laiusele"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Mitmikvalimine:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Kasutage pisipiltide jaoks märkeruutusid:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Kasutage pisipiltide jaoks toimingute paneeli:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Vöötkoode ei leitud.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Kui olete kindel, et pilt sisaldab vöötkoodi, peaksite proovima muuta vöötkoodi tuvastamise sätteid, näiteks vähendada skaneerimisintervalli, lisada uus skannimissuund jne.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Palun saatke pilt koos vöötkoodiga aadressile support@vintasoft.com, kui te vöötkoodi ära ei tunne – me anname teile parima, et aidata.",
-		"vsdv-barcodeWritingInformationText-start": "Vöötkoodi kirjutamiseks toimige järgmiselt.",
+		"vsdv-barcodeWritingInformationText-start": "Vöötkoodi genereerimiseks toimige järgmiselt.",
 		"vsdv-barcodeWritingInformationText-step1": "1. Klõpsake nuppu 'Vöötkoodikirjutaja sätted' ja määrake vajalikud sätted.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Klõpsake nuppu 'Kirjuta vöötkood' ja uus vöötkoodi pilt lisatakse pildivaaturisse.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klõpsake nupul Loo vöötkood ja uus vöötkoodi pilt lisatakse pildivaaturisse.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Tunnustatud vöötkoodid:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Vöötkoodi tüüp:",
+		"vsdv-barcodeReader-value": "Vöötkoodi väärtus:",
+		"vsdv-barcodeReader-baseValue": "Põhiline vöötkoodi väärtus:",
+		"vsdv-barcodeReader-confidence": "Tulemuse enesekindlus:",
+		"vsdv-barcodeReader-readingQuality": "Tulemuse lugemiskvaliteet:",
+		"vsdv-barcodeReader-threshold": "Lävi:",
+		"vsdv-barcodeReader-region": "Pildi piirkond:",
+		"vsdv-barcodeReader-angle": "Nurk:",
+		"vsdv-barcodeReader-narrowBarCount": "Kitsaste vöötkoodiribade arv:",
+		"vsdv-barcodeReader-narrowBarSize": "Kitsa vöötkoodiriba suurus:",
+		"vsdv-barcodeReader-matrixSize": "Maatriksi suurus:",
+		"vsdv-barcodeReader-cellSize": "Lahtri suurus:",
+		"vsdv-barcodeReader-bulleyeCenter": "Asteekide vöötkoodi keskus:",
+		"vsdv-barcodeReader-hexValue": "HEX väärtus:",
+		"vsdv-barcodeReader-qualityTestInformation": "Vöötkoodi prindikvaliteedi testi teave:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Vöötkoodilugeja seaded",
 		"vsdv-dialog-okButton": "Okei",
-		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
 		"vsdv-openFile-addFileString": "Lisa fail",
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
+		"vsdv-uploadFileButton-uploadFileString": "Faili üles laadima",
 		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
 		"vsdv-dialog-cancelButton": "Tühista",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
 		"vsdv-printImagesDialog-title": "Printige pilte",
 		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
 		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
 		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",

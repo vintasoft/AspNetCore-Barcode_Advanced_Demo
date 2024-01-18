@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Outils"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Télécharger et ouvrir le fichier"
 		},
 		"previousUploadFilesButton": {
 			"title": "Afficher une liste des fichiers précédemment téléchargés"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Téléchargez et ouvrez le fichier image par URL"
+		"uploadAndAddFileButton": {
+			"title": "Télécharger et ajouter un fichier"
+		},
+		"openFileFromUrlButton": {
+			"title": "Ouvrir le fichier à partir de l'URL"
 		},
 		"printImagesButton": {
 			"title": "Imprimer des images"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Exporter et télécharger le fichier"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vider le cache de la session"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Ajuster à la largeur"
@@ -119,7 +125,7 @@
 				"text": "Ce document est protégé par un mot de passe. Veuillez entrer un mot de passe."
 			},
 			"passwordLabel": {
-				"text": "Mot de passe:"
+				"text": "Mot de passe :"
 			},
 			"showPasswordLabel": {
 				"text": "Afficher le mot de passe"
@@ -136,7 +142,7 @@
 		},
 		"selectImagesDialog": {
 			"imagesLabel": {
-				"text": "Images:"
+				"text": "Images :"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -148,10 +154,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images:"
+				"text": "Plage d'images :"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -165,7 +171,7 @@
 		},
 		"printImagesDialog": {
 			"imagesLabel": {
-				"text": "Images:"
+				"text": "Images :"
 			},
 			"currentImageOption": {
 				"text": "Image actuelle"
@@ -177,10 +183,10 @@
 				"text": "Personnalisé"
 			},
 			"imageRangeLabel": {
-				"text": "Plage d'images:"
+				"text": "Plage d'images :"
 			},
 			"invalidRangeErrorMessageLabel": {
-				"text": "Plage de pages non valide. Exemple: 1-5, 8, 12-15."
+				"text": "Plage de pages non valide. Exemple : 1-5, 8, 12-15."
 			},
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
@@ -194,10 +200,10 @@
 		},
 		"imageViewerSettingsDialog": {
 			"imageDisplayModeLabel": {
-				"text": "Mode d'affichage des images:"
+				"text": "Mode d'affichage des images :"
 			},
 			"imageAnchorLabel": {
-				"text": "Ancre d'image:"
+				"text": "Ancre d'image :"
 			},
 			"noneOption": {
 				"text": "Non"
@@ -227,7 +233,7 @@
 				"text": "Gauche"
 			},
 			"multipageDisplayModeLabel": {
-				"text": "Mode d'affichage multi-pages:"
+				"text": "Mode d'affichage multi-pages :"
 			},
 			"allImagesOption": {
 				"text": "AllImages"
@@ -236,7 +242,7 @@
 				"text": "FixedImages"
 			},
 			"layoutDirectionLabel": {
-				"text": "Sens de mise en page:"
+				"text": "Sens de mise en page :"
 			},
 			"horizontalOption": {
 				"text": "Horizontale"
@@ -245,10 +251,10 @@
 				"text": "Verticale"
 			},
 			"rowColumnCountLabel": {
-				"text": "Images en ligne/colonne:"
+				"text": "Images en ligne/colonne :"
 			},
 			"imagePaddingLabel": {
-				"text": "Remplissage des images:"
+				"text": "Remplissage des images :"
 			},
 			"appearancesLabel": {
 				"text": "Apparitions"
@@ -257,25 +263,25 @@
 				"text": "Apparence de l'image"
 			},
 			"imageAppearanceBackColorLabel": {
-				"text": "Couleur de fond:"
+				"text": "Couleur de fond :"
 			},
 			"imageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure:"
+				"text": "Couleur de bordure :"
 			},
 			"imageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure:"
+				"text": "Largeur de la bordure :"
 			},
 			"focusedImageAppearanceLabel": {
 				"text": "Apparition de l'image mise au point"
 			},
 			"focusedImageAppearanceBackColorLabel": {
-				"text": "Couleur de fond:"
+				"text": "Couleur de fond :"
 			},
 			"focusedImageAppearanceBorderColorLabel": {
-				"text": "Couleur de bordure:"
+				"text": "Couleur de bordure :"
 			},
 			"focusedImageAppearanceBorderWidthLabel": {
-				"text": "Largeur de la bordure:"
+				"text": "Largeur de la bordure :"
 			},
 			"useAppearanceInSinglePageModeLabel": {
 				"text": "Utiliser l'apparence de l'image en mode page unique"
@@ -287,13 +293,13 @@
 				"text": "Paramètres par défaut"
 			},
 			"horizontalResolutionLabel": {
-				"text": "Résolution horizontale:"
+				"text": "Résolution horizontale :"
 			},
 			"verticalResolutionLabel ": {
-				"text": "Résolution verticale:"
+				"text": "Résolution verticale :"
 			},
 			"smoothingModeLabel": {
-				"text": "Mode fluide:"
+				"text": "Mode fluide :"
 			},
 			"AntiAlias": {
 				"text": "AntiAlias"
@@ -302,7 +308,7 @@
 				"text": "Non"
 			},
 			"interpolationModeLabel": {
-				"text": "Mode d'interpolation:"
+				"text": "Mode d'interpolation :"
 			},
 			"Bicubic": {
 				"text": "Bicubic"
@@ -323,25 +329,25 @@
 				"text": "Autres paramètres"
 			},
 			"backgroundColorLabel": {
-				"text": "Couleur d'arrière-plan de la visionneuse d'images:"
+				"text": "Couleur d'arrière-plan de la visionneuse d'images :"
 			},
 			"centerImageLabel": {
-				"text": "Centrer l'image:"
+				"text": "Centrer l'image :"
 			},
 			"resizeTimeoutLabel ": {
-				"text": "Délai de redimensionnement:"
+				"text": "Délai de redimensionnement :"
 			},
 			"tileSizeLabel": {
-				"text": "Taille de tuile:"
+				"text": "Taille de tuile :"
 			},
 			"colorManagementLabel": {
-				"text": "Activer la gestion des couleurs:"
+				"text": "Activer la gestion des couleurs :"
 			},
 			"useVectorRenderingLabel": {
-				"text": "Utiliser le rendu vectoriel pour les documents:"
+				"text": "Utiliser le rendu vectoriel pour les documents :"
 			},
 			"vectorContentBackgroundColorLabel": {
-				"text": "Couleur d'arrière-plan du contenu vectoriel:"
+				"text": "Couleur d'arrière-plan du contenu vectoriel :"
 			},
 			"okButton": {
 				"value": "OK"
@@ -352,10 +358,10 @@
 		},
 		"thumbnailViewerSettingsDialog": {
 			"sizeLabel": {
-				"text": "Taille de la miniature:"
+				"text": "Taille de la miniature :"
 			},
 			"scaleLabel": {
-				"text": "Échelle des vignettes:"
+				"text": "Échelle des vignettes :"
 			},
 			"smallestOption": {
 				"text": "Moins"
@@ -370,7 +376,7 @@
 				"text": "Grand"
 			},
 			"flowStyleLabel": {
-				"text": "Style de placement des vignettes:"
+				"text": "Style de placement des vignettes :"
 			},
 			"singleColumnOption": {
 				"text": "SingleColumn"
@@ -385,31 +391,31 @@
 				"text": "WrappedRows"
 			},
 			"columnCountLabel": {
-				"text": "Nombre de colonnes:"
+				"text": "Nombre de colonnes :"
 			},
 			"marginLabel": {
-				"text": "Rembourrage extérieur:"
+				"text": "Rembourrage extérieur :"
 			},
 			"paddingTopLabel": {
-				"text": "Rembourrage supérieur:"
+				"text": "Rembourrage supérieur :"
 			},
 			"paddingRightLabel": {
-				"text": "Retrait à droite:"
+				"text": "Retrait à droite :"
 			},
 			"paddingBottomLabel": {
-				"text": "Rembourrage inférieur:"
+				"text": "Rembourrage inférieur :"
 			},
 			"paddingLeftLabel": {
-				"text": "Retrait gauche:"
+				"text": "Retrait gauche :"
 			},
 			"showCaptionLabel": {
-				"text": "Afficher les légendes des miniatures:"
+				"text": "Afficher les légendes des miniatures :"
 			},
 			"captionFormatLabel": {
-				"text": "Format des signatures:"
+				"text": "Format des signatures :"
 			},
 			"captionAnchorLabel": {
-				"text": "Ancre de signature:"
+				"text": "Ancre de signature :"
 			},
 			"topLeftOption": {
 				"text": "Haut|Gauche"
@@ -439,13 +445,19 @@
 				"text": "Aligner au centre"
 			},
 			"focusOnHoverLabel": {
-				"text": "Survoler le focus:"
+				"text": "Survoler le focus :"
 			},
 			"multiSelectLabel": {
-				"text": "Autoriser la sélection de vignettes multiples:"
+				"text": "Autoriser la sélection de vignettes multiples :"
+			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Utilisez les cases à cocher pour la vignette :"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Utiliser le panneau d'actions pour la vignette :"
 			},
 			"canDragThumbnailsLabel": {
-				"text": "Peut faire glisser des vignettes:"
+				"text": "Peut faire glisser des vignettes :"
 			},
 			"okButton": {
 				"value": "OK"
@@ -464,36 +476,37 @@
 		}
 	},
 	"strings": {
-		"vsdv-barcodeReadingInformationText-start": "Veuillez suivre les étapes suivantes pour lire le code-barres:",
+		"vsdv-barcodeReadingInformationText-start": "Veuillez suivre les étapes suivantes pour lire le code-barres :",
 		"vsdv-barcodeReadingInformationText-step1": "1. Sélectionnez la région sur l'image à l'aide de l'outil de sélection si des codes-barres doivent être recherchés dans la région.",
-		"vsdv-barcodeReadingInformationText-step2": "2. Cliquez sur le bouton 'Paramètres du lecteur de codes-barres' et spécifiez les paramètres nécessaires.",
-		"vsdv-barcodeReadingInformationText-step3": "3. Cliquez sur le bouton 'Lire les codes-barres' et les résultats de la reconnaissance des codes-barres seront affichés dans cette zone de texte.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Cliquez sur le bouton ' Paramètres du lecteur de codes-barres ' et spécifiez les paramètres nécessaires.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Cliquez sur le bouton ' Lire les codes-barres ' et les résultats de la reconnaissance des codes-barres seront affichés dans cette zone de texte.",
 		"vsdv-barcodeReadingInformationText-step4": "4. Cliquez sur le code-barres en surbrillance dans la visionneuse d'images et vous verrez des informations détaillées sur le code-barres reconnu.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Aucun code-barres trouvé.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Vous devriez essayer de modifier les paramètres de reconnaissance des codes-barres, par exemple diminuer l'intervalle de numérisation, ajouter une nouvelle direction de numérisation, etc. si vous êtes sûr que l'image contient un code-barres.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Veuillez envoyer l'image avec le code-barres à support@vintasoft.com si vous ne parvenez pas à reconnaître le code-barres - nous ferons de notre mieux pour vous aider.",
-		"vsdv-barcodeWritingInformationText-start": "Veuillez suivre les étapes suivantes pour écrire le code-barres:",
+		"vsdv-barcodeWritingInformationText-start": "Veuillez suivre les étapes suivantes pour générer un code-barres :",
 		"vsdv-barcodeWritingInformationText-step1": "1. Cliquez sur le bouton 'Paramètres de Barcode Writer' et spécifiez les paramètres nécessaires.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Cliquez sur le bouton 'Écrire un code-barres' et une nouvelle image de code-barres sera ajoutée à la visionneuse d'images.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Codes barres reconnus:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Cliquez sur le bouton 'Générer un code-barres' et une nouvelle image de code-barres sera ajoutée à la visionneuse d'images.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Les codes barres reconnus :",
+		"vsdv-barcodeReader-barcodeType": "Type de code-barres :",
+		"vsdv-barcodeReader-value": "Une valeur de code-barres :",
+		"vsdv-barcodeReader-baseValue": "Une valeur de code-barres de base :",
+		"vsdv-barcodeReader-confidence": "La confiance du résultat :",
+		"vsdv-barcodeReader-readingQuality": "La qualité de lecture du résultat :",
+		"vsdv-barcodeReader-threshold": "Seuil:",
+		"vsdv-barcodeReader-region": "Une région d'image :",
+		"vsdv-barcodeReader-angle": "Angle:",
+		"vsdv-barcodeReader-narrowBarCount": "Nombre de barres de codes-barres étroites :",
+		"vsdv-barcodeReader-narrowBarSize": "Taille de la barre étroite du code-barres :",
+		"vsdv-barcodeReader-matrixSize": "Taille de la matrice :",
+		"vsdv-barcodeReader-cellSize": "Taille des cellules :",
+		"vsdv-barcodeReader-bulleyeCenter": "Le centre du code-barres aztèque :",
+		"vsdv-barcodeReader-hexValue": "Valeur HEX :",
+		"vsdv-barcodeReader-qualityTestInformation": "Informations sur le test de qualité d'impression des codes-barres :",
 		"vsdv-barcodeReaderSettingsDialog-title": "Paramètres du lecteur de codes-barres",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Téléverser un fichier",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Télécharger et ouvrir le fichier",
+		"vsdv-uploadAndAddFileButton-addFileString": "Télécharger et ajouter un fichier",
 		"vsdv-openFile-addFileString": "Ajouter le fichier",
 		"vsdv-openFile-authenticateFileString": "Authentifier le fichier",
 		"vsdv-downloadFile-actionMessage": "Télécharger un fichier",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Enregistrer les modifications dans les annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Graver des annotations sur les images",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Enregistrer les modifications dans le document PDF",
+		"vsdv-uploadFileButton-uploadFileString": "Téléverser un fichier",
 		"vsdv-documentPasswordDialog-title": "Mot de passe du document",
 		"vsdv-dialog-cancelButton": "Annuler",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Authentifier le fichier",
@@ -513,7 +527,7 @@
 		"vsdv-printImagesPanel-withAnnotationsLabel": "avec annotations",
 		"vsdv-imageViewerSettingsDialog-title": "Paramètres de la visionneuse d'images",
 		"vsdv-thumbnailViewerSettingDialog-title": "Paramètres de la visionneuse de miniatures",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes:",
+		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afficher les annotations sur les vignettes :",
 		"vsdv-uploadImageFromUrlDialog-title": "Télécharger une image à partir d'une URL"
 	}
 }

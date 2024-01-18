@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "ხელსაწყოები"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "ატვირთეთ და გახსენით ფაილი"
 		},
 		"previousUploadFilesButton": {
 			"title": "ადრე ატვირთული ფაილები"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "ატვირთეთ და გახსენით სურათის ფაილი URL-ით"
+		"uploadAndAddFileButton": {
+			"title": "ატვირთეთ და დაამატეთ ფაილი"
+		},
+		"openFileFromUrlButton": {
+			"title": "გახსენით ფაილი URL-დან"
 		},
 		"printImagesButton": {
 			"title": "სურათების დაბეჭდვა"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ფაილის ექსპორტი და ჩამოტვირთვა"
+		},
+		"clearSessionCacheButton": {
+			"title": "სესიის ქეშის გასუფთავება"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "მოერგება სიგანეს"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "მრავალჯერადი შერჩევა:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "გამოიყენეთ მოსანიშნი ველები ესკიზებისთვის:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "გამოიყენეთ მოქმედებების პანელი ესკიზისთვის:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "შეუძლია მინიატურების გადატანა:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "შტრიხკოდები ვერ მოიძებნა.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "თქვენ უნდა შეეცადოთ შეცვალოთ შტრიხკოდის ამოცნობის პარამეტრები, მაგალითად, შეამციროთ სკანირების ინტერვალი, დაამატოთ სკანირების ახალი მიმართულება და ა.შ. თუ დარწმუნებული ხართ, რომ სურათი შეიცავს შტრიხ კოდს.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "გთხოვთ, გამოაგზავნოთ სურათი შტრიხკოდით მისამართზე support@vintasoft.com, თუ ვერ ცნობთ შტრიხკოდს - ჩვენ ყველაფერს გავაკეთებთ, რომ დაგეხმაროთ.",
-		"vsdv-barcodeWritingInformationText-start": "გთხოვთ, შეასრულოთ შემდეგი ნაბიჯები შტრიხკოდის დასაწერად:",
+		"vsdv-barcodeWritingInformationText-start": "გთხოვთ, შეასრულოთ შემდეგი ნაბიჯები შტრიხკოდის შესაქმნელად:",
 		"vsdv-barcodeWritingInformationText-step1": "1. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის დამწერის პარამეტრები' და მიუთითეთ საჭირო პარამეტრები.",
-		"vsdv-barcodeWritingInformationText-step2": "2. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის ჩაწერა' და ახალი შტრიხკოდის სურათი დაემატება სურათების მაყურებელს.",
+		"vsdv-barcodeWritingInformationText-step2": "2. დააწკაპუნეთ ღილაკზე 'შტრიხკოდის გენერირება' და ახალი შტრიხკოდის სურათი დაემატება სურათების მაყურებელს.",
 		"vsdv-barcodeReader-recognizedBarcodes": "აღიარებული შტრიხკოდები:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "შტრიხკოდის ტიპი:",
+		"vsdv-barcodeReader-value": "შტრიხკოდის ღირებულება:",
+		"vsdv-barcodeReader-baseValue": "საბაზისო შტრიხკოდის ღირებულება:",
+		"vsdv-barcodeReader-confidence": "შედეგის ნდობა:",
+		"vsdv-barcodeReader-readingQuality": "შედეგის წაკითხვის ხარისხი:",
+		"vsdv-barcodeReader-threshold": "ბარიერი:",
+		"vsdv-barcodeReader-region": "გამოსახულების რეგიონი:",
+		"vsdv-barcodeReader-angle": "კუთხე:",
+		"vsdv-barcodeReader-narrowBarCount": "ვიწრო შტრიხკოდის ზოლების რაოდენობა:",
+		"vsdv-barcodeReader-narrowBarSize": "ვიწრო შტრიხკოდის ზოლის ზომა:",
+		"vsdv-barcodeReader-matrixSize": "მატრიცის ზომა:",
+		"vsdv-barcodeReader-cellSize": "უჯრედის ზომა:",
+		"vsdv-barcodeReader-bulleyeCenter": "აცტეკების შტრიხკოდის ცენტრი:",
+		"vsdv-barcodeReader-hexValue": "HEX მნიშვნელობა:",
+		"vsdv-barcodeReader-qualityTestInformation": "შტრიხკოდის ბეჭდვის ხარისხის ტესტის ინფორმაცია:",
 		"vsdv-barcodeReaderSettingsDialog-title": "შტრიხკოდების წამკითხველის პარამეტრები",
 		"vsdv-dialog-okButton": "კარგი",
-		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "ატვირთეთ და გახსენით ფაილი",
+		"vsdv-uploadAndAddFileButton-addFileString": "ატვირთეთ და დაამატეთ ფაილი",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
+		"vsdv-uploadFileButton-uploadFileString": "Ატვირთე ფაილი",
 		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
 		"vsdv-dialog-cancelButton": "გაუქმება",
 		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
@@ -510,7 +524,7 @@
 		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
 		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
 		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsdv-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
 		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",

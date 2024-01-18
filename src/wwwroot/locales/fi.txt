@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Työkalut"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
 		},
 		"previousUploadFilesButton": {
 			"title": "Näytä luettelo aiemmin ladatuista tiedostoista"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Lataa ja avaa kuvatiedosto URL-osoitteen mukaan"
+		"uploadAndAddFileButton": {
+			"title": "Lataa ja lisää tiedosto"
+		},
+		"openFileFromUrlButton": {
+			"title": "Avaa tiedosto URL-osoitteesta"
 		},
 		"printImagesButton": {
 			"title": "Tulosta kuvat"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Vie ja lataa tiedosto"
+		},
+		"clearSessionCacheButton": {
+			"title": "Tyhjennä istunnon välimuisti"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Sovita leveyteen"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Salli useiden pikkukuvien valinta:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Käytä pikkukuvien valintaruutuja:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Käytä toimintopaneelia pikkukuvalle:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
@@ -470,30 +482,31 @@
 		"vsdv-barcodeReadingInformationText-step3": "3. Napsauta 'Lue viivakoodit' -painiketta, jolloin viivakoodin tunnistustulokset näkyvät tässä tekstiruudussa.",
 		"vsdv-barcodeReadingInformationText-step4": "4. Napsauta korostettua viivakoodia kuvankatseluohjelmassa, niin näet laajennetun tiedon tunnistetusta viivakoodista.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Viivakoodeja ei löytynyt.",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Sinun tulisi yrittää muuttaa viivakoodin tunnistusasetuksia, esimerkiksi lyhentää skannausväliä, lisätä uusi skannaussuunta jne., jos olet varma, että kuva sisältää viivakoodin.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Sinun tulee yrittää muuttaa viivakoodin tunnistusasetuksia, esimerkiksi lyhentää skannausväliä, lisätä uusi skannaussuunta jne., jos olet varma, että kuva sisältää viivakoodin.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Lähetä kuva viivakoodilla osoitteeseen support@vintasoft.com, jos et tunnista viivakoodia - autamme sinua parhaamme mukaan.",
-		"vsdv-barcodeWritingInformationText-start": "Kirjoita viivakoodi seuraavasti:",
+		"vsdv-barcodeWritingInformationText-start": "Luo viivakoodi seuraavasti:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Napsauta 'Barcode Writer Settings' -painiketta ja määritä tarvittavat asetukset.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Napsauta Kirjoita viivakoodi -painiketta, niin uusi viivakoodikuva lisätään kuvan katseluohjelmaan.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Napsauta Luo viivakoodi -painiketta, niin uusi viivakoodikuva lisätään kuvan katseluohjelmaan.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Tunnistetut viivakoodit:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeReader-barcodeType": "Viivakoodin tyyppi:",
+		"vsdv-barcodeReader-value": "Viivakoodin arvo:",
+		"vsdv-barcodeReader-baseValue": "Viivakoodin perusarvo:",
+		"vsdv-barcodeReader-confidence": "Tuloksen luottamus:",
+		"vsdv-barcodeReader-readingQuality": "Tuloksen lukulaatu:",
+		"vsdv-barcodeReader-threshold": "Kynnys:",
+		"vsdv-barcodeReader-region": "Kuvan alue:",
+		"vsdv-barcodeReader-angle": "Kulma:",
+		"vsdv-barcodeReader-narrowBarCount": "Kapeiden viivakoodipalkkien määrä:",
+		"vsdv-barcodeReader-narrowBarSize": "Kapean viivakoodipalkin koko:",
+		"vsdv-barcodeReader-matrixSize": "Matriisin koko:",
+		"vsdv-barcodeReader-cellSize": "Solun koko:",
+		"vsdv-barcodeReader-bulleyeCenter": "Aztec-viivakoodin keskusta:",
+		"vsdv-barcodeReader-hexValue": "HEX-arvo:",
+		"vsdv-barcodeReader-qualityTestInformation": "Viivakooditulostuslaadun testitiedot:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Viivakoodinlukijan asetukset",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
+		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
+		"vsdv-uploadFileButton-uploadFileString": "Lataa tiedosto",
 		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
 		"vsdv-dialog-cancelButton": "Peruuta",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",

@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Gereedskap"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
 		},
 		"previousUploadFilesButton": {
 			"title": "Bekyk 'n lys van voorheen afgelaaide lêers"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Laai prentlêer op en maak oop volgens URL"
+		"uploadAndAddFileButton": {
+			"title": "Laai op en voeg lêer by"
+		},
+		"openFileFromUrlButton": {
+			"title": "Maak lêer oop vanaf URL"
 		},
 		"printImagesButton": {
 			"title": "Druk prente"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Voer en laai lêer af"
+		},
+		"clearSessionCacheButton": {
+			"title": "Vee sessiekas uit"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "Pas by breedte"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Laat meervoudige kleinkiekies toe:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Gebruik merkblokkies vir kleinkiekie:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Gebruik handelingepaneel vir kleinkiekie:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Kan duimnaels sleep:"
 			},
@@ -470,30 +482,31 @@
 		"vsdv-barcodeReadingInformationText-step3": "3. Klik die 'Lees strepieskodes'-knoppie en strepieskode-herkenningsresultate sal in hierdie tekskassie gewys word.",
 		"vsdv-barcodeReadingInformationText-step4": "4. Klik op gemerkte strepieskode in beeldkyker en jy sal 'n uitgebreide inligting oor herkende strepieskode sien.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Geen strepieskodes gevind nie.",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Jy moet probeer om strepieskodeherkenningsinstellings te verander, byvoorbeeld om skanderingsinterval te verminder, nuwe skanderingsrigting by te voeg, ens. as jy seker is dat daardie prent 'n strepieskode bevat.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Jy moet probeer om strepieskodeherkenningsinstellings te verander, byvoorbeeld om skanderingsinterval te verminder, nuwe skanderingsrigting by te voeg, ens. as jy seker is dat die prent 'n strepieskode bevat.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Stuur asseblief prent met strepieskode na support@vintasoft.com as jy nie strepieskode kan herken nie - ons sal die beste doen om jou te help.",
-		"vsdv-barcodeWritingInformationText-start": "Doen asseblief die volgende stappe om strepieskode te skryf:",
+		"vsdv-barcodeWritingInformationText-start": "Doen asseblief die volgende stappe om strepieskode te genereer:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Klik die 'Barcode Writer Settings'-knoppie en spesifiseer die nodige instellings.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Klik op die 'Skryf strepieskode'-knoppie en nuwe strepieskodeprent sal by beeldkyker gevoeg word.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Herkende strepieskodes:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. Klik op die 'Generate Barcode'-knoppie en 'n nuwe strepieskode-prent sal by beeldkyker gevoeg word.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Die erkende strepieskodes:",
+		"vsdv-barcodeReader-barcodeType": "Streepkode tipe:",
+		"vsdv-barcodeReader-value": "'n Strepiekodewaarde:",
+		"vsdv-barcodeReader-baseValue": "'n Basis strepieskode waarde:",
+		"vsdv-barcodeReader-confidence": "Die resultaat selfvertroue:",
+		"vsdv-barcodeReader-readingQuality": "Die resultaat leeskwaliteit:",
+		"vsdv-barcodeReader-threshold": "Drempel:",
+		"vsdv-barcodeReader-region": "'n Beeldstreek:",
+		"vsdv-barcodeReader-angle": "Hoek:",
+		"vsdv-barcodeReader-narrowBarCount": "Aantal smal strepieskodestrepies:",
+		"vsdv-barcodeReader-narrowBarSize": "Grootte van smal strepieskodestaaf:",
+		"vsdv-barcodeReader-matrixSize": "Matriks grootte:",
+		"vsdv-barcodeReader-cellSize": "Sel Grootte:",
+		"vsdv-barcodeReader-bulleyeCenter": "Die middel van Aztec strepieskode:",
+		"vsdv-barcodeReader-hexValue": "HEX-waarde:",
+		"vsdv-barcodeReader-qualityTestInformation": "Streepkode druk kwaliteit toets inligting:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Streepkodeleserinstellings",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laai lêer af en maak oop",
+		"vsdv-uploadAndAddFileButton-addFileString": "Laai op en voeg lêer by",
 		"vsdv-openFile-addFileString": "Voeg lêer by",
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Stoor veranderinge in PDF-dokument",
+		"vsdv-uploadFileButton-uploadFileString": "Laai leêr op",
 		"vsdv-documentPasswordDialog-title": "Dokumentwagwoord",
 		"vsdv-dialog-cancelButton": "Kanselleer",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Bevestig lêer",

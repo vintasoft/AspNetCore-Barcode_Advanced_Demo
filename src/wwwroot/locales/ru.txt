@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "Инструменты"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
 		},
 		"previousUploadFilesButton": {
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "Загрузить и откройть файл изображения по URL-адресу"
+		"uploadAndAddFileButton": {
+			"title": "Загрузите и добавьте файл"
+		},
+		"openFileFromUrlButton": {
+			"title": "Открыть файл по URL"
 		},
 		"printImagesButton": {
 			"title": "Распечатать изображения"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
+		},
+		"clearSessionCacheButton": {
+			"title": "Очистить кэш сеанса"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "По ширине"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "Разрешить выбор нескольких миниатюр:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "Используйте флажки для миниатюр:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "Используйте панель действий для миниатюр:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "Можно перетаскивать миниатюры:"
 			},
@@ -465,35 +477,36 @@
 	},
 	"strings": {
 		"vsdv-barcodeReadingInformationText-start": "Для считывания штрих-кода выполните следующие действия:",
-		"vsdv-barcodeReadingInformationText-step1": "1. Выберите регион на изображении с помощью инструмента 'Прямоугольное выделение', если штрих-коды нужно искать в определенном регионе.",
-		"vsdv-barcodeReadingInformationText-step2": "2. Нажмите кнопку 'Настройки распознавателя штрих-кодов' и укажите необходимые настройки.",
-		"vsdv-barcodeReadingInformationText-step3": "3. Нажмите кнопку 'Распознать штрих-коды', и результаты распознавания штрих-кодов будут показаны в этом текстовом поле.",
-		"vsdv-barcodeReadingInformationText-step4": "4. Кликните по выделенному штрих-коду в просмотрщике изображений, и вы увидите расширенную информацию о распознанном штрих-коде.",
+		"vsdv-barcodeReadingInformationText-step1": "1. Выберите регион на изображении с помощью инструмента выбора, если в этом регионе необходимо искать штрих-коды.",
+		"vsdv-barcodeReadingInformationText-step2": "2. Нажмите кнопку 'Настройки считывателя штрих-кода' и укажите необходимые настройки.",
+		"vsdv-barcodeReadingInformationText-step3": "3. Нажмите кнопку 'Считать штрих-коды', и результаты распознавания штрих-кода будут показаны в этом текстовом поле.",
+		"vsdv-barcodeReadingInformationText-step4": "4. Нажмите на выделенный штрих-код в средстве просмотра изображений, и вы увидите расширенную информацию о распознанном штрих-коде.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрих-коды не найдены.",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вам следует попытаться изменить настройки распознавателя штрих-кодов, например уменьшить интервал сканирования, добавить новое направление сканирования и т. д., если вы уверены, что изображение содержит штрих-код.",
-		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Если вы не можете распознать штрих-код, отправьте изображение с штрих-кодом на адрес support@vintasoft.com — мы сделаем все возможное, чтобы вам помочь.",
-		"vsdv-barcodeWritingInformationText-start": "Для генерации штрих-кода выполните следующие действия:",
-		"vsdv-barcodeWritingInformationText-step1": "1. Нажмите кнопку 'Настройки генератора штрих-кода' и укажите необходимые настройки.",
-		"vsdv-barcodeWritingInformationText-step2": "2. Нажмите кнопку 'Сгенерировать штрих-код', и новое изображение штрих-кода будет добавлено в просмотрщик изображений.",
-		"vsdv-barcodeReader-recognizedBarcodes": "Распознанные штрих-коды:",
-		"vsdv-barcodeReader-barcodeType": "Тип штрихкода: ",
-		"vsdv-barcodeReader-value": "Значение: ",
-		"vsdv-barcodeReader-baseValue": "Базовое значение: ",
-		"vsdv-barcodeReader-confidence": "Достоверность: ",
-		"vsdv-barcodeReader-readingQuality": "Качество чтения: ",
-		"vsdv-barcodeReader-threshold": "Порог: ",
-		"vsdv-barcodeReader-region": "Регион: ",
-		"vsdv-barcodeReader-angle": "Угол: ",
-		"vsdv-barcodeReader-narrowBarCount": "Количество уких полос: ",
-		"vsdv-barcodeReader-narrowBarSize": "Размер узкой полосы: ",
-		"vsdv-barcodeReader-matrixSize": "Размер матрицы: ",
-		"vsdv-barcodeReader-cellSize": "Размер ячейки: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Центр Bulleye: ",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вам следует попытаться изменить настройки распознавания штрих-кода, например уменьшить интервал сканирования, добавить новое направление сканирования и т. д., если вы уверены, что изображение содержит штрих-код.",
+		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Если вы не можете распознать штрих-код, отправьте изображение со штрих-кодом на адрес support@vintasoft.com — мы сделаем все возможное, чтобы вам помочь.",
+		"vsdv-barcodeWritingInformationText-start": "Для создания штрих-кода выполните следующие действия:",
+		"vsdv-barcodeWritingInformationText-step1": "1. Нажмите кнопку 'Настройки устройства записи штрих-кода' и укажите необходимые настройки.",
+		"vsdv-barcodeWritingInformationText-step2": "2. Нажмите кнопку 'Создать штрих-код', и новое изображение штрих-кода будет добавлено в программу просмотра изображений.",
+		"vsdv-barcodeReader-recognizedBarcodes": "Распознаваемые штрих-коды:",
+		"vsdv-barcodeReader-barcodeType": "Тип штрих-кода:",
+		"vsdv-barcodeReader-value": "Значение штрих-кода:",
+		"vsdv-barcodeReader-baseValue": "Базовое значение штрих-кода:",
+		"vsdv-barcodeReader-confidence": "Уверенность в результате:",
+		"vsdv-barcodeReader-readingQuality": "Качество чтения результата:",
+		"vsdv-barcodeReader-threshold": "Порог:",
+		"vsdv-barcodeReader-region": "Область изображения:",
+		"vsdv-barcodeReader-angle": "Угол:",
+		"vsdv-barcodeReader-narrowBarCount": "Количество узких полосок штрих-кода:",
+		"vsdv-barcodeReader-narrowBarSize": "Размер узкой полосы штрих-кода:",
+		"vsdv-barcodeReader-matrixSize": "Размер матрицы:",
+		"vsdv-barcodeReader-cellSize": "Размер ячейки:",
+		"vsdv-barcodeReader-bulleyeCenter": "Центр штрих-кода Aztec:",
 		"vsdv-barcodeReader-hexValue": "Шестнадцатеричное значение:",
-		"vsdv-barcodeReader-qualityTestInformation": "Информация теста качества: ",
+		"vsdv-barcodeReader-qualityTestInformation": "Информация о проверке качества печати штрих-кода:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки распознавателя штрих-кодов",
 		"vsdv-dialog-okButton": "ОК",
-		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
 		"vsdv-downloadFile-actionMessage": "Загрузить файл",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Прожечь аннотации на изображениях",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "Сохранить изменения в PDF-документе",
+		"vsdv-uploadFileButton-uploadFileString": "Загрузить файл",
 		"vsdv-documentPasswordDialog-title": "Пароль к документу",
 		"vsdv-dialog-cancelButton": "Отмена",
 		"vsdv-documentPasswordPanel-authenticateFileString": "Аутентификация файла",
@@ -514,6 +528,6 @@
 		"vsdv-imageViewerSettingsDialog-title": "Настройки просмотрщика изображений",
 		"vsdv-thumbnailViewerSettingDialog-title": "Настройки просмотрщика миниатюр",
 		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Отобразить аннотации на миниатюрах:",
-		"vsdv-uploadImageFromUrlDialog-title": "Открыть изображение с URL"
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузить изображение с URL"
 	}
 }

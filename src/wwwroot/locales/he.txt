@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "כלים"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
 		},
 		"previousUploadFilesButton": {
 			"title": "הצג רשימה של קבצים שהורדו בעבר"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "העלה ופתח קובץ תמונה לפי כתובת אתר"
+		"uploadAndAddFileButton": {
+			"title": "העלה והוסף קובץ"
+		},
+		"openFileFromUrlButton": {
+			"title": "פתח קובץ מ-URL"
 		},
 		"printImagesButton": {
 			"title": "הדפס תמונות"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ייצא והורד קובץ"
+		},
+		"clearSessionCacheButton": {
+			"title": "נקה את מטמון ההפעלה"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "התאם לרוחב"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "אפשר בחירת תמונות ממוזערות מרובות:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "השתמש בתיבות סימון עבור תמונה ממוזערת:"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "השתמש בחלונית פעולות לתמונה ממוזערת:"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "לא נמצאו ברקודים.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "אתה צריך לנסות לשנות את הגדרות זיהוי הברקוד, למשל להקטין את מרווח הסריקה, להוסיף כיוון סריקה חדש וכו' אם אתה בטוח שהתמונה מכילה ברקוד.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "אנא שלח תמונה עם ברקוד אל support@vintasoft.com אם אינך יכול לזהות ברקוד - אנו נעשה כמיטב יכולתנו לעזור לך.",
-		"vsdv-barcodeWritingInformationText-start": "אנא בצע את השלבים הבאים לכתיבת ברקוד:",
+		"vsdv-barcodeWritingInformationText-start": "אנא בצע את השלבים הבאים כדי ליצור ברקוד:",
 		"vsdv-barcodeWritingInformationText-step1": "1. לחץ על הלחצן 'הגדרות כותב ברקוד' וציין את ההגדרות הדרושות.",
-		"vsdv-barcodeWritingInformationText-step2": "2. לחץ על הלחצן 'כתוב ברקוד' ותמונת ברקוד חדשה תתווסף למציג התמונות.",
-		"vsdv-barcodeReader-recognizedBarcodes": "ברקודים מזוהים:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. לחץ על הלחצן 'צור ברקוד' ותמונת ברקוד חדשה תתווסף למציג התמונות.",
+		"vsdv-barcodeReader-recognizedBarcodes": "הברקודים המוכרים:",
+		"vsdv-barcodeReader-barcodeType": "סוג ברקוד:",
+		"vsdv-barcodeReader-value": "ערך ברקוד:",
+		"vsdv-barcodeReader-baseValue": "ערך ברקוד בסיסי:",
+		"vsdv-barcodeReader-confidence": "ביטחון התוצאה:",
+		"vsdv-barcodeReader-readingQuality": "איכות הקריאה של התוצאה:",
+		"vsdv-barcodeReader-threshold": "מפתן:",
+		"vsdv-barcodeReader-region": "אזור תמונה:",
+		"vsdv-barcodeReader-angle": "זָוִית:",
+		"vsdv-barcodeReader-narrowBarCount": "ספירת פסי ברקוד צרים:",
+		"vsdv-barcodeReader-narrowBarSize": "גודל של בר ברקוד צר:",
+		"vsdv-barcodeReader-matrixSize": "גודל מטריקס:",
+		"vsdv-barcodeReader-cellSize": "גודל תא:",
+		"vsdv-barcodeReader-bulleyeCenter": "מרכז הברקוד האצטקי:",
+		"vsdv-barcodeReader-hexValue": "ערך HEX:",
+		"vsdv-barcodeReader-qualityTestInformation": "מידע על בדיקת איכות הדפסת ברקוד:",
 		"vsdv-barcodeReaderSettingsDialog-title": "הגדרות קורא ברקוד",
 		"vsdv-dialog-okButton": "בסדר",
-		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
+		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
+		"vsdv-uploadFileButton-uploadFileString": "העלה קובץ",
 		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
 		"vsdv-dialog-cancelButton": "בטל",
 		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",

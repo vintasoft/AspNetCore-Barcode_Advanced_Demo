@@ -9,14 +9,17 @@
 		"toolsLabel": {
 			"text": "ツール"
 		},
-		"uploadFileButton": {
+		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
 		},
 		"previousUploadFilesButton": {
 			"title": "以前にダウンロードしたファイルのリストを表示する"
 		},
-		"uploadImageFromUrlButton": {
-			"title": "URLで画像ファイルをアップロードして開く"
+		"uploadAndAddFileButton": {
+			"title": "ファイルをアップロードして追加する"
+		},
+		"openFileFromUrlButton": {
+			"title": "URLからファイルを開く"
 		},
 		"printImagesButton": {
 			"title": "画像を印刷"
@@ -26,6 +29,9 @@
 		},
 		"exportAndDownloadFileButton": {
 			"title": "ファイルのエクスポートとダウンロード"
+		},
+		"clearSessionCacheButton": {
+			"title": "セッションキャッシュをクリアする"
 		},
 		"fitToWidthSizeModeButton": {
 			"title": "幅に合わせる"
@@ -444,6 +450,12 @@
 			"multiSelectLabel": {
 				"text": "複数のサムネイルの選択を許可します:"
 			},
+			"useThumbnailCheckboxesLabel": {
+				"text": "サムネイルにチェックボックスを使用します。"
+			},
+			"useThumbnailActionsPanelLabel": {
+				"text": "サムネイルにアクション パネルを使用します。"
+			},
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
@@ -472,28 +484,29 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "バーコードが見つかりませんでした。",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "画像にバーコードが含まれていることが確実な場合は、スキャン間隔を減らす、新しいスキャン方向を追加するなど、バーコード認識設定の変更を試みる必要があります。",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "バーコードを認識できない場合は、バーコード付きの画像を support@vintasoft.com に送信してください。最善を尽くしてお手伝いいたします。",
-		"vsdv-barcodeWritingInformationText-start": "バーコードを書き込むには、次の手順を実行してください。",
+		"vsdv-barcodeWritingInformationText-start": "バーコードを生成するには、次の手順を実行してください。",
 		"vsdv-barcodeWritingInformationText-step1": "1. 「バーコードライタ設定」ボタンをクリックし、必要な設定を行います。",
-		"vsdv-barcodeWritingInformationText-step2": "2. [バーコードの書き込み] ボタンをクリックすると、新しいバーコード画像が画像ビューアに追加されます。",
-		"vsdv-barcodeReader-recognizedBarcodes": "認識されるバーコード:",
-		"vsdv-barcodeReader-barcodeType": "Barcode Type: ",
-		"vsdv-barcodeReader-value": "Value: ",
-		"vsdv-barcodeReader-baseValue": "Base value: ",
-		"vsdv-barcodeReader-confidence": "Confidence: ",
-		"vsdv-barcodeReader-readingQuality": "Reading Quality: ",
-		"vsdv-barcodeReader-threshold": "Threshold: ",
-		"vsdv-barcodeReader-region": "Region: ",
-		"vsdv-barcodeReader-angle": "Angle: ",
-		"vsdv-barcodeReader-narrowBarCount": "Narrow Bar Count: ",
-		"vsdv-barcodeReader-narrowBarSize": "Narrow Bar Size: ",
-		"vsdv-barcodeReader-matrixSize": "Matrix Size: ",
-		"vsdv-barcodeReader-cellSize": "Cell Size: ",
-		"vsdv-barcodeReader-bulleyeCenter": "Bulleye Center: ",
-		"vsdv-barcodeReader-hexValue": "HEX Value: ",
-		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
+		"vsdv-barcodeWritingInformationText-step2": "2. [バーコードの生成] ボタンをクリックすると、新しいバーコード画像が画像ビューアに追加されます。",
+		"vsdv-barcodeReader-recognizedBarcodes": "認識されたバーコード:",
+		"vsdv-barcodeReader-barcodeType": "バーコードの種類:",
+		"vsdv-barcodeReader-value": "バーコード値:",
+		"vsdv-barcodeReader-baseValue": "基本バーコード値:",
+		"vsdv-barcodeReader-confidence": "結果の信頼度:",
+		"vsdv-barcodeReader-readingQuality": "結果の読み取り品質:",
+		"vsdv-barcodeReader-threshold": "しきい値：",
+		"vsdv-barcodeReader-region": "画像領域:",
+		"vsdv-barcodeReader-angle": "角度：",
+		"vsdv-barcodeReader-narrowBarCount": "幅の狭いバーコード バーの数:",
+		"vsdv-barcodeReader-narrowBarSize": "細いバーコードバーのサイズ:",
+		"vsdv-barcodeReader-matrixSize": "マトリックスのサイズ:",
+		"vsdv-barcodeReader-cellSize": "セルサイズ:",
+		"vsdv-barcodeReader-bulleyeCenter": "アステカのバーコードの中心:",
+		"vsdv-barcodeReader-hexValue": "16 進数の値:",
+		"vsdv-barcodeReader-qualityTestInformation": "バーコード印刷品質テスト情報:",
 		"vsdv-barcodeReaderSettingsDialog-title": "バーコードリーダーの設定",
 		"vsdv-dialog-okButton": "OK",
-		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
+		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
+		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsdv-openFile-addFileString": "ファイルを追加",
 		"vsdv-openFile-authenticateFileString": "ファイルを認証する",
 		"vsdv-downloadFile-actionMessage": "ダウンロードファイル",
@@ -501,6 +514,7 @@
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
 		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
+		"vsdv-uploadFileButton-uploadFileString": "ファイルをアップロードする",
 		"vsdv-documentPasswordDialog-title": "文書のパスワード",
 		"vsdv-dialog-cancelButton": "キャンセル",
 		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
