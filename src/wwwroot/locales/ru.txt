@@ -476,7 +476,7 @@
 		}
 	},
 	"strings": {
-		"vsdv-barcodeReadingInformationText-start": "Для считывания штрих-кода выполните следующие действия:",
+		"vsdv-barcodeReadingInformationText-start": "Для распознавания штрих-кодов выполните следующие действия:",
 		"vsdv-barcodeReadingInformationText-step1": "1. Выберите регион на изображении с помощью инструмента выбора, если в этом регионе необходимо искать штрих-коды.",
 		"vsdv-barcodeReadingInformationText-step2": "2. Нажмите кнопку 'Настройки считывателя штрих-кода' и укажите необходимые настройки.",
 		"vsdv-barcodeReadingInformationText-step3": "3. Нажмите кнопку 'Считать штрих-коды', и результаты распознавания штрих-кода будут показаны в этом текстовом поле.",
@@ -484,7 +484,7 @@
 		"vsdv-barcodeReadingNoBarcodesInformationText-str1": "Штрих-коды не найдены.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str2": "Вам следует попытаться изменить настройки распознавания штрих-кода, например уменьшить интервал сканирования, добавить новое направление сканирования и т. д., если вы уверены, что изображение содержит штрих-код.",
 		"vsdv-barcodeReadingNoBarcodesInformationText-str3": "Если вы не можете распознать штрих-код, отправьте изображение со штрих-кодом на адрес support@vintasoft.com — мы сделаем все возможное, чтобы вам помочь.",
-		"vsdv-barcodeWritingInformationText-start": "Для создания штрих-кода выполните следующие действия:",
+		"vsdv-barcodeWritingInformationText-start": "Для генерации штрих-кода выполните следующие действия:",
 		"vsdv-barcodeWritingInformationText-step1": "1. Нажмите кнопку 'Настройки устройства записи штрих-кода' и укажите необходимые настройки.",
 		"vsdv-barcodeWritingInformationText-step2": "2. Нажмите кнопку 'Создать штрих-код', и новое изображение штрих-кода будет добавлено в программу просмотра изображений.",
 		"vsdv-barcodeReader-recognizedBarcodes": "Распознаваемые штрих-коды:",
