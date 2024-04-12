@@ -2,6 +2,11 @@
  A dialog that displays information about recognized barcode.
 */
 BarcodeRecognitionResultDialogJS = function (barcodeReaderHelper, barcodeInfo, barcodeQualityTestInfo) {
+    
+    // change title "barcodeRecognitionResultDialog" dialog
+    var title = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-title");
+    document.getElementById('barcodeRecognitionResultDialogTitle').innerHTML = title;
+
 
     $('#barcodeRecognitionResultDialog').on('show.bs.modal', function () {
         __openBarcodeRecognitionResultDialog(barcodeInfo, barcodeQualityTestInfo);

@@ -381,7 +381,9 @@ function __createInstructionsLocalization() {
 /**
  Creates about barcodes information localization.
 */
-function __createAboutBarcodesInformationLocalization() {    
+function __createAboutBarcodesInformationLocalization() {   
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-title", "Barcode recognition result");
+
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-recognizedBarcodes", "Recognized barcodes: ");
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-barcodeType", "Barcode Type: ");
 
