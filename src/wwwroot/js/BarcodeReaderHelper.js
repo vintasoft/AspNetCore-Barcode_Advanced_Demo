@@ -332,6 +332,30 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         return obj;
     }
 
+    /**
+     Creates a "<br />"" DOM-element.
+    */
+    function __getBr() {
+        return document.createElement("br");
+    }
+
+    /**
+     Creates a "<hr>" DOM-element.
+    */
+    function __getHr() {
+        return document.createElement("hr");
+    }
+
+    /**
+     Adds text in "<b>" DOM-element.
+     @param {string} text Bolding text.
+    */
+    function __boldText(text) {
+        var b = document.createElement("b");
+        b.append(text);
+        return b;
+    }
+
 
     // === Create HTML markup for barcode recognition result ===
 
@@ -341,206 +365,246 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
      @param {object} barcodeQualityTestInfo Information about quality test.
     */
     BarcodeReaderHelperJS.prototype.createHtmlMarkupForBarcodeReadingResult = function (barcodeInfo, barcodeQualityTestInfo) {
+        var barcodeInfoDiv = document.createElement("div");
+
         var barcodeTypeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-barcodeType");
-        var htmlMarkup = '<b>' + barcodeTypeText + '</b>' + barcodeInfo.barcodeType + '<br />';
+        // '<b>' + barcodeTypeText + '</b>' + barcodeInfo.barcodeType + '<br />'
+        barcodeInfoDiv.append(__boldText(barcodeTypeText), barcodeInfo.barcodeType, __getBr());
 
         
         var valueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-value");
-        htmlMarkup += '<b>' + valueText + '</b>';
+
+        // '<b>' + valueText + '</b>'
+        barcodeInfoDiv.append(__boldText(valueText));
 
         var isWriteBaseValue = true;
         if (barcodeInfo.barcodeType == "Mailmark CMDM Type7" || barcodeInfo.barcodeType == "Mailmark CMDM Type9" || barcodeInfo.barcodeType == "Mailmark CMDM Type29") {
-            htmlMarkup += '<br />' + __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, true, '<br />');
+            barcodeInfoDiv.append(__getBr());
+            barcodeInfoDiv.append(...__createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, true, [__getBr()]));
         }
         else if (barcodeInfo.barcodeType == "PPN") {
-            htmlMarkup += '<br />' + __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, true, '<br />');
+            barcodeInfoDiv.append(__getBr());
+            barcodeInfoDiv.append(...__createMarkupWithInformationAboutPpnBarcode(barcodeInfo, true, [__getBr()]));
         }
         else if (barcodeInfo.barcodeType == "AAMVA") {
-            htmlMarkup += '<br />' + __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, true, '<br />');
+            barcodeInfoDiv.append(__getBr());
+            barcodeInfoDiv.append(...__createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, true, [__getBr()]));
         }
         else if (barcodeInfo.barcodeType == "Swiss QR Code") {
-            htmlMarkup += '<br />' + __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, true, '<br />');
+            barcodeInfoDiv.append(__getBr());
+            barcodeInfoDiv.append(...__createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, true, [__getBr()]));
         }
         else {
-            htmlMarkup += __replaceSpecialHtmlChars(barcodeInfo.value);
+            barcodeInfoDiv.append(__replaceSpecialHtmlChars(barcodeInfo.value));
             if (barcodeInfo.baseValue == null || barcodeInfo.value == barcodeInfo.baseValue) {
                 isWriteBaseValue = false;
             }
         }
-        htmlMarkup += '<br />';
+        barcodeInfoDiv.append(__getBr());
 
         if (isWriteBaseValue) {
             var baseValueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-baseValue");
-            htmlMarkup += '<b>' + baseValueText + '</b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            // '<b>' + baseValueText + '</b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            barcodeInfoDiv.append(__boldText(baseValueText), __replaceSpecialHtmlChars(barcodeInfo.baseValue), __getBr());
         }
 
 
         var confidenceText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-confidence");
-        htmlMarkup += '<b>' + confidenceText + '</b>' + barcodeInfo.confidence + '<br />';
+        // '<b>' + confidenceText + '</b>' + barcodeInfo.confidence + '<br />';
+        barcodeInfoDiv.append(__boldText(confidenceText), barcodeInfo.confidence, __getBr());
 
         var readingQualityText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-readingQuality");
-        htmlMarkup += '<b>' + readingQualityText + '</b>' + barcodeInfo.readingQuality.toFixed(2) + '<br />';
+        // '<b>' + readingQualityText + '</b>' + barcodeInfo.readingQuality.toFixed(2) + '<br />';
+        barcodeInfoDiv.append(__boldText(readingQualityText), barcodeInfo.readingQuality.toFixed(2), __getBr());
 
         var thresholdText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-threshold");
-        htmlMarkup += '<b>' + thresholdText + '</b>' + barcodeInfo.threshold + '<br />';
+        // '<b>' + thresholdText + '</b>' + barcodeInfo.threshold + '<br />';
+        barcodeInfoDiv.append(__boldText(thresholdText), barcodeInfo.threshold, __getBr());
 
         var regionText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-region");
-        htmlMarkup += '<b>' + regionText + '</b>' + 'LT=(' + barcodeInfo.region.leftTop.x + ',' + barcodeInfo.region.leftTop.y + '); RT=(' + barcodeInfo.region.rightTop.x + ',' + barcodeInfo.region.rightTop.y +
-            '); LB=(' + barcodeInfo.region.leftBottom.x + ',' + barcodeInfo.region.leftBottom.y + '); RB=(' + barcodeInfo.region.rightBottom.x + ',' + barcodeInfo.region.rightBottom.y + '); ' + 'Angle' + '=' +
-            barcodeInfo.region.angle.toFixed(1) + '°<br />';
+        barcodeInfoDiv.append(
+            __boldText(regionText), __getBr(),
+            'LT = (' + barcodeInfo.region.leftTop.x + ',' + barcodeInfo.region.leftTop.y + ');', __getBr(),
+            'RT = (' + barcodeInfo.region.rightTop.x + ',' + barcodeInfo.region.rightTop.y + ');', __getBr(),
+            'LB = (' + barcodeInfo.region.leftBottom.x + ',' + barcodeInfo.region.leftBottom.y + ');', __getBr(),
+            'RB = (' + barcodeInfo.region.rightBottom.x + ',' + barcodeInfo.region.rightBottom.y + ');', __getBr(),
+            'Angle = ' + barcodeInfo.region.angle.toFixed(1) + '°', __getBr());
 
 
         // 1D
         if (barcodeInfo.narrowBarCount) {
             var narrowBarCountText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-narrowBarCount");
-            htmlMarkup += '<b>' + narrowBarCountText + '</b>' + barcodeInfo.narrowBarCount + '<br />';
+            // '<b>' + narrowBarCountText + '</b>' + barcodeInfo.narrowBarCount + '<br />';
+            barcodeInfoDiv.append(__boldText(narrowBarCountText), barcodeInfo.narrowBarCount, __getBr());
 
             var narrowBarSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-narrowBarSize");
-            htmlMarkup += '<b>' + narrowBarSizeText + '</b>' + barcodeInfo.narrowBarSize.toFixed(2) + '<br /><br />';
+            // '<b>' + narrowBarSizeText + '</b>' + barcodeInfo.narrowBarSize.toFixed(2) + '<br /><br />';
+            barcodeInfoDiv.append(__boldText(narrowBarSizeText), barcodeInfo.narrowBarSize.toFixed(2), __getBr(), __getBr());
         }
         // 2D
         else if (barcodeInfo.matrixSize) {
             var matrixSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-matrixSize");
-            htmlMarkup += '<b>' + matrixSizeText + '</b>' + barcodeInfo.matrixSize.x + "x" + barcodeInfo.matrixSize.y + '<br />';
+            // '<b>' + matrixSizeText + '</b>' + barcodeInfo.matrixSize.x + "x" + barcodeInfo.matrixSize.y + '<br />';
+            barcodeInfoDiv.append(__boldText(matrixSizeText), barcodeInfo.matrixSize.x + "x" + barcodeInfo.matrixSize.y, __getBr());
 
             var cellSizeText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-cellSize");
-            htmlMarkup += '<b>' + cellSizeText + '</b>' + barcodeInfo.cellSize.x.toFixed(2) + "x" + barcodeInfo.cellSize.y.toFixed(2) + '<br />';
+            // '<b>' + cellSizeText + '</b>' + barcodeInfo.cellSize.x.toFixed(2) + "x" + barcodeInfo.cellSize.y.toFixed(2) + '<br />';
+            barcodeInfoDiv.append(__boldText(cellSizeText), barcodeInfo.cellSize.x.toFixed(2) + "x" + barcodeInfo.cellSize.y.toFixed(2), __getBr());
 
             if (barcodeInfo.bulleyeCenter != null) {
                 var bulleyeCenterText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-bulleyeCenter");
-                htmlMarkup += '<b>' + bulleyeCenterText + '</b>(' + barcodeInfo.bulleyeCenter.x.toFixed(2) + "," + barcodeInfo.bulleyeCenter.y.toFixed(2) + ')<br />';
+                // '<b>' + bulleyeCenterText + '</b>(' + barcodeInfo.bulleyeCenter.x.toFixed(2) + "," + barcodeInfo.bulleyeCenter.y.toFixed(2) + ')<br />';
+                barcodeInfoDiv.append(__boldText(bulleyeCenterText), '(' + barcodeInfo.bulleyeCenter.x.toFixed(2) + ',' + barcodeInfo.bulleyeCenter.y.toFixed(2) + ')', __getBr());
             }
 
-            htmlMarkup += "<br />"
+            barcodeInfoDiv.append(__getBr());
         }
 
         var hexValueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-hexValue");
-        htmlMarkup += '<b>' + hexValueText + '</b><br /><div style="font-family:\'Courier New\'">' + barcodeInfo.hexValue + '</div>';
+        // '<b>' + hexValueText + '</b><br /><div style="font-family:\'Courier New\'">' + barcodeInfo.hexValue + '</div>';
+        var hexValue = document.createElement("div");
+        hexValue.style.fontFamily = "Courier New";
+        hexValue.append(barcodeInfo.hexValue);
+        barcodeInfoDiv.append(__boldText(hexValueText), __getBr(), hexValue);
 
         if (barcodeQualityTestInfo != null) {
             var qualityTestInformationText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation");
-            htmlMarkup += "<br /><b>" + qualityTestInformationText + "</b>:<br />";
+            // "<br /><b>" + qualityTestInformationText + "</b><br />";
+            barcodeInfoDiv.append(__getBr(), __boldText(qualityTestInformationText), __getBr());
 
             if (barcodeQualityTestInfo.tests != null) {
-                htmlMarkup += __createMarkupForISO15416TestResult(barcodeQualityTestInfo.tests);
+                barcodeInfoDiv.append(...__createMarkupForISO15416TestResult(barcodeQualityTestInfo.tests));
             }
             else {
-                htmlMarkup += __createMarkupForISO15415TestResult(barcodeQualityTestInfo);
+                barcodeInfoDiv.append(...__createMarkupForISO15415TestResult(barcodeQualityTestInfo));
             }
         }
 
-        return htmlMarkup;
+        return barcodeInfoDiv;
     }
 
     /**
      Creates a HTML markup with information about recognized Mailmark CMDM barcode.
      @param {object} barcodeInfo Information about barcode.
      @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
-     @param {string} brText A string that should be used as line break symbol.
+     @param {object} brText Array of elements that should be used as line break symbol.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, isBoldParameterTitle, brText) {
-        var htmlMarkup = __createMarkupForBarcodeInfoParameter('UPU Country ID', barcodeInfo.decodedValue.upuCountryId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Information type ID', barcodeInfo.decodedValue.informationTypeId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Version ID', barcodeInfo.decodedValue.versionId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Item class', barcodeInfo.decodedValue.itemClass, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Supply chain ID', barcodeInfo.decodedValue.supplyChainId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Item ID', barcodeInfo.decodedValue.itemId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('DPS', barcodeInfo.decodedValue.dps, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('RTS flag', barcodeInfo.decodedValue.rtsFlag, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Return to sender post code', barcodeInfo.decodedValue.returnToSenderPostCode, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Reserved', barcodeInfo.decodedValue.reserved, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Customer content', barcodeInfo.decodedValue.customerContent, isBoldParameterTitle, '');
-        return htmlMarkup;
+        var htmlMarkupElements = [
+            ...__createMarkupForBarcodeInfoParameter('UPU Country ID', barcodeInfo.decodedValue.upuCountryId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Information type ID', barcodeInfo.decodedValue.informationTypeId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Version ID', barcodeInfo.decodedValue.versionId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Item class', barcodeInfo.decodedValue.itemClass, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Supply chain ID', barcodeInfo.decodedValue.supplyChainId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Item ID', barcodeInfo.decodedValue.itemId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('DPS', barcodeInfo.decodedValue.dps, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('RTS flag', barcodeInfo.decodedValue.rtsFlag, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Return to sender post code', barcodeInfo.decodedValue.returnToSenderPostCode, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Reserved', barcodeInfo.decodedValue.reserved, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Customer content', barcodeInfo.decodedValue.customerContent, isBoldParameterTitle, '')
+        ];
+
+        return htmlMarkupElements;
     }
 
     /**
      Creates a HTML markup with information about recognized PNP barcode.
      @param {object} barcodeInfo Information about barcode.
      @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
-     @param {string} brText A string that should be used as line break symbol.
+     @param {object} brText Array of elements that should be used as line break symbol.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, isBoldParameterTitle, brText) {
-        var htmlMarkup = __createMarkupForBarcodeInfoParameter('Batch number', barcodeInfo.decodedValue.batchNumber, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Date of manufacture', barcodeInfo.decodedValue.dateOfManufacture, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Expiry date', barcodeInfo.decodedValue.expiryDate, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('GTIN', barcodeInfo.decodedValue.GTIN, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Pharmacy product number', barcodeInfo.decodedValue.pharmacyProductNumber, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Serial number', barcodeInfo.decodedValue.serialNumber, isBoldParameterTitle, '');
-        return htmlMarkup;
+        var htmlMarkupElements = [
+            ...__createMarkupForBarcodeInfoParameter('Batch number', barcodeInfo.decodedValue.batchNumber, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Date of manufacture', barcodeInfo.decodedValue.dateOfManufacture, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Expiry date', barcodeInfo.decodedValue.expiryDate, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('GTIN', barcodeInfo.decodedValue.GTIN, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Pharmacy product number', barcodeInfo.decodedValue.pharmacyProductNumber, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Serial number', barcodeInfo.decodedValue.serialNumber, isBoldParameterTitle, '')
+        ];
+        return htmlMarkupElements;
     }
 
     /**
      Creates a HTML markup with information about recognized AAMVA barcode.
      @param {object} barcodeInfo Information about barcode.
      @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
-     @param {string} brText A string that should be used as line break symbol.
+     @param {object} brText Array of elements that should be used as line break symbol.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, isBoldParameterTitle, brText) {
-        var htmlMarkup = __createMarkupForBarcodeInfoParameter('Version level', barcodeInfo.versionLevel, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Issuer identification number', barcodeInfo.issuerIdentificationNumber, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Jurisdiction version number', barcodeInfo.jurisdictionVersionNumber, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('License number', barcodeInfo.licenseNumber, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Expiration date', barcodeInfo.expirationDate, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('IssueDate', barcodeInfo.issueDate, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Date of birth', barcodeInfo.dateOfBirth, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Card revision date', barcodeInfo.cardRevisionDate, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Family name', barcodeInfo.familyName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('First name', barcodeInfo.firstName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Middle name', barcodeInfo.middleName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Sex', barcodeInfo.sex, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Height', barcodeInfo.height, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Eye color', barcodeInfo.eyeColor, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Hair color', barcodeInfo.hairColor, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Country ID', barcodeInfo.countryId, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Address street 1', barcodeInfo.addressStreet1, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Address street 2', barcodeInfo.addressStreet2, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Address city', barcodeInfo.addressCity, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Address state code', barcodeInfo.addressStateCode, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Address postal code', barcodeInfo.addressPostalCode, isBoldParameterTitle, '');
-        return htmlMarkup;
+        var htmlMarkupElements = [
+            ...__createMarkupForBarcodeInfoParameter('Version level', barcodeInfo.versionLevel, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Issuer identification number', barcodeInfo.issuerIdentificationNumber, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Jurisdiction version number', barcodeInfo.jurisdictionVersionNumber, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('License number', barcodeInfo.licenseNumber, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Expiration date', barcodeInfo.expirationDate, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('IssueDate', barcodeInfo.issueDate, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Date of birth', barcodeInfo.dateOfBirth, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Card revision date', barcodeInfo.cardRevisionDate, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Family name', barcodeInfo.familyName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('First name', barcodeInfo.firstName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Middle name', barcodeInfo.middleName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Sex', barcodeInfo.sex, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Height', barcodeInfo.height, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Eye color', barcodeInfo.eyeColor, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Hair color', barcodeInfo.hairColor, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Country ID', barcodeInfo.countryId, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Address street 1', barcodeInfo.addressStreet1, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Address street 2', barcodeInfo.addressStreet2, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Address city', barcodeInfo.addressCity, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Address state code', barcodeInfo.addressStateCode, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Address postal code', barcodeInfo.addressPostalCode, isBoldParameterTitle, '')
+        ];
+        return htmlMarkupElements;
     }
 
     /**
      Creates a HTML markup with information about recognized Swiss QR Code barcode.
      @param {object} barcodeInfo Information about barcode.
      @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
-     @param {string} brText A string that should be used as line break symbol.
+     @param {object} brText Array of elements that should be used as line break symbol.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, isBoldParameterTitle, brText) {
-        var htmlMarkup = __createMarkupForBarcodeInfoParameter('QR type', barcodeInfo.decodedValue.qrType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Version', barcodeInfo.decodedValue.version, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Coding type', barcodeInfo.decodedValue.codingType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('IBAN', barcodeInfo.decodedValue.IBAN, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor address type', barcodeInfo.decodedValue.creditorAddressType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor name', barcodeInfo.decodedValue.creditorName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor street or address line 1', barcodeInfo.decodedValue.creditorStreetOrAddressLine1, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor building number or address line 2', barcodeInfo.decodedValue.creditorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor postal code', barcodeInfo.decodedValue.creditorPostalCode, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor town', barcodeInfo.decodedValue.creditorTown, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Creditor country', barcodeInfo.decodedValue.creditorCountry, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor address type', barcodeInfo.decodedValue.ultimateCreditorAddressType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor name', barcodeInfo.decodedValue.ultimateCreditorName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor street or address line 1', barcodeInfo.decodedValue.ultimateCreditorStreetOrAddressLine1, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor building number or address line 2', barcodeInfo.decodedValue.ultimateCreditorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor postal code', barcodeInfo.decodedValue.ultimateCreditorPostalCode, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor town', barcodeInfo.decodedValue.ultimateCreditorTown, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate creditor country', barcodeInfo.decodedValue.ultimateCreditorCountry, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Amount', barcodeInfo.decodedValue.amount, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Amount currency', barcodeInfo.decodedValue.amountCurrency, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor address type', barcodeInfo.decodedValue.ultimateDebtorAddressType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor name', barcodeInfo.decodedValue.ultimateDebtorName, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor street or address line 1', barcodeInfo.decodedValue.ultimateDebtorStreetOrAddressLine1, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor building number or address line 2', barcodeInfo.decodedValue.ultimateDebtorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor postal code', barcodeInfo.decodedValue.ultimateDebtorPostalCode, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor town', barcodeInfo.decodedValue.ultimateDebtorTown, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Ultimate debtor country', barcodeInfo.decodedValue.ultimateDebtorCountry, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Payment reference type', barcodeInfo.decodedValue.paymentReferenceType, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Payment reference', barcodeInfo.decodedValue.paymentReference, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Unstructured message', barcodeInfo.decodedValue.unstructuredMessage, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Bill information', barcodeInfo.decodedValue.billInformation, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Alternative scheme parameters 1', barcodeInfo.decodedValue.alternativeSchemeParameters1, isBoldParameterTitle, brText);
-        htmlMarkup += __createMarkupForBarcodeInfoParameter('Alternative scheme parameters 2', barcodeInfo.decodedValue.alternativeSchemeParameters2, isBoldParameterTitle, '');
-        return htmlMarkup;
+        var htmlMarkupElements = [
+            ...__createMarkupForBarcodeInfoParameter('QR type', barcodeInfo.decodedValue.qrType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Version', barcodeInfo.decodedValue.version, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Coding type', barcodeInfo.decodedValue.codingType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('IBAN', barcodeInfo.decodedValue.IBAN, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor address type', barcodeInfo.decodedValue.creditorAddressType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor name', barcodeInfo.decodedValue.creditorName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor street or address line 1', barcodeInfo.decodedValue.creditorStreetOrAddressLine1, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor building number or address line 2', barcodeInfo.decodedValue.creditorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor postal code', barcodeInfo.decodedValue.creditorPostalCode, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor town', barcodeInfo.decodedValue.creditorTown, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Creditor country', barcodeInfo.decodedValue.creditorCountry, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor address type', barcodeInfo.decodedValue.ultimateCreditorAddressType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor name', barcodeInfo.decodedValue.ultimateCreditorName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor street or address line 1', barcodeInfo.decodedValue.ultimateCreditorStreetOrAddressLine1, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor building number or address line 2', barcodeInfo.decodedValue.ultimateCreditorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor postal code', barcodeInfo.decodedValue.ultimateCreditorPostalCode, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor town', barcodeInfo.decodedValue.ultimateCreditorTown, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate creditor country', barcodeInfo.decodedValue.ultimateCreditorCountry, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Amount', barcodeInfo.decodedValue.amount, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Amount currency', barcodeInfo.decodedValue.amountCurrency, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor address type', barcodeInfo.decodedValue.ultimateDebtorAddressType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor name', barcodeInfo.decodedValue.ultimateDebtorName, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor street or address line 1', barcodeInfo.decodedValue.ultimateDebtorStreetOrAddressLine1, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor building number or address line 2', barcodeInfo.decodedValue.ultimateDebtorBuildingNumberOrAddressLine2, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor postal code', barcodeInfo.decodedValue.ultimateDebtorPostalCode, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor town', barcodeInfo.decodedValue.ultimateDebtorTown, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Ultimate debtor country', barcodeInfo.decodedValue.ultimateDebtorCountry, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Payment reference type', barcodeInfo.decodedValue.paymentReferenceType, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Payment reference', barcodeInfo.decodedValue.paymentReference, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Unstructured message', barcodeInfo.decodedValue.unstructuredMessage, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Bill information', barcodeInfo.decodedValue.billInformation, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Alternative scheme parameters 1', barcodeInfo.decodedValue.alternativeSchemeParameters1, isBoldParameterTitle, brText),
+            ...__createMarkupForBarcodeInfoParameter('Alternative scheme parameters 2', barcodeInfo.decodedValue.alternativeSchemeParameters2, isBoldParameterTitle, '')
+        ];
+        return htmlMarkupElements;
     }
 
     /**
@@ -548,111 +612,163 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
      @param {string} barcodeInfoParamTitle Title of barcode info parameter.
      @param {string} barcodeInfoParamValue Value of barcode info parameter.
      @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
-     @param {string} brText A string that should be used as line break symbol.
+     @param {object} brText Array of elements that should be used as line break symbol.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupForBarcodeInfoParameter(barcodeInfoParamTitle, barcodeInfoParamValue, isBoldParameterTitle, brText) {
-        var labelStart = '', labelEnd = '';
+        var newTitle = '- ' + barcodeInfoParamTitle + ': ';
         if (isBoldParameterTitle) {
-            labelStart = '<b>';
-            labelEnd = '</b>';
+            newTitle = __boldText(newTitle);
         }
-        return labelStart + '- ' + barcodeInfoParamTitle + ': ' + labelEnd + barcodeInfoParamValue + brText;
+        
+        return [newTitle, barcodeInfoParamValue, ...brText];
     }
 
     /**
      Creates a HTML markup for ISO15416 barcode print quality test information.
      @param {object} testInfo Information about quality test.
-     @returns {string} HTML markup.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupForISO15416TestResult(testInfo) {
-        var htmlMarkup = '';
+        var htmlMarkupElements = [];
         for (var i = 0; i < testInfo.length; i++) {
-            if (testInfo.length > 1)
-                htmlMarkup += '<br /><hr><b>SymbolComponent ' + (i + 1) + ':</b><br /><hr>';
+            if (testInfo.length > 1) {
+                // '<br /><hr><b>SymbolComponent ' + (i + 1) + ':</b><br /><hr>';
+                htmlMarkupElements.push(...[__getBr(), __getHr(), __boldText('SymbolComponent ' + (i + 1) + ':'), __getBr(), __getHr()]);
+            }
+
             symbol = testInfo[i];
-            htmlMarkup += '<table style="text-align:center; width:100%">';
-            htmlMarkup += '<tr style="background-color:#DBD7D7"><td><b>Parameter</b></td><td><b>Value</b></td><td><b>Grade</b></td></tr>';
-            if (symbol.decode != null)
-                htmlMarkup += __createTableRowForQualityTestProperty("Decode", symbol.decode.value, symbol.decode.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("MaxReflectance", Number(symbol.maxReflectance.value).toFixed(1) + "%", symbol.maxReflectance.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("MinReflectance", Number(symbol.minReflectance.value).toFixed(1) + "%", symbol.minReflectance.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("GlobalThreshold", Number(symbol.globalThreshold.value).toFixed(1) + "%", symbol.globalThreshold.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("SymbolContrast", Number(symbol.symbolContrast.value).toFixed(1) + "%", symbol.symbolContrast.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("MinEdgeContrast", Number(symbol.minEdgeContrast.value).toFixed(1) + "%", symbol.minEdgeContrast.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("Modulation", Number(symbol.modulation.value).toFixed(2), symbol.modulation.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("Defects", Number(symbol.defects.value).toFixed(2), symbol.defects.grade);
-            if (symbol.decodability != null)
-                htmlMarkup += __createTableRowForQualityTestProperty("Decodability", Number(symbol.decodability.value).toFixed(2), symbol.decodability.grade);
-            htmlMarkup += __createTableRowForQualityTestProperty("ScanGrade", symbol.scanGrade.value, symbol.scanGrade.grade);
-            htmlMarkup += '</table>';
+            // '<table style="text-align:center; width:100%">'
+            var table = document.createElement("table");
+            table.style.textAlign = "center";
+            table.style.width = "100%";
+            {
+                // '<tr style="background-color:#dbd7d7"><td><b>Parameter</b></td><td><b>Value</b></td><td><b>Grade</b></td></tr>'
+                var tr = document.createElement("tr");
+                tr.style.backgroundColor = "#dbd7d7";
+                {
+                    var td = document.createElement("td");
+                    td.append(__boldText("Parameter"));
+                    tr.append(td);
+
+                    td = document.createElement("td");
+                    td.append(__boldText("Value"));
+                    tr.append(td);
+
+                    td = document.createElement("td");
+                    td.append(__boldText("Grade"));
+                    tr.append(td);
+                }
+                table.append(tr);
+
+                if (symbol.decode != null)
+                    table.append(__createTableRowForQualityTestProperty("Decode", symbol.decode.value, symbol.decode.grade));
+                table.append(__createTableRowForQualityTestProperty("MaxReflectance", Number(symbol.maxReflectance.value).toFixed(1) + "%", symbol.maxReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("MinReflectance", Number(symbol.minReflectance.value).toFixed(1) + "%", symbol.minReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("GlobalThreshold", Number(symbol.globalThreshold.value).toFixed(1) + "%", symbol.globalThreshold.grade));
+                table.append(__createTableRowForQualityTestProperty("SymbolContrast", Number(symbol.symbolContrast.value).toFixed(1) + "%", symbol.symbolContrast.grade));
+                table.append(__createTableRowForQualityTestProperty("MinEdgeContrast", Number(symbol.minEdgeContrast.value).toFixed(1) + "%", symbol.minEdgeContrast.grade));
+                table.append(__createTableRowForQualityTestProperty("Modulation", Number(symbol.modulation.value).toFixed(2), symbol.modulation.grade));
+                table.append(__createTableRowForQualityTestProperty("Defects", Number(symbol.defects.value).toFixed(2), symbol.defects.grade));
+                if (symbol.decodability != null)
+                    table.append(__createTableRowForQualityTestProperty("Decodability", Number(symbol.decodability.value).toFixed(2), symbol.decodability.grade));
+                table.append(__createTableRowForQualityTestProperty("ScanGrade", symbol.scanGrade.value, symbol.scanGrade.grade));
+            }
+
+            htmlMarkupElements.push(table);
         }
-        return htmlMarkup;
+        return htmlMarkupElements;
     }
 
     /**
      Creates a HTML markup for ISO15415 barcode print quality test information.
      @param {object} testInfo Information about quality test.
-     @returns {string} HTML markup.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createMarkupForISO15415TestResult(testInfo) {
-        var htmlMarkup = '';
-        htmlMarkup += '<table style="text-align:center; width:100%">';
-        htmlMarkup += '<tr style="background-color:#DBD7D7"><td><b>Parameter</b></td><td><b>Value</b></td><td><b>Grade</b></td></tr>';
-        htmlMarkup += __createTableRowForQualityTestProperty("Decode", testInfo.decode.value, testInfo.decode.grade);
-        htmlMarkup += __createTableRowForQualityTestProperty("UnusedErrorCorrection", Number(testInfo.unusedErrorCorrection.value).toFixed(2) + "%", testInfo.unusedErrorCorrection.grade);
-        if (testInfo.codewordYield != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("CodewordYield", testInfo.codewordYield.value + "%", testInfo.codewordYield.grade);
-        if (testInfo.codewordPrintQualityModulation != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("CodewordPrintQualityModulation", testInfo.codewordPrintQualityModulation.value, testInfo.codewordPrintQualityModulation.grade);
-        if (testInfo.codewordPrintQualityDefects != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("CodewordPrintQualityDefects", testInfo.codewordPrintQualityDefects.value, testInfo.codewordPrintQualityDefects.grade);
-        if (testInfo.codewordPrintQualityDecodability != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("CodewordPrintQualityDecodability", testInfo.codewordPrintQualityDecodability.value, testInfo.codewordPrintQualityDecodability.grade);
-        if (testInfo.codewordPrintQuality != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("CodewordPrintQuality", testInfo.codewordPrintQuality.value, testInfo.codewordPrintQuality.grade);
-        if (testInfo.maxReflectance != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("MaxReflectance", Number(testInfo.maxReflectance.value).toFixed(2) + "%", testInfo.maxReflectance.grade);
-        if (testInfo.minReflectance != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("MinReflectance", Number(testInfo.minReflectance.value).toFixed(2) + "%", testInfo.minReflectance.grade);
-        if (testInfo.symbolContrast != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("SymbolContrast", Number(testInfo.symbolContrast.value).toFixed(2) + "%", testInfo.symbolContrast.grade);
-        if (testInfo.axialNonuniformity != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("AxialNonuniformity", Number(testInfo.axialNonuniformity.value).toFixed(2), testInfo.axialNonuniformity.grade);
-        if (testInfo.gridNonuniformity != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("GridNonuniformity", Number(testInfo.gridNonuniformity.value).toFixed(2) + " cell", testInfo.gridNonuniformity.grade);
-        if (testInfo.modulation != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("Modulation", testInfo.modulation.value, testInfo.modulation.grade);
-        if (testInfo.reflectanceMargin != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("ReflectanceMargin", testInfo.reflectanceMargin.value, testInfo.reflectanceMargin.grade);
-        if (testInfo.fixedPatternDamage != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("FixedPatternDamage", testInfo.fixedPatternDamage.value, testInfo.fixedPatternDamage.grade);
-        if (testInfo.additionalGrades != null)
-            for (var i = 0; i < testInfo.additionalGrades.length; i++)
-                htmlMarkup += __createTableRowForQualityTestProperty(testInfo.additionalGrades[i].value, "", testInfo.additionalGrades[i].grade);
+        var htmlMarkupElements = [];
 
-        if (testInfo.quietZone != null)
-            htmlMarkup += __createTableRowForQualityTestProperty("QuietZone", Number(testInfo.quietZone.value).toFixed(2) + "%", testInfo.quietZone.grade);
-        htmlMarkup += __createTableRowForQualityTestProperty("DistortionAngle", Number(testInfo.distortionAngle.value).toFixed(2) + "°", testInfo.distortionAngle.grade);
-        htmlMarkup += __createTableRowForQualityTestProperty("ScanGrade", testInfo.scanGrade.value, testInfo.scanGrade.grade);
-        htmlMarkup += '</table>';
+        // '<table style="text-align:center; width:100%">'
+        var table = document.createElement("table");
+        table.style.textAlign = "center";
+        table.style.width = "100%";
+        {
+            // '<tr style="background-color:#dbd7d7"><td><b>Parameter</b></td><td><b>Value</b></td><td><b>Grade</b></td></tr>'
+            var tr = document.createElement("tr");
+            tr.style.backgroundColor = "#dbd7d7";
+            {
+                var td = document.createElement("td");
+                td.append(__boldText("Parameter"));
+                tr.append(td);
+
+                td = document.createElement("td");
+                td.append(__boldText("Value"));
+                tr.append(td);
+
+                td = document.createElement("td");
+                td.append(__boldText("Grade"));
+                tr.append(td);
+            }
+            table.append(tr);
+            
+            table.append(__createTableRowForQualityTestProperty("Decode", testInfo.decode.value, testInfo.decode.grade));
+            table.append(__createTableRowForQualityTestProperty("UnusedErrorCorrection", Number(testInfo.unusedErrorCorrection.value).toFixed(2) + "%", testInfo.unusedErrorCorrection.grade));
+            if (testInfo.codewordYield != null)
+                table.append(__createTableRowForQualityTestProperty("CodewordYield", testInfo.codewordYield.value + "%", testInfo.codewordYield.grade));
+            if (testInfo.codewordPrintQualityModulation != null)
+                table.append(__createTableRowForQualityTestProperty("CodewordPrintQualityModulation", testInfo.codewordPrintQualityModulation.value, testInfo.codewordPrintQualityModulation.grade));
+            if (testInfo.codewordPrintQualityDefects != null)
+                table.append(__createTableRowForQualityTestProperty("CodewordPrintQualityDefects", testInfo.codewordPrintQualityDefects.value, testInfo.codewordPrintQualityDefects.grade));
+            if (testInfo.codewordPrintQualityDecodability != null)
+                table.append(__createTableRowForQualityTestProperty("CodewordPrintQualityDecodability", testInfo.codewordPrintQualityDecodability.value, testInfo.codewordPrintQualityDecodability.grade));
+            if (testInfo.codewordPrintQuality != null)
+                table.append(__createTableRowForQualityTestProperty("CodewordPrintQuality", testInfo.codewordPrintQuality.value, testInfo.codewordPrintQuality.grade));
+            if (testInfo.maxReflectance != null)
+                table.append(__createTableRowForQualityTestProperty("MaxReflectance", Number(testInfo.maxReflectance.value).toFixed(2) + "%", testInfo.maxReflectance.grade));
+            if (testInfo.minReflectance != null)
+                table.append(__createTableRowForQualityTestProperty("MinReflectance", Number(testInfo.minReflectance.value).toFixed(2) + "%", testInfo.minReflectance.grade));
+            if (testInfo.symbolContrast != null)
+                table.append(__createTableRowForQualityTestProperty("SymbolContrast", Number(testInfo.symbolContrast.value).toFixed(2) + "%", testInfo.symbolContrast.grade));
+            if (testInfo.axialNonuniformity != null)
+                table.append(__createTableRowForQualityTestProperty("AxialNonuniformity", Number(testInfo.axialNonuniformity.value).toFixed(2), testInfo.axialNonuniformity.grade));
+            if (testInfo.gridNonuniformity != null)
+                table.append(__createTableRowForQualityTestProperty("GridNonuniformity", Number(testInfo.gridNonuniformity.value).toFixed(2) + " cell", testInfo.gridNonuniformity.grade));
+            if (testInfo.modulation != null)
+                table.append(__createTableRowForQualityTestProperty("Modulation", testInfo.modulation.value, testInfo.modulation.grade));
+            if (testInfo.reflectanceMargin != null)
+                table.append(__createTableRowForQualityTestProperty("ReflectanceMargin", testInfo.reflectanceMargin.value, testInfo.reflectanceMargin.grade));
+            if (testInfo.fixedPatternDamage != null)
+                table.append(__createTableRowForQualityTestProperty("FixedPatternDamage", testInfo.fixedPatternDamage.value, testInfo.fixedPatternDamage.grade));
+            if (testInfo.additionalGrades != null)
+                for (var i = 0; i < testInfo.additionalGrades.length; i++)
+                    table.append(__createTableRowForQualityTestProperty(testInfo.additionalGrades[i].value, "", testInfo.additionalGrades[i].grade));
+            if (testInfo.quietZone != null)
+                table.append(__createTableRowForQualityTestProperty("QuietZone", Number(testInfo.quietZone.value).toFixed(2) + "%", testInfo.quietZone.grade));     
+            table.append(__createTableRowForQualityTestProperty("DistortionAngle", Number(testInfo.distortionAngle.value).toFixed(2) + "°", testInfo.distortionAngle.grade));
+            table.append(__createTableRowForQualityTestProperty("ScanGrade", testInfo.scanGrade.value, testInfo.scanGrade.grade));
+        }
+        htmlMarkupElements.push(table);
 
         if (testInfo.startPattern != null) {
-            htmlMarkup += '<hr><b>StartPatternTest</b>:<br /><hr>';
-            htmlMarkup += __createMarkupForISO15416TestResult([testInfo.startPattern]);
-            htmlMarkup += '<hr>';
+            //'<hr><b>StartPatternTest:</b><br /><hr> + __createMarkupForISO15416TestResult([testInfo.startPattern]) + <hr>'
+            htmlMarkupElements.push(
+                __getHr(), __boldText("StartPatternTest:"), __getBr(),
+                ...__createMarkupForISO15416TestResult([testInfo.startPattern]), __getHr());
         }
         if (testInfo.centerPattern != null) {
-            htmlMarkup += '<b>CenterPatternTest</b>:<br /><hr>';
-            htmlMarkup += __createMarkupForISO15416TestResult([testInfo.centerPattern]);
-            htmlMarkup += '<hr>';
+            //'<hr><b>CenterPatternTest:</b><br /><hr> + __createMarkupForISO15416TestResult([testInfo.centerPattern]) + <hr>'
+            htmlMarkupElements.push(
+                __getHr(), __boldText("CenterPatternTest:"), __getBr(),
+                ...__createMarkupForISO15416TestResult([testInfo.centerPattern]), __getHr());
         }
         if (testInfo.stopPattern != null) {
-            htmlMarkup += '<b>StopPatternTest</b>:<br /><hr>';
-            htmlMarkup += __createMarkupForISO15416TestResult([testInfo.stopPattern]);
-            htmlMarkup += '<hr>';
+            //'<hr><b>StopPatternTest:</b><br /><hr> + __createMarkupForISO15416TestResult([testInfo.stopPattern]) + <hr>'
+            htmlMarkupElements.push(
+                __getHr(), __boldText("StopPatternTest:"), __getBr(),
+                ...__createMarkupForISO15416TestResult([testInfo.stopPattern]), __getHr());
         }
 
-        return htmlMarkup;
+        return htmlMarkupElements;
     }
 
     /**
@@ -660,10 +776,27 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
      @param {string} propertyName Property name.
      @param {string} value Property value.
      @param {string} grade Property grade.
+     @returns {object} Array of elements for HTML markup.
     */
     function __createTableRowForQualityTestProperty(propertyName, value, grade) {
-        var style = 'style="background-color:#DBD7D7; text-align:left"';
-        return '<tr><td ' + style + '>' + propertyName + '</td><td>' + value + '</td><td>' + grade + '</td></tr>';
+        // '<tr><td style="background-color:#ededed; text-align:left">' + propertyName + '</td><td>' + value + '</td><td>' + grade + '</td></tr>'
+        var tr = document.createElement("tr");
+        {
+            var td = document.createElement("td");
+            td.style.backgroundColor = "#ededed";
+            td.style.textAlign = "left";
+            td.append(propertyName);
+            tr.append(td);
+
+            td = document.createElement("td");
+            td.append(value);
+            tr.append(td);
+
+            td = document.createElement("td");
+            td.append(grade);
+            tr.append(td);
+        }
+        return tr;
     }
 
     /**

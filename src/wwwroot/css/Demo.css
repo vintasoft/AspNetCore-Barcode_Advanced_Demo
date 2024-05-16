@@ -30,6 +30,10 @@ html, body {
     overflow-y: auto;
 }
 
+.demo-body {
+    height: 100%;
+}
+
 @media(max-width:767px) {
 
     .header h1 {

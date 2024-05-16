@@ -25,10 +25,12 @@ BarcodeRecognitionResultDialogJS = function (barcodeReaderHelper, barcodeInfo, b
      @param {object} barcodeQualityTestInfo Information about print quality test of recognized barcode.
     */
     function __openBarcodeRecognitionResultDialog(barcodeInfo, barcodeQualityTestInfo) {
+        $('#barcodeInformationHtml').empty();
+
         // creates a HTML markup for modal window with the barcode reading result
-        var htmlMarkup = barcodeReaderHelper.createHtmlMarkupForBarcodeReadingResult(barcodeInfo, barcodeQualityTestInfo);
+        var htmlMarkupDiv = barcodeReaderHelper.createHtmlMarkupForBarcodeReadingResult(barcodeInfo, barcodeQualityTestInfo);
         // set the HTML markup of modal window
-        $('#barcodeInformationHtml').html(htmlMarkup);
+        $('#barcodeInformationHtml').append(htmlMarkupDiv);
     }
 
 }
