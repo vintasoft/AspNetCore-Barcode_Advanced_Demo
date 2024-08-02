@@ -333,21 +333,21 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
     }
 
     /**
-     Creates a "<br />"" DOM-element.
+     Creates a "<br />"" HTML element.
     */
     function __getBr() {
         return document.createElement("br");
     }
 
     /**
-     Creates a "<hr>" DOM-element.
+     Creates a "<hr>" HTML element.
     */
     function __getHr() {
         return document.createElement("hr");
     }
 
     /**
-     Adds text in "<b>" DOM-element.
+     Add text in "<b>" HTML element.
      @param {string} text Bolding text.
     */
     function __boldText(text) {
