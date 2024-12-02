@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Эскизларны тартырга мөмкин:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Клавиатура ярдәмендә эскизларны йөртә ала:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Клавиатура ярдәмендә эскизларны сайлый аласыз:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Клавиатура ярдәмендә эскизларны бетерә ала:"
+			},
 			"okButton": {
 				"value": "ЯРАРМЫ"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX кыйммәте:",
 		"vsdv-barcodeReader-qualityTestInformation": "Штрих-код бастыру сыйфаты тест мәгълүматлары:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код көйләүләре",
-		"vsdv-dialog-okButton": "ЯРАРМЫ",
+		"vsui-dialog-okButton": "ЯРАРМЫ",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлны йөкләү һәм ачу",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлны йөкләү һәм өстәү",
 		"vsdv-openFile-addFileString": "Файл өстәү",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Рәсемнәрдәге үзгәрешләрне саклагыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияләрдәге үзгәрешләрне саклагыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Рәсемнәргә аннотацияләр яндырыгыз",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документындагы үзгәрешләрне саклагыз",
-		"vsdv-documentPasswordDialog-title": "Документ серсүзе",
-		"vsdv-dialog-cancelButton": "Баш тарту",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлны раслау",
-		"vsdv-imageSelectionDialog-title": "Рәсемнәрне сайлагыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Хәзерге рәсем",
-		"vsdv-imageSelectionDialog-allImagesString": "Барлык рәсемнәр",
-		"vsdv-imageSelectionDialog-customImagesString": "Гадәт",
-		"vsdv-printImagesDialog-title": "Рәсемнәрне бастыру",
-		"vsdv-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
-		"vsdv-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
-		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү"
+		"vsui-documentPasswordDialog-title": "Документ серсүзе",
+		"vsui-dialog-cancelButton": "Баш тарту",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлны раслау",
+		"vsui-imageSelectionDialog-title": "Рәсемнәрне сайлагыз",
+		"vsui-imageSelectionDialog-currentImageString": "Хәзерге рәсем",
+		"vsui-imageSelectionDialog-allImagesString": "Барлык рәсемнәр",
+		"vsui-imageSelectionDialog-customImagesString": "Гадәт",
+		"vsui-printImagesDialog-title": "Рәсемнәрне бастыру",
+		"vsui-printImagesPanel-imagePrintingString": "Рәсем бастырыла",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотацияләр белән",
+		"vsui-imageViewerSettingsDialog-title": "Рәсем тамашачысы көйләүләре",
+		"vsui-thumbnailViewerSettingDialog-title": "Эскиз тамашачы көйләүләре",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияләр күрсәт:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-тан рәсемне йөкләү",
+		"vsdv-dialog-okButton": "ЯРАРМЫ",
+		"vsdv-dialog-cancelButton": "Баш тарту"
 	}
 }

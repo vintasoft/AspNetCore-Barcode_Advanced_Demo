@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Kan dra miniatyrbilder:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Kan navigere miniatyrbilder ved hjelp av tastatur:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kan velge miniatyrbilder ved hjelp av tastaturet:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Kan slette miniatyrbilder ved hjelp av tastatur:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX-verdi:",
 		"vsdv-barcodeReader-qualityTestInformation": "Testinformasjon for strekkodeutskriftskvalitet:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Innstillinger for strekkodeleser",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Last ned og åpne filen",
 		"vsdv-uploadAndAddFileButton-addFileString": "Last opp og legg til fil",
 		"vsdv-openFile-addFileString": "Legg til fil",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Lagre endringer i PDF-dokument",
-		"vsdv-documentPasswordDialog-title": "Dokumentpassord",
-		"vsdv-dialog-cancelButton": "Avbryt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentiser filen",
-		"vsdv-imageSelectionDialog-title": "Velg bilder",
-		"vsdv-imageSelectionDialog-currentImageString": "Gjeldende bilde",
-		"vsdv-imageSelectionDialog-allImagesString": "Alle bilder",
-		"vsdv-imageSelectionDialog-customImagesString": "Egendefinert",
-		"vsdv-printImagesDialog-title": "Skriv ut bilder",
-		"vsdv-printImagesPanel-imagePrintingString": "Bildet skrives ut",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "med merknader",
-		"vsdv-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
-		"vsdv-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
-		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL"
+		"vsui-documentPasswordDialog-title": "Dokumentpassord",
+		"vsui-dialog-cancelButton": "Avbryt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentiser filen",
+		"vsui-imageSelectionDialog-title": "Velg bilder",
+		"vsui-imageSelectionDialog-currentImageString": "Gjeldende bilde",
+		"vsui-imageSelectionDialog-allImagesString": "Alle bilder",
+		"vsui-imageSelectionDialog-customImagesString": "Egendefinert",
+		"vsui-printImagesDialog-title": "Skriv ut bilder",
+		"vsui-printImagesPanel-imagePrintingString": "Bildet skrives ut",
+		"vsui-printImagesPanel-withAnnotationsLabel": "med merknader",
+		"vsui-imageViewerSettingsDialog-title": "Innstillinger for bildevisning",
+		"vsui-thumbnailViewerSettingDialog-title": "Innstillinger for miniatyrbildevisning",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Vis merknader på miniatyrbilder:",
+		"vsdv-uploadImageFromUrlDialog-title": "Last opp bilde fra URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Avbryt"
 	}
 }

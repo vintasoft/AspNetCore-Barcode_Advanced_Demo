@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Suratlary süýräp biler:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp, kiçijik suratlary dolandyryp bilersiňiz:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiaturany ulanyp kiçijik suratlary saýlap bilersiňiz:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klawiatura arkaly kiçijik suratlary pozup bilersiňiz:"
+			},
 			"okButton": {
 				"value": "Bolýar"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX gymmaty:",
 		"vsdv-barcodeReader-qualityTestInformation": "Ştrih-kod çap etmegiň hili barada maglumat:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Ştrih-kod okaýjy sazlamalary",
-		"vsdv-dialog-okButton": "Bolýar",
+		"vsui-dialog-okButton": "Bolýar",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faýly ýükläň we açyň",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faýl ýükläň we goşuň",
 		"vsdv-openFile-addFileString": "Faýl goşuň",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Suratlardaky üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiýalarda üýtgeşmeleri ýazdyryň",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Suratlara düşündirişleri ýakyň",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF resminamasyndaky üýtgeşmeleri ýazdyryň",
-		"vsdv-documentPasswordDialog-title": "Resminamanyň paroly",
-		"vsdv-dialog-cancelButton": "Elatyr",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
-		"vsdv-imageSelectionDialog-title": "Suratlary saýlaň",
-		"vsdv-imageSelectionDialog-currentImageString": "Häzirki surat",
-		"vsdv-imageSelectionDialog-allImagesString": "Imageshli suratlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Omörite",
-		"vsdv-printImagesDialog-title": "Suratlary çap ediň",
-		"vsdv-printImagesPanel-imagePrintingString": "Surat çap edilýär",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
-		"vsdv-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
-		"vsdv-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
-		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň"
+		"vsui-documentPasswordDialog-title": "Resminamanyň paroly",
+		"vsui-dialog-cancelButton": "Elatyr",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faýly tassyklamak",
+		"vsui-imageSelectionDialog-title": "Suratlary saýlaň",
+		"vsui-imageSelectionDialog-currentImageString": "Häzirki surat",
+		"vsui-imageSelectionDialog-allImagesString": "Imageshli suratlar",
+		"vsui-imageSelectionDialog-customImagesString": "Omörite",
+		"vsui-printImagesDialog-title": "Suratlary çap ediň",
+		"vsui-printImagesPanel-imagePrintingString": "Surat çap edilýär",
+		"vsui-printImagesPanel-withAnnotationsLabel": "düşündirişler bilen",
+		"vsui-imageViewerSettingsDialog-title": "Surat görüjiniň sazlamalary",
+		"vsui-thumbnailViewerSettingDialog-title": "Kiçijik tomaşaçy sazlamalary",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiýalary görkez:",
+		"vsdv-uploadImageFromUrlDialog-title": "Suraty URL-den ýükläň",
+		"vsdv-dialog-okButton": "Bolýar",
+		"vsdv-dialog-cancelButton": "Elatyr"
 	}
 }

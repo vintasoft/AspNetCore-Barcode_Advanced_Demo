@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Eskizlarni tortib olish mumkin:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni navigatsiya qilish mumkin:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni tanlash mumkin:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviatura yordamida eskizlarni o'chirish mumkin:"
+			},
 			"okButton": {
 				"value": "KELISHDIKMI"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX qiymati:",
 		"vsdv-barcodeReader-qualityTestInformation": "Shtrixli bosib chiqarish sifati sinovi haqida ma'lumot:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Shtrix-kodni o'quvchi sozlamalari",
-		"vsdv-dialog-okButton": "KELISHDIKMI",
+		"vsui-dialog-okButton": "KELISHDIKMI",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylni yuklang va oching",
 		"vsdv-uploadAndAddFileButton-addFileString": "Faylni yuklang va qo'shing",
 		"vsdv-openFile-addFileString": "Fayl qo'shish",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "O'zgarishlarni PDF hujjatida saqlang",
-		"vsdv-documentPasswordDialog-title": "Hujjat uchun parol",
-		"vsdv-dialog-cancelButton": "Bekor qilish",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
-		"vsdv-imageSelectionDialog-title": "Rasmlarni tanlang",
-		"vsdv-imageSelectionDialog-currentImageString": "Joriy rasm",
-		"vsdv-imageSelectionDialog-allImagesString": "Barcha rasmlar",
-		"vsdv-imageSelectionDialog-customImagesString": "Maxsus",
-		"vsdv-printImagesDialog-title": "Rasmlarni chop etish",
-		"vsdv-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
-		"vsdv-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
-		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang"
+		"vsui-documentPasswordDialog-title": "Hujjat uchun parol",
+		"vsui-dialog-cancelButton": "Bekor qilish",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faylni autentifikatsiya qilish",
+		"vsui-imageSelectionDialog-title": "Rasmlarni tanlang",
+		"vsui-imageSelectionDialog-currentImageString": "Joriy rasm",
+		"vsui-imageSelectionDialog-allImagesString": "Barcha rasmlar",
+		"vsui-imageSelectionDialog-customImagesString": "Maxsus",
+		"vsui-printImagesDialog-title": "Rasmlarni chop etish",
+		"vsui-printImagesPanel-imagePrintingString": "Rasm chop etilmoqda",
+		"vsui-printImagesPanel-withAnnotationsLabel": "izohlar bilan",
+		"vsui-imageViewerSettingsDialog-title": "Rasmlarni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingDialog-title": "Eskizni ko'rish sozlamalari",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Izohlarni ko'rsatish:",
+		"vsdv-uploadImageFromUrlDialog-title": "Rasmni URL manzilidan yuklang",
+		"vsdv-dialog-okButton": "KELISHDIKMI",
+		"vsdv-dialog-cancelButton": "Bekor qilish"
 	}
 }

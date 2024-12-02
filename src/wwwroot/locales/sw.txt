@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Inaweza Kuburuta Vijipicha:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kuelekeza Vijipicha Kwa Kutumia Kibodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kuchagua Vijipicha Kwa Kutumia Kibodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Inaweza Kufuta Vijipicha Kwa Kutumia Kibodi:"
+			},
 			"okButton": {
 				"value": "sawa"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Thamani ya HEX:",
 		"vsdv-barcodeReader-qualityTestInformation": "Maelezo ya mtihani wa ubora wa uchapishaji wa msimbo pau:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Mipangilio ya kisoma msimbopau",
-		"vsdv-dialog-okButton": "sawa",
+		"vsui-dialog-okButton": "sawa",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Pakia na ufungue faili",
 		"vsdv-uploadAndAddFileButton-addFileString": "Pakia na uongeze faili",
 		"vsdv-openFile-addFileString": "Ongeza faili",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Hifadhi mabadiliko katika hati ya PDF",
-		"vsdv-documentPasswordDialog-title": "Nenosiri la hati",
-		"vsdv-dialog-cancelButton": "Ghairi",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
-		"vsdv-imageSelectionDialog-title": "Chagua picha",
-		"vsdv-imageSelectionDialog-currentImageString": "Picha ya sasa",
-		"vsdv-imageSelectionDialog-allImagesString": "Picha zote",
-		"vsdv-imageSelectionDialog-customImagesString": "Desturi",
-		"vsdv-printImagesDialog-title": "Chapisha picha",
-		"vsdv-printImagesPanel-imagePrintingString": "Picha inachapishwa",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
-		"vsdv-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
-		"vsdv-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
-		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL"
+		"vsui-documentPasswordDialog-title": "Nenosiri la hati",
+		"vsui-dialog-cancelButton": "Ghairi",
+		"vsui-documentPasswordPanel-authenticateFileString": "Thibitisha faili",
+		"vsui-imageSelectionDialog-title": "Chagua picha",
+		"vsui-imageSelectionDialog-currentImageString": "Picha ya sasa",
+		"vsui-imageSelectionDialog-allImagesString": "Picha zote",
+		"vsui-imageSelectionDialog-customImagesString": "Desturi",
+		"vsui-printImagesDialog-title": "Chapisha picha",
+		"vsui-printImagesPanel-imagePrintingString": "Picha inachapishwa",
+		"vsui-printImagesPanel-withAnnotationsLabel": "yenye maelezo",
+		"vsui-imageViewerSettingsDialog-title": "Mipangilio ya kitazamaji picha",
+		"vsui-thumbnailViewerSettingDialog-title": "Mipangilio ya kitazamaji cha kijipicha",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Onyesha Maelezo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Pakia picha kutoka kwa URL",
+		"vsdv-dialog-okButton": "sawa",
+		"vsdv-dialog-cancelButton": "Ghairi"
 	}
 }

@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "יכול לגרור תמונות ממוזערות:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לנווט בתמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "יכול לבחור תמונות ממוזערות באמצעות מקלדת:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "יכול למחוק תמונות ממוזערות באמצעות מקלדת:"
+			},
 			"okButton": {
 				"value": "בסדר"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "ערך HEX:",
 		"vsdv-barcodeReader-qualityTestInformation": "מידע על בדיקת איכות הדפסת ברקוד:",
 		"vsdv-barcodeReaderSettingsDialog-title": "הגדרות קורא ברקוד",
-		"vsdv-dialog-okButton": "בסדר",
+		"vsui-dialog-okButton": "בסדר",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "הורד ופתח את הקובץ",
 		"vsdv-uploadAndAddFileButton-addFileString": "העלה והוסף קובץ",
 		"vsdv-openFile-addFileString": "הוסף קובץ",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "שמור שינויים במסמך PDF",
-		"vsdv-documentPasswordDialog-title": "סיסמת מסמך",
-		"vsdv-dialog-cancelButton": "בטל",
-		"vsdv-documentPasswordPanel-authenticateFileString": "אימות קובץ",
-		"vsdv-imageSelectionDialog-title": "בחר תמונות",
-		"vsdv-imageSelectionDialog-currentImageString": "תמונה נוכחית",
-		"vsdv-imageSelectionDialog-allImagesString": "כל התמונות",
-		"vsdv-imageSelectionDialog-customImagesString": "מותאם אישית",
-		"vsdv-printImagesDialog-title": "הדפס תמונות",
-		"vsdv-printImagesPanel-imagePrintingString": "התמונה מודפסת",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "עם הערות",
-		"vsdv-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
-		"vsdv-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
-		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL"
+		"vsui-documentPasswordDialog-title": "סיסמת מסמך",
+		"vsui-dialog-cancelButton": "בטל",
+		"vsui-documentPasswordPanel-authenticateFileString": "אימות קובץ",
+		"vsui-imageSelectionDialog-title": "בחר תמונות",
+		"vsui-imageSelectionDialog-currentImageString": "תמונה נוכחית",
+		"vsui-imageSelectionDialog-allImagesString": "כל התמונות",
+		"vsui-imageSelectionDialog-customImagesString": "מותאם אישית",
+		"vsui-printImagesDialog-title": "הדפס תמונות",
+		"vsui-printImagesPanel-imagePrintingString": "התמונה מודפסת",
+		"vsui-printImagesPanel-withAnnotationsLabel": "עם הערות",
+		"vsui-imageViewerSettingsDialog-title": "הגדרות מציג תמונות",
+		"vsui-thumbnailViewerSettingDialog-title": "הגדרות מציג תמונות ממוזערות",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "הצג הערות בתמונות ממוזערות:",
+		"vsdv-uploadImageFromUrlDialog-title": "העלה תמונה מ-URL",
+		"vsdv-dialog-okButton": "בסדר",
+		"vsdv-dialog-cancelButton": "בטל"
 	}
 }

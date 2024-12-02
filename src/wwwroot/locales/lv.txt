@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Var vilkt sīktēlus:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Var pārvietoties sīktēlos, izmantojot tastatūru:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Var atlasīt sīktēlus, izmantojot tastatūru:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Var izdzēst sīktēlus, izmantojot tastatūru:"
+			},
 			"okButton": {
 				"value": "labi"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX vērtība:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informācija par svītrkoda drukas kvalitātes pārbaudi:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Svītrkoda lasītāja iestatījumi",
-		"vsdv-dialog-okButton": "labi",
+		"vsui-dialog-okButton": "labi",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Augšupielādējiet un atveriet failu",
 		"vsdv-uploadAndAddFileButton-addFileString": "Augšupielādējiet un pievienojiet failu",
 		"vsdv-openFile-addFileString": "Pievienot failu",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Saglabājiet izmaiņas PDF dokumentā",
-		"vsdv-documentPasswordDialog-title": "Dokumenta parole",
-		"vsdv-dialog-cancelButton": "Atcelt",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
-		"vsdv-imageSelectionDialog-title": "Izvēlieties attēlus",
-		"vsdv-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
-		"vsdv-imageSelectionDialog-allImagesString": "Visi attēli",
-		"vsdv-imageSelectionDialog-customImagesString": "Pielāgots",
-		"vsdv-printImagesDialog-title": "Drukāt attēlus",
-		"vsdv-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
-		"vsdv-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
-		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL"
+		"vsui-documentPasswordDialog-title": "Dokumenta parole",
+		"vsui-dialog-cancelButton": "Atcelt",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificēt failu",
+		"vsui-imageSelectionDialog-title": "Izvēlieties attēlus",
+		"vsui-imageSelectionDialog-currentImageString": "Pašreizējais attēls",
+		"vsui-imageSelectionDialog-allImagesString": "Visi attēli",
+		"vsui-imageSelectionDialog-customImagesString": "Pielāgots",
+		"vsui-printImagesDialog-title": "Drukāt attēlus",
+		"vsui-printImagesPanel-imagePrintingString": "Attēls tiek drukāts",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ar anotācijām",
+		"vsui-imageViewerSettingsDialog-title": "Attēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingDialog-title": "Sīktēlu skatītāja iestatījumi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rādīt anotācijas:",
+		"vsdv-uploadImageFromUrlDialog-title": "Augšupielādējiet attēlu no URL",
+		"vsdv-dialog-okButton": "labi",
+		"vsdv-dialog-cancelButton": "Atcelt"
 	}
 }

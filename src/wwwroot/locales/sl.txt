@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Lahko povlečete sličice:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko krmarite po sličicah s tipkovnico:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izberete sličice s tipkovnico:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Lahko izbrišete sličice s tipkovnico:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX vrednost:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informacije o preskusu kakovosti tiska črtne kode:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Nastavitve bralnika črtne kode",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Naloži in odpri datoteko",
 		"vsdv-uploadAndAddFileButton-addFileString": "Naložite in dodajte datoteko",
 		"vsdv-openFile-addFileString": "Dodaj datoteko",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Shranite spremembe v slikah",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Shranite spremembe v opombah",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Zapiši opombe na slike",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Shranite spremembe v dokument PDF",
-		"vsdv-documentPasswordDialog-title": "Geslo za dokument",
-		"vsdv-dialog-cancelButton": "Prekliči",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
-		"vsdv-imageSelectionDialog-title": "Izberite slike",
-		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsdv-imageSelectionDialog-allImagesString": "Vse slike",
-		"vsdv-imageSelectionDialog-customImagesString": "Po meri",
-		"vsdv-printImagesDialog-title": "Natisnite slike",
-		"vsdv-printImagesPanel-imagePrintingString": "Slika se tiska",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "z opombami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
-		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL"
+		"vsui-documentPasswordDialog-title": "Geslo za dokument",
+		"vsui-dialog-cancelButton": "Prekliči",
+		"vsui-documentPasswordPanel-authenticateFileString": "Preveri pristnost datoteke",
+		"vsui-imageSelectionDialog-title": "Izberite slike",
+		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsui-imageSelectionDialog-allImagesString": "Vse slike",
+		"vsui-imageSelectionDialog-customImagesString": "Po meri",
+		"vsui-printImagesDialog-title": "Natisnite slike",
+		"vsui-printImagesPanel-imagePrintingString": "Slika se tiska",
+		"vsui-printImagesPanel-withAnnotationsLabel": "z opombami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavitve pregledovalnika slik",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavitve pregledovalnika sličic",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži opombe:",
+		"vsdv-uploadImageFromUrlDialog-title": "Naloži sliko z naslova URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Prekliči"
 	}
 }

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreBarcodeAdvancedDemo.Net6", "AspNetCoreBarcodeAdvancedDemo.Net6.csproj", "{A5C14AAD-3DCA-43C9-8852-9C5CC9B1B155}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreBarcodeAdvancedDemo.Net9", "AspNetCoreBarcodeAdvancedDemo.Net9.csproj", "{A5C14AAD-3DCA-43C9-8852-9C5CC9B1B155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

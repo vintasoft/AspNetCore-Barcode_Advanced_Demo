@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "可以拖动缩略图："
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘浏览缩略图："
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘选择缩略图："
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "可以使用键盘删除缩略图："
+			},
 			"okButton": {
 				"value": "好的"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "十六進位值：",
 		"vsdv-barcodeReader-qualityTestInformation": "條碼列印品質測試資訊：",
 		"vsdv-barcodeReaderSettingsDialog-title": "条形码阅读器设置",
-		"vsdv-dialog-okButton": "好的",
+		"vsui-dialog-okButton": "好的",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "上传并打开文件",
 		"vsdv-uploadAndAddFileButton-addFileString": "上傳並新增文件",
 		"vsdv-openFile-addFileString": "添加文件",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "保存 PDF 文档中的更改",
-		"vsdv-documentPasswordDialog-title": "文档密码",
-		"vsdv-dialog-cancelButton": "取消",
-		"vsdv-documentPasswordPanel-authenticateFileString": "验证文件",
-		"vsdv-imageSelectionDialog-title": "选择图像",
-		"vsdv-imageSelectionDialog-currentImageString": "当前图像",
-		"vsdv-imageSelectionDialog-allImagesString": "所有图片",
-		"vsdv-imageSelectionDialog-customImagesString": "风俗",
-		"vsdv-printImagesDialog-title": "打印图像",
-		"vsdv-printImagesPanel-imagePrintingString": "图像正在打印",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "带注释",
-		"vsdv-imageViewerSettingsDialog-title": "图像查看器设置",
-		"vsdv-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
-		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像"
+		"vsui-documentPasswordDialog-title": "文档密码",
+		"vsui-dialog-cancelButton": "取消",
+		"vsui-documentPasswordPanel-authenticateFileString": "验证文件",
+		"vsui-imageSelectionDialog-title": "选择图像",
+		"vsui-imageSelectionDialog-currentImageString": "当前图像",
+		"vsui-imageSelectionDialog-allImagesString": "所有图片",
+		"vsui-imageSelectionDialog-customImagesString": "风俗",
+		"vsui-printImagesDialog-title": "打印图像",
+		"vsui-printImagesPanel-imagePrintingString": "图像正在打印",
+		"vsui-printImagesPanel-withAnnotationsLabel": "带注释",
+		"vsui-imageViewerSettingsDialog-title": "图像查看器设置",
+		"vsui-thumbnailViewerSettingDialog-title": "缩略图查看器设置",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "显示注释：",
+		"vsdv-uploadImageFromUrlDialog-title": "從 URL 上傳圖像",
+		"vsdv-dialog-okButton": "好的",
+		"vsdv-dialog-cancelButton": "取消"
 	}
 }

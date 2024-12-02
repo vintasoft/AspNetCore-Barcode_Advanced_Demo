@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Կարող է քաշել մանրապատկերները՝"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է նավարկել մանրապատկերներով՝ օգտագործելով ստեղնաշար."
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող եք ընտրել մանրապատկերներ՝ օգտագործելով ստեղնաշար."
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Կարող է ջնջել մանրապատկերները՝ օգտագործելով ստեղնաշար."
+			},
 			"okButton": {
 				"value": "լավ"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX արժեքը:",
 		"vsdv-barcodeReader-qualityTestInformation": "Շտրիխ կոդի տպման որակի փորձարկման տեղեկատվություն.",
 		"vsdv-barcodeReaderSettingsDialog-title": "Շտրիխ կոդ ընթերցողի կարգավորումներ",
-		"vsdv-dialog-okButton": "լավ",
+		"vsui-dialog-okButton": "լավ",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Վերբեռնեք և բացեք ֆայլը",
 		"vsdv-uploadAndAddFileButton-addFileString": "Վերբեռնեք և ավելացրեք ֆայլ",
 		"vsdv-openFile-addFileString": "Ավելացնել ֆայլ",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Պահպանեք պատկերների փոփոխությունները",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Պահպանեք փոփոխությունները PDF փաստաթղթում",
-		"vsdv-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
-		"vsdv-dialog-cancelButton": "Չեղարկել",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
-		"vsdv-imageSelectionDialog-title": "Ընտրեք պատկերներ",
-		"vsdv-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
-		"vsdv-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
-		"vsdv-imageSelectionDialog-customImagesString": "Պատվերով",
-		"vsdv-printImagesDialog-title": "Տպել պատկերներ",
-		"vsdv-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
-		"vsdv-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
-		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից"
+		"vsui-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",
+		"vsui-dialog-cancelButton": "Չեղարկել",
+		"vsui-documentPasswordPanel-authenticateFileString": "Նույնականացնել ֆայլը",
+		"vsui-imageSelectionDialog-title": "Ընտրեք պատկերներ",
+		"vsui-imageSelectionDialog-currentImageString": "Ընթացիկ պատկեր",
+		"vsui-imageSelectionDialog-allImagesString": "Բոլոր պատկերները",
+		"vsui-imageSelectionDialog-customImagesString": "Պատվերով",
+		"vsui-printImagesDialog-title": "Տպել պատկերներ",
+		"vsui-printImagesPanel-imagePrintingString": "Պատկերը տպագրվում է",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ծանոթագրություններով",
+		"vsui-imageViewerSettingsDialog-title": "Պատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingDialog-title": "Մանրապատկերների դիտման կարգավորումներ",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Ցույց տալ ծանոթագրությունները.",
+		"vsdv-uploadImageFromUrlDialog-title": "Վերբեռնեք պատկեր URL-ից",
+		"vsdv-dialog-okButton": "լավ",
+		"vsdv-dialog-cancelButton": "Չեղարկել"
 	}
 }

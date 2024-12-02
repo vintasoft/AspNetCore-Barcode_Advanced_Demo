@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Ingakwazi Ukuhudula Izithonjana:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Ingakwazi Ukuzulazula Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Ungakhetha Izithonjana Usebenzisa Ikhibhodi:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Ingasusa Izithonjana Ngokusebenzisa Ikhibhodi:"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX Inani:",
 		"vsdv-barcodeReader-qualityTestInformation": "Ulwazi lokuhlolwa kwekhwalithi yokuphrinta ibhakhodi:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Izilungiselelo zokufunda ibhakhodi",
-		"vsdv-dialog-okButton": "KULUNGILE",
+		"vsui-dialog-okButton": "KULUNGILE",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Layisha futhi uvule ifayela",
 		"vsdv-uploadAndAddFileButton-addFileString": "Layisha futhi wengeze ifayela",
 		"vsdv-openFile-addFileString": "Engeza ifayela",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Londoloza izinguquko ezithombeni",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Londoloza izinguquko ezichasiselweni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Shisa izichasiselo ezithombeni",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Londoloza izinguquko kudokhumenti ye-PDF",
-		"vsdv-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
-		"vsdv-dialog-cancelButton": "Khansela",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
-		"vsdv-imageSelectionDialog-title": "Khetha izithombe",
-		"vsdv-imageSelectionDialog-currentImageString": "Isithombe samanje",
-		"vsdv-imageSelectionDialog-allImagesString": "Zonke izithombe",
-		"vsdv-imageSelectionDialog-customImagesString": "Ngokwezifiso",
-		"vsdv-printImagesDialog-title": "Phrinta izithombe",
-		"vsdv-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
-		"vsdv-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
-		"vsdv-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
-		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL"
+		"vsui-documentPasswordDialog-title": "Iphasiwedi yedokhumenti",
+		"vsui-dialog-cancelButton": "Khansela",
+		"vsui-documentPasswordPanel-authenticateFileString": "Qinisekisa ifayela",
+		"vsui-imageSelectionDialog-title": "Khetha izithombe",
+		"vsui-imageSelectionDialog-currentImageString": "Isithombe samanje",
+		"vsui-imageSelectionDialog-allImagesString": "Zonke izithombe",
+		"vsui-imageSelectionDialog-customImagesString": "Ngokwezifiso",
+		"vsui-printImagesDialog-title": "Phrinta izithombe",
+		"vsui-printImagesPanel-imagePrintingString": "Isithombe siyaphrinta",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ngezichasiselo",
+		"vsui-imageViewerSettingsDialog-title": "Izilungiselelo zesibukeli sesithombe",
+		"vsui-thumbnailViewerSettingDialog-title": "Izilungiselelo zesibukeli sesithonjana",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Bonisa Izichasiselo:",
+		"vsdv-uploadImageFromUrlDialog-title": "Layisha isithombe kusuka ku-URL",
+		"vsdv-dialog-okButton": "KULUNGILE",
+		"vsdv-dialog-cancelButton": "Khansela"
 	}
 }

@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Galima vilkti miniatiūras:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Galima naršyti miniatiūras naudojant klaviatūrą:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Galite pasirinkti miniatiūras naudodami klaviatūrą:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Galima ištrinti miniatiūras naudojant klaviatūrą:"
+			},
 			"okButton": {
 				"value": "Gerai"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX vertė:",
 		"vsdv-barcodeReader-qualityTestInformation": "Brūkšninio kodo spausdinimo kokybės tikrinimo informacija:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Brūkšninių kodų skaitytuvo nustatymai",
-		"vsdv-dialog-okButton": "Gerai",
+		"vsui-dialog-okButton": "Gerai",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Įkelti ir atidaryti failą",
 		"vsdv-uploadAndAddFileButton-addFileString": "Įkelti ir pridėti failą",
 		"vsdv-openFile-addFileString": "Pridėti failą",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Išsaugokite pakeitimus PDF dokumente",
-		"vsdv-documentPasswordDialog-title": "Dokumento slaptažodis",
-		"vsdv-dialog-cancelButton": "Atšaukti",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
-		"vsdv-imageSelectionDialog-title": "Pasirinkite vaizdus",
-		"vsdv-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
-		"vsdv-imageSelectionDialog-allImagesString": "Visi vaizdai",
-		"vsdv-imageSelectionDialog-customImagesString": "Pasirinktinis",
-		"vsdv-printImagesDialog-title": "Spausdinti vaizdus",
-		"vsdv-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
-		"vsdv-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
-		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL"
+		"vsui-documentPasswordDialog-title": "Dokumento slaptažodis",
+		"vsui-dialog-cancelButton": "Atšaukti",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentifikuoti failą",
+		"vsui-imageSelectionDialog-title": "Pasirinkite vaizdus",
+		"vsui-imageSelectionDialog-currentImageString": "Dabartinis vaizdas",
+		"vsui-imageSelectionDialog-allImagesString": "Visi vaizdai",
+		"vsui-imageSelectionDialog-customImagesString": "Pasirinktinis",
+		"vsui-printImagesDialog-title": "Spausdinti vaizdus",
+		"vsui-printImagesPanel-imagePrintingString": "Vaizdas spausdinamas",
+		"vsui-printImagesPanel-withAnnotationsLabel": "su anotacijomis",
+		"vsui-imageViewerSettingsDialog-title": "Vaizdų peržiūros programos nustatymai",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatiūrų peržiūros priemonės nustatymai",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Rodyti komentarus:",
+		"vsdv-uploadImageFromUrlDialog-title": "Įkelti vaizdą iš URL",
+		"vsdv-dialog-okButton": "Gerai",
+		"vsdv-dialog-cancelButton": "Atšaukti"
 	}
 }

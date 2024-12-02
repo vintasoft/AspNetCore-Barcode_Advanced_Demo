@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Miniatürləri sürükləyə bilər:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək miniatürləri gəzə bilər:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək miniatürləri seçə bilər:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klaviaturadan istifadə edərək kiçik şəkilləri silə bilər:"
+			},
 			"okButton": {
 				"value": "tamam"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX dəyəri:",
 		"vsdv-barcodeReader-qualityTestInformation": "Barkod çap keyfiyyəti test məlumatı:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Barkod oxuyucu parametrləri",
-		"vsdv-dialog-okButton": "tamam",
+		"vsui-dialog-okButton": "tamam",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Faylı yükləyin və açın",
 		"vsdv-uploadAndAddFileButton-addFileString": "Fayl yükləyin və əlavə edin",
 		"vsdv-openFile-addFileString": "Fayl əlavə edin",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Dəyişiklikləri PDF sənədində qeyd edin",
-		"vsdv-documentPasswordDialog-title": "Sənəd parolu",
-		"vsdv-dialog-cancelButton": "Ləğv et",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
-		"vsdv-imageSelectionDialog-title": "Şəkilləri seçin",
-		"vsdv-imageSelectionDialog-currentImageString": "Cari şəkil",
-		"vsdv-imageSelectionDialog-allImagesString": "Bütün şəkillər",
-		"vsdv-imageSelectionDialog-customImagesString": "Xüsusi",
-		"vsdv-printImagesDialog-title": "Şəkilləri çap edin",
-		"vsdv-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
-		"vsdv-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin"
+		"vsui-documentPasswordDialog-title": "Sənəd parolu",
+		"vsui-dialog-cancelButton": "Ləğv et",
+		"vsui-documentPasswordPanel-authenticateFileString": "Faylı doğrulayın",
+		"vsui-imageSelectionDialog-title": "Şəkilləri seçin",
+		"vsui-imageSelectionDialog-currentImageString": "Cari şəkil",
+		"vsui-imageSelectionDialog-allImagesString": "Bütün şəkillər",
+		"vsui-imageSelectionDialog-customImagesString": "Xüsusi",
+		"vsui-printImagesDialog-title": "Şəkilləri çap edin",
+		"vsui-printImagesPanel-imagePrintingString": "Şəkil çap olunur",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotasiyalarla",
+		"vsui-imageViewerSettingsDialog-title": "Şəkillərə baxmaq parametrləri",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatür baxıcı parametrləri",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Annotasiyaları göstərin:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL-dən şəkil yükləyin",
+		"vsdv-dialog-okButton": "tamam",
+		"vsdv-dialog-cancelButton": "Ləğv et"
 	}
 }

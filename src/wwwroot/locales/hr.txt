@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Mogu povlačiti sličice:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Može se kretati sličicama pomoću tipkovnice:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Možete odabrati sličice pomoću tipkovnice:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Moguće brisanje sličica pomoću tipkovnice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX vrijednost:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informacije o ispitivanju kvalitete ispisa crtičnog koda:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Postavke čitača crtičnog koda",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Preuzmi i otvori datoteku",
 		"vsdv-uploadAndAddFileButton-addFileString": "Prenesi i dodaj datoteku",
 		"vsdv-openFile-addFileString": "Dodaj datoteku",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Spremite promjene na slikama",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Spremi promjene u PDF dokumentu",
-		"vsdv-documentPasswordDialog-title": "Lozinka dokumenta",
-		"vsdv-dialog-cancelButton": "Odustani",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
-		"vsdv-imageSelectionDialog-title": "Odaberite slike",
-		"vsdv-imageSelectionDialog-currentImageString": "Trenutna slika",
-		"vsdv-imageSelectionDialog-allImagesString": "Sve slike",
-		"vsdv-imageSelectionDialog-customImagesString": "Prilagođeno",
-		"vsdv-printImagesDialog-title": "Ispis slika",
-		"vsdv-printImagesPanel-imagePrintingString": "Slika se ispisuje",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "s komentarima",
-		"vsdv-imageViewerSettingsDialog-title": "Postavke preglednika slika",
-		"vsdv-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
-		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a"
+		"vsui-documentPasswordDialog-title": "Lozinka dokumenta",
+		"vsui-dialog-cancelButton": "Odustani",
+		"vsui-documentPasswordPanel-authenticateFileString": "Ovjerite datoteku",
+		"vsui-imageSelectionDialog-title": "Odaberite slike",
+		"vsui-imageSelectionDialog-currentImageString": "Trenutna slika",
+		"vsui-imageSelectionDialog-allImagesString": "Sve slike",
+		"vsui-imageSelectionDialog-customImagesString": "Prilagođeno",
+		"vsui-printImagesDialog-title": "Ispis slika",
+		"vsui-printImagesPanel-imagePrintingString": "Slika se ispisuje",
+		"vsui-printImagesPanel-withAnnotationsLabel": "s komentarima",
+		"vsui-imageViewerSettingsDialog-title": "Postavke preglednika slika",
+		"vsui-thumbnailViewerSettingDialog-title": "Postavke pregledača sličica",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Prikaži bilješke na sličicama:",
+		"vsdv-uploadImageFromUrlDialog-title": "Prenesi sliku s URL-a",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Odustani"
 	}
 }

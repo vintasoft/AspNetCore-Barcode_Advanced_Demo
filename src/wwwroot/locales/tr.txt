@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Küçük Resimleri Sürükleyebilir:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resimlerde Gezinilebilir:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resim Seçilebilir:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Klavye Kullanarak Küçük Resim Silinebilir:"
+			},
 			"okButton": {
 				"value": "Tamam"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX Değeri:",
 		"vsdv-barcodeReader-qualityTestInformation": "Barkod baskı kalitesi test bilgileri:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Barkod okuyucu ayarları",
-		"vsdv-dialog-okButton": "Tamam",
+		"vsui-dialog-okButton": "Tamam",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Dosyayı indir ve aç",
 		"vsdv-uploadAndAddFileButton-addFileString": "Dosya yükleyin ve ekleyin",
 		"vsdv-openFile-addFileString": "Dosya Ekle",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Değişiklikleri PDF belgesine kaydet",
-		"vsdv-documentPasswordDialog-title": "Belge parolası",
-		"vsdv-dialog-cancelButton": "İptal",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
-		"vsdv-imageSelectionDialog-title": "Görüntüleri Seçin",
-		"vsdv-imageSelectionDialog-currentImageString": "Geçerli Resim",
-		"vsdv-imageSelectionDialog-allImagesString": "Tüm resimler",
-		"vsdv-imageSelectionDialog-customImagesString": "Özel",
-		"vsdv-printImagesDialog-title": "Görüntüleri Yazdır",
-		"vsdv-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
-		"vsdv-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
-		"vsdv-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle"
+		"vsui-documentPasswordDialog-title": "Belge parolası",
+		"vsui-dialog-cancelButton": "İptal",
+		"vsui-documentPasswordPanel-authenticateFileString": "Dosyanın kimliğini doğrula",
+		"vsui-imageSelectionDialog-title": "Görüntüleri Seçin",
+		"vsui-imageSelectionDialog-currentImageString": "Geçerli Resim",
+		"vsui-imageSelectionDialog-allImagesString": "Tüm resimler",
+		"vsui-imageSelectionDialog-customImagesString": "Özel",
+		"vsui-printImagesDialog-title": "Görüntüleri Yazdır",
+		"vsui-printImagesPanel-imagePrintingString": "Resim yazdırılıyor",
+		"vsui-printImagesPanel-withAnnotationsLabel": "açıklamalarla",
+		"vsui-imageViewerSettingsDialog-title": "Görüntü görüntüleyici ayarları",
+		"vsui-thumbnailViewerSettingDialog-title": "Küçük Resim Görüntüleyici Ayarları",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Açıklamaları küçük resimlerde göster:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL'den resim yükle",
+		"vsdv-dialog-okButton": "Tamam",
+		"vsdv-dialog-cancelButton": "İptal"
 	}
 }

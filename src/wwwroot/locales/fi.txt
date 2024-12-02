@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Voi vetää pikkukuvia:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Pystyy navigoimaan pikkukuvissa näppäimistöllä:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Voi valita pikkukuvia näppäimistöllä:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Voiko pikkukuvia poistaa näppäimistöllä:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX-arvo:",
 		"vsdv-barcodeReader-qualityTestInformation": "Viivakooditulostuslaadun testitiedot:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Viivakoodinlukijan asetukset",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Lataa ja avaa tiedosto",
 		"vsdv-uploadAndAddFileButton-addFileString": "Lataa ja lisää tiedosto",
 		"vsdv-openFile-addFileString": "Lisää tiedosto",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Tallenna muutokset PDF-dokumenttiin",
-		"vsdv-documentPasswordDialog-title": "Asiakirjan salasana",
-		"vsdv-dialog-cancelButton": "Peruuta",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
-		"vsdv-imageSelectionDialog-title": "Valitse kuvat",
-		"vsdv-imageSelectionDialog-currentImageString": "Nykyinen kuva",
-		"vsdv-imageSelectionDialog-allImagesString": "Kaikki kuvat",
-		"vsdv-imageSelectionDialog-customImagesString": "Mukautettu",
-		"vsdv-printImagesDialog-title": "Tulosta kuvat",
-		"vsdv-printImagesPanel-imagePrintingString": "Kuva tulostuu",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
-		"vsdv-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
-		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta"
+		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",
+		"vsui-dialog-cancelButton": "Peruuta",
+		"vsui-documentPasswordPanel-authenticateFileString": "Todenna tiedosto",
+		"vsui-imageSelectionDialog-title": "Valitse kuvat",
+		"vsui-imageSelectionDialog-currentImageString": "Nykyinen kuva",
+		"vsui-imageSelectionDialog-allImagesString": "Kaikki kuvat",
+		"vsui-imageSelectionDialog-customImagesString": "Mukautettu",
+		"vsui-printImagesDialog-title": "Tulosta kuvat",
+		"vsui-printImagesPanel-imagePrintingString": "Kuva tulostuu",
+		"vsui-printImagesPanel-withAnnotationsLabel": "huomautuksilla",
+		"vsui-imageViewerSettingsDialog-title": "Kuvankatseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingDialog-title": "Pikkukuvien katseluohjelman asetukset",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Näytä merkinnät pikkukuvissa:",
+		"vsdv-uploadImageFromUrlDialog-title": "Lataa kuva URL-osoitteesta",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Peruuta"
 	}
 }

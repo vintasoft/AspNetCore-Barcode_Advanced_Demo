@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Метавонад эскизҳоро кашад:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед бо истифода аз клавиатура эскизҳоро паймоиш кунед:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Бо истифода аз клавиатура метавонад эскизҳоро интихоб кунад:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Метавонед эскизҳоро бо клавиатура тоза кунед:"
+			},
 			"okButton": {
 				"value": "ДУРУСТ"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Арзиши HEX:",
 		"vsdv-barcodeReader-qualityTestInformation": "Маълумоти санҷиши сифати чопи штрих-код:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Танзимоти хонандаи штрих-код",
-		"vsdv-dialog-okButton": "ДУРУСТ",
+		"vsui-dialog-okButton": "ДУРУСТ",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлро бор кунед ва кушоед",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлро бор кунед ва илова кунед",
 		"vsdv-openFile-addFileString": "Илова кардани файл",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Тағиротро дар ҳуҷҷати PDF захира кунед",
-		"vsdv-documentPasswordDialog-title": "Пароли ҳуҷҷат",
-		"vsdv-dialog-cancelButton": "Бекор кардан",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
-		"vsdv-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
-		"vsdv-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
-		"vsdv-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
-		"vsdv-imageSelectionDialog-customImagesString": "Фармоишгар",
-		"vsdv-printImagesDialog-title": "Тасвирҳоро чоп кунед",
-		"vsdv-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
-		"vsdv-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
-		"vsdv-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
-		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед"
+		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",
+		"vsui-dialog-cancelButton": "Бекор кардан",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлро тасдиқ кунед",
+		"vsui-imageSelectionDialog-title": "Тасвирҳоро интихоб кунед",
+		"vsui-imageSelectionDialog-currentImageString": "Тасвири ҷорӣ",
+		"vsui-imageSelectionDialog-allImagesString": "Ҳама тасвирҳо",
+		"vsui-imageSelectionDialog-customImagesString": "Фармоишгар",
+		"vsui-printImagesDialog-title": "Тасвирҳоро чоп кунед",
+		"vsui-printImagesPanel-imagePrintingString": "Тасвир чоп мешавад",
+		"vsui-printImagesPanel-withAnnotationsLabel": "бо эзоҳҳо",
+		"vsui-imageViewerSettingsDialog-title": "Танзимоти намоишгари тасвир",
+		"vsui-thumbnailViewerSettingDialog-title": "Танзимоти намоишгари ангора",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Нишон додани эзоҳҳо:",
+		"vsdv-uploadImageFromUrlDialog-title": "Тасвирро аз URL бор кунед",
+		"vsdv-dialog-okButton": "ДУРУСТ",
+		"vsdv-dialog-cancelButton": "Бекор кардан"
 	}
 }

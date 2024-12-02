@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перетягувати мініатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна переміщатися мініатюрами за допомогою клавіатури:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна вибрати мініатюри за допомогою клавіатури:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна видалити мініатюри за допомогою клавіатури:"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Шістнадцяткове значення:",
 		"vsdv-barcodeReader-qualityTestInformation": "Інформація про перевірку якості друку штрих-коду:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Налаштування зчитувача штрих-кодів",
-		"vsdv-dialog-okButton": "В порядку",
+		"vsui-dialog-okButton": "В порядку",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Завантажте та відкрийте файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Завантажити та додати файл",
 		"vsdv-openFile-addFileString": "Додати файл",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Збережіть зміни в зображеннях",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Збережіть зміни в анотаціях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запис анотацій на зображеннях",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Зберегти зміни в документі PDF",
-		"vsdv-documentPasswordDialog-title": "Пароль документа",
-		"vsdv-dialog-cancelButton": "Скасувати",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
-		"vsdv-imageSelectionDialog-title": "Виберіть зображення",
-		"vsdv-imageSelectionDialog-currentImageString": "Поточне зображення",
-		"vsdv-imageSelectionDialog-allImagesString": "Всі зображення",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Друк зображень",
-		"vsdv-printImagesPanel-imagePrintingString": "Зображення друкується",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анотаціями",
-		"vsdv-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
-		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL"
+		"vsui-documentPasswordDialog-title": "Пароль документа",
+		"vsui-dialog-cancelButton": "Скасувати",
+		"vsui-documentPasswordPanel-authenticateFileString": "Автентифікувати файл",
+		"vsui-imageSelectionDialog-title": "Виберіть зображення",
+		"vsui-imageSelectionDialog-currentImageString": "Поточне зображення",
+		"vsui-imageSelectionDialog-allImagesString": "Всі зображення",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-printImagesDialog-title": "Друк зображень",
+		"vsui-printImagesPanel-imagePrintingString": "Зображення друкується",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анотаціями",
+		"vsui-imageViewerSettingsDialog-title": "Налаштування програми перегляду зображень",
+		"vsui-thumbnailViewerSettingDialog-title": "Налаштування перегляду мініатюр",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показати анотації:",
+		"vsdv-uploadImageFromUrlDialog-title": "Завантажте зображення з URL",
+		"vsdv-dialog-okButton": "В порядку",
+		"vsdv-dialog-cancelButton": "Скасувати"
 	}
 }

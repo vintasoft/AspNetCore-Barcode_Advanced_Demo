@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "يمكن سحب الصور المصغرة:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن التنقل بين الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن تحديد الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "يمكن حذف الصور المصغرة باستخدام لوحة المفاتيح:"
+			},
 			"okButton": {
 				"value": "موافق"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "القيمة السداسية:",
 		"vsdv-barcodeReader-qualityTestInformation": "معلومات اختبار جودة طباعة الباركود:",
 		"vsdv-barcodeReaderSettingsDialog-title": "إعدادات قارئ الباركود",
-		"vsdv-dialog-okButton": "موافق",
+		"vsui-dialog-okButton": "موافق",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "تحميل وفتح الملف",
 		"vsdv-uploadAndAddFileButton-addFileString": "تحميل وإضافة الملف",
 		"vsdv-openFile-addFileString": "اضف ملف",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "حفظ التغييرات في وثيقة PDF",
-		"vsdv-documentPasswordDialog-title": "كلمة مرور المستند",
-		"vsdv-dialog-cancelButton": "إلغاء",
-		"vsdv-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
-		"vsdv-imageSelectionDialog-title": "اختر الصور",
-		"vsdv-imageSelectionDialog-currentImageString": "الصورة الحالية",
-		"vsdv-imageSelectionDialog-allImagesString": "كل الصور",
-		"vsdv-imageSelectionDialog-customImagesString": "مخصص",
-		"vsdv-printImagesDialog-title": "طباعة الصور",
-		"vsdv-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
-		"vsdv-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
-		"vsdv-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
-		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL"
+		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",
+		"vsui-dialog-cancelButton": "إلغاء",
+		"vsui-documentPasswordPanel-authenticateFileString": "مصادقة الملف",
+		"vsui-imageSelectionDialog-title": "اختر الصور",
+		"vsui-imageSelectionDialog-currentImageString": "الصورة الحالية",
+		"vsui-imageSelectionDialog-allImagesString": "كل الصور",
+		"vsui-imageSelectionDialog-customImagesString": "مخصص",
+		"vsui-printImagesDialog-title": "طباعة الصور",
+		"vsui-printImagesPanel-imagePrintingString": "الصورة قيد الطباعة",
+		"vsui-printImagesPanel-withAnnotationsLabel": "مع التعليقات التوضيحية",
+		"vsui-imageViewerSettingsDialog-title": "إعدادات عارض الصور",
+		"vsui-thumbnailViewerSettingDialog-title": "إعدادات عارض الصور المصغرة",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "عرض التعليقات التوضيحية على الصور المصغرة:",
+		"vsdv-uploadImageFromUrlDialog-title": "تحميل الصورة من URL",
+		"vsdv-dialog-okButton": "موافق",
+		"vsdv-dialog-cancelButton": "إلغاء"
 	}
 }

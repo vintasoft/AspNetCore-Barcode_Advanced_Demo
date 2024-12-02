@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Puoi trascinare le miniature:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi navigare tra le miniature usando la tastiera:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi selezionare le miniature usando la tastiera:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Puoi eliminare le miniature usando la tastiera:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Valore esadecimale:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informazioni sul test della qualità di stampa dei codici a barre:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Impostazioni del lettore di codici a barre",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Scarica e apri file",
 		"vsdv-uploadAndAddFileButton-addFileString": "Carica e aggiungi file",
 		"vsdv-openFile-addFileString": "Aggiungi file",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Salva le modifiche alle immagini",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salva le modifiche nelle annotazioni",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Masterizza annotazioni sulle immagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salva le modifiche nel documento PDF",
-		"vsdv-documentPasswordDialog-title": "Password documento",
-		"vsdv-dialog-cancelButton": "Annulla",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autenticare il file",
-		"vsdv-imageSelectionDialog-title": "Seleziona immagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Immagine corrente",
-		"vsdv-imageSelectionDialog-allImagesString": "Tutte le immagini",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizzato",
-		"vsdv-printImagesDialog-title": "Stampa immagini",
-		"vsdv-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "con annotazioni",
-		"vsdv-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
-		"vsdv-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
-		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL"
+		"vsui-documentPasswordDialog-title": "Password documento",
+		"vsui-dialog-cancelButton": "Annulla",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autenticare il file",
+		"vsui-imageSelectionDialog-title": "Seleziona immagini",
+		"vsui-imageSelectionDialog-currentImageString": "Immagine corrente",
+		"vsui-imageSelectionDialog-allImagesString": "Tutte le immagini",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizzato",
+		"vsui-printImagesDialog-title": "Stampa immagini",
+		"vsui-printImagesPanel-imagePrintingString": "L'immagine è in fase di stampa",
+		"vsui-printImagesPanel-withAnnotationsLabel": "con annotazioni",
+		"vsui-imageViewerSettingsDialog-title": "Impostazioni del visualizzatore di immagini",
+		"vsui-thumbnailViewerSettingDialog-title": "Impostazioni visualizzatore miniature",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Visualizza le annotazioni sulle miniature:",
+		"vsdv-uploadImageFromUrlDialog-title": "Carica l'immagine dall'URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Annulla"
 	}
 }

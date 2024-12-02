@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Може да плъзгате миниатюри:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Може да навигира в миниатюри с помощта на клавиатура:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Може да избира миниатюри с помощта на клавиатура:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Може да изтрие миниатюри с помощта на клавиатура:"
+			},
 			"okButton": {
 				"value": "ОК"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX стойност:",
 		"vsdv-barcodeReader-qualityTestInformation": "Информация за проверка на качеството на печат на баркод:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки на четеца на баркодове",
-		"vsdv-dialog-okButton": "ОК",
+		"vsui-dialog-okButton": "ОК",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Изтеглете и отворете файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Качете и добавете файл",
 		"vsdv-openFile-addFileString": "Добави файл",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Запазете промените в изображенията",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Запазете промените в анотациите",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Записване на анотации върху изображения",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Запазете промените в PDF документ",
-		"vsdv-documentPasswordDialog-title": "Парола за документ",
-		"vsdv-dialog-cancelButton": "Отказ",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
-		"vsdv-imageSelectionDialog-title": "Изберете изображения",
-		"vsdv-imageSelectionDialog-currentImageString": "Текущо изображение",
-		"vsdv-imageSelectionDialog-allImagesString": "Всички изображения",
-		"vsdv-imageSelectionDialog-customImagesString": "По избор",
-		"vsdv-printImagesDialog-title": "Печат на изображения",
-		"vsdv-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "с анотации",
-		"vsdv-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
-		"vsdv-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
-		"vsdv-uploadImageFromUrlDialog-title": "Качете изображение от URL"
+		"vsui-documentPasswordDialog-title": "Парола за документ",
+		"vsui-dialog-cancelButton": "Отказ",
+		"vsui-documentPasswordPanel-authenticateFileString": "Удостоверете файла",
+		"vsui-imageSelectionDialog-title": "Изберете изображения",
+		"vsui-imageSelectionDialog-currentImageString": "Текущо изображение",
+		"vsui-imageSelectionDialog-allImagesString": "Всички изображения",
+		"vsui-imageSelectionDialog-customImagesString": "По избор",
+		"vsui-printImagesDialog-title": "Печат на изображения",
+		"vsui-printImagesPanel-imagePrintingString": "Изображението се отпечатва",
+		"vsui-printImagesPanel-withAnnotationsLabel": "с анотации",
+		"vsui-imageViewerSettingsDialog-title": "Настройки за преглед на изображения",
+		"vsui-thumbnailViewerSettingDialog-title": "Настройки за преглед на миниатюри",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Показване на пояснения върху миниатюри:",
+		"vsdv-uploadImageFromUrlDialog-title": "Качете изображение от URL",
+		"vsdv-dialog-okButton": "ОК",
+		"vsdv-dialog-cancelButton": "Отказ"
 	}
 }

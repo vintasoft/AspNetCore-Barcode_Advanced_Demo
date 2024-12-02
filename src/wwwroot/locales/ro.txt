@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Poate trage miniaturi:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Poate naviga prin miniaturi folosind tastatura:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Poate selecta miniaturi folosind tastatura:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Poate șterge miniaturile folosind tastatura:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Valoare HEX:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informații despre testarea calității imprimării codurilor de bare:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Setări cititor cod de bare",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Descărcați și deschideți fișierul",
 		"vsdv-uploadAndAddFileButton-addFileString": "Încărcați și adăugați fișier",
 		"vsdv-openFile-addFileString": "Adauga fisier",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvați modificările în documentul PDF",
-		"vsdv-documentPasswordDialog-title": "Parola documentului",
-		"vsdv-dialog-cancelButton": "Anulează",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
-		"vsdv-imageSelectionDialog-title": "Selectați imagini",
-		"vsdv-imageSelectionDialog-currentImageString": "Imaginea curentă",
-		"vsdv-imageSelectionDialog-allImagesString": "Toate imaginile",
-		"vsdv-imageSelectionDialog-customImagesString": "Personalizat",
-		"vsdv-printImagesDialog-title": "Tipărește imagini",
-		"vsdv-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "cu adnotări",
-		"vsdv-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
-		"vsdv-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
-		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL"
+		"vsui-documentPasswordDialog-title": "Parola documentului",
+		"vsui-dialog-cancelButton": "Anulează",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentificați fișierul",
+		"vsui-imageSelectionDialog-title": "Selectați imagini",
+		"vsui-imageSelectionDialog-currentImageString": "Imaginea curentă",
+		"vsui-imageSelectionDialog-allImagesString": "Toate imaginile",
+		"vsui-imageSelectionDialog-customImagesString": "Personalizat",
+		"vsui-printImagesDialog-title": "Tipărește imagini",
+		"vsui-printImagesPanel-imagePrintingString": "Imaginea se imprimă",
+		"vsui-printImagesPanel-withAnnotationsLabel": "cu adnotări",
+		"vsui-imageViewerSettingsDialog-title": "Setări pentru vizualizarea imaginilor",
+		"vsui-thumbnailViewerSettingDialog-title": "Setări pentru vizualizatorul de miniaturi",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Afișează adnotări pe miniaturi:",
+		"vsdv-uploadImageFromUrlDialog-title": "Încărcați imaginea de la URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Anulează"
 	}
 }

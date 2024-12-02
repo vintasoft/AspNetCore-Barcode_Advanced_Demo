@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "サムネイルをドラッグできます:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルをナビゲートできます:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを選択できます:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "キーボードを使用してサムネイルを削除できます:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "16 進数の値:",
 		"vsdv-barcodeReader-qualityTestInformation": "バーコード印刷品質テスト情報:",
 		"vsdv-barcodeReaderSettingsDialog-title": "バーコードリーダーの設定",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ファイルをダウンロードして開きます",
 		"vsdv-uploadAndAddFileButton-addFileString": "ファイルをアップロードして追加する",
 		"vsdv-openFile-addFileString": "ファイルを追加",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "画像の変更を保存する",
 		"vsdv-saveChanges-saveChangesInAnnotations": "注釈の変更を保存する",
 		"vsdv-saveChanges-burnAnnotationsInImages": "画像に注釈を書き込む",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF ドキュメントに変更を保存する",
-		"vsdv-documentPasswordDialog-title": "文書のパスワード",
-		"vsdv-dialog-cancelButton": "キャンセル",
-		"vsdv-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
-		"vsdv-imageSelectionDialog-title": "画像を選択",
-		"vsdv-imageSelectionDialog-currentImageString": "現在の画像",
-		"vsdv-imageSelectionDialog-allImagesString": "すべての画像",
-		"vsdv-imageSelectionDialog-customImagesString": "カスタム",
-		"vsdv-printImagesDialog-title": "画像を印刷",
-		"vsdv-printImagesPanel-imagePrintingString": "画像を印刷中です",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "注釈あり",
-		"vsdv-imageViewerSettingsDialog-title": "画像ビューアの設定",
-		"vsdv-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
-		"vsdv-uploadImageFromUrlDialog-title": "URLから画像をアップロード"
+		"vsui-documentPasswordDialog-title": "文書のパスワード",
+		"vsui-dialog-cancelButton": "キャンセル",
+		"vsui-documentPasswordPanel-authenticateFileString": "ファイルを認証する",
+		"vsui-imageSelectionDialog-title": "画像を選択",
+		"vsui-imageSelectionDialog-currentImageString": "現在の画像",
+		"vsui-imageSelectionDialog-allImagesString": "すべての画像",
+		"vsui-imageSelectionDialog-customImagesString": "カスタム",
+		"vsui-printImagesDialog-title": "画像を印刷",
+		"vsui-printImagesPanel-imagePrintingString": "画像を印刷中です",
+		"vsui-printImagesPanel-withAnnotationsLabel": "注釈あり",
+		"vsui-imageViewerSettingsDialog-title": "画像ビューアの設定",
+		"vsui-thumbnailViewerSettingDialog-title": "サムネイル ビューアの設定",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "サムネイルに注釈を表示:",
+		"vsdv-uploadImageFromUrlDialog-title": "URLから画像をアップロード",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "キャンセル"
 	}
 }

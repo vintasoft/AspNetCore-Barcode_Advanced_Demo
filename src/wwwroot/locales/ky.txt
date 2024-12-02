@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Эскиздерди сүйрө алат:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди башкара алат:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди тандай алат:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Баскычтоптун жардамы менен эскиздерди жок кыла алат:"
+			},
 			"okButton": {
 				"value": "макул"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX Маани:",
 		"vsdv-barcodeReader-qualityTestInformation": "Штрих-код басып чыгаруу сапатын текшерүү маалыматы:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код окугучтун жөндөөлөрү",
-		"vsdv-dialog-okButton": "макул",
+		"vsui-dialog-okButton": "макул",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Жүктөө жана файлды ачуу",
 		"vsdv-uploadAndAddFileButton-addFileString": "Жүктөө жана файлды кошуу",
 		"vsdv-openFile-addFileString": "Файл кошуу",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF документине өзгөртүүлөрдү сактоо",
-		"vsdv-documentPasswordDialog-title": "Документтин сырсөзү",
-		"vsdv-dialog-cancelButton": "Жокко чыгаруу",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
-		"vsdv-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
-		"vsdv-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
-		"vsdv-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
-		"vsdv-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
-		"vsdv-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
-		"vsdv-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
-		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө"
+		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",
+		"vsui-dialog-cancelButton": "Жокко чыгаруу",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдын аныктыгын текшерүү",
+		"vsui-imageSelectionDialog-title": "Сүрөттөрдү тандаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Учурдагы сүрөт",
+		"vsui-imageSelectionDialog-allImagesString": "Бардык сүрөттөр",
+		"vsui-imageSelectionDialog-customImagesString": "Ыңгайлаштырылган",
+		"vsui-printImagesDialog-title": "Сүрөттөрдү басып чыгаруу",
+		"vsui-printImagesPanel-imagePrintingString": "Сүрөт басып чыгарылууда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялар менен",
+		"vsui-imageViewerSettingsDialog-title": "Сүрөт көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingDialog-title": "Эскиз көрүүчүнүн жөндөөлөрү",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсөтүү:",
+		"vsdv-uploadImageFromUrlDialog-title": "Сүрөттү URL'ден жүктөө",
+		"vsdv-dialog-okButton": "макул",
+		"vsdv-dialog-cancelButton": "Жокко чыгаруу"
 	}
 }

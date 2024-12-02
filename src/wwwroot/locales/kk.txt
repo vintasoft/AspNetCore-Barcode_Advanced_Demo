@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Нобайларды сүйреп апара алады:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды шарлай алады:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды таңдай алады:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Пернетақта арқылы нобайларды жоя алады:"
+			},
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX мәні:",
 		"vsdv-barcodeReader-qualityTestInformation": "Штрих-кодты басып шығару сапасын тексеру туралы ақпарат:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Штрих-код оқу құралының параметрлері",
-		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
+		"vsui-dialog-okButton": "ЖАРАЙДЫ МА",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Файлды жүктеп алыңыз және ашыңыз",
 		"vsdv-uploadAndAddFileButton-addFileString": "Файлды жүктеп салыңыз және қосыңыз",
 		"vsdv-openFile-addFileString": "Файл қосу",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Суреттердегі өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотациялардағы өзгерістерді сақтаңыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Суреттерге аннотацияларды жазу",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Өзгерістерді PDF құжатында сақтаңыз",
-		"vsdv-documentPasswordDialog-title": "Құжат құпия сөзі",
-		"vsdv-dialog-cancelButton": "Болдырмау",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
-		"vsdv-imageSelectionDialog-title": "Суреттерді таңдаңыз",
-		"vsdv-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
-		"vsdv-imageSelectionDialog-allImagesString": "Барлық суреттер",
-		"vsdv-imageSelectionDialog-customImagesString": "Арнаулы",
-		"vsdv-printImagesDialog-title": "Суреттерді басып шығару",
-		"vsdv-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
-		"vsdv-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз"
+		"vsui-documentPasswordDialog-title": "Құжат құпия сөзі",
+		"vsui-dialog-cancelButton": "Болдырмау",
+		"vsui-documentPasswordPanel-authenticateFileString": "Файлдың аутентификациясы",
+		"vsui-imageSelectionDialog-title": "Суреттерді таңдаңыз",
+		"vsui-imageSelectionDialog-currentImageString": "Ағымдағы сурет",
+		"vsui-imageSelectionDialog-allImagesString": "Барлық суреттер",
+		"vsui-imageSelectionDialog-customImagesString": "Арнаулы",
+		"vsui-printImagesDialog-title": "Суреттерді басып шығару",
+		"vsui-printImagesPanel-imagePrintingString": "Кескін басып шығаруда",
+		"vsui-printImagesPanel-withAnnotationsLabel": "аннотациялармен",
+		"vsui-imageViewerSettingsDialog-title": "Кескінді қарау құралының параметрлері",
+		"vsui-thumbnailViewerSettingDialog-title": "Нобайды қарау құралының параметрлері",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Аннотацияларды көрсету:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL мекенжайынан суретті жүктеп салыңыз",
+		"vsdv-dialog-okButton": "ЖАРАЙДЫ МА",
+		"vsdv-dialog-cancelButton": "Болдырмау"
 	}
 }

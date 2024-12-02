@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "썸네일 드래그 가능:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 탐색 가능:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 선택 가능:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "키보드를 사용하여 썸네일 삭제 가능:"
+			},
 			"okButton": {
 				"value": "확인"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "16진수 값:",
 		"vsdv-barcodeReader-qualityTestInformation": "바코드 인쇄 품질 테스트 정보:",
 		"vsdv-barcodeReaderSettingsDialog-title": "바코드 리더 설정",
-		"vsdv-dialog-okButton": "확인",
+		"vsui-dialog-okButton": "확인",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "파일 다운로드 및 열기",
 		"vsdv-uploadAndAddFileButton-addFileString": "파일 업로드 및 추가",
 		"vsdv-openFile-addFileString": "파일 추가",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "PDF 문서에 변경 사항 저장",
-		"vsdv-documentPasswordDialog-title": "문서 비밀번호",
-		"vsdv-dialog-cancelButton": "취소",
-		"vsdv-documentPasswordPanel-authenticateFileString": "파일 인증",
-		"vsdv-imageSelectionDialog-title": "이미지 선택",
-		"vsdv-imageSelectionDialog-currentImageString": "현재 이미지",
-		"vsdv-imageSelectionDialog-allImagesString": "모든 이미지",
-		"vsdv-imageSelectionDialog-customImagesString": "사용자 정의",
-		"vsdv-printImagesDialog-title": "이미지 인쇄",
-		"vsdv-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "주석 포함",
-		"vsdv-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
-		"vsdv-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
-		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드"
+		"vsui-documentPasswordDialog-title": "문서 비밀번호",
+		"vsui-dialog-cancelButton": "취소",
+		"vsui-documentPasswordPanel-authenticateFileString": "파일 인증",
+		"vsui-imageSelectionDialog-title": "이미지 선택",
+		"vsui-imageSelectionDialog-currentImageString": "현재 이미지",
+		"vsui-imageSelectionDialog-allImagesString": "모든 이미지",
+		"vsui-imageSelectionDialog-customImagesString": "사용자 정의",
+		"vsui-printImagesDialog-title": "이미지 인쇄",
+		"vsui-printImagesPanel-imagePrintingString": "이미지 인쇄 중",
+		"vsui-printImagesPanel-withAnnotationsLabel": "주석 포함",
+		"vsui-imageViewerSettingsDialog-title": "이미지 뷰어 설정",
+		"vsui-thumbnailViewerSettingDialog-title": "썸네일 뷰어 설정",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "섬네일에 주석 표시:",
+		"vsdv-uploadImageFromUrlDialog-title": "URL에서 이미지 업로드",
+		"vsdv-dialog-okButton": "확인",
+		"vsdv-dialog-cancelButton": "취소"
 	}
 }

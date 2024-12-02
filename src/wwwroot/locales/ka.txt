@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "შეუძლია მინიატურების გადატანა:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "შესაძლებელია მინიატურების ნავიგაცია კლავიატურის გამოყენებით:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "შეგიძლიათ აირჩიოთ ესკიზები კლავიატურის გამოყენებით:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "შეგიძლიათ წაშალოთ ესკიზები კლავიატურის გამოყენებით:"
+			},
 			"okButton": {
 				"value": "კარგი"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX მნიშვნელობა:",
 		"vsdv-barcodeReader-qualityTestInformation": "შტრიხკოდის ბეჭდვის ხარისხის ტესტის ინფორმაცია:",
 		"vsdv-barcodeReaderSettingsDialog-title": "შტრიხკოდების წამკითხველის პარამეტრები",
-		"vsdv-dialog-okButton": "კარგი",
+		"vsui-dialog-okButton": "კარგი",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "ატვირთეთ და გახსენით ფაილი",
 		"vsdv-uploadAndAddFileButton-addFileString": "ატვირთეთ და დაამატეთ ფაილი",
 		"vsdv-openFile-addFileString": "Ფაილის დამატება",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "შეინახეთ ცვლილებები PDF დოკუმენტში",
-		"vsdv-documentPasswordDialog-title": "დოკუმენტის პაროლი",
-		"vsdv-dialog-cancelButton": "გაუქმება",
-		"vsdv-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
-		"vsdv-imageSelectionDialog-title": "აირჩიეთ სურათები",
-		"vsdv-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
-		"vsdv-imageSelectionDialog-allImagesString": "ყველა სურათი",
-		"vsdv-imageSelectionDialog-customImagesString": "საბაჟო",
-		"vsdv-printImagesDialog-title": "სურათების დაბეჭდვა",
-		"vsdv-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
-		"vsdv-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
-		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან"
+		"vsui-documentPasswordDialog-title": "დოკუმენტის პაროლი",
+		"vsui-dialog-cancelButton": "გაუქმება",
+		"vsui-documentPasswordPanel-authenticateFileString": "ფაილის ავთენტიფიკაცია",
+		"vsui-imageSelectionDialog-title": "აირჩიეთ სურათები",
+		"vsui-imageSelectionDialog-currentImageString": "მიმდინარე სურათი",
+		"vsui-imageSelectionDialog-allImagesString": "ყველა სურათი",
+		"vsui-imageSelectionDialog-customImagesString": "საბაჟო",
+		"vsui-printImagesDialog-title": "სურათების დაბეჭდვა",
+		"vsui-printImagesPanel-imagePrintingString": "სურათი იბეჭდება",
+		"vsui-printImagesPanel-withAnnotationsLabel": "ანოტაციებით",
+		"vsui-imageViewerSettingsDialog-title": "სურათების მაყურებლის პარამეტრები",
+		"vsui-thumbnailViewerSettingDialog-title": "მინიატურების მაყურებლის პარამეტრები",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "ანოტაციების ჩვენება:",
+		"vsdv-uploadImageFromUrlDialog-title": "ატვირთეთ სურათი URL-დან",
+		"vsdv-dialog-okButton": "კარგი",
+		"vsdv-dialog-cancelButton": "გაუქმება"
 	}
 }

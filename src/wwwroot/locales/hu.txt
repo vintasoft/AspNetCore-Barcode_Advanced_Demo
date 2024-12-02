@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Bélyegképek húzása:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Mozoghat a miniatűrök között a billentyűzet segítségével:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Kiválaszthat miniatűröket a billentyűzet segítségével:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Törölheti a miniatűröket a billentyűzet segítségével:"
+			},
 			"okButton": {
 				"value": "Rendben"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX érték:",
 		"vsdv-barcodeReader-qualityTestInformation": "Vonalkód nyomtatási minőségi teszt információ:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Vonalkód olvasó beállításai",
-		"vsdv-dialog-okButton": "Rendben",
+		"vsui-dialog-okButton": "Rendben",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Fájl letöltése és megnyitása",
 		"vsdv-uploadAndAddFileButton-addFileString": "Fájl feltöltése és hozzáadása",
 		"vsdv-openFile-addFileString": "Fájl hozzáadása",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Mentse el a változtatásokat PDF dokumentumban",
-		"vsdv-documentPasswordDialog-title": "Dokumentum jelszava",
-		"vsdv-dialog-cancelButton": "Mégse",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
-		"vsdv-imageSelectionDialog-title": "Képek kiválasztása",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuális kép",
-		"vsdv-imageSelectionDialog-allImagesString": "Minden kép",
-		"vsdv-imageSelectionDialog-customImagesString": "Egyedi",
-		"vsdv-printImagesDialog-title": "Képek nyomtatása",
-		"vsdv-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
-		"vsdv-imageViewerSettingsDialog-title": "A képnézegető beállításai",
-		"vsdv-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
-		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről"
+		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",
+		"vsui-dialog-cancelButton": "Mégse",
+		"vsui-documentPasswordPanel-authenticateFileString": "Fájl hitelesítése",
+		"vsui-imageSelectionDialog-title": "Képek kiválasztása",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuális kép",
+		"vsui-imageSelectionDialog-allImagesString": "Minden kép",
+		"vsui-imageSelectionDialog-customImagesString": "Egyedi",
+		"vsui-printImagesDialog-title": "Képek nyomtatása",
+		"vsui-printImagesPanel-imagePrintingString": "A kép nyomtatása folyamatban van",
+		"vsui-printImagesPanel-withAnnotationsLabel": "jegyzetekkel",
+		"vsui-imageViewerSettingsDialog-title": "A képnézegető beállításai",
+		"vsui-thumbnailViewerSettingDialog-title": "Miniatűr-nézegető beállításai",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Megjegyzések megjelenítése a bélyegképeken:",
+		"vsdv-uploadImageFromUrlDialog-title": "Kép feltöltése az URL-ről",
+		"vsdv-dialog-okButton": "Rendben",
+		"vsdv-dialog-cancelButton": "Mégse"
 	}
 }

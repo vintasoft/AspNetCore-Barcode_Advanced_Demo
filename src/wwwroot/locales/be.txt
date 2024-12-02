@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Можна перацягваць эскізы:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Можна перамяшчацца па мініяцюрах з дапамогай клавіятуры:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выбраць эскізы з дапамогай клавіятуры:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Можна выдаліць эскізы з дапамогай клавіятуры:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "Шаснаццатковае значэнне:",
 		"vsdv-barcodeReader-qualityTestInformation": "Інфармацыя пра тэст якасці друку штрых-кода:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Налады счытвальніка штрых-кодаў",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузіць і адкрыць файл",
 		"vsdv-uploadAndAddFileButton-addFileString": "Загрузіць і дадаць файл",
 		"vsdv-openFile-addFileString": "Дадаць файл",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Захаваць змены ў малюнках",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Захаваць змены ў анатацыях",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Запіс анатацый да малюнкаў",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Захаваць змены ў дакуменце PDF",
-		"vsdv-documentPasswordDialog-title": "Пароль дакумента",
-		"vsdv-dialog-cancelButton": "Адмяніць",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
-		"vsdv-imageSelectionDialog-title": "Выберыце выявы",
-		"vsdv-imageSelectionDialog-currentImageString": "Актуальны малюнак",
-		"vsdv-imageSelectionDialog-allImagesString": "Усе выявы",
-		"vsdv-imageSelectionDialog-customImagesString": "Карыстацкі",
-		"vsdv-printImagesDialog-title": "Друк малюнкаў",
-		"vsdv-printImagesPanel-imagePrintingString": "Выява друкуецца",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
-		"vsdv-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
-		"vsdv-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
-		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL"
+		"vsui-documentPasswordDialog-title": "Пароль дакумента",
+		"vsui-dialog-cancelButton": "Адмяніць",
+		"vsui-documentPasswordPanel-authenticateFileString": "Аўтэнтыфікаваць файл",
+		"vsui-imageSelectionDialog-title": "Выберыце выявы",
+		"vsui-imageSelectionDialog-currentImageString": "Актуальны малюнак",
+		"vsui-imageSelectionDialog-allImagesString": "Усе выявы",
+		"vsui-imageSelectionDialog-customImagesString": "Карыстацкі",
+		"vsui-printImagesDialog-title": "Друк малюнкаў",
+		"vsui-printImagesPanel-imagePrintingString": "Выява друкуецца",
+		"vsui-printImagesPanel-withAnnotationsLabel": "з анатацыямі",
+		"vsui-imageViewerSettingsDialog-title": "Налады прагляду малюнкаў",
+		"vsui-thumbnailViewerSettingDialog-title": "Налады прагляду эскізаў",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Паказаць анатацыі:",
+		"vsdv-uploadImageFromUrlDialog-title": "Загрузіць выяву з URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Адмяніць"
 	}
 }

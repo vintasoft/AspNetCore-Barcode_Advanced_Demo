@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Môže presúvať miniatúry:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Môžete sa pohybovať v miniatúrach pomocou klávesnice:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Môžete vybrať miniatúry pomocou klávesnice:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Môžete odstrániť miniatúry pomocou klávesnice:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX hodnota:",
 		"vsdv-barcodeReader-qualityTestInformation": "Informácie o teste kvality tlače čiarových kódov:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Nastavenia čítačky čiarových kódov",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Nahrajte a otvorte súbor",
 		"vsdv-uploadAndAddFileButton-addFileString": "Nahrajte a pridajte súbor",
 		"vsdv-openFile-addFileString": "Pridať súbor",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Uložte zmeny v obrázkoch",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Uložte zmeny v dokumente PDF",
-		"vsdv-documentPasswordDialog-title": "Heslo dokumentu",
-		"vsdv-dialog-cancelButton": "Zrušiť",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Overiť súbor",
-		"vsdv-imageSelectionDialog-title": "Vyberte obrázky",
-		"vsdv-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
-		"vsdv-imageSelectionDialog-allImagesString": "Všetky obrázky",
-		"vsdv-imageSelectionDialog-customImagesString": "Vlastné",
-		"vsdv-printImagesDialog-title": "Tlač obrázkov",
-		"vsdv-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "s anotáciami",
-		"vsdv-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
-		"vsdv-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
-		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázok z adresy URL"
+		"vsui-documentPasswordDialog-title": "Heslo dokumentu",
+		"vsui-dialog-cancelButton": "Zrušiť",
+		"vsui-documentPasswordPanel-authenticateFileString": "Overiť súbor",
+		"vsui-imageSelectionDialog-title": "Vyberte obrázky",
+		"vsui-imageSelectionDialog-currentImageString": "Aktuálny obrázok",
+		"vsui-imageSelectionDialog-allImagesString": "Všetky obrázky",
+		"vsui-imageSelectionDialog-customImagesString": "Vlastné",
+		"vsui-printImagesDialog-title": "Tlač obrázkov",
+		"vsui-printImagesPanel-imagePrintingString": "Tlačí sa obrázok",
+		"vsui-printImagesPanel-withAnnotationsLabel": "s anotáciami",
+		"vsui-imageViewerSettingsDialog-title": "Nastavenia prehliadača obrázkov",
+		"vsui-thumbnailViewerSettingDialog-title": "Nastavenia prehliadača miniatúr",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Zobraziť anotácie:",
+		"vsdv-uploadImageFromUrlDialog-title": "Nahrajte obrázok z adresy URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Zrušiť"
 	}
 }

@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Pisipilte saab lohistada:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Oskab klaviatuuri abil pisipiltides navigeerida:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab valida klaviatuuri abil:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Pisipilte saab klaviatuuri abil kustutada:"
+			},
 			"okButton": {
 				"value": "Okei"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX väärtus:",
 		"vsdv-barcodeReader-qualityTestInformation": "Vöötkoodi prindikvaliteedi testi teave:",
 		"vsdv-barcodeReaderSettingsDialog-title": "Vöötkoodilugeja seaded",
-		"vsdv-dialog-okButton": "Okei",
+		"vsui-dialog-okButton": "Okei",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Laadige üles ja avage fail",
 		"vsdv-uploadAndAddFileButton-addFileString": "Laadige üles ja lisage fail",
 		"vsdv-openFile-addFileString": "Lisa fail",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Salvestage muudatused PDF-dokumenti",
-		"vsdv-documentPasswordDialog-title": "Dokumendi parool",
-		"vsdv-dialog-cancelButton": "Tühista",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Autentige fail",
-		"vsdv-imageSelectionDialog-title": "Valige pildid",
-		"vsdv-imageSelectionDialog-currentImageString": "Praegune pilt",
-		"vsdv-imageSelectionDialog-allImagesString": "Kõik pildid",
-		"vsdv-imageSelectionDialog-customImagesString": "Kohandatud",
-		"vsdv-printImagesDialog-title": "Printige pilte",
-		"vsdv-printImagesPanel-imagePrintingString": "Pilt prinditakse",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
-		"vsdv-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
-		"vsdv-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
-		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist"
+		"vsui-documentPasswordDialog-title": "Dokumendi parool",
+		"vsui-dialog-cancelButton": "Tühista",
+		"vsui-documentPasswordPanel-authenticateFileString": "Autentige fail",
+		"vsui-imageSelectionDialog-title": "Valige pildid",
+		"vsui-imageSelectionDialog-currentImageString": "Praegune pilt",
+		"vsui-imageSelectionDialog-allImagesString": "Kõik pildid",
+		"vsui-imageSelectionDialog-customImagesString": "Kohandatud",
+		"vsui-printImagesDialog-title": "Printige pilte",
+		"vsui-printImagesPanel-imagePrintingString": "Pilt prinditakse",
+		"vsui-printImagesPanel-withAnnotationsLabel": "annotatsioonidega",
+		"vsui-imageViewerSettingsDialog-title": "Pildivaaturi seaded",
+		"vsui-thumbnailViewerSettingDialog-title": "Pisipiltide vaataja seaded",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Kuva märkused:",
+		"vsdv-uploadImageFromUrlDialog-title": "Laadige pilt üles URL-ist",
+		"vsdv-dialog-okButton": "Okei",
+		"vsdv-dialog-cancelButton": "Tühista"
 	}
 }

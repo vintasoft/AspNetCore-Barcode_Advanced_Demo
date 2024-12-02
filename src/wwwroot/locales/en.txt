@@ -459,6 +459,15 @@
 			"canDragThumbnailsLabel": {
 				"text": "Can Drag Thumbnails:"
 			},
+			"canNavigateThumbnailsUsingKeyboardLabel": {
+				"text": "Can Navigate Thumbnails Using Keyboard:"
+			},
+			"canSelectThumbnailsUsingKeyboardLabel": {
+				"text": "Can Select Thumbnails Using Keyboard:"
+			},
+			"canDeleteThumbnailsUsingKeyboardLabel": {
+				"text": "Can Delete Thumbnails Using Keyboard:"
+			},
 			"okButton": {
 				"value": "OK"
 			},
@@ -505,7 +514,7 @@
 		"vsdv-barcodeReader-hexValue": "HEX Value: ",
 		"vsdv-barcodeReader-qualityTestInformation": "Quality Test Information: ",
 		"vsdv-barcodeReaderSettingsDialog-title": "Barcode reader settings",
-		"vsdv-dialog-okButton": "OK",
+		"vsui-dialog-okButton": "OK",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Upload and open file",
 		"vsdv-uploadAndAddFileButton-addFileString": "Upload and add file",
 		"vsdv-openFile-addFileString": "Add file",
@@ -514,20 +523,21 @@
 		"vsdv-saveChanges-saveChangesInImages": "Save changes in images",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Save changes in annotations",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Burn annotations on images",
-		"vsdv-saveChanges-saveChangesInPdfDocument": "Save changes in PDF document",
-		"vsdv-documentPasswordDialog-title": "Document password",
-		"vsdv-dialog-cancelButton": "Cancel",
-		"vsdv-documentPasswordPanel-authenticateFileString": "Authenticate file",
-		"vsdv-imageSelectionDialog-title": "Select images",
-		"vsdv-imageSelectionDialog-currentImageString": "Current image",
-		"vsdv-imageSelectionDialog-allImagesString": "All images",
-		"vsdv-imageSelectionDialog-customImagesString": "Custom",
-		"vsdv-printImagesDialog-title": "Print images",
-		"vsdv-printImagesPanel-imagePrintingString": "Image is printing",
-		"vsdv-printImagesPanel-withAnnotationsLabel": "with annotations",
-		"vsdv-imageViewerSettingsDialog-title": "Image viewer settings",
-		"vsdv-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
-		"vsdv-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
-		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL"
+		"vsui-documentPasswordDialog-title": "Document password",
+		"vsui-dialog-cancelButton": "Cancel",
+		"vsui-documentPasswordPanel-authenticateFileString": "Authenticate file",
+		"vsui-imageSelectionDialog-title": "Select images",
+		"vsui-imageSelectionDialog-currentImageString": "Current image",
+		"vsui-imageSelectionDialog-allImagesString": "All images",
+		"vsui-imageSelectionDialog-customImagesString": "Custom",
+		"vsui-printImagesDialog-title": "Print images",
+		"vsui-printImagesPanel-imagePrintingString": "Image is printing",
+		"vsui-printImagesPanel-withAnnotationsLabel": "with annotations",
+		"vsui-imageViewerSettingsDialog-title": "Image viewer settings",
+		"vsui-thumbnailViewerSettingDialog-title": "Thumbnail viewer settings",
+		"vsui-thumbnailViewerSettingsDialog-showAnnotationsLabel": "Show Annotations:",
+		"vsdv-uploadImageFromUrlDialog-title": "Upload image from URL",
+		"vsdv-dialog-okButton": "OK",
+		"vsdv-dialog-cancelButton": "Cancel"
 	}
 }

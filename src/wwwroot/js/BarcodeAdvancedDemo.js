@@ -116,9 +116,9 @@ function __initMenu(docViewerSettings) {
     // get items of document viewer
     var items = docViewerSettings.get_Items();
 
-    var uploadFileButton = items.getItemByRegisteredId("uploadFileButton");
-    if (uploadFileButton != null)
-        uploadFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xls, .xlsx");
+    var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
+    if (uploadAndOpenFileButton != null)
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xls, .xlsx");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
@@ -322,23 +322,23 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     documentPasswordDialog.render(floatingContainer);
     tempDialogs.push(documentPasswordDialog);
 
-    var imageSelectionDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageSelectionDialogJS();
+    var imageSelectionDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageSelectionDialogJS();
     imageSelectionDialog.render(floatingContainer);
     tempDialogs.push(imageSelectionDialog);
 
-    var printImagesDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebPrintImagesDialogJS();
+    var printImagesDialog = new Vintasoft.Imaging.UI.Dialogs.WebPrintImagesDialogJS();
     printImagesDialog.render(floatingContainer);
     tempDialogs.push(printImagesDialog);
 
-    var imageViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebImageViewerSettingsDialogJS();
+    var imageViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebImageViewerSettingsDialogJS();
     imageViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(imageViewerSettingsDialog);
 
-    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebThumbnailViewerSettingsDialogJS();
+    var thumbnailViewerSettingsDialog = new Vintasoft.Imaging.UI.Dialogs.WebThumbnailViewerSettingsDialogJS();
     thumbnailViewerSettingsDialog.render(floatingContainer);
     tempDialogs.push(thumbnailViewerSettingsDialog);
 
-    var uploadImageFromUrlDialog = new Vintasoft.Imaging.DocumentViewer.Dialogs.WebUiUploadImageFromUrlDialogJS();
+    var uploadImageFromUrlDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiUploadImageFromUrlDialogJS();
     uploadImageFromUrlDialog.render(floatingContainer);
     tempDialogs.push(uploadImageFromUrlDialog);
 }
