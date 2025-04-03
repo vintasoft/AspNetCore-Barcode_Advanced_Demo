@@ -118,7 +118,7 @@ function __initMenu(docViewerSettings) {
 
     var uploadAndOpenFileButton = items.getItemByRegisteredId("uploadAndOpenFileButton");
     if (uploadAndOpenFileButton != null)
-        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .tga, .tif, .tiff, .xls, .xlsx");
+        uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .psd, .tga, .tif, .tiff, .svg, .xls, .xlsx");
 
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");

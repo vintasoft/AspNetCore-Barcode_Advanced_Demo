@@ -10,7 +10,8 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
 
     var _barcodeReaderSettings = new Vintasoft.Barcode.WebBarcodeReaderSettingsJS();
     _barcodeReaderSettings.set_SearchQRModel1Barcodes(true);
-
+    _barcodeReaderSettings.set_PharmacodeMaxValue(1000000000);
+    
     var _barcodeReaderSettingsDialog = null;
 
     var _defaultBarcodeReadingInformationText = null;
