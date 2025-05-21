@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "autenticar archivo",
 		"vsdv-downloadFile-actionMessage": "Descargar archivo",
 		"vsdv-saveChanges-saveChangesInImages": "Guardar cambios en imágenes.",
+		"vsui-documentNavigationTool-getActions": "Obtener acciones",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Guardar cambios en anotaciones",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Grabar anotaciones en imágenes",
 		"vsui-documentPasswordDialog-title": "Contraseña del documento",

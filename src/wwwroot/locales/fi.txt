@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Todenna tiedosto",
 		"vsdv-downloadFile-actionMessage": "Lataa tiedosto",
 		"vsdv-saveChanges-saveChangesInImages": "Tallenna muutokset kuviin",
+		"vsui-documentNavigationTool-getActions": "Hanki toimia",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Tallenna muutokset huomautuksiin",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Polta kommentteja kuviin",
 		"vsui-documentPasswordDialog-title": "Asiakirjan salasana",

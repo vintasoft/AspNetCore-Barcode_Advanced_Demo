@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Faylni autentifikatsiya qilish",
 		"vsdv-downloadFile-actionMessage": "Faylni yuklab oling",
 		"vsdv-saveChanges-saveChangesInImages": "Rasmlardagi o'zgarishlarni saqlang",
+		"vsui-documentNavigationTool-getActions": "Amallarni oling",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Izohlardagi o'zgarishlarni saqlang",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Rasmlarga izohlarni yozish",
 		"vsui-documentPasswordDialog-title": "Hujjat uchun parol",

@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "फ़ाइल प्रमाणित करें",
 		"vsdv-downloadFile-actionMessage": "डाउनलोड फ़ाइल",
 		"vsdv-saveChanges-saveChangesInImages": "छवियों में परिवर्तन सहेजें",
+		"vsui-documentNavigationTool-getActions": "कार्रवाई पाएँ",
 		"vsdv-saveChanges-saveChangesInAnnotations": "एनोटेशन में परिवर्तन सहेजें",
 		"vsdv-saveChanges-burnAnnotationsInImages": "छवियों पर एनोटेशन जलाएँ",
 		"vsui-documentPasswordDialog-title": "दस्तावेज़ पासवर्ड",

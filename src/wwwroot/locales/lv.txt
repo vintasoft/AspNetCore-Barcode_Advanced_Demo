@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentificēt failu",
 		"vsdv-downloadFile-actionMessage": "Lejupielādēt failu",
 		"vsdv-saveChanges-saveChangesInImages": "Saglabājiet izmaiņas attēlos",
+		"vsui-documentNavigationTool-getActions": "Iegūstiet darbības",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Saglabājiet izmaiņas anotācijās",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ierakstiet anotācijas uz attēliem",
 		"vsui-documentPasswordDialog-title": "Dokumenta parole",

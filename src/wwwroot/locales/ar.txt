@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "مصادقة الملف",
 		"vsdv-downloadFile-actionMessage": "تحميل الملف",
 		"vsdv-saveChanges-saveChangesInImages": "حفظ التغييرات في الصور",
+		"vsui-documentNavigationTool-getActions": "الحصول على الإجراءات",
 		"vsdv-saveChanges-saveChangesInAnnotations": "حفظ التغييرات في التعليقات التوضيحية",
 		"vsdv-saveChanges-burnAnnotationsInImages": "حرق التعليقات التوضيحية على الصور",
 		"vsui-documentPasswordDialog-title": "كلمة مرور المستند",

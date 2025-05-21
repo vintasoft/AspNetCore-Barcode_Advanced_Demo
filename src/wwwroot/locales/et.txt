@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentige fail",
 		"vsdv-downloadFile-actionMessage": "Laadige fail alla",
 		"vsdv-saveChanges-saveChangesInImages": "Salvestage piltidel muudatused",
+		"vsui-documentNavigationTool-getActions": "Hankige toiminguid",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvestage muudatused märkustes",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Kirjutage piltidele märkused",
 		"vsui-documentPasswordDialog-title": "Dokumendi parool",

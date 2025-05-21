@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Dosyanın kimliğini doğrula",
 		"vsdv-downloadFile-actionMessage": "Dosyayı indir",
 		"vsdv-saveChanges-saveChangesInImages": "Resimlerdeki değişiklikleri kaydet",
+		"vsui-documentNavigationTool-getActions": "Eylemleri al",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Ek açıklamalardaki değişiklikleri kaydet",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Görüntülere ek açıklamalar yazın",
 		"vsui-documentPasswordDialog-title": "Belge parolası",

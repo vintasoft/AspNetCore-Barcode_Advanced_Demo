@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Thibitisha faili",
 		"vsdv-downloadFile-actionMessage": "Pakua faili",
 		"vsdv-saveChanges-saveChangesInImages": "Hifadhi mabadiliko katika picha",
+		"vsui-documentNavigationTool-getActions": "Pata vitendo",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Hifadhi mabadiliko katika vidokezo",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Choma maelezo kwenye picha",
 		"vsui-documentPasswordDialog-title": "Nenosiri la hati",

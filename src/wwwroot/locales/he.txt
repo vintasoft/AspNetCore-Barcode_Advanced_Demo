@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "אימות קובץ",
 		"vsdv-downloadFile-actionMessage": "הורד קובץ",
 		"vsdv-saveChanges-saveChangesInImages": "שמור שינויים בתמונות",
+		"vsui-documentNavigationTool-getActions": "קבל פעולות",
 		"vsdv-saveChanges-saveChangesInAnnotations": "שמור שינויים בהערות",
 		"vsdv-saveChanges-burnAnnotationsInImages": "צריבת הערות על תמונות",
 		"vsui-documentPasswordDialog-title": "סיסמת מסמך",

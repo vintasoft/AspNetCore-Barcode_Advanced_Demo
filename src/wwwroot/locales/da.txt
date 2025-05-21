@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Godkend fil",
 		"vsdv-downloadFile-actionMessage": "Download fil",
 		"vsdv-saveChanges-saveChangesInImages": "Gem ændringer i billeder",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Gem ændringer i annoteringer",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brænd annoteringer på billeder",
 		"vsui-documentPasswordDialog-title": "Dokumentadgangskode",

@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "验证文件",
 		"vsdv-downloadFile-actionMessage": "下载文件",
 		"vsdv-saveChanges-saveChangesInImages": "保存图像中的更改",
+		"vsui-documentNavigationTool-getActions": "获取操作",
 		"vsdv-saveChanges-saveChangesInAnnotations": "保存注释中的更改",
 		"vsdv-saveChanges-burnAnnotationsInImages": "在图像上刻录注释",
 		"vsui-documentPasswordDialog-title": "文档密码",

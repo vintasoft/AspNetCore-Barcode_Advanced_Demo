@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Έλεγχος ταυτότητας αρχείου",
 		"vsdv-downloadFile-actionMessage": "Λήψη αρχείου",
 		"vsdv-saveChanges-saveChangesInImages": "Αποθηκεύστε τις αλλαγές στις εικόνες",
+		"vsui-documentNavigationTool-getActions": "Λάβετε ενέργειες",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Αποθηκεύστε τις αλλαγές στους σχολιασμούς",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Εγγραφή σχολιασμών σε εικόνες",
 		"vsui-documentPasswordDialog-title": "Κωδικός πρόσβασης εγγράφου",

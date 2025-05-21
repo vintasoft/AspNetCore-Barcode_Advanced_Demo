@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Xác thực tập tin",
 		"vsdv-downloadFile-actionMessage": "Tải tập tin",
 		"vsdv-saveChanges-saveChangesInImages": "Lưu các thay đổi trong hình ảnh",
+		"vsui-documentNavigationTool-getActions": "Nhận hành động",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lưu các thay đổi trong chú thích",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ghi chú thích trên hình ảnh",
 		"vsui-documentPasswordDialog-title": "Mật khẩu tài liệu",

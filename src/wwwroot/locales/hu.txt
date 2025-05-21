@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Fájl hitelesítése",
 		"vsdv-downloadFile-actionMessage": "Fájl letöltése",
 		"vsdv-saveChanges-saveChangesInImages": "Mentse el a változásokat a képeken",
+		"vsui-documentNavigationTool-getActions": "Szerezzen akciókat",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Mentse el a megjegyzések módosításait",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Írjon megjegyzéseket a képekre",
 		"vsui-documentPasswordDialog-title": "Dokumentum jelszava",

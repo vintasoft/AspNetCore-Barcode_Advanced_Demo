@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "ფაილის ავთენტიფიკაცია",
 		"vsdv-downloadFile-actionMessage": "Გადმოწერეთ ფაილი",
 		"vsdv-saveChanges-saveChangesInImages": "შეინახეთ ცვლილებები სურათებში",
+		"vsui-documentNavigationTool-getActions": "მიიღეთ მოქმედებები",
 		"vsdv-saveChanges-saveChangesInAnnotations": "შეინახეთ ცვლილებები ანოტაციებში",
 		"vsdv-saveChanges-burnAnnotationsInImages": "ჩაწერეთ ანოტაციები სურათებზე",
 		"vsui-documentPasswordDialog-title": "დოკუმენტის პაროლი",

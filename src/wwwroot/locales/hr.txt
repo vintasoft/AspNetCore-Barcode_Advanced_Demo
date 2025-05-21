@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Ovjerite datoteku",
 		"vsdv-downloadFile-actionMessage": "Preuzmi datoteku",
 		"vsdv-saveChanges-saveChangesInImages": "Spremite promjene na slikama",
+		"vsui-documentNavigationTool-getActions": "Zauzmite radnje",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Spremi promjene u komentarima",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Snimite komentare na slike",
 		"vsui-documentPasswordDialog-title": "Lozinka dokumenta",

@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentifikuoti failą",
 		"vsdv-downloadFile-actionMessage": "Atsisiųsti failą",
 		"vsdv-saveChanges-saveChangesInImages": "Išsaugokite vaizdų pakeitimus",
+		"vsui-documentNavigationTool-getActions": "Gaukite veiksmų",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Išsaugokite komentarų pakeitimus",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Įrašykite komentarus ant vaizdų",
 		"vsui-documentPasswordDialog-title": "Dokumento slaptažodis",

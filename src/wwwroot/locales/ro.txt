@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentificați fișierul",
 		"vsdv-downloadFile-actionMessage": "Descărcare fișier",
 		"vsdv-saveChanges-saveChangesInImages": "Salvați modificările în imagini",
+		"vsui-documentNavigationTool-getActions": "Obțineți acțiuni",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Salvați modificările în adnotări",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Ardeți adnotări pe imagini",
 		"vsui-documentPasswordDialog-title": "Parola documentului",

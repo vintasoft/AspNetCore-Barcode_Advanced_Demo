@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Файлдын аныктыгын текшерүү",
 		"vsdv-downloadFile-actionMessage": "Файлды жүктөп алыңыз",
 		"vsdv-saveChanges-saveChangesInImages": "Сүрөттөрдөгү өзгөртүүлөрдү сактоо",
+		"vsui-documentNavigationTool-getActions": "Аракеттерди алыңыз",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияларга өзгөртүүлөрдү сактоо",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Сүрөттөргө аннотацияларды жазыңыз",
 		"vsui-documentPasswordDialog-title": "Документтин сырсөзү",

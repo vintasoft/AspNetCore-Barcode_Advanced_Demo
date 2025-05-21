@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Файлны раслау",
 		"vsdv-downloadFile-actionMessage": "Файлны йөкләү",
 		"vsdv-saveChanges-saveChangesInImages": "Рәсемнәрдәге үзгәрешләрне саклагыз",
+		"vsui-documentNavigationTool-getActions": "Эшләр",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Аннотацияләрдәге үзгәрешләрне саклагыз",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Рәсемнәргә аннотацияләр яндырыгыз",
 		"vsui-documentPasswordDialog-title": "Документ серсүзе",

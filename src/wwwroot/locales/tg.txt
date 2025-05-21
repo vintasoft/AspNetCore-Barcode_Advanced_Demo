@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Файлро тасдиқ кунед",
 		"vsdv-downloadFile-actionMessage": "Файлро зеркашӣ кунед",
 		"vsdv-saveChanges-saveChangesInImages": "Тағиротро дар тасвирҳо захира кунед",
+		"vsui-documentNavigationTool-getActions": "Амалҳо гиред",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Тағиротро дар шарҳҳо захира кунед",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Аннотацияҳоро дар тасвирҳо сӯзонед",
 		"vsui-documentPasswordDialog-title": "Пароли ҳуҷҷат",

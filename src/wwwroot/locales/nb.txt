@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Autentiser filen",
 		"vsdv-downloadFile-actionMessage": "Last ned fil",
 		"vsdv-saveChanges-saveChangesInImages": "Lagre endringer i bilder",
+		"vsui-documentNavigationTool-getActions": "Få handlinger",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Lagre endringer i merknader",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brenn merknader på bilder",
 		"vsui-documentPasswordDialog-title": "Dokumentpassord",

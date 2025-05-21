@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Overiť súbor",
 		"vsdv-downloadFile-actionMessage": "Stiahnuť súbor",
 		"vsdv-saveChanges-saveChangesInImages": "Uložte zmeny v obrázkoch",
+		"vsui-documentNavigationTool-getActions": "Získajte akcie",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Uložte zmeny v anotáciách",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Vypáliť anotácie na obrázkoch",
 		"vsui-documentPasswordDialog-title": "Heslo dokumentu",

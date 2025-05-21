@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "파일 인증",
 		"vsdv-downloadFile-actionMessage": "파일 다운로드",
 		"vsdv-saveChanges-saveChangesInImages": "이미지 변경사항 저장",
+		"vsui-documentNavigationTool-getActions": "작업 가져오기",
 		"vsdv-saveChanges-saveChangesInAnnotations": "주석 변경사항 저장",
 		"vsdv-saveChanges-burnAnnotationsInImages": "이미지에 주석 굽기",
 		"vsui-documentPasswordDialog-title": "문서 비밀번호",

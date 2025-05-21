@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Նույնականացնել ֆայլը",
 		"vsdv-downloadFile-actionMessage": "Ներբեռնել ֆայլը",
 		"vsdv-saveChanges-saveChangesInImages": "Պահպանեք պատկերների փոփոխությունները",
+		"vsui-documentNavigationTool-getActions": "Ստացեք գործողություններ",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Պահպանեք փոփոխությունները ծանոթագրություններում",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Այրել ծանոթագրությունները պատկերների վրա",
 		"vsui-documentPasswordDialog-title": "Փաստաթղթի գաղտնաբառը",

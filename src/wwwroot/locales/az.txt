@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Faylı doğrulayın",
 		"vsdv-downloadFile-actionMessage": "Faylı yüklə",
 		"vsdv-saveChanges-saveChangesInImages": "Şəkillərdə dəyişiklikləri yadda saxlayın",
+		"vsui-documentNavigationTool-getActions": "Tədbirlər alın",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Annotasiyalarda dəyişiklikləri yadda saxlayın",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Şəkillərdə annotasiyaları yandırın",
 		"vsui-documentPasswordDialog-title": "Sənəd parolu",

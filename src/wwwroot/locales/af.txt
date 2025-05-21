@@ -521,6 +521,7 @@
 		"vsdv-openFile-authenticateFileString": "Bevestig lêer",
 		"vsdv-downloadFile-actionMessage": "Aflaai leêr",
 		"vsdv-saveChanges-saveChangesInImages": "Stoor veranderinge in beelde",
+		"vsui-documentNavigationTool-getActions": "Kry aksies",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Stoor veranderinge in aantekeninge",
 		"vsdv-saveChanges-burnAnnotationsInImages": "Brand aantekeninge op beelde",
 		"vsui-documentPasswordDialog-title": "Dokumentwagwoord",
