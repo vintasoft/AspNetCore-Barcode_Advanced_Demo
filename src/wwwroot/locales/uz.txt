@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Ko'rinish"
 		},
-		"toolsLabel": {
-			"text": "Asboblar"
+		"barcodeLabel": {
+			"text": "Shtrix-kod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Faylni yuklang va oching"
@@ -52,22 +52,10 @@
 			"title": "Eskizni ko'rish sozlamalari"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Ta'kidlash, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "To'rtburchaklar tanlovi"
-		},
-		"sidePanelCloseButton": {
-			"title": "Yon panelni ko'rsatish"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Eskizlar"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Shtrix-kodni o'qish"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Shtrix kod yozish"
+			"title": "Ajratish, To'rtburchak tanlash"
 		},
 		"readBarcodesButton": {
 			"title": "Shtrix-kodlarni o'qing"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Shtrix-kod yozuvchisi sozlamalari"
+		},
+		"sidePanelCloseButton": {
+			"title": "Yon panelni ko'rsatish"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Eskizlar"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Shtrix-kodni o'qish"
 		},
 		"gotoFirstPageButton": {
 			"title": "Birinchi rasmga o'ting"

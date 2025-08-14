@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Gör"
 		},
-		"toolsLabel": {
-			"text": "Gurallar"
+		"barcodeLabel": {
+			"text": "Ştrih-kod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Faýly ýükläň we açyň"
@@ -52,22 +52,10 @@
 			"title": "Kiçijik tomaşaçy sazlamalary"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Aýratynlyk, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Gönüburçly saýlama"
-		},
-		"sidePanelCloseButton": {
-			"title": "Tarap paneli görkez"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Suratlar"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Ştrih-kod okamak"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Ştrih-kod ýazmak"
+			"title": "Ajaýyp, gönüburçly saýlama"
 		},
 		"readBarcodesButton": {
 			"title": "Ştrih-kodlary okaň"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Ştrih-kod ýazyjy sazlamalary"
+		},
+		"sidePanelCloseButton": {
+			"title": "Tarap paneli görkez"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Suratlar"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Ştrih-kod okamak"
 		},
 		"gotoFirstPageButton": {
 			"title": "Birinji surata geçiň"

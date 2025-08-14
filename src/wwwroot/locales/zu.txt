@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Buka"
 		},
-		"toolsLabel": {
-			"text": "Amathuluzi"
+		"barcodeLabel": {
+			"text": "Ibhakhodi"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Layisha futhi uvule ifayela"
@@ -52,22 +52,10 @@
 			"title": "Izilungiselelo zesibukeli sesithonjana"
 		},
 		"panToolButton": {
-			"title": "Ipani"
+			"title": "Gqoka, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Ukukhetha unxande"
-		},
-		"sidePanelCloseButton": {
-			"title": "Bonisa Iphaneli Eseceleni"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Izithonjana"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Ukufundwa kwebhakhodi"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Ukubhalwa kwebhakhodi"
+			"title": "Gqamisa, ukukhetha kukanxande"
 		},
 		"readBarcodesButton": {
 			"title": "Funda amabhakhodi"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Izilungiselelo zombhali webhakhodi"
+		},
+		"sidePanelCloseButton": {
+			"title": "Bonisa Iphaneli Eseceleni"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Izithonjana"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Ukufundwa kwebhakhodi"
 		},
 		"gotoFirstPageButton": {
 			"title": "Iya esithombeni sokuqala"

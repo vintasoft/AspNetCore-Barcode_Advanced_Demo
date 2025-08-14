@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "보기"
 		},
-		"toolsLabel": {
-			"text": "도구"
+		"barcodeLabel": {
+			"text": "바코드"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "파일 다운로드 및 열기"
@@ -52,22 +52,10 @@
 			"title": "썸네일 뷰어 설정"
 		},
 		"panToolButton": {
-			"title": "팬"
+			"title": "강조 표시, 이동"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "직사각형 선택"
-		},
-		"sidePanelCloseButton": {
-			"title": "사이드바 보기"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "썸네일"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "바코드 판독"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "바코드 작성"
+			"title": "강조 표시, 사각형 선택"
 		},
 		"readBarcodesButton": {
 			"title": "바코드 읽기"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "바코드 작성기 설정"
+		},
+		"sidePanelCloseButton": {
+			"title": "사이드바 보기"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "썸네일"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "바코드 판독"
 		},
 		"gotoFirstPageButton": {
 			"title": "첫 번째 이미지로 이동"

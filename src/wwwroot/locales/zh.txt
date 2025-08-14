@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "看法"
 		},
-		"toolsLabel": {
-			"text": "工具"
+		"barcodeLabel": {
+			"text": "条形码"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "上传并打开文件"
@@ -52,22 +52,10 @@
 			"title": "缩略图查看器设置"
 		},
 		"panToolButton": {
-			"title": "平底锅"
+			"title": "高亮、平移"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "矩形选择"
-		},
-		"sidePanelCloseButton": {
-			"title": "显示侧面板"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "缩略图"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "条码读取"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "条码写入"
+			"title": "高亮、矩形选择"
 		},
 		"readBarcodesButton": {
 			"title": "读取条形码"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "条码写入器设置"
+		},
+		"sidePanelCloseButton": {
+			"title": "显示侧面板"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "缩略图"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "条码读取"
 		},
 		"gotoFirstPageButton": {
 			"title": "转到第一张图片"

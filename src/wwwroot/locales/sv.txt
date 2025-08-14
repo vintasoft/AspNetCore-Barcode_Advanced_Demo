@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Visa"
 		},
-		"toolsLabel": {
-			"text": "Verktyg"
+		"barcodeLabel": {
+			"text": "Streckkod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Ladda ner och öppna filen"
@@ -52,22 +52,10 @@
 			"title": "Inställningar för miniatyrvisning"
 		},
 		"panToolButton": {
-			"title": "Panera"
+			"title": "Markera, Panorera"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Rektangulärt urval"
-		},
-		"sidePanelCloseButton": {
-			"title": "Visa sidofältet"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniatyrer"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Streckkodsläsning"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Streckkodsskrivning"
+			"title": "Markera, Rektangulär markering"
 		},
 		"readBarcodesButton": {
 			"title": "Läs streckkoder"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Inställningar för streckkodsskrivare"
+		},
+		"sidePanelCloseButton": {
+			"title": "Visa sidofältet"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatyrer"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Streckkodsläsning"
 		},
 		"gotoFirstPageButton": {
 			"title": "Gå till första bilden"

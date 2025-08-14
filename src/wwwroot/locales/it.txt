@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Visualizza"
 		},
-		"toolsLabel": {
-			"text": "Strumenti"
+		"barcodeLabel": {
+			"text": "Codice a barre"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Scarica e apri file"
@@ -52,22 +52,10 @@
 			"title": "Impostazioni visualizzatore miniature"
 		},
 		"panToolButton": {
-			"title": "Padella"
+			"title": "Evidenzia, Panoramica"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Selezione rettangolare"
-		},
-		"sidePanelCloseButton": {
-			"title": "Mostra barra laterale"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniature"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Lettura del codice a barre"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Scrittura di codici a barre"
+			"title": "Evidenzia, Selezione rettangolare"
 		},
 		"readBarcodesButton": {
 			"title": "Leggere i codici a barre"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Impostazioni del scrittore di codici a barre"
+		},
+		"sidePanelCloseButton": {
+			"title": "Mostra barra laterale"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniature"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Lettura del codice a barre"
 		},
 		"gotoFirstPageButton": {
 			"title": "Vai alla prima immagine"

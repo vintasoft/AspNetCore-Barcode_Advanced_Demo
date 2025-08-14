@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Көрүү"
 		},
-		"toolsLabel": {
-			"text": "Куралдар"
+		"barcodeLabel": {
+			"text": "Штрихкод"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Жүктөө жана файлды ачуу"
@@ -52,22 +52,10 @@
 			"title": "Эскиз көрүүчүнүн жөндөөлөрү"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Баса, Пан"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Төрт бурчтуу тандоо"
-		},
-		"sidePanelCloseButton": {
-			"title": "Каптал панелди көрсөтүү"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Эскиздер"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Штрихкод окуу"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Штрих-код жазуу"
+			"title": "Баса белгилөө, тик бурчтуу тандоо"
 		},
 		"readBarcodesButton": {
 			"title": "Штрихкоддорду окуу"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Штрих-код жазуучу орнотуулары"
+		},
+		"sidePanelCloseButton": {
+			"title": "Каптал панелди көрсөтүү"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Эскиздер"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Штрихкод окуу"
 		},
 		"gotoFirstPageButton": {
 			"title": "Биринчи сүрөткө өтүңүз"

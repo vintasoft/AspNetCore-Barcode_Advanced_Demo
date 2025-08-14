@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Tazama"
 		},
-		"toolsLabel": {
-			"text": "Zana"
+		"barcodeLabel": {
+			"text": "Msimbo pau"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Pakia na ufungue faili"
@@ -52,22 +52,10 @@
 			"title": "Mipangilio ya kitazamaji cha kijipicha"
 		},
 		"panToolButton": {
-			"title": "Panua"
+			"title": "Angazia, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Uchaguzi wa mstatili"
-		},
-		"sidePanelCloseButton": {
-			"title": "Onyesha Paneli ya Upande"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Vijipicha"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Usomaji wa barcode"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Kuandika barcode"
+			"title": "Angazia, uteuzi wa Mstatili"
 		},
 		"readBarcodesButton": {
 			"title": "Soma misimbopau"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Mipangilio ya mwandishi wa barcode"
+		},
+		"sidePanelCloseButton": {
+			"title": "Onyesha Paneli ya Upande"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Vijipicha"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Usomaji wa barcode"
 		},
 		"gotoFirstPageButton": {
 			"title": "Nenda kwenye picha ya kwanza"

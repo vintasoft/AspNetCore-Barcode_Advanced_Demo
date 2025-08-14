@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Bekyk"
 		},
-		"toolsLabel": {
-			"text": "Gereedskap"
+		"barcodeLabel": {
+			"text": "Streepkode"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Laai lêer af en maak oop"
@@ -52,22 +52,10 @@
 			"title": "Kleinkiekie-kyker-instellings"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Merk, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Reghoekige keuse"
-		},
-		"sidePanelCloseButton": {
-			"title": "Wys sybalk"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Kleinkiekies"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Streepkode lees"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Streepkode skryf"
+			"title": "Merk, Reghoekige seleksie"
 		},
 		"readBarcodesButton": {
 			"title": "Lees strepieskodes"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Strepiekode skrywer instellings"
+		},
+		"sidePanelCloseButton": {
+			"title": "Wys sybalk"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Kleinkiekies"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Streepkode lees"
 		},
 		"gotoFirstPageButton": {
 			"title": "Gaan na eerste prent"

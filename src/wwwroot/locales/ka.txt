@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "ხედი"
 		},
-		"toolsLabel": {
-			"text": "ხელსაწყოები"
+		"barcodeLabel": {
+			"text": "შტრიხკოდი"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "ატვირთეთ და გახსენით ფაილი"
@@ -52,22 +52,10 @@
 			"title": "მინიატურების მაყურებლის პარამეტრები"
 		},
 		"panToolButton": {
-			"title": "პან"
+			"title": "მონიშვნა, პანორამირება"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "მართკუთხა შერჩევა"
-		},
-		"sidePanelCloseButton": {
-			"title": "გვერდითი პანელის ჩვენება"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "ესკიზები"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "შტრიხკოდის კითხვა"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "შტრიხკოდის წერა"
+			"title": "მონიშვნა, მართკუთხა შერჩევა"
 		},
 		"readBarcodesButton": {
 			"title": "წაიკითხეთ შტრიხკოდები"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "შტრიხკოდის დამწერის პარამეტრები"
+		},
+		"sidePanelCloseButton": {
+			"title": "გვერდითი პანელის ჩვენება"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "ესკიზები"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "შტრიხკოდის კითხვა"
 		},
 		"gotoFirstPageButton": {
 			"title": "გადადით პირველ სურათზე"

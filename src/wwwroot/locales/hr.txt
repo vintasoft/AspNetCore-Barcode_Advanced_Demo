@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Pogledaj"
 		},
-		"toolsLabel": {
-			"text": "Alati"
+		"barcodeLabel": {
+			"text": "Barkod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Preuzmi i otvori datoteku"
@@ -52,22 +52,10 @@
 			"title": "Postavke pregledača sličica"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Istaknuti, Pomicanje"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Pravokutni odabir"
-		},
-		"sidePanelCloseButton": {
-			"title": "Prikaži bočnu traku"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Sličice"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Čitanje crtičnog koda"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Pisanje crtičnog koda"
+			"title": "Istaknuti, Pravokutni odabir"
 		},
 		"readBarcodesButton": {
 			"title": "Čitaj bar kodove"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Postavke pisača crtičnog koda"
+		},
+		"sidePanelCloseButton": {
+			"title": "Prikaži bočnu traku"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sličice"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Čitanje crtičnog koda"
 		},
 		"gotoFirstPageButton": {
 			"title": "Idi na prvu sliku"

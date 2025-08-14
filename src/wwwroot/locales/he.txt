@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "הצג"
 		},
-		"toolsLabel": {
-			"text": "כלים"
+		"barcodeLabel": {
+			"text": "ברקוד"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "הורד ופתח את הקובץ"
@@ -52,22 +52,10 @@
 			"title": "הגדרות מציג תמונות ממוזערות"
 		},
 		"panToolButton": {
-			"title": "פאן"
+			"title": "הדגשה, סיבוב"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "מבחר מלבני"
-		},
-		"sidePanelCloseButton": {
-			"title": "הצג סרגל צד"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "תמונות ממוזערות"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "קריאת ברקוד"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "כתיבת ברקוד"
+			"title": "הדגשה, בחירה מלבנית"
 		},
 		"readBarcodesButton": {
 			"title": "קרא ברקודים"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "הגדרות של כותב ברקוד"
+		},
+		"sidePanelCloseButton": {
+			"title": "הצג סרגל צד"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "תמונות ממוזערות"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "קריאת ברקוד"
 		},
 		"gotoFirstPageButton": {
 			"title": "עבור לתמונה הראשונה"

@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Žiūrėti"
 		},
-		"toolsLabel": {
-			"text": "Įrankiai"
+		"barcodeLabel": {
+			"text": "Brūkšninis kodas"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Įkelti ir atidaryti failą"
@@ -52,22 +52,10 @@
 			"title": "Miniatiūrų peržiūros priemonės nustatymai"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Paryškinimas, Pastumti"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Stačiakampis pasirinkimas"
-		},
-		"sidePanelCloseButton": {
-			"title": "Rodyti šoninį skydelį"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniatiūros"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Brūkšninio kodo skaitymas"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Brūkšninio kodo rašymas"
+			"title": "Paryškinimas, Stačiakampis pasirinkimas"
 		},
 		"readBarcodesButton": {
 			"title": "Skaityti brūkšninius kodus"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Brūkšninių kodų rašymo nustatymai"
+		},
+		"sidePanelCloseButton": {
+			"title": "Rodyti šoninį skydelį"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatiūros"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Brūkšninio kodo skaitymas"
 		},
 		"gotoFirstPageButton": {
 			"title": "Eikite į pirmąjį vaizdą"

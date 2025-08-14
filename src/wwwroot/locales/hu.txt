@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Megtekintés"
 		},
-		"toolsLabel": {
-			"text": "Eszközök"
+		"barcodeLabel": {
+			"text": "Vonalkód"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Fájl letöltése és megnyitása"
@@ -52,22 +52,10 @@
 			"title": "Miniatűr-nézegető beállításai"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Kiemelés, Mozgatás"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Téglalap alakú kiválasztás"
-		},
-		"sidePanelCloseButton": {
-			"title": "Oldalsáv megjelenítése"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Indexképek"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Vonalkód olvasás"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Vonalkód írás"
+			"title": "Kiemelés, Téglalap alakú kijelölés"
 		},
 		"readBarcodesButton": {
 			"title": "Vonalkódok olvasása"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Vonalkód író beállításai"
+		},
+		"sidePanelCloseButton": {
+			"title": "Oldalsáv megjelenítése"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Indexképek"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Vonalkód olvasás"
 		},
 		"gotoFirstPageButton": {
 			"title": "Ugrás az első képre"

@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "देखें"
 		},
-		"toolsLabel": {
-			"text": "उपकरण"
+		"barcodeLabel": {
+			"text": "बारकोड"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "फ़ाइल डाउनलोड करें और खोलें"
@@ -52,22 +52,10 @@
 			"title": "थंबनेल व्यूअर सेटिंग्स"
 		},
 		"panToolButton": {
-			"title": "पैन"
+			"title": "हाइलाइट, पैन"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "आयताकार चयन"
-		},
-		"sidePanelCloseButton": {
-			"title": "साइडबार दिखाएँ"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "थंबनेल"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "बारकोड पढ़ना"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "बारकोड लेखन"
+			"title": "हाइलाइट, आयताकार चयन"
 		},
 		"readBarcodesButton": {
 			"title": "बारकोड पढ़ें"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "बारकोड लेखक सेटिंग्स"
+		},
+		"sidePanelCloseButton": {
+			"title": "साइडबार दिखाएँ"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "थंबनेल"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "बारकोड पढ़ना"
 		},
 		"gotoFirstPageButton": {
 			"title": "पहली छवि पर जाएँ"

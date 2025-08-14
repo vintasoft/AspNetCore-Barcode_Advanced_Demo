@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Намоиш"
 		},
-		"toolsLabel": {
-			"text": "Воситаҳо"
+		"barcodeLabel": {
+			"text": "Штрих-код"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлро бор кунед ва кушоед"
@@ -52,22 +52,10 @@
 			"title": "Танзимоти намоишгари ангора"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Таваҷҷӯҳ, Пан"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Интихоби росткунҷа"
-		},
-		"sidePanelCloseButton": {
-			"title": "Намоиши панели паҳлӯ"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Суратҳо"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Хониши штрих-код"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Навиштани штрих-код"
+			"title": "Равшансозӣ, Интихоби росткунҷа"
 		},
 		"readBarcodesButton": {
 			"title": "Штрих-кодҳоро хонед"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Танзимоти нависандаи штрих-код"
+		},
+		"sidePanelCloseButton": {
+			"title": "Намоиши панели паҳлӯ"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Суратҳо"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Хониши штрих-код"
 		},
 		"gotoFirstPageButton": {
 			"title": "Ба тасвири аввал гузаред"

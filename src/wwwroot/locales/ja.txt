@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "表示"
 		},
-		"toolsLabel": {
-			"text": "ツール"
+		"barcodeLabel": {
+			"text": "バーコード"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "ファイルをダウンロードして開きます"
@@ -52,22 +52,10 @@
 			"title": "サムネイル ビューアの設定"
 		},
 		"panToolButton": {
-			"title": "パン"
+			"title": "ハイライト、パン"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "長方形の選択範囲"
-		},
-		"sidePanelCloseButton": {
-			"title": "サイドバーを表示"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "サムネイル"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "バーコード読み取り"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "バーコード書き込み"
+			"title": "ハイライト、長方形選択"
 		},
 		"readBarcodesButton": {
 			"title": "バーコードを読み取る"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "バーコードライターの設定"
+		},
+		"sidePanelCloseButton": {
+			"title": "サイドバーを表示"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "サムネイル"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "バーコード読み取り"
 		},
 		"gotoFirstPageButton": {
 			"title": "最初の画像に移動"

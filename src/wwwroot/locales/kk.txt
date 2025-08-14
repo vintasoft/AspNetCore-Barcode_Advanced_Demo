@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Көру"
 		},
-		"toolsLabel": {
-			"text": "Құралдар"
+		"barcodeLabel": {
+			"text": "Штрих-код"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлды жүктеп алыңыз және ашыңыз"
@@ -52,22 +52,10 @@
 			"title": "Нобайды қарау құралының параметрлері"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Бөлектеу, Пан"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Тікбұрышты таңдау"
-		},
-		"sidePanelCloseButton": {
-			"title": "Бүйірлік тақтаны көрсету"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Нобайлар"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Штрих-кодты оқу"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Штрих-код жазу"
+			"title": "Ерекшелеу, Тікбұрышты таңдау"
 		},
 		"readBarcodesButton": {
 			"title": "Штрих-кодтарды оқыңыз"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Штрих-код жазу құрылғысының параметрлері"
+		},
+		"sidePanelCloseButton": {
+			"title": "Бүйірлік тақтаны көрсету"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Нобайлар"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Штрих-кодты оқу"
 		},
 		"gotoFirstPageButton": {
 			"title": "Бірінші суретке өтіңіз"

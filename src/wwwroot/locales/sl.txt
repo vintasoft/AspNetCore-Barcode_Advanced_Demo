@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Pogled"
 		},
-		"toolsLabel": {
-			"text": "Orodja"
+		"barcodeLabel": {
+			"text": "Črtna koda"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Naloži in odpri datoteko"
@@ -52,22 +52,10 @@
 			"title": "Nastavitve pregledovalnika sličic"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Označevanje, Pomikanje"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Pravokotna izbira"
-		},
-		"sidePanelCloseButton": {
-			"title": "Pokaži stransko ploščo"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Sličice"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Branje črtne kode"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Pisanje črtne kode"
+			"title": "Označevanje, Pravokotna izbira"
 		},
 		"readBarcodesButton": {
 			"title": "Branje črtnih kod"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Nastavitve zapisovalnika črtne kode"
+		},
+		"sidePanelCloseButton": {
+			"title": "Pokaži stransko ploščo"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sličice"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Branje črtne kode"
 		},
 		"gotoFirstPageButton": {
 			"title": "Pojdite na prvo sliko"

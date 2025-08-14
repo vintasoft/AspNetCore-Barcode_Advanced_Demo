@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Zobrazit"
 		},
-		"toolsLabel": {
-			"text": "Nástroje"
+		"barcodeLabel": {
+			"text": "Čárový kód"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Stáhněte a otevřete soubor"
@@ -52,22 +52,10 @@
 			"title": "Nastavení prohlížeče miniatur"
 		},
 		"panToolButton": {
-			"title": "Pán"
+			"title": "Zvýraznění, Posunutí"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Obdélníkový výběr"
-		},
-		"sidePanelCloseButton": {
-			"title": "Zobrazit postranní panel"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniatury"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Čtení čárového kódu"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Psaní čárových kódů"
+			"title": "Zvýraznění, Obdélníkový výběr"
 		},
 		"readBarcodesButton": {
 			"title": "Čtení čárových kódů"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Nastavení zapisovače čárových kódů"
+		},
+		"sidePanelCloseButton": {
+			"title": "Zobrazit postranní panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatury"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Čtení čárového kódu"
 		},
 		"gotoFirstPageButton": {
 			"title": "Přejít na první obrázek"

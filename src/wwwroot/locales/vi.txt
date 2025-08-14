@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Xem"
 		},
-		"toolsLabel": {
-			"text": "Công cụ"
+		"barcodeLabel": {
+			"text": "Mã vạch"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Tải xuống và mở tệp"
@@ -52,22 +52,10 @@
 			"title": "Cài đặt trình xem hình thu nhỏ"
 		},
 		"panToolButton": {
-			"title": "Xoay"
+			"title": "Đánh dấu, Di chuyển"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Lựa chọn hình chữ nhật"
-		},
-		"sidePanelCloseButton": {
-			"title": "Hiển thị thanh bên"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Hình thu nhỏ"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Đọc mã vạch"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Viết mã vạch"
+			"title": "Đánh dấu, Lựa chọn hình chữ nhật"
 		},
 		"readBarcodesButton": {
 			"title": "Đọc mã vạch"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Cài đặt trình ghi mã vạch"
+		},
+		"sidePanelCloseButton": {
+			"title": "Hiển thị thanh bên"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Hình thu nhỏ"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Đọc mã vạch"
 		},
 		"gotoFirstPageButton": {
 			"title": "Chuyển đến hình ảnh đầu tiên"

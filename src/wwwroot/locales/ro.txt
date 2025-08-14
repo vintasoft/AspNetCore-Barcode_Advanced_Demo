@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Vizualizare"
 		},
-		"toolsLabel": {
-			"text": "Unelte"
+		"barcodeLabel": {
+			"text": "Cod de bare"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Descărcați și deschideți fișierul"
@@ -52,22 +52,10 @@
 			"title": "Setări pentru vizualizatorul de miniaturi"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Evidențiere, Panoramare"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Selecție dreptunghiulară"
-		},
-		"sidePanelCloseButton": {
-			"title": "Afișează bara laterală"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniaturi"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Citirea codului de bare"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Scrierea codurilor de bare"
+			"title": "Evidențiere, Selecție dreptunghiulară"
 		},
 		"readBarcodesButton": {
 			"title": "Citiți coduri de bare"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Setări pentru scrierea codurilor de bare"
+		},
+		"sidePanelCloseButton": {
+			"title": "Afișează bara laterală"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturi"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Citirea codului de bare"
 		},
 		"gotoFirstPageButton": {
 			"title": "Mergeți la prima imagine"

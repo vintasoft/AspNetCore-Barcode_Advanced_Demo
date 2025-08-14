@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Skatīt"
 		},
-		"toolsLabel": {
-			"text": "Rīki"
+		"barcodeLabel": {
+			"text": "Svītrkods"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Augšupielādējiet un atveriet failu"
@@ -52,22 +52,10 @@
 			"title": "Sīktēlu skatītāja iestatījumi"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Izcelt, Paneļot"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Taisnstūra izvēle"
-		},
-		"sidePanelCloseButton": {
-			"title": "Rādīt sānu paneli"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Sīktēli"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Svītrkoda lasīšana"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Svītrkoda rakstīšana"
+			"title": "Izcelt, Taisnstūrveida atlase"
 		},
 		"readBarcodesButton": {
 			"title": "Lasīt svītrkodus"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Svītrkoda rakstītāja iestatījumi"
+		},
+		"sidePanelCloseButton": {
+			"title": "Rādīt sānu paneli"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Sīktēli"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Svītrkoda lasīšana"
 		},
 		"gotoFirstPageButton": {
 			"title": "Dodieties uz pirmo attēlu"

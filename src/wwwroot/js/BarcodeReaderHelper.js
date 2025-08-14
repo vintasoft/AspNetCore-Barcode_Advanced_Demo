@@ -152,7 +152,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         _readBarcodesButton.set_IsEnabled(true);
 
         // get the rectangular selection tool
-        var rectangularSelectionTool = __getRectangularSelectionTool(_imageViewer);
+        var rectangularSelectionTool = __getVisualToolByName(_imageViewer, "RectangularSelection");
         // if tool exists
         if (rectangularSelectionTool != null)
             // clear the selection
@@ -172,16 +172,19 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         var visualTool = imageViewer.get_VisualTool();
         if (visualTool != null) {
             // get the rectangular selection tool
-            var rectangularSelectionTool = __getRectangularSelectionTool(imageViewer);
-            // if rectangular selection tool active
-            if (rectangularSelectionTool.get_IsEnabled()) {
-                // get the scan rectangle
-                scanRectangle = rectangularSelectionTool.get_Rectangle();
-                //  scale the scan rectangle
-                scanRectangle.x = Math.floor(scanRectangle.x);
-                scanRectangle.y = Math.floor(scanRectangle.y);
-                scanRectangle.width = Math.floor(scanRectangle.width);
-                scanRectangle.height = Math.floor(scanRectangle.height);
+            var rectangularSelectionTool = __getVisualToolByName(_imageViewer, "RectangularSelection");
+            // if tool exists
+            if (rectangularSelectionTool != null) {
+                // if rectangular selection tool active
+                if (rectangularSelectionTool.get_IsEnabled()) {
+                    // get the scan rectangle
+                    scanRectangle = rectangularSelectionTool.get_Rectangle();
+                    //  scale the scan rectangle
+                    scanRectangle.x = Math.floor(scanRectangle.x);
+                    scanRectangle.y = Math.floor(scanRectangle.y);
+                    scanRectangle.width = Math.floor(scanRectangle.width);
+                    scanRectangle.height = Math.floor(scanRectangle.height);
+                }
             }
         }
         // set the scan rectangle
@@ -200,21 +203,31 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
      @param {object} imageViewer Image viewer.
     */
     BarcodeReaderHelperJS.prototype.getHighLightSelectionTool = function (imageViewer) {
-        var compositeTool = imageViewer.get_VisualTool();
-        if (compositeTool != null)
-            // get the highlight tool
-            return compositeTool.getTool(0);
+        return __getVisualToolByName(imageViewer, "HighlightTool");
     }
+
 
     /**
      Returns the rectangular selection tool.
      @param {object} imageViewer Image viewer.
+     @param {string} visualToolName Visual tool name.
     */
-    function __getRectangularSelectionTool(imageViewer) {
-        var compositeTool = imageViewer.get_VisualTool();
-        if (compositeTool != null)
-            // get the rectangular selection tool
-            return compositeTool.getTool(2);
+    function __getVisualToolByName(imageViewer, visualToolName) {
+        var visualTool = imageViewer.get_VisualTool();
+        if (visualTool != null) {
+            if (visualTool.get_VisualTools != null) {
+                var visualTools = visualTool.get_VisualTools();
+                for (var i = 0; i < visualTools.length; i++) {
+                    if (visualTools[i].get_Name() == visualToolName)
+                        return visualTools[i];
+                }
+            }
+            else {
+                if (visualTool.get_Name() == visualToolName)
+                    return visualTool;
+            }
+        }
+        return null;
     }
 
 
@@ -233,7 +246,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
             var str3 = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str3");
 
             // show a message with the barcode recognition result
-            information += str1 + '\n\n'+ str2 + '\n\n' + str3;
+            information += str1 + '\n\n' + str2 + '\n\n' + str3;
         }
         // else
         else {
@@ -268,7 +281,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
                 var thresholdText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-threshold");
                 var regionText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-region");
                 var angleText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-angle");
-                
+
                 // create a string with information about barcode
                 information += '[' + (i + 1) + ':' + barcodeInfo.barcodeType + ']\n' +
                     valueText + barcodeValue + '\n' +
@@ -371,7 +384,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         // '<b>' + barcodeTypeText + '</b>' + barcodeInfo.barcodeType + '<br />'
         barcodeInfoDiv.append(__boldText(barcodeTypeText), barcodeInfo.barcodeType, __getBr());
 
-        
+
         var valueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-value");
 
         // '<b>' + valueText + '</b>'
@@ -620,7 +633,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         if (isBoldParameterTitle) {
             newTitle = __boldText(newTitle);
         }
-        
+
         return [newTitle, barcodeInfoParamValue, ...brText];
     }
 
@@ -710,7 +723,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
                 tr.append(td);
             }
             table.append(tr);
-            
+
             table.append(__createTableRowForQualityTestProperty("Decode", testInfo.decode.value, testInfo.decode.grade));
             table.append(__createTableRowForQualityTestProperty("UnusedErrorCorrection", Number(testInfo.unusedErrorCorrection.value).toFixed(2) + "%", testInfo.unusedErrorCorrection.grade));
             if (testInfo.codewordYield != null)
@@ -743,7 +756,7 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
                 for (var i = 0; i < testInfo.additionalGrades.length; i++)
                     table.append(__createTableRowForQualityTestProperty(testInfo.additionalGrades[i].value, "", testInfo.additionalGrades[i].grade));
             if (testInfo.quietZone != null)
-                table.append(__createTableRowForQualityTestProperty("QuietZone", Number(testInfo.quietZone.value).toFixed(2) + "%", testInfo.quietZone.grade));     
+                table.append(__createTableRowForQualityTestProperty("QuietZone", Number(testInfo.quietZone.value).toFixed(2) + "%", testInfo.quietZone.grade));
             table.append(__createTableRowForQualityTestProperty("DistortionAngle", Number(testInfo.distortionAngle.value).toFixed(2) + "°", testInfo.distortionAngle.grade));
             table.append(__createTableRowForQualityTestProperty("ScanGrade", testInfo.scanGrade.value, testInfo.scanGrade.grade));
         }

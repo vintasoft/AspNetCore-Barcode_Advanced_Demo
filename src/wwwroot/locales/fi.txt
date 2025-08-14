@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Näytä"
 		},
-		"toolsLabel": {
-			"text": "Työkalut"
+		"barcodeLabel": {
+			"text": "Viivakoodi"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Lataa ja avaa tiedosto"
@@ -52,22 +52,10 @@
 			"title": "Pikkukuvien katseluohjelman asetukset"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Korostus, Panorointi"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Suorakaiteen muotoinen valinta"
-		},
-		"sidePanelCloseButton": {
-			"title": "Näytä sivupalkki"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Pikkukuvat"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Viivakoodin lukeminen"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Viivakoodin kirjoittaminen"
+			"title": "Korostus, Suorakulmainen valinta"
 		},
 		"readBarcodesButton": {
 			"title": "Lue viivakoodeja"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Viivakoodikirjoittimen asetukset"
+		},
+		"sidePanelCloseButton": {
+			"title": "Näytä sivupalkki"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Pikkukuvat"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Viivakoodin lukeminen"
 		},
 		"gotoFirstPageButton": {
 			"title": "Siirry ensimmäiseen kuvaan"

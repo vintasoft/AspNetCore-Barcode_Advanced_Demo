@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Προβολή"
 		},
-		"toolsLabel": {
-			"text": "Εργαλεία"
+		"barcodeLabel": {
+			"text": "Γραμμωτός κώδικας"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Λήψη και άνοιγμα αρχείου"
@@ -52,22 +52,10 @@
 			"title": "Ρυθμίσεις προβολής μικρογραφιών"
 		},
 		"panToolButton": {
-			"title": "Παν"
+			"title": "Επισήμανση, Μετατόπιση"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Ορθογώνια επιλογή"
-		},
-		"sidePanelCloseButton": {
-			"title": "Εμφάνιση πλαϊνής γραμμής"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Μικρογραφίες"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Ανάγνωση γραμμωτού κώδικα"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Γράψιμο barcode"
+			"title": "Επισήμανση, Ορθογώνια επιλογή"
 		},
 		"readBarcodesButton": {
 			"title": "Διαβάστε γραμμωτούς κώδικες"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Ρυθμίσεις εγγραφής γραμμωτού κώδικα"
+		},
+		"sidePanelCloseButton": {
+			"title": "Εμφάνιση πλαϊνής γραμμής"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Μικρογραφίες"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Ανάγνωση γραμμωτού κώδικα"
 		},
 		"gotoFirstPageButton": {
 			"title": "Μετάβαση στην πρώτη εικόνα"

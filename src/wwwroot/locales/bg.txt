@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Преглед"
 		},
-		"toolsLabel": {
-			"text": "Инструменти"
+		"barcodeLabel": {
+			"text": "Баркод"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Изтеглете и отворете файл"
@@ -52,22 +52,10 @@
 			"title": "Настройки за преглед на миниатюри"
 		},
 		"panToolButton": {
-			"title": "Панорамиране"
+			"title": "Маркиране, Панорамиране"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Правоъгълна селекция"
-		},
-		"sidePanelCloseButton": {
-			"title": "Показване на страничната лента"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Миниатюри"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Четене на баркод"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Писане на баркод"
+			"title": "Маркиране, Правоъгълна селекция"
 		},
 		"readBarcodesButton": {
 			"title": "Четене на баркодове"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Настройки за писане на баркод"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показване на страничната лента"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Миниатюри"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Четене на баркод"
 		},
 		"gotoFirstPageButton": {
 			"title": "Отидете на първото изображение"

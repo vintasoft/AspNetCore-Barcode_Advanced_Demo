@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Anzeigen"
 		},
-		"toolsLabel": {
-			"text": "Werkzeuge"
+		"barcodeLabel": {
+			"text": "Barcode"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Datei herunterladen und öffnen"
@@ -52,22 +52,10 @@
 			"title": "Einstellungen für die Miniaturansichtsansicht"
 		},
 		"panToolButton": {
-			"title": "Schwenken"
+			"title": "Hervorheben, Schwenken"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Rechteckige Auswahl"
-		},
-		"sidePanelCloseButton": {
-			"title": "Seitenleiste anzeigen"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniaturansichten"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Barcode-Lesung"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Barcode-Schreiben"
+			"title": "Hervorheben, Rechteckige Auswahl"
 		},
 		"readBarcodesButton": {
 			"title": "Barcodes lesen"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Einstellungen für den Barcode-Schreiber"
+		},
+		"sidePanelCloseButton": {
+			"title": "Seitenleiste anzeigen"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturansichten"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barcode-Lesung"
 		},
 		"gotoFirstPageButton": {
 			"title": "Gehe zum ersten Bild"

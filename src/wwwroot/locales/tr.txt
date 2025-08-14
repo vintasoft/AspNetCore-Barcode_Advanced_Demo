@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Görüntüle"
 		},
-		"toolsLabel": {
-			"text": "Araçlar"
+		"barcodeLabel": {
+			"text": "Barkod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Dosyayı indir ve aç"
@@ -52,22 +52,10 @@
 			"title": "Küçük Resim Görüntüleyici Ayarları"
 		},
 		"panToolButton": {
-			"title": "Kaydır"
+			"title": "Vurgula, Kaydırma"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Dikdörtgen seçim"
-		},
-		"sidePanelCloseButton": {
-			"title": "Kenar çubuğunu göster"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Küçük resimler"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Barkod okuma"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Barkod yazma"
+			"title": "Vurgula, Dikdörtgen seçim"
 		},
 		"readBarcodesButton": {
 			"title": "Barkodları oku"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Barkod yazıcı ayarları"
+		},
+		"sidePanelCloseButton": {
+			"title": "Kenar çubuğunu göster"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Küçük resimler"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barkod okuma"
 		},
 		"gotoFirstPageButton": {
 			"title": "İlk resme git"

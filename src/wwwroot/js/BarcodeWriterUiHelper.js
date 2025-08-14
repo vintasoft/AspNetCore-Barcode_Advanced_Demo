@@ -7,8 +7,6 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
     var _writeBarcodeButton = null;
     var _dialogInitialized = false;
 
-    var _informationAboutWritingTextarea = null;
-
     // create settings
     var _barcode1DWriterSettings = new Vintasoft.Barcode.Web1DBarcodeWriterSettingsJS();
     var _barcode2DWriterSettings = new Vintasoft.Barcode.Web2DBarcodeWriterSettingsJS();
@@ -34,9 +32,9 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
 
 
     /**
-     Creates UI panel with barcode creation functionality.
+     Creates UI button that allows to generate barcode image.
     */
-    BarcodeWriterUiHelperJS.prototype.createBarcodeWritingPanel = function () {
+    BarcodeWriterUiHelperJS.prototype.createWriteBarcodeButton = function () {
         // create the button that allows to start the asynchronous barcode generation process
         _writeBarcodeButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
             cssClass: "writeBarcode",
@@ -46,44 +44,23 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
             onClick: __writeBarcodeButton_clicked
         });
 
+        return _writeBarcodeButton;
+    }
+
+    /**
+     Creates UI button that allows to show dialog with barcode writer settings.
+    */
+    BarcodeWriterUiHelperJS.prototype.createBarcodeWriterSettingsButton = function () {
         // create the button that allows to view and change the barcode writer settings
-        var barcodeWriterSettingsButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
+        return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
             cssClass: "barcodeWriterSettings",
             title: "Barcode writer settings",
             localizationId: "barcodeWriterSettingsButton",
             css: { "margin-left": "5px" },
             onClick: __barcodeWriterSettingsButton_clicked
         });
-        
-        // create the text area with instructions how to create barcode
-        _informationAboutWritingTextarea = new Vintasoft.Imaging.UI.UIElements.WebUiTextareaElementJS({
-            text: "",
-            localizationId: "barcodeWritingInstructionMessage",
-            readonly: true,
-            css: {
-                position: "relative", width: "100%", height: "calc(100% - 45px)", "border-top": "1px solid #dddddd",
-                "border-bottom": "1px solid #dddddd", "border-right": "0px", "border-left": "0px", resize: "none",
-            }
-        });       
-
-        // create the button that allows to open/close the barcode generation panel
-        var panelOpenButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
-            cssClass: "barcodeWriter",
-            title: "Barcode writing",
-            localizationId: "barcodeWriterPanelButton"
-        });
-
-        // create an UI panel, which allows to generate barcode image
-        var panel = new Vintasoft.Imaging.UI.Panels.WebUiPanelJS(
-            [
-                _writeBarcodeButton, barcodeWriterSettingsButton, _informationAboutWritingTextarea
-            ],
-            { cssClass: "vsui-sidePanel-content" }, panelOpenButton);
-        // subscribe to the "panelShown" event of the barcode writing panel
-        Vintasoft.Shared.subscribeToEventOnce(panel, "panelShown", __writeDefaultWritingInformationText);    
-
-        return panel;
     }
+
 
     function __writeBarcodeButton_clicked(event, uiElement) {
         // create the barcode writer
@@ -162,16 +139,6 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
         }
 
         _barcodeWriterSettingsDialog.show();
-    }
-
-    function __writeDefaultWritingInformationText() {
-        var defaultWritingInformationText =
-            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeWritingInformationText-start") + "\n\n" +
-            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeWritingInformationText-step1") + "\n\n" +
-            Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeWritingInformationText-step2");
-
-        var textArea = _informationAboutWritingTextarea;
-        textArea.get_DomElement().value = defaultWritingInformationText;
     }
 
 }

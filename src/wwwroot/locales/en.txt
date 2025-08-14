@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "View"
 		},
-		"toolsLabel": {
-			"text": "Tools"
+		"barcodeLabel": {
+			"text": "Barcode"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Upload and open file"
@@ -52,22 +52,10 @@
 			"title": "Thumbnail viewer settings"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Highlight, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Rectangular selection"
-		},
-		"sidePanelCloseButton": {
-			"title": "Show Side Panel"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Thumbnails"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Barcode reading"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Barcode writing"
+			"title": "Highlight, Rectangular selection"
 		},
 		"readBarcodesButton": {
 			"title": "Read barcodes"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Barcode writer settings"
+		},
+		"sidePanelCloseButton": {
+			"title": "Show Side Panel"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Thumbnails"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barcode reading"
 		},
 		"gotoFirstPageButton": {
 			"title": "Go to the first image"

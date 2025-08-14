@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Vaade"
 		},
-		"toolsLabel": {
-			"text": "Tööriistad"
+		"barcodeLabel": {
+			"text": "Triipkood"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Laadige üles ja avage fail"
@@ -52,22 +52,10 @@
 			"title": "Pisipiltide vaataja seaded"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Esiletõstmine, Panoraamimine"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Ristkülikukujuline valik"
-		},
-		"sidePanelCloseButton": {
-			"title": "Näita külgpaneeli"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Pisipildid"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Vöötkoodi lugemine"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Vöötkoodi kirjutamine"
+			"title": "Esiletõstmine, Ristkülikukujuline valik"
 		},
 		"readBarcodesButton": {
 			"title": "Lugege vöötkoode"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Vöötkoodikirjutaja seaded"
+		},
+		"sidePanelCloseButton": {
+			"title": "Näita külgpaneeli"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Pisipildid"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Vöötkoodi lugemine"
 		},
 		"gotoFirstPageButton": {
 			"title": "Mine esimese pildi juurde"

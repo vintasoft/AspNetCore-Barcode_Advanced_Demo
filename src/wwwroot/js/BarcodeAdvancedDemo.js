@@ -10,6 +10,9 @@ var _previouslyUploadedFilesDialog;
 
 var _blockUiDialog;
 
+var _barcodeReaderUiHelper;
+var _barcodeWriterUiHelper;
+
 
 
 // === "File" toolbar, "Previously uploaded files" button ===
@@ -48,39 +51,56 @@ function __previousUploadFilesButton_clicked(event, uiElement) {
  Creates UI button for activating the visual tool, which allows to pan images in image viewer.
 */
 function __createPanToolButton() {
-    return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
-        cssClass: "vsdv-tools-panButton",
-        title: "Pan",
-        localizationId: "panToolButton",
-        onClick: __panToolButton_clicked
-    });
-}
-
-function __panToolButton_clicked(event, uiElement) {
-    var imageViewer = _docViewer.get_ImageViewer();
-    var compositeTool = imageViewer.get_VisualTool();
-    var rectangularSelectionTool = compositeTool.getTool(2);
-    rectangularSelectionTool.set_Rectangle({ x: 0, y: 0, width: 0, height: 0 });
-    compositeTool.set_ActiveVisualTool();
+    // if touch device is used
+    if (__isTouchDevice()) {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Highlight, Pan, Zoom",
+            localizationId: "panToolButton"
+        }, "HighlightTool,PanTool,ZoomTool");
+    }
+    else {
+        return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
+            cssClass: "vsdv-tools-panButton",
+            title: "Highlight, Pan",
+            localizationId: "panToolButton"
+        }, "HighlightTool,PanTool");
+    }
 }
 
 /**
  Creates UI button for activating the visual tool, which allows to select the rectangular image region in image viewer.
 */
 function __createRectangularSelectionToolButton() {
-    return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
+    return new Vintasoft.Imaging.UI.UIElements.WebUiVisualToolButtonJS({
         cssClass: "vsdv-tools-rectSelectionButton",
-        title: "Rectangular selection",
-        localizationId: "rectangularSelectionToolButton",
-        onClick: __rectangularSelectionToolButton_clicked
-    });
+        title: "Highlight, Rectangular selection",
+        localizationId: "rectangularSelectionToolButton"
+    }, "HighlightTool,RectangularSelectionTool");
 }
 
-function __rectangularSelectionToolButton_clicked(event, uiElement) {
-    var imageViewer = _docViewer.get_ImageViewer();
-    var compositeTool = imageViewer.get_VisualTool();
-    var rectangularSelectionTool = compositeTool.getTool(2);
-    compositeTool.set_ActiveVisualTool(rectangularSelectionTool);
+
+
+// === "Barcode" toolbar ===
+
+/**
+ Creates UI panel with barcode functionality.
+*/
+function __createBarcodePanel() {
+    var label = new Vintasoft.Imaging.UI.UIElements.WebUiLabelElementJS({ "text": "Barcode", localizationId: "barcodeLabel" });
+    var button = new Vintasoft.Imaging.UI.UIElements.WebUiElementContainerJS([label], { cssClass: "vsui-subMenu-icon" });
+
+    var readBarcodesButton = _barcodeReaderUiHelper.createReadBarcodesButton();
+    var barcodeReaderSettingsButton = _barcodeReaderUiHelper.createBarcodeReaderSettingsButton();
+
+    var writeBarcodeButton = _barcodeWriterUiHelper.createWriteBarcodeButton();
+    var barcodeWriterSettingsButton = _barcodeWriterUiHelper.createBarcodeWriterSettingsButton();
+
+    return new Vintasoft.Imaging.UI.Panels.WebUiPanelJS(
+        ["panToolButton", "rectangularSelectionToolButton", "vertDivider",
+            readBarcodesButton, barcodeReaderSettingsButton, "vertDivider",
+            writeBarcodeButton, barcodeWriterSettingsButton],
+        { cssClass: "vsui-subMenu-contentPanel" }, button);
 }
 
 
@@ -91,9 +111,6 @@ function __rectangularSelectionToolButton_clicked(event, uiElement) {
  Registers custom UI elements in "WebUiElementsFactoryJS".
 */
 function __registerNewUiElements() {
-    var barcodeReaderUiHelper = new BarcodeReaderUiHelperJS(__blockUI, __unblockUI);
-    var barcodeWriterUiHelper = new BarcodeWriterUiHelperJS(__showErrorMessage);
-
     // register the "Previously uploaded files" button in web UI elements factory
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("previousUploadFilesButton", __createPreviousUploadFilesButton);
 
@@ -103,9 +120,10 @@ function __registerNewUiElements() {
     Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("rectangularSelectionToolButton", __createRectangularSelectionToolButton);
 
     // register the "Barcode reading" panel in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("barcodeReadingPanel", barcodeReaderUiHelper.createBarcodeReadingPanel);
-    // register the "Barcode generation" panel in web UI elements factory
-    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("barcodeWritingPanel", barcodeWriterUiHelper.createBarcodeWritingPanel);
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("barcodeReadingPanel", _barcodeReaderUiHelper.createBarcodeReadingPanel);
+
+    // register the "Barcode" panel in web UI elements factory
+    Vintasoft.Imaging.UI.UIElements.WebUiElementsFactoryJS.registerElement("barcodeMenuPanel", __createBarcodePanel);
 }
 
 /**
@@ -120,6 +138,20 @@ function __initMenu(docViewerSettings) {
     if (uploadAndOpenFileButton != null)
         uploadAndOpenFileButton.set_FileExtensionFilter(".bmp, .cur, .doc, .docx, .gif, .ico, .j2k, .j2c, .jb2, .jbig2, .jp2, .jpc, .jpeg, .jpg, .jls, .pbm, .pcx, .pdf, .png, .psd, .tga, .tif, .tiff, .svg, .xls, .xlsx");
 
+    // get the main menu of document viewer
+    var mainMenu = items.getItemByRegisteredId("mainMenu");
+    // if main menu is found
+    if (mainMenu != null) {
+        // get items of main menu
+        var mainMenuItems = mainMenu.get_Items();
+
+        // remove the "Tools" menu
+        mainMenuItems.removeItemAt(2);
+
+        // add new item to the main menu
+        mainMenuItems.addItem("barcodeMenuPanel");
+    }
+
     // get the "File" menu panel
     var fileMenuPanel = items.getItemByRegisteredId("fileToolbarPanel");
     // if menu panel is found
@@ -129,21 +161,6 @@ function __initMenu(docViewerSettings) {
 
         // add the "Previous uploaded files" button to the menu panel
         fileMenuPanelItems.insertItem(1, "previousUploadFilesButton");
-    }
-
-    // get the "Visual tools" menu panel
-    var visualToolsToolbarPanel = items.getItemByRegisteredId("visualToolsToolbarPanel");
-    // if menu panel founded
-    if (visualToolsToolbarPanel != null) {
-        // get items of visual tool menu panel
-        var visualToolsToolbarPanelItems = visualToolsToolbarPanel.get_Items();
-
-        // remove all items
-        visualToolsToolbarPanelItems.clearItems();
-        // add "Pan" button to the menu panel
-        visualToolsToolbarPanelItems.addItem("panToolButton");
-        // add "Rectangular Selection" button to the menu panel
-        visualToolsToolbarPanelItems.addItem("rectangularSelectionToolButton");
     }
 }
 
@@ -160,7 +177,6 @@ function __initSidePanel(docViewerSettings) {
         var sidePanelItems = sidePanel.get_PanelsCollection();
 
         sidePanelItems.addItem("barcodeReadingPanel");
-        sidePanelItems.addItem("barcodeWritingPanel");
     }
 
     // get the thumbnail viewer panel of document viewer
@@ -290,6 +306,13 @@ function __getApplicationUrl() {
     return applicationUrl;
 }
 
+/**
+ Returns a value indicating whether touch device is used.
+*/
+function __isTouchDevice() {
+    return (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0);
+}
+
 
 
 // === Localization
@@ -381,7 +404,7 @@ function __createInstructionsLocalization() {
 /**
  Creates about barcodes information localization.
 */
-function __createAboutBarcodesInformationLocalization() {   
+function __createAboutBarcodesInformationLocalization() {
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-title", "Barcode recognition result");
 
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-recognizedBarcodes", "Recognized barcodes: ");
@@ -458,6 +481,9 @@ function __main() {
     // create UI localizer
     _localizer = new Vintasoft.Shared.VintasoftLocalizationJS();
 
+    _barcodeReaderUiHelper = new BarcodeReaderUiHelperJS(__blockUI, __unblockUI);
+    _barcodeWriterUiHelper = new BarcodeWriterUiHelperJS(__showErrorMessage);
+
     // register new UI elements
     __registerNewUiElements();
 
@@ -502,10 +528,21 @@ function __main() {
     // specify that the image viewer must use the progress image for indicating the image loading progress
     imageViewer1.set_ProgressImage(progressImage);
 
-    // create the composite visual tool, which allows to highligh barcode recongition results in image viewer, select rectangular region on image in image viewer and pan image in image viewer
-    var compositeTool = _docViewer.getVisualToolById("HighlightTool,PanTool,RectangularSelectionTool");
-    // set the composite visual tool as active visual tool in image viewer
-    _docViewer.set_CurrentVisualTool(compositeTool);
+    // names of visual tools in composite visual tool
+    var visualToolNames = "HighlightTool,PanTool";
+    // if touch device is used
+    if (__isTouchDevice()) {
+        // get zoom tool from document viewer
+        var zoomTool = _docViewer.getVisualToolById("ZoomTool");
+        // specify that zoom tool should not disable context menu
+        zoomTool.set_DisableContextMenu(false);
+
+        // add name of zoom tool to the names of visual tools of composite visual tool
+        visualToolNames = visualToolNames + ",ZoomTool";
+    }
+    // get the visual tool
+    var visualTool = _docViewer.getVisualToolById(visualToolNames);
+    _docViewer.set_CurrentVisualTool(visualTool);
 
     // copy the default file to the uploaded image files directory and open the file
     _openFileHelper = new OpenFileHelperJS(_docViewer, __showErrorMessage);

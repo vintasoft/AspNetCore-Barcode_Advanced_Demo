@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "عرض"
 		},
-		"toolsLabel": {
-			"text": "أدوات"
+		"barcodeLabel": {
+			"text": "رمز شريطي"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "تحميل وفتح الملف"
@@ -52,22 +52,10 @@
 			"title": "إعدادات عارض الصور المصغرة"
 		},
 		"panToolButton": {
-			"title": "عموم"
+			"title": "تمييز، تحريك"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "اختيار مستطيل"
-		},
-		"sidePanelCloseButton": {
-			"title": "إظهار الشريط الجانبي"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "الصور المصغرة"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "قراءة الباركود"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "كتابة الباركود"
+			"title": "تمييز، تحديد مستطيل"
 		},
 		"readBarcodesButton": {
 			"title": "قراءة الباركود"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "إعدادات كاتب الباركود"
+		},
+		"sidePanelCloseButton": {
+			"title": "إظهار الشريط الجانبي"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "الصور المصغرة"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "قراءة الباركود"
 		},
 		"gotoFirstPageButton": {
 			"title": "الذهاب إلى الصورة الأولى"

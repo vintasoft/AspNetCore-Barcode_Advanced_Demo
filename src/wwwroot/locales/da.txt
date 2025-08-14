@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Vis"
 		},
-		"toolsLabel": {
-			"text": "Værktøjer"
+		"barcodeLabel": {
+			"text": "Stregkode"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Download og åbn fil"
@@ -52,22 +52,10 @@
 			"title": "Indstillinger for miniaturefremviser"
 		},
 		"panToolButton": {
-			"title": "Panér"
+			"title": "Fremhæv, Panorer"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Rektangulært udvalg"
-		},
-		"sidePanelCloseButton": {
-			"title": "Vis sidebjælke"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniaturebilleder"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Stregkodelæsning"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Stregkode skrivning"
+			"title": "Fremhæv, Rektangulær markering"
 		},
 		"readBarcodesButton": {
 			"title": "Læs stregkoder"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Indstillinger for stregkodeskriver"
+		},
+		"sidePanelCloseButton": {
+			"title": "Vis sidebjælke"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturebilleder"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Stregkodelæsning"
 		},
 		"gotoFirstPageButton": {
 			"title": "Gå til første billede"

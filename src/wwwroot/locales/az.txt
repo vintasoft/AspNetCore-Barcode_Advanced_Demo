@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Baxın"
 		},
-		"toolsLabel": {
-			"text": "Alətlər"
+		"barcodeLabel": {
+			"text": "Barkod"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Faylı yükləyin və açın"
@@ -52,22 +52,10 @@
 			"title": "Miniatür baxıcı parametrləri"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Vurğulayın, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Düzbucaqlı seçim"
-		},
-		"sidePanelCloseButton": {
-			"title": "Yan Paneli göstərin"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniatürlər"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Barkod oxu"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Barkod yazmaq"
+			"title": "Vurğulayın, Düzbucaqlı seçim"
 		},
 		"readBarcodesButton": {
 			"title": "Barkodları oxuyun"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Barkod yazıcı parametrləri"
+		},
+		"sidePanelCloseButton": {
+			"title": "Yan Paneli göstərin"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniatürlər"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barkod oxu"
 		},
 		"gotoFirstPageButton": {
 			"title": "Birinci şəkilə keçin"

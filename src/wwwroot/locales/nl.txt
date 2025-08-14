@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Bekijken"
 		},
-		"toolsLabel": {
-			"text": "Gereedschap"
+		"barcodeLabel": {
+			"text": "Barcode"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Bestand downloaden en openen"
@@ -52,22 +52,10 @@
 			"title": "Miniatuurweergave-instellingen"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Markering, Pan"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Rechthoekige selectie"
-		},
-		"sidePanelCloseButton": {
-			"title": "Toon zijbalk"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniaturen"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Barcode lezen"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Barcode schrijven"
+			"title": "Markering, Rechthoekige selectie"
 		},
 		"readBarcodesButton": {
 			"title": "Streepjescodes lezen"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Instellingen voor streepjescodeschrijvers"
+		},
+		"sidePanelCloseButton": {
+			"title": "Toon zijbalk"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturen"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Barcode lezen"
 		},
 		"gotoFirstPageButton": {
 			"title": "Ga naar eerste afbeelding"

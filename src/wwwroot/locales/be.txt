@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Выгляд"
 		},
-		"toolsLabel": {
-			"text": "Iнструменты"
+		"barcodeLabel": {
+			"text": "Штрыхкод"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Загрузіць і адкрыць файл"
@@ -52,22 +52,10 @@
 			"title": "Налады прагляду эскізаў"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Вылучэнне, панарамаванне"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Прамавугольнае вылучэнне"
-		},
-		"sidePanelCloseButton": {
-			"title": "Паказаць бакавую панэль"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Эскізы"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Чытанне штрых-кода"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Напісанне штрых-кода"
+			"title": "Вылучэнне, прамавугольнае вылучэнне"
 		},
 		"readBarcodesButton": {
 			"title": "Чытайце штрых-коды"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Налады запісу штрыхкодаў"
+		},
+		"sidePanelCloseButton": {
+			"title": "Паказаць бакавую панэль"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Эскізы"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Чытанне штрых-кода"
 		},
 		"gotoFirstPageButton": {
 			"title": "Перайсці да першага малюнка"

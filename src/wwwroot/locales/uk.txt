@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Переглянути"
 		},
-		"toolsLabel": {
-			"text": "Інструменти"
+		"barcodeLabel": {
+			"text": "Штрих-код"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Завантажте та відкрийте файл"
@@ -52,22 +52,10 @@
 			"title": "Налаштування перегляду мініатюр"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Виділення, Панорамування"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Прямокутне виділення"
-		},
-		"sidePanelCloseButton": {
-			"title": "Показати бічну панель"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Мініатюри"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Зчитування штрих-коду"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Написання штрих-коду"
+			"title": "Виділення, Прямокутне виділення"
 		},
 		"readBarcodesButton": {
 			"title": "Читайте штрих-коди"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Параметри запису штрих-коду"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показати бічну панель"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Мініатюри"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Зчитування штрих-коду"
 		},
 		"gotoFirstPageButton": {
 			"title": "Перейти до першого зображення"

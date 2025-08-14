@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Просмотр"
 		},
-		"toolsLabel": {
-			"text": "Инструменты"
+		"barcodeLabel": {
+			"text": "Штрих-коды"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Загрузить и открыть файл"
@@ -52,22 +52,10 @@
 			"title": "Настройки просмотрщика миниатюр"
 		},
 		"panToolButton": {
-			"title": "Панорамирование"
+			"title": "Выделение, панорамирование"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Прямоугольное выделение"
-		},
-		"sidePanelCloseButton": {
-			"title": "Показать боковую панель"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Миниатюры"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Распознавание штрих-кодов"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Генерация штрих-кода"
+			"title": "Выделение, прямоугольное выделение"
 		},
 		"readBarcodesButton": {
 			"title": "Распознать штрих-коды"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Настройки генератора штрих-кода"
+		},
+		"sidePanelCloseButton": {
+			"title": "Показать боковую панель"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Миниатюры"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Распознавание штрих-кодов"
 		},
 		"gotoFirstPageButton": {
 			"title": "Перейти к первому изображению"

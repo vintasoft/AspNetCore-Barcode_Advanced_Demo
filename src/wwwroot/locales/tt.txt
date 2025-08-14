@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Карарга"
 		},
-		"toolsLabel": {
-			"text": "Кораллар"
+		"barcodeLabel": {
+			"text": "Штрих-код"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Файлны йөкләү һәм ачу"
@@ -52,22 +52,10 @@
 			"title": "Эскиз тамашачы көйләүләре"
 		},
 		"panToolButton": {
-			"title": "Пан"
+			"title": "Аңлатма, пан"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Турыпочмаклы сайлау"
-		},
-		"sidePanelCloseButton": {
-			"title": "Ян панельне күрсәт"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Эскизлар"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Штрих-код уку"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Штрих-код язу"
+			"title": "Аңлатма, турыпочмаклы сайлау"
 		},
 		"readBarcodesButton": {
 			"title": "Штрих-кодларны укыгыз"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Штрих-код язучы көйләүләре"
+		},
+		"sidePanelCloseButton": {
+			"title": "Ян панельне күрсәт"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Эскизлар"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Штрих-код уку"
 		},
 		"gotoFirstPageButton": {
 			"title": "Беренче рәсемгә керегез"

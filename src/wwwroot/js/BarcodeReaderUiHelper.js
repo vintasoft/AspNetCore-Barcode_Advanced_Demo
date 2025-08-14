@@ -11,35 +11,17 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
     var _barcodeReaderSettings = new Vintasoft.Barcode.WebBarcodeReaderSettingsJS();
     _barcodeReaderSettings.set_SearchQRModel1Barcodes(true);
     _barcodeReaderSettings.set_PharmacodeMaxValue(1000000000);
-    
+
     var _barcodeReaderSettingsDialog = null;
 
     var _defaultBarcodeReadingInformationText = null;
 
-    
+
 
     /**
      Creates UI panel with barcode recognition functionality.
     */
     BarcodeReaderUiHelperJS.prototype.createBarcodeReadingPanel = function () {
-        // create the button that allows to start the asynchronous barcode recognition process
-        _readBarcodesButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
-            cssClass: "readBarcodes",
-            title: "Read barcodes",
-            localizationId: "readBarcodesButton",
-            css: { "margin-left": "5px" },
-            onClick: __readBarcodesButton_clicked
-        });
-
-        // create the button that allows to view and change the barcode reader settings
-        var barcodeReaderSettingsButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
-            cssClass: "barcodeReaderSettings",
-            title: "Barcode reader settings",
-            localizationId: "barcodeReaderSettingsButton",
-            css: { "margin-left": "5px" },
-            onClick: __barcodeReaderSettingsButton_clicked
-        });
-
         // create the text area, where information about recognized barcodes will be shown
         _recognizedInformationTextarea = new Vintasoft.Imaging.UI.UIElements.WebUiTextareaElementJS({
             text: "",
@@ -59,7 +41,7 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
 
         // create an UI panel, which allows to recognize barcodes in image and see the barcode recognition results
         var barcodeReadingPanel = new Vintasoft.Imaging.UI.Panels.WebUiPanelJS(
-            ["rectangularSelectionToolButton", _readBarcodesButton, barcodeReaderSettingsButton, _recognizedInformationTextarea],
+            [_recognizedInformationTextarea],
             { cssClass: "vsui-sidePanel-content" },
             panelOpenButton
         );
@@ -71,6 +53,30 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
 
         return barcodeReadingPanel;
     }
+
+    BarcodeReaderUiHelperJS.prototype.createReadBarcodesButton = function () {
+        _readBarcodesButton = new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
+            cssClass: "readBarcodes",
+            title: "Read barcodes",
+            localizationId: "readBarcodesButton",
+            css: { "margin-left": "5px" },
+            onClick: __readBarcodesButton_clicked
+        });
+
+        return _readBarcodesButton;
+    }
+
+    BarcodeReaderUiHelperJS.prototype.createBarcodeReaderSettingsButton = function () {
+        // create the button that allows to view and change the barcode reader settings
+        return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
+            cssClass: "barcodeReaderSettings",
+            title: "Barcode reader settings",
+            localizationId: "barcodeReaderSettingsButton",
+            css: { "margin-left": "5px" },
+            onClick: __barcodeReaderSettingsButton_clicked
+        });
+    }
+
 
     function __readBarcodesButton_clicked(event, uiElement) {
         _docViewer = uiElement.get_RootControl();
@@ -144,8 +150,10 @@ var BarcodeReaderUiHelperJS = function (blockUiFunc, unblockUiFunc) {
     */
     function __clearBarcodeInformationTextBox(viewer) {
         if (viewer.get_FocusedImage() !== _barcodeReaderHelper.barcodeImage) {
-            // enable the "Read barcodes" button
-            _readBarcodesButton.set_IsEnabled(true);
+            if (_readBarcodesButton != null) {
+                // enable the "Read barcodes" button
+                _readBarcodesButton.set_IsEnabled(true);
+            }
 
             var barcodeRecognizeRequest = _barcodeReaderHelper.get_BarcodeRecognizeRequest();
             // if request is defined

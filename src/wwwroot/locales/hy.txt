@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Դիտել"
 		},
-		"toolsLabel": {
-			"text": "Գործիքներ"
+		"barcodeLabel": {
+			"text": "Շտրիխ կոդ"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Վերբեռնեք և բացեք ֆայլը"
@@ -52,22 +52,10 @@
 			"title": "Մանրապատկերների դիտման կարգավորումներ"
 		},
 		"panToolButton": {
-			"title": "Պան"
+			"title": "Ընդգծում, Պանորամա"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Ուղղանկյուն ընտրություն"
-		},
-		"sidePanelCloseButton": {
-			"title": "Ցույց տալ կողային վահանակը"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Մանրապատկերներ"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Շտրիխ կոդի ընթերցում"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Շտրիխ կոդ գրելը"
+			"title": "Ընդգծում, Ուղղանկյուն ընտրություն"
 		},
 		"readBarcodesButton": {
 			"title": "Կարդացեք շտրիխ կոդերը"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Շտրիխ գրողի կարգավորումներ"
+		},
+		"sidePanelCloseButton": {
+			"title": "Ցույց տալ կողային վահանակը"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Մանրապատկերներ"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Շտրիխ կոդի ընթերցում"
 		},
 		"gotoFirstPageButton": {
 			"title": "Անցեք առաջին պատկերին"

@@ -6,8 +6,8 @@
 		"viewLabel": {
 			"text": "Ver"
 		},
-		"toolsLabel": {
-			"text": "Herramientas"
+		"barcodeLabel": {
+			"text": "Código de barras"
 		},
 		"uploadAndOpenFileButton": {
 			"title": "Descargar y abrir archivo"
@@ -52,22 +52,10 @@
 			"title": "Configuración del visor de miniaturas"
 		},
 		"panToolButton": {
-			"title": "Pan"
+			"title": "Resaltar, Panorámica"
 		},
 		"rectangularSelectionToolButton": {
-			"title": "Selección rectangular"
-		},
-		"sidePanelCloseButton": {
-			"title": "Mostrar barra lateral"
-		},
-		"showThumbnailViewerPanelButton": {
-			"title": "Miniaturas"
-		},
-		"barcodeReaderPanelButton": {
-			"title": "Lectura de código de barras"
-		},
-		"barcodeWriterPanelButton": {
-			"title": "Escritura de código de barras"
+			"title": "Resaltar, Selección rectangular"
 		},
 		"readBarcodesButton": {
 			"title": "Leer códigos de barras"
@@ -80,6 +68,15 @@
 		},
 		"barcodeWriterSettingsButton": {
 			"title": "Configuración del escritor de códigos de barras"
+		},
+		"sidePanelCloseButton": {
+			"title": "Mostrar barra lateral"
+		},
+		"showThumbnailViewerPanelButton": {
+			"title": "Miniaturas"
+		},
+		"barcodeReaderPanelButton": {
+			"title": "Lectura de código de barras"
 		},
 		"gotoFirstPageButton": {
 			"title": "Ir a la primera imagen"
