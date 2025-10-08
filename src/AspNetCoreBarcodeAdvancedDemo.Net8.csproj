@@ -20,13 +20,13 @@
     <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.1.12.1" />
     <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="6.1.12.1" />
     <PackageReference Include="Vintasoft.Imaging.Pdf" Version="11.1.12.1" />
-    <PackageReference Include="Vintasoft.Barcode" Version="15.2.7.1" />
-    <PackageReference Include="Vintasoft.Barcode.SkiaSharp" Version="15.2.7.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="15.2.8.1" />
+    <PackageReference Include="Vintasoft.Barcode.SkiaSharp" Version="15.2.8.1" />
     <PackageReference Include="Vintasoft.Shared.Web" Version="4.5.0.1" />
     <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="14.1.12.1" />
     <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="14.1.12.1" />
-    <PackageReference Include="Vintasoft.Barcode.Web.Services" Version="15.2.7.1" />
-    <PackageReference Include="Vintasoft.Barcode.AspNetCore.ApiControllers" Version="15.2.7.1" />
+    <PackageReference Include="Vintasoft.Barcode.Web.Services" Version="15.2.8.1" />
+    <PackageReference Include="Vintasoft.Barcode.AspNetCore.ApiControllers" Version="15.2.8.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\Barcodes\MyVintasoftBarcodeApiController.cs" />
