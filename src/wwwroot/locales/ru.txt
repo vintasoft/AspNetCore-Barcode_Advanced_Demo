@@ -16,7 +16,7 @@
 			"title": "Посмотреть список ранее загруженных файлов"
 		},
 		"uploadAndAddFileButton": {
-			"title": "Загрузите и добавьте файл"
+			"title": "Загрузить и добавить файл"
 		},
 		"openFileFromUrlButton": {
 			"title": "Открыть файл по URL"
@@ -25,7 +25,7 @@
 			"title": "Распечатать изображения"
 		},
 		"downloadFileButton": {
-			"title": "Загрузить файл"
+			"title": "Скачать файл"
 		},
 		"exportAndDownloadFileButton": {
 			"title": "Экспортировать и скачать файл"
@@ -513,10 +513,10 @@
 		"vsdv-barcodeReaderSettingsDialog-title": "Настройки распознавателя штрих-кодов",
 		"vsui-dialog-okButton": "ОК",
 		"vsdv-uploadAndOpenFileButton-uploadFileString": "Загрузить и открыть файл",
-		"vsdv-uploadAndAddFileButton-addFileString": "Загрузите и добавьте файл",
+		"vsdv-uploadAndAddFileButton-addFileString": "Загрузить и добавить файл",
 		"vsdv-openFile-addFileString": "Добавить файл",
 		"vsdv-openFile-authenticateFileString": "Аутентификация файла",
-		"vsdv-downloadFile-actionMessage": "Загрузить файл",
+		"vsdv-downloadFile-actionMessage": "Скачать файл",
 		"vsdv-saveChanges-saveChangesInImages": "Сохранить изменения в изображениях",
 		"vsui-documentNavigationTool-getActions": "Получить действия",
 		"vsdv-saveChanges-saveChangesInAnnotations": "Сохранить изменения в аннотациях",

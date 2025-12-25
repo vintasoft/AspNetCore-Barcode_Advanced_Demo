@@ -1,8 +1,5 @@
-﻿using System;
-
-using Vintasoft.Imaging.Pdf;
+﻿using Microsoft.AspNetCore.Hosting;
 using Vintasoft.Imaging.AspNetCore.ApiControllers;
-using Microsoft.AspNetCore.Hosting;
 
 namespace AspNetCoreBarcodeAdvancedDemo.Controllers
 {
