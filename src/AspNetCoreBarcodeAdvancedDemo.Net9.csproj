@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<TargetFramework>net9.0</TargetFramework>
-		<Version>15.0.1.1</Version>
+		<Version>15.0.2.1</Version>
 		<EnableDefaultItems>false</EnableDefaultItems>
 	</PropertyGroup>
 
@@ -14,19 +14,19 @@
 
 	<ItemGroup>
     <PackageReference Include="Vintasoft.Shared" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging" Version="15.0.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="15.0.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.0.1.1" />
+    <PackageReference Include="Vintasoft.Imaging" Version="15.0.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Drawing.SkiaSharp" Version="15.0.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Jbig2Codec" Version="12.0.2.1" />
     <PackageReference Include="Vintasoft.Imaging.Jpeg2000Codec" Version="10.1.0.1" />
-    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="7.0.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.0.1.1" />
-    <PackageReference Include="Vintasoft.Barcode" Version="15.3.5.1" />
-    <PackageReference Include="Vintasoft.Barcode.SkiaSharp" Version="15.3.5.1" />
+    <PackageReference Include="Vintasoft.Imaging.Office.OpenXml" Version="7.0.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.Pdf" Version="12.0.2.1" />
+    <PackageReference Include="Vintasoft.Barcode" Version="15.3.6.1" />
+    <PackageReference Include="Vintasoft.Barcode.SkiaSharp" Version="15.3.6.1" />
     <PackageReference Include="Vintasoft.Shared.Web" Version="4.6.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="15.0.1.1" />
-    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="15.0.1.1" />
-    <PackageReference Include="Vintasoft.Barcode.Web.Services" Version="15.3.5.1" />
-    <PackageReference Include="Vintasoft.Barcode.AspNetCore.ApiControllers" Version="15.3.5.1" />
+    <PackageReference Include="Vintasoft.Imaging.Web.Services" Version="15.0.2.1" />
+    <PackageReference Include="Vintasoft.Imaging.AspNetCore.ApiControllers" Version="15.0.2.1" />
+    <PackageReference Include="Vintasoft.Barcode.Web.Services" Version="15.3.6.1" />
+    <PackageReference Include="Vintasoft.Barcode.AspNetCore.ApiControllers" Version="15.3.6.1" />
 	</ItemGroup>
 <ItemGroup>
   <Compile Include="Controllers\API\Barcodes\MyVintasoftBarcodeApiController.cs" />
