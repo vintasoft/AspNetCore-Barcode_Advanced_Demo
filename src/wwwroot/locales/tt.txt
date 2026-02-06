@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Рәсем җыю диапазоныннан индекс."
 			},
+			"withAnnotationsLabel": {
+				"text": "Аннотацияләр белән"
+			},
+			"pageSettingsLabel": {
+				"text": "Бит көйләүләре:"
+			},
+			"columnCountLabel": {
+				"text": "Багана саны:"
+			},
+			"rowCountLabel": {
+				"text": "Рәтләр саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Рәсем тулылыгы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталь рәвештә үзәккә кую"
+			},
 			"okButton": {
 				"value": "ЯРАРМЫ"
 			},

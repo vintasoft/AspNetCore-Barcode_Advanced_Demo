@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indekss ir ārpus attēlu kolekcijas diapazona."
 			},
+			"withAnnotationsLabel": {
+				"text": "Ar anotācijām"
+			},
+			"pageSettingsLabel": {
+				"text": "Lapas iestatījumi:"
+			},
+			"columnCountLabel": {
+				"text": "Kolonnu skaits:"
+			},
+			"rowCountLabel": {
+				"text": "Rindu skaits:"
+			},
+			"imagePaddingLabel": {
+				"text": "Attēlu papildināšana:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrēt horizontāli"
+			},
 			"okButton": {
 				"value": "labi"
 			},

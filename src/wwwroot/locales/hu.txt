@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Az index nincs a képgyűjtemény indextartományán belül."
 			},
+			"withAnnotationsLabel": {
+				"text": "Jegyzetekkel"
+			},
+			"pageSettingsLabel": {
+				"text": "Oldalbeállítások:"
+			},
+			"columnCountLabel": {
+				"text": "Oszlopok száma:"
+			},
+			"rowCountLabel": {
+				"text": "Sorok száma:"
+			},
+			"imagePaddingLabel": {
+				"text": "Képkitöltés:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vízszintes középre igazítás"
+			},
 			"okButton": {
 				"value": "Rendben"
 			},

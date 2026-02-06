@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "ინდექსი სურათების შეგროვების დიაპაზონის გარეთ."
 			},
+			"withAnnotationsLabel": {
+				"text": "ანოტაციებით"
+			},
+			"pageSettingsLabel": {
+				"text": "გვერდის პარამეტრები:"
+			},
+			"columnCountLabel": {
+				"text": "სვეტების რაოდენობა:"
+			},
+			"rowCountLabel": {
+				"text": "სტრიქონების რაოდენობა:"
+			},
+			"imagePaddingLabel": {
+				"text": "სურათის შევსება:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "ჰორიზონტალურად ცენტრირება"
+			},
 			"okButton": {
 				"value": "კარგი"
 			},

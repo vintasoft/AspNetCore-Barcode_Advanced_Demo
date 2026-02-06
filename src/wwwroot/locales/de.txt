@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Der Index liegt nicht im Indexbereich der Bildsammlung."
 			},
+			"withAnnotationsLabel": {
+				"text": "Mit Anmerkungen"
+			},
+			"pageSettingsLabel": {
+				"text": "Seiteneinstellungen:"
+			},
+			"columnCountLabel": {
+				"text": "Spaltenanzahl:"
+			},
+			"rowCountLabel": {
+				"text": "Zeilenanzahl:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildabstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontal zentrieren"
+			},
 			"okButton": {
 				"value": "OK"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index není v rozsahu indexů kolekce obrázků."
 			},
+			"withAnnotationsLabel": {
+				"text": "S anotacemi"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavení stránky:"
+			},
+			"columnCountLabel": {
+				"text": "Počet sloupců:"
+			},
+			"rowCountLabel": {
+				"text": "Počet řádků:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odsazení obrázku:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodorovně vycentrovat"
+			},
 			"okButton": {
 				"value": "OK"
 			},

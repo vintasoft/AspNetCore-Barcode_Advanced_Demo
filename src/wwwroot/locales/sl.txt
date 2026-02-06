@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks izven obsega zbirke slik."
 			},
+			"withAnnotationsLabel": {
+				"text": "Z opombami"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavitve strani:"
+			},
+			"columnCountLabel": {
+				"text": "Število stolpcev:"
+			},
+			"rowCountLabel": {
+				"text": "Število vrstic:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odmik slike:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodoravno centriranje"
+			},
 			"okButton": {
 				"value": "OK"
 			},

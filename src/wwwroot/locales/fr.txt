@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "L'index n'est pas dans la plage d'index de la collection d'images."
 			},
+			"withAnnotationsLabel": {
+				"text": "Avec annotations"
+			},
+			"pageSettingsLabel": {
+				"text": "Paramètres de la page:"
+			},
+			"columnCountLabel": {
+				"text": "Nombre de colonnes:"
+			},
+			"rowCountLabel": {
+				"text": "Nombre de lignes:"
+			},
+			"imagePaddingLabel": {
+				"text": "Marge intérieure des images:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrer horizontalement"
+			},
 			"okButton": {
 				"value": "OK"
 			},

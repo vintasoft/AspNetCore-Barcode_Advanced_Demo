@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "インデックスはイメージ コレクションのインデックス範囲内にありません。"
 			},
+			"withAnnotationsLabel": {
+				"text": "注釈付き"
+			},
+			"pageSettingsLabel": {
+				"text": "ページ設定："
+			},
+			"columnCountLabel": {
+				"text": "列数:"
+			},
+			"rowCountLabel": {
+				"text": "行数："
+			},
+			"imagePaddingLabel": {
+				"text": "画像のパディング："
+			},
+			"centerHorizontallyLabel": {
+				"text": "水平中央揃え"
+			},
 			"okButton": {
 				"value": "OK"
 			},

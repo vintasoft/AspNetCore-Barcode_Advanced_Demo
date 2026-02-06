@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс не попадает в диапазон индексов коллекции изображений."
 			},
+			"withAnnotationsLabel": {
+				"text": "С аннотациями"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки страницы:"
+			},
+			"columnCountLabel": {
+				"text": "Количество столбцов:"
+			},
+			"rowCountLabel": {
+				"text": "Количество строк:"
+			},
+			"imagePaddingLabel": {
+				"text": "Отступы изображения:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центрировать по горизонтали"
+			},
 			"okButton": {
 				"value": "ОК"
 			},

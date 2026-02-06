@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Kielezo nje ya safu ya mkusanyiko wa picha."
 			},
+			"withAnnotationsLabel": {
+				"text": "Na maelezo"
+			},
+			"pageSettingsLabel": {
+				"text": "Mipangilio ya ukurasa:"
+			},
+			"columnCountLabel": {
+				"text": "Hesabu ya safu:"
+			},
+			"rowCountLabel": {
+				"text": "Idadi ya safu mlalo:"
+			},
+			"imagePaddingLabel": {
+				"text": "Upau wa picha:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Piga katikati kwa mlalo"
+			},
 			"okButton": {
 				"value": "sawa"
 			},

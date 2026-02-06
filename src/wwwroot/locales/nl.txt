@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "De index valt niet binnen het indexbereik van de afbeeldingencollectie."
 			},
+			"withAnnotationsLabel": {
+				"text": "Met annotaties"
+			},
+			"pageSettingsLabel": {
+				"text": "Pagina-instellingen:"
+			},
+			"columnCountLabel": {
+				"text": "Aantal kolommen:"
+			},
+			"rowCountLabel": {
+				"text": "Aantal rijen:"
+			},
+			"imagePaddingLabel": {
+				"text": "Afbeeldingsafstand:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Horizontaal centreren"
+			},
 			"okButton": {
 				"value": "OK"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index out of range of image collection."
 			},
+			"withAnnotationsLabel": {
+				"text": "With annotations"
+			},
+			"pageSettingsLabel": {
+				"text": "Page settings:"
+			},
+			"columnCountLabel": {
+				"text": "Column count:"
+			},
+			"rowCountLabel": {
+				"text": "Row count:"
+			},
+			"imagePaddingLabel": {
+				"text": "Image padding:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Center horizontally"
+			},
 			"okButton": {
 				"value": "OK"
 			},

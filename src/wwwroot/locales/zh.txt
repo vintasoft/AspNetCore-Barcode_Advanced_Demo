@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "索引超出图像集合范围。"
 			},
+			"withAnnotationsLabel": {
+				"text": "带注释"
+			},
+			"pageSettingsLabel": {
+				"text": "页面设置："
+			},
+			"columnCountLabel": {
+				"text": "列数："
+			},
+			"rowCountLabel": {
+				"text": "行数："
+			},
+			"imagePaddingLabel": {
+				"text": "图像边距："
+			},
+			"centerHorizontallyLabel": {
+				"text": "水平居中"
+			},
 			"okButton": {
 				"value": "好的"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Hakemisto ei ole kuvakokoelman indeksialueella."
 			},
+			"withAnnotationsLabel": {
+				"text": "Merkintöjen kanssa"
+			},
+			"pageSettingsLabel": {
+				"text": "Sivun asetukset:"
+			},
+			"columnCountLabel": {
+				"text": "Sarakkeiden määrä:"
+			},
+			"rowCountLabel": {
+				"text": "Rivien määrä:"
+			},
+			"imagePaddingLabel": {
+				"text": "Kuvan täyttö:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Keskitä vaakasuunnassa"
+			},
 			"okButton": {
 				"value": "OK"
 			},

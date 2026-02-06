@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks tasvirlar to‘plami doirasidan tashqarida."
 			},
+			"withAnnotationsLabel": {
+				"text": "Izohlar bilan"
+			},
+			"pageSettingsLabel": {
+				"text": "Sahifa sozlamalari:"
+			},
+			"columnCountLabel": {
+				"text": "Ustunlar soni:"
+			},
+			"rowCountLabel": {
+				"text": "Qatorlar soni:"
+			},
+			"imagePaddingLabel": {
+				"text": "Tasvir to'ldirilishi:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Gorizontal ravishda markazlashtiriladi"
+			},
 			"okButton": {
 				"value": "KELISHDIKMI"
 			},

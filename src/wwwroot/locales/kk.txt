@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс кескіндер жинағының ауқымынан тыс."
 			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялармен"
+			},
+			"pageSettingsLabel": {
+				"text": "Бет параметрлері:"
+			},
+			"columnCountLabel": {
+				"text": "Бағанды ​​санау:"
+			},
+			"rowCountLabel": {
+				"text": "Қатар саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сурет толтыруы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Көлденеңінен ортаға орналастыру"
+			},
 			"okButton": {
 				"value": "ЖАРАЙДЫ МА"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індэкс па-за дыяпазонам калекцыі малюнкаў."
 			},
+			"withAnnotationsLabel": {
+				"text": "З анатацыямі"
+			},
+			"pageSettingsLabel": {
+				"text": "Налады старонкі:"
+			},
+			"columnCountLabel": {
+				"text": "Колькасць слупкоў:"
+			},
+			"rowCountLabel": {
+				"text": "Колькасць радкоў:"
+			},
+			"imagePaddingLabel": {
+				"text": "Адступы да выявы:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Гарызантальна адцэнтраваць"
+			},
 			"okButton": {
 				"value": "OK"
 			},

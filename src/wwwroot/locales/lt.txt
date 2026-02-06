@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksas nepatenka į vaizdų rinkinio diapazoną."
 			},
+			"withAnnotationsLabel": {
+				"text": "Su anotacijomis"
+			},
+			"pageSettingsLabel": {
+				"text": "Puslapio nustatymai:"
+			},
+			"columnCountLabel": {
+				"text": "Stulpelių skaičius:"
+			},
+			"rowCountLabel": {
+				"text": "Eilučių skaičius:"
+			},
+			"imagePaddingLabel": {
+				"text": "Vaizdo užpildymas:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centruoti horizontaliai"
+			},
 			"okButton": {
 				"value": "Gerai"
 			},

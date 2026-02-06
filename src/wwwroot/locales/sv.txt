@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexet ligger inte inom bildsamlingens indexintervall."
 			},
+			"withAnnotationsLabel": {
+				"text": "Med anteckningar"
+			},
+			"pageSettingsLabel": {
+				"text": "Sidinställningar:"
+			},
+			"columnCountLabel": {
+				"text": "Antal kolumner:"
+			},
+			"rowCountLabel": {
+				"text": "Radantal:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildfyllning:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrera horisontellt"
+			},
 			"okButton": {
 				"value": "OK"
 			},

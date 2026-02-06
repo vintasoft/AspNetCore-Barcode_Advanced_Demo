@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс аз доираи ҷамъоварии тасвирҳо берун аст."
 			},
+			"withAnnotationsLabel": {
+				"text": "Бо шарҳҳо"
+			},
+			"pageSettingsLabel": {
+				"text": "Танзимоти саҳифа:"
+			},
+			"columnCountLabel": {
+				"text": "Шумораи сутунҳо:"
+			},
+			"rowCountLabel": {
+				"text": "Шумораи сатрҳо:"
+			},
+			"imagePaddingLabel": {
+				"text": "Пӯшиши тасвир:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Ба таври уфуқӣ дар марказ ҷойгир кунед"
+			},
 			"okButton": {
 				"value": "ДУРУСТ"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeks pildikogu ulatusest väljas."
 			},
+			"withAnnotationsLabel": {
+				"text": "Märkustega"
+			},
+			"pageSettingsLabel": {
+				"text": "Lehe seaded:"
+			},
+			"columnCountLabel": {
+				"text": "Veergude arv:"
+			},
+			"rowCountLabel": {
+				"text": "Ridade arv:"
+			},
+			"imagePaddingLabel": {
+				"text": "Pildi täitmine:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Tsentreeri horisontaalselt"
+			},
 			"okButton": {
 				"value": "Okei"
 			},

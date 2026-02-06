@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "الفهرس ليس ضمن نطاق الفهرس لمجموعة الصور."
 			},
+			"withAnnotationsLabel": {
+				"text": "مع التعليقات التوضيحية"
+			},
+			"pageSettingsLabel": {
+				"text": "إعدادات الصفحة:"
+			},
+			"columnCountLabel": {
+				"text": "عدد الأعمدة:"
+			},
+			"rowCountLabel": {
+				"text": "عدد الصفوف:"
+			},
+			"imagePaddingLabel": {
+				"text": "تباعد الصورة:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "توسيط أفقي"
+			},
 			"okButton": {
 				"value": "موافق"
 			},

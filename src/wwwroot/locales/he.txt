@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "האינדקס אינו בטווח האינדקס של אוסף התמונות."
 			},
+			"withAnnotationsLabel": {
+				"text": "עם הערות"
+			},
+			"pageSettingsLabel": {
+				"text": "הגדרות עמוד:"
+			},
+			"columnCountLabel": {
+				"text": "ספירת עמודות:"
+			},
+			"rowCountLabel": {
+				"text": "ספירת שורות:"
+			},
+			"imagePaddingLabel": {
+				"text": "ריפוד תמונות:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "מרכז אופקי"
+			},
 			"okButton": {
 				"value": "בסדר"
 			},

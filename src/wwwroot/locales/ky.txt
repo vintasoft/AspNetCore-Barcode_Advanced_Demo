@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индекс сүрөттөр жыйнагынын диапазонунан тышкары."
 			},
+			"withAnnotationsLabel": {
+				"text": "Аннотациялар менен"
+			},
+			"pageSettingsLabel": {
+				"text": "Барактын жөндөөлөрү:"
+			},
+			"columnCountLabel": {
+				"text": "Мамычанын саны:"
+			},
+			"rowCountLabel": {
+				"text": "Саптардын саны:"
+			},
+			"imagePaddingLabel": {
+				"text": "Сүрөттүн толтурулушу:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Горизонталдуу түрдө борборлоштуруу"
+			},
 			"okButton": {
 				"value": "макул"
 			},

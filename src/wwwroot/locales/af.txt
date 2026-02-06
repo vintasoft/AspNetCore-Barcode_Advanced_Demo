@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Die indeks is nie binne die indeksreeks van die beeldversameling nie."
 			},
+			"withAnnotationsLabel": {
+				"text": "Met aantekeninge"
+			},
+			"pageSettingsLabel": {
+				"text": "Bladsyinstellings:"
+			},
+			"columnCountLabel": {
+				"text": "Kolomtelling:"
+			},
+			"rowCountLabel": {
+				"text": "Rytelling:"
+			},
+			"imagePaddingLabel": {
+				"text": "Beeldopvulling:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentreer horisontaal"
+			},
 			"okButton": {
 				"value": "OK"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Ինդեքս՝ պատկերների հավաքածուից դուրս:"
 			},
+			"withAnnotationsLabel": {
+				"text": "Նշումներով"
+			},
+			"pageSettingsLabel": {
+				"text": "Էջի կարգավորումներ՝"
+			},
+			"columnCountLabel": {
+				"text": "Սյունակների քանակը."
+			},
+			"rowCountLabel": {
+				"text": "Տողերի քանակ՝"
+			},
+			"imagePaddingLabel": {
+				"text": "Պատկերի լրացում՝"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Կենտրոնացնել հորիզոնական"
+			},
 			"okButton": {
 				"value": "լավ"
 			},

@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "सूचकांक छवि संग्रह की अनुक्रमणिका सीमा के भीतर नहीं है।"
 			},
+			"withAnnotationsLabel": {
+				"text": "एनोटेशन के साथ"
+			},
+			"pageSettingsLabel": {
+				"text": "पेज सेटिंग:"
+			},
+			"columnCountLabel": {
+				"text": "कॉलम गिनती:"
+			},
+			"rowCountLabel": {
+				"text": "रो काउंट:"
+			},
+			"imagePaddingLabel": {
+				"text": "इमेज पैडिंग:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "हॉरिजॉन्टली सेंटर करें"
+			},
 			"okButton": {
 				"value": "ठीक है"
 			},

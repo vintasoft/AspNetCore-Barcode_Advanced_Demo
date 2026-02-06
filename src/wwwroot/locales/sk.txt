@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Index je mimo rozsahu zbierky obrázkov."
 			},
+			"withAnnotationsLabel": {
+				"text": "S anotáciami"
+			},
+			"pageSettingsLabel": {
+				"text": "Nastavenia stránky:"
+			},
+			"columnCountLabel": {
+				"text": "Počet stĺpcov:"
+			},
+			"rowCountLabel": {
+				"text": "Počet riadkov:"
+			},
+			"imagePaddingLabel": {
+				"text": "Odsadenie obrázka:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Vodorovne vycentrovať"
+			},
 			"okButton": {
 				"value": "OK"
 			},

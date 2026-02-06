@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Індекс поза діапазоном колекції зображень."
 			},
+			"withAnnotationsLabel": {
+				"text": "З анотаціями"
+			},
+			"pageSettingsLabel": {
+				"text": "Налаштування сторінки:"
+			},
+			"columnCountLabel": {
+				"text": "Кількість стовпців:"
+			},
+			"rowCountLabel": {
+				"text": "Кількість рядків:"
+			},
+			"imagePaddingLabel": {
+				"text": "Відступи від зображення:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Вирівняти по центру по горизонталі"
+			},
 			"okButton": {
 				"value": "В порядку"
 			},

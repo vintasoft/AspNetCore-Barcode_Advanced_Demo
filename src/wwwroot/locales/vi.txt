@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Chỉ mục không nằm trong phạm vi chỉ mục của bộ sưu tập hình ảnh."
 			},
+			"withAnnotationsLabel": {
+				"text": "Với chú thích"
+			},
+			"pageSettingsLabel": {
+				"text": "Cài đặt trang:"
+			},
+			"columnCountLabel": {
+				"text": "Số lượng cột:"
+			},
+			"rowCountLabel": {
+				"text": "Số hàng:"
+			},
+			"imagePaddingLabel": {
+				"text": "Khoảng cách lề hình ảnh:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Căn giữa theo chiều ngang"
+			},
 			"okButton": {
 				"value": "OK"
 			},

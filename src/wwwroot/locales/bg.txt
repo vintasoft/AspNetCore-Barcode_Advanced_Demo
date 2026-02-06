@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Индексът не е в обхвата на индекса на колекцията от изображения."
 			},
+			"withAnnotationsLabel": {
+				"text": "С анотации"
+			},
+			"pageSettingsLabel": {
+				"text": "Настройки на страницата:"
+			},
+			"columnCountLabel": {
+				"text": "Брой колони:"
+			},
+			"rowCountLabel": {
+				"text": "Брой редове:"
+			},
+			"imagePaddingLabel": {
+				"text": "Подреждане на изображението:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Центриране хоризонтално"
+			},
 			"okButton": {
 				"value": "ОК"
 			},

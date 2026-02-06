@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Surat ýygnamagyň çäginden çykma."
 			},
+			"withAnnotationsLabel": {
+				"text": "Bellikler bilen"
+			},
+			"pageSettingsLabel": {
+				"text": "Sahypa sazlamalary:"
+			},
+			"columnCountLabel": {
+				"text": "Sütün sany:"
+			},
+			"rowCountLabel": {
+				"text": "Setir sany:"
+			},
+			"imagePaddingLabel": {
+				"text": "Surat boşlugy:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Gorizontal taýdan merkezleşdiriň"
+			},
 			"okButton": {
 				"value": "Bolýar"
 			},

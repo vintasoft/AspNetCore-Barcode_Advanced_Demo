@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indexul nu se află în intervalul de index al colecției de imagini."
 			},
+			"withAnnotationsLabel": {
+				"text": "Cu adnotări"
+			},
+			"pageSettingsLabel": {
+				"text": "Setări pagină:"
+			},
+			"columnCountLabel": {
+				"text": "Număr de coloane:"
+			},
+			"rowCountLabel": {
+				"text": "Număr de rânduri:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ciclu de imagini:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrare pe orizontală"
+			},
 			"okButton": {
 				"value": "OK"
 			},

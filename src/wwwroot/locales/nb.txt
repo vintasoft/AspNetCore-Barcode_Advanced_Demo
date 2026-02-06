@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Indeksen er ikke innenfor indeksområdet til bildesamlingen."
 			},
+			"withAnnotationsLabel": {
+				"text": "Med annoteringer"
+			},
+			"pageSettingsLabel": {
+				"text": "Sideinnstillinger:"
+			},
+			"columnCountLabel": {
+				"text": "Antall kolonner:"
+			},
+			"rowCountLabel": {
+				"text": "Radtall:"
+			},
+			"imagePaddingLabel": {
+				"text": "Bildepolstring:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Sentrer horisontalt"
+			},
 			"okButton": {
 				"value": "OK"
 			},

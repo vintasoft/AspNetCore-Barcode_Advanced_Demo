@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "인덱스가 이미지 컬렉션의 인덱스 범위 내에 있지 않습니다."
 			},
+			"withAnnotationsLabel": {
+				"text": "주석 포함"
+			},
+			"pageSettingsLabel": {
+				"text": "페이지 설정:"
+			},
+			"columnCountLabel": {
+				"text": "열 수:"
+			},
+			"rowCountLabel": {
+				"text": "행 개수:"
+			},
+			"imagePaddingLabel": {
+				"text": "이미지 여백:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "가로 가운데 정렬"
+			},
 			"okButton": {
 				"value": "확인"
 			},

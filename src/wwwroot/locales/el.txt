@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Το ευρετήριο δεν βρίσκεται εντός του εύρους ευρετηρίου της συλλογής εικόνων."
 			},
+			"withAnnotationsLabel": {
+				"text": "Με σχολιασμούς"
+			},
+			"pageSettingsLabel": {
+				"text": "Ρυθμίσεις σελίδας:"
+			},
+			"columnCountLabel": {
+				"text": "Πλήθος στηλών:"
+			},
+			"rowCountLabel": {
+				"text": "Αριθμός γραμμών:"
+			},
+			"imagePaddingLabel": {
+				"text": "Επένδυση εικόνας:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Κεντράρισμα οριζόντια"
+			},
 			"okButton": {
 				"value": "ΟΚ"
 			},

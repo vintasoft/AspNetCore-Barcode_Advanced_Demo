@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Inkomba ayikho ebangeni lokuqoqwa kwezithombe."
 			},
+			"withAnnotationsLabel": {
+				"text": "Ngezichasiselo"
+			},
+			"pageSettingsLabel": {
+				"text": "Izilungiselelo zekhasi:"
+			},
+			"columnCountLabel": {
+				"text": "Inani lekholomu:"
+			},
+			"rowCountLabel": {
+				"text": "Inani lemigqa:"
+			},
+			"imagePaddingLabel": {
+				"text": "Ukufiphaza isithombe:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Phakamisa phakathi nendawo ngokuvundlile"
+			},
 			"okButton": {
 				"value": "KULUNGILE"
 			},

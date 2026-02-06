@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "El índice no está dentro del rango de índice de la colección de imágenes."
 			},
+			"withAnnotationsLabel": {
+				"text": "Con anotaciones"
+			},
+			"pageSettingsLabel": {
+				"text": "Configuración de página:"
+			},
+			"columnCountLabel": {
+				"text": "Recuento de columnas:"
+			},
+			"rowCountLabel": {
+				"text": "Número de filas:"
+			},
+			"imagePaddingLabel": {
+				"text": "Relleno de imagen:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Centrar horizontalmente"
+			},
 			"okButton": {
 				"value": "OK"
 			},

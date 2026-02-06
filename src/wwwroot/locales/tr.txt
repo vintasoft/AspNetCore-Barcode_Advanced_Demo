@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "Dizin, görüntü koleksiyonunun indeks aralığında değil."
 			},
+			"withAnnotationsLabel": {
+				"text": "Ek açıklamalarla birlikte"
+			},
+			"pageSettingsLabel": {
+				"text": "Sayfa ayarları:"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayısı:"
+			},
+			"rowCountLabel": {
+				"text": "Satır sayısı:"
+			},
+			"imagePaddingLabel": {
+				"text": "Görüntü dolgusu:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Yatay olarak ortala"
+			},
 			"okButton": {
 				"value": "Tamam"
 			},

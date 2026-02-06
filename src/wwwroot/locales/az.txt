@@ -188,6 +188,24 @@
 			"outOfRangeErrorMessageLabel": {
 				"text": "İndeks şəkil kolleksiyasının diapazonundan kənardadır."
 			},
+			"withAnnotationsLabel": {
+				"text": "Annotasiyalarla"
+			},
+			"pageSettingsLabel": {
+				"text": "Səhifə parametrləri:"
+			},
+			"columnCountLabel": {
+				"text": "Sütun sayı:"
+			},
+			"rowCountLabel": {
+				"text": "Sətir sayı:"
+			},
+			"imagePaddingLabel": {
+				"text": "Şəkil dolğusu:"
+			},
+			"centerHorizontallyLabel": {
+				"text": "Üfüqi olaraq mərkəzləşdirin"
+			},
 			"okButton": {
 				"value": "tamam"
 			},
