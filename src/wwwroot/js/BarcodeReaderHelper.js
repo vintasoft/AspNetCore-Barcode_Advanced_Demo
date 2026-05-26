@@ -105,8 +105,11 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         // save information about recognized barcodes
         _barcodeInformation = data.results;
 
+        // recognition time
+        var recognitionTime = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-recognizedBarcodes-time") + " " + data.recognitionTime;
+
         // get text information about recognized barcodes
-        var infoAboutBarcodes = __getTextInformationAboutBarcodes(_barcodeInformation);
+        var infoAboutBarcodes = recognitionTime + "\n\n" + __getTextInformationAboutBarcodes(_barcodeInformation);
 
         // show information about recognized barcodes
         __writeBarcodeInformation(infoAboutBarcodes);
@@ -480,17 +483,26 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         hexValue.append(barcodeInfo.hexValue);
         barcodeInfoDiv.append(__boldText(hexValueText), __getBr(), hexValue);
 
+        var qualityTestInformationText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation");
+        // "<br /><b>" + qualityTestInformationText + "</b><br />";
+        barcodeInfoDiv.append(__getBr(), __boldText(qualityTestInformationText), __getBr());
         if (barcodeQualityTestInfo != null) {
-            var qualityTestInformationText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation");
-            // "<br /><b>" + qualityTestInformationText + "</b><br />";
-            barcodeInfoDiv.append(__getBr(), __boldText(qualityTestInformationText), __getBr());
-
             if (barcodeQualityTestInfo.tests != null) {
                 barcodeInfoDiv.append(...__createMarkupForISO15416TestResult(barcodeQualityTestInfo.tests));
             }
             else {
                 barcodeInfoDiv.append(...__createMarkupForISO15415TestResult(barcodeQualityTestInfo));
             }
+        }
+        else {
+            var qualityTestResultText;
+            if (_barcodeReader.get_Settings().get_CollectTestInformation()) {
+                qualityTestResultText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation-notSupported");
+            }
+            else {
+                qualityTestResultText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-qualityTestInformation-notCollected");
+            }
+            barcodeInfoDiv.append(qualityTestResultText, __getBr());
         }
 
         return barcodeInfoDiv;
@@ -676,15 +688,32 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
 
                 if (symbol.decode != null)
                     table.append(__createTableRowForQualityTestProperty("Decode", symbol.decode.value, symbol.decode.grade));
-                table.append(__createTableRowForQualityTestProperty("MaxReflectance", Number(symbol.maxReflectance.value).toFixed(1) + "%", symbol.maxReflectance.grade));
-                table.append(__createTableRowForQualityTestProperty("MinReflectance", Number(symbol.minReflectance.value).toFixed(1) + "%", symbol.minReflectance.grade));
-                table.append(__createTableRowForQualityTestProperty("GlobalThreshold", Number(symbol.globalThreshold.value).toFixed(1) + "%", symbol.globalThreshold.grade));
-                table.append(__createTableRowForQualityTestProperty("SymbolContrast", Number(symbol.symbolContrast.value).toFixed(1) + "%", symbol.symbolContrast.grade));
-                table.append(__createTableRowForQualityTestProperty("MinEdgeContrast", Number(symbol.minEdgeContrast.value).toFixed(1) + "%", symbol.minEdgeContrast.grade));
-                table.append(__createTableRowForQualityTestProperty("Modulation", Number(symbol.modulation.value).toFixed(2), symbol.modulation.grade));
-                table.append(__createTableRowForQualityTestProperty("Defects", Number(symbol.defects.value).toFixed(2), symbol.defects.grade));
+                table.append(__createTableRowForQualityTestProperty("MaxReflectance", symbol.maxReflectance.value, symbol.maxReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("MinReflectance", symbol.minReflectance.value, symbol.minReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("GlobalThreshold", symbol.globalThreshold.value, symbol.globalThreshold.grade));
+                table.append(__createTableRowForQualityTestProperty("SymbolContrast", symbol.symbolContrast.value, symbol.symbolContrast.grade));
+                if (symbol.minEdgeContrast != null)
+                    table.append(__createTableRowForQualityTestProperty("MinEdgeContrast", symbol.minEdgeContrast.value, symbol.minEdgeContrast.grade));
+                if (symbol.modulation != null)
+                    table.append(__createTableRowForQualityTestProperty("Modulation", symbol.modulation.value, symbol.modulation.grade));
+                if (symbol.defects != null)
+                    table.append(__createTableRowForQualityTestProperty("Defects", symbol.defects.value, symbol.defects.grade));
                 if (symbol.decodability != null)
-                    table.append(__createTableRowForQualityTestProperty("Decodability", Number(symbol.decodability.value).toFixed(2), symbol.decodability.grade));
+                    table.append(__createTableRowForQualityTestProperty("Decodability", symbol.decodability.value, symbol.decodability.grade));
+                if (symbol.printContrastSignal != null)
+                    table.append(__createTableRowForQualityTestProperty("PrintContrastSignal", symbol.printContrastSignal.value, symbol.printContrastSignal.grade));
+                if (symbol.averageBarGain != null)
+                    table.append(__createTableRowForQualityTestProperty("AverageBarGain", symbol.averageBarGain.value, symbol.averageBarGain.grade));
+                if (symbol.whiteNarrowBarWidth != null)
+                    table.append(__createTableRowForQualityTestProperty("WhiteNarrowBarWidth", symbol.whiteNarrowBarWidth.value, symbol.whiteNarrowBarWidth.grade));
+                if (symbol.blackNarrowBarWidth != null)
+                    table.append(__createTableRowForQualityTestProperty("BlackNarrowBarWidth", symbol.blackNarrowBarWidth.value, symbol.blackNarrowBarWidth.grade));
+                if (symbol.blackWhiteRatio != null)
+                    table.append(__createTableRowForQualityTestProperty("BlackWhiteRatio", symbol.blackWhiteRatio.value, symbol.blackWhiteRatio.grade));
+                if (symbol.quietZoneLeft != null)
+                    table.append(__createTableRowForQualityTestProperty("QuietZoneLeft", symbol.quietZoneLeft.value, symbol.quietZoneLeft.grade));
+                if (symbol.quietZoneRight != null)
+                    table.append(__createTableRowForQualityTestProperty("QuietZoneRight", symbol.quietZoneRight.value, symbol.quietZoneRight.grade));
                 table.append(__createTableRowForQualityTestProperty("ScanGrade", symbol.scanGrade.value, symbol.scanGrade.grade));
             }
 
@@ -725,9 +754,9 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
             table.append(tr);
 
             table.append(__createTableRowForQualityTestProperty("Decode", testInfo.decode.value, testInfo.decode.grade));
-            table.append(__createTableRowForQualityTestProperty("UnusedErrorCorrection", Number(testInfo.unusedErrorCorrection.value).toFixed(2) + "%", testInfo.unusedErrorCorrection.grade));
+            table.append(__createTableRowForQualityTestProperty("UnusedErrorCorrection", testInfo.unusedErrorCorrection.value, testInfo.unusedErrorCorrection.grade));
             if (testInfo.codewordYield != null)
-                table.append(__createTableRowForQualityTestProperty("CodewordYield", testInfo.codewordYield.value + "%", testInfo.codewordYield.grade));
+                table.append(__createTableRowForQualityTestProperty("CodewordYield", testInfo.codewordYield.value, testInfo.codewordYield.grade));
             if (testInfo.codewordPrintQualityModulation != null)
                 table.append(__createTableRowForQualityTestProperty("CodewordPrintQualityModulation", testInfo.codewordPrintQualityModulation.value, testInfo.codewordPrintQualityModulation.grade));
             if (testInfo.codewordPrintQualityDefects != null)
@@ -737,28 +766,28 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
             if (testInfo.codewordPrintQuality != null)
                 table.append(__createTableRowForQualityTestProperty("CodewordPrintQuality", testInfo.codewordPrintQuality.value, testInfo.codewordPrintQuality.grade));
             if (testInfo.maxReflectance != null)
-                table.append(__createTableRowForQualityTestProperty("MaxReflectance", Number(testInfo.maxReflectance.value).toFixed(2) + "%", testInfo.maxReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("MaxReflectance", testInfo.maxReflectance.value, testInfo.maxReflectance.grade));
             if (testInfo.minReflectance != null)
-                table.append(__createTableRowForQualityTestProperty("MinReflectance", Number(testInfo.minReflectance.value).toFixed(2) + "%", testInfo.minReflectance.grade));
+                table.append(__createTableRowForQualityTestProperty("MinReflectance", testInfo.minReflectance.value, testInfo.minReflectance.grade));
             if (testInfo.symbolContrast != null)
-                table.append(__createTableRowForQualityTestProperty("SymbolContrast", Number(testInfo.symbolContrast.value).toFixed(2) + "%", testInfo.symbolContrast.grade));
+                table.append(__createTableRowForQualityTestProperty("SymbolContrast", testInfo.symbolContrast.value, testInfo.symbolContrast.grade));
             if (testInfo.axialNonuniformity != null)
-                table.append(__createTableRowForQualityTestProperty("AxialNonuniformity", Number(testInfo.axialNonuniformity.value).toFixed(2), testInfo.axialNonuniformity.grade));
+                table.append(__createTableRowForQualityTestProperty("AxialNonuniformity", testInfo.axialNonuniformity.value, testInfo.axialNonuniformity.grade));
             if (testInfo.gridNonuniformity != null)
-                table.append(__createTableRowForQualityTestProperty("GridNonuniformity", Number(testInfo.gridNonuniformity.value).toFixed(2) + " cell", testInfo.gridNonuniformity.grade));
+                table.append(__createTableRowForQualityTestProperty("GridNonuniformity", testInfo.gridNonuniformity.value, testInfo.gridNonuniformity.grade));
             if (testInfo.modulation != null)
                 table.append(__createTableRowForQualityTestProperty("Modulation", testInfo.modulation.value, testInfo.modulation.grade));
-            if (testInfo.reflectanceMargin != null)
-                table.append(__createTableRowForQualityTestProperty("ReflectanceMargin", testInfo.reflectanceMargin.value, testInfo.reflectanceMargin.grade));
+            if (testInfo.printGrowth != null)
+                table.append(__createTableRowForQualityTestProperty("PrintGrowth", testInfo.printGrowth.value, testInfo.printGrowth.grade));
             if (testInfo.fixedPatternDamage != null)
                 table.append(__createTableRowForQualityTestProperty("FixedPatternDamage", testInfo.fixedPatternDamage.value, testInfo.fixedPatternDamage.grade));
             if (testInfo.additionalGrades != null)
                 for (var i = 0; i < testInfo.additionalGrades.length; i++)
                     table.append(__createTableRowForQualityTestProperty(testInfo.additionalGrades[i].value, "", testInfo.additionalGrades[i].grade));
             if (testInfo.quietZone != null)
-                table.append(__createTableRowForQualityTestProperty("QuietZone", Number(testInfo.quietZone.value).toFixed(2) + "%", testInfo.quietZone.grade));
-            table.append(__createTableRowForQualityTestProperty("DistortionAngle", Number(testInfo.distortionAngle.value).toFixed(2) + "°", testInfo.distortionAngle.grade));
-            table.append(__createTableRowForQualityTestProperty("ScanGrade", testInfo.scanGrade.value, testInfo.scanGrade.grade));
+                table.append(__createTableRowForQualityTestProperty("QuietZone", testInfo.quietZone.value, testInfo.quietZone.grade));
+            table.append(__createTableRowForQualityTestProperty("DistortionAngle", testInfo.distortionAngle.value, testInfo.distortionAngle.grade));
+            table.append(__createTableRowForQualityTestProperty("OverallSymbolGrade", testInfo.overallSymbolGrade.value, testInfo.overallSymbolGrade.grade));
         }
         htmlMarkupElements.push(table);
 

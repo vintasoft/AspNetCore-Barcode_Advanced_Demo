@@ -383,6 +383,9 @@ function __createInstructionsLocalization() {
     var barcodeReadingInformationText_step4 = "4. Click on highlighted barcode in image viewer and you will see an extended information about recognized barcode.";
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingInformationText-step4", barcodeReadingInformationText_step4);
 
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-qualityTestInformation-notCollected", "Barcode print quality test information is not collected. Please open 'Reader Settings' and set value of 'CollectTestInformation' property to 'true' if you want to collect the barcode print quality test information.");
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-qualityTestInformation-notSupported", "Barcode print quality test is not supported for this barcode type.");
+
 
     var barcodeReadingNoBarcodesInformationText_str1 = "No barcodes found.";
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str1", barcodeReadingNoBarcodesInformationText_str1);
@@ -390,6 +393,9 @@ function __createInstructionsLocalization() {
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str2", barcodeReadingNoBarcodesInformationText_str2);
     var barcodeReadingNoBarcodesInformationText_str3 = "Please send image with barcode to support@vintasoft.com if you cannot recognize barcode - we will do the best to help you.";
     Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReadingNoBarcodesInformationText-str3", barcodeReadingNoBarcodesInformationText_str3);
+
+    var barcodeReadingRecognitionTime = "Recognition time in milliseconds:";
+    Vintasoft.Shared.VintasoftLocalizationJS.setStringConstant("vsdv-barcodeReader-recognizedBarcodes-time", barcodeReadingRecognitionTime);    
 
 
     var barcodeWritingInformationText_start = "Please do the following steps for writing barcode:";
