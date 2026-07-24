@@ -1,0 +1,39 @@
+﻿<script src="@Url.Content("~/js/UI/Dialogs/Barcode/Gs1ValueEditorDialog.js")" type="text/javascript"></script>
+<div class="modal" id="gs1ValueEditorDialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="gs1ValueEditorDialogTitle">GS1 Value Editor</h5>
+            </div>
+            <div class="modal-body">
+                <label for="gs1PrintableValue">GS1 printable value:</label>
+                <br />
+                <input type="text" id="gs1PrintableValue" style="width: 550px;" tabindex="-1" value="(01)01234567890128" readonly />
+                <br />
+                <br />
+                <label for="gs1Value">GS1 value (set of GS1 Application Identifier values):</label>
+                <br />
+                <table id="gs1Value" border="1" style="width: 550px;">
+                    <tr>
+                        <th>AI</th>
+                        <th>AI name</th>
+                        <th>AI data</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>GTIN</td>
+                        <td>01234567890128</td>
+                        <td style="text-align: center;"><input type="button" value="Edit" id="editGs1AppIdValue" /> <input type="button" value="Delete" id="deleteGs1AppIdValue" /></td>
+                    </tr>
+                </table>
+                <br />
+                <input type="button" value="Add GS1 Application Identifier value to GS1 value" id="addGs1AppIdValue" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="gs1ValueEditorDialog_copyValueToClipboadButton">Copy GS1 printable value to the clipboard</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal" id="gs1ValueEditorDialog_okButton">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

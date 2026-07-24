@@ -95,11 +95,12 @@ function __createBarcodePanel() {
 
     var writeBarcodeButton = _barcodeWriterUiHelper.createWriteBarcodeButton();
     var barcodeWriterSettingsButton = _barcodeWriterUiHelper.createBarcodeWriterSettingsButton();
+    var gs1ValueEditorButton = _barcodeWriterUiHelper.createGs1ValueEditorButton();
 
     return new Vintasoft.Imaging.UI.Panels.WebUiPanelJS(
         ["panToolButton", "rectangularSelectionToolButton", "vertDivider",
             readBarcodesButton, barcodeReaderSettingsButton, "vertDivider",
-            writeBarcodeButton, barcodeWriterSettingsButton],
+            writeBarcodeButton, barcodeWriterSettingsButton, gs1ValueEditorButton],
         { cssClass: "vsui-subMenu-contentPanel" }, button);
 }
 

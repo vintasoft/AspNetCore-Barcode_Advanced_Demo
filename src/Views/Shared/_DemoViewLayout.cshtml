@@ -18,11 +18,13 @@
         <div class="header">
             @RenderSection("demoDescription", false)
         </div>
-        
+
         <input type="hidden" id="hiddenSessionField" value="@Context.Session.Id" />
         @RenderSection("demoContent", true)
 
         @Html.Partial("UI/Dialogs/ErrorMessageDialog")
+        @Html.Partial("UI/Dialogs/Gs1AppIdValueEditorDialog")
+        @Html.Partial("UI/Dialogs/Gs1ValueEditorDialog")
     </div>
 </body>
 </html>

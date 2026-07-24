@@ -61,6 +61,20 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
         });
     }
 
+    /**
+     Creates UI button that allows to edit the GS1 value.
+    */
+    BarcodeWriterUiHelperJS.prototype.createGs1ValueEditorButton = function () {
+        // create the button that allows to edit the GS1 value
+        return new Vintasoft.Imaging.UI.UIElements.WebUiButtonJS({
+            cssClass: "gs1ValueEditor",
+            title: "GS1 value editor",
+            localizationId: "gs1ValueEditorButton",
+            css: { "margin-left": "5px" },
+            onClick: __gs1ValueEditorButton_clicked
+        });
+    }
+
 
     function __writeBarcodeButton_clicked(event, uiElement) {
         // create the barcode writer
@@ -139,6 +153,10 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
         }
 
         _barcodeWriterSettingsDialog.show();
+    }
+
+    function __gs1ValueEditorButton_clicked(event, uiElement) {
+        new Gs1ValueEditorDialogJS();
     }
 
 }
