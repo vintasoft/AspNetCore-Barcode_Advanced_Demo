@@ -69,6 +69,9 @@
 		"barcodeWriterSettingsButton": {
 			"title": "Настройки генератора штрих-кода"
 		},
+		"gs1ValueEditorButton": {
+			"title": "Редактор GS1-значения"
+		},
 		"sidePanelCloseButton": {
 			"title": "Показать боковую панель"
 		},
@@ -97,7 +100,7 @@
 			"title": "Уменьшить масштаб"
 		},
 		"zoomValueInput": {
-			"title": "Масштаб"
+			"title": "Масштабирование"
 		},
 		"zoomInButton": {
 			"title": "Увеличить масштаб"
@@ -115,7 +118,7 @@
 			"title": "Пиксель в пиксель"
 		},
 		"zoomSizeModeButton": {
-			"title": "Масштаб"
+			"title": "Масштабирование"
 		},
 		"documentPasswordDialog": {
 			"pleaseEnterPasswordLabel": {
@@ -499,6 +502,54 @@
 			}
 		}
 	},
+	"gs1AppIdValueEditorDialog_gs1AppIdValueEditorDialogTitle": {
+		"text": "Редактор значения GS1 идентификатора"
+	},
+	"gs1AppIdValueEditorDialog_gs1AppId": {
+		"text": "Идентификатор приложения:"
+	},
+	"gs1AppIdValueEditorDialog_gs1AppIdData": {
+		"text": "Данные:"
+	},
+	"gs1AppIdValueEditorDialog_CloseButton": {
+		"text": "Закрыть"
+	},
+	"gs1ValueEditorDialog_gs1ValueEditorDialogTitle": {
+		"text": "Редактор GS1-значения"
+	},
+	"gs1ValueEditorDialog_gs1PrintableValue": {
+		"text": "Печатаемое GS1-значение:"
+	},
+	"gs1ValueEditorDialog_gs1Value": {
+		"text": "GS1-значение (набор значений GS1 идентификаторов):"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_ai": {
+		"text": "Идентификатор"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_aiName": {
+		"text": "Имя идент."
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_aiData": {
+		"text": "Данные идент."
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_actions": {
+		"text": "Действия"
+	},
+	"gs1ValueEditorDialog_EditButton": {
+		"text": "Редактирование"
+	},
+	"gs1ValueEditorDialog_DeleteButton": {
+		"text": "Удалить"
+	},
+	"gs1ValueEditorDialog_addGs1AppIdValue": {
+		"value": "Добавить значение GS1-идентификатора к GS1-значению"
+	},
+	"gs1ValueEditorDialog_copyValueToClipboadButton": {
+		"text": "Скопировать GS1-значение в буфер обмена"
+	},
+	"gs1ValueEditorDialog_closeButton": {
+		"text": "Закрыть"
+	},
 	"strings": {
 		"vsdv-barcodeReadingInformationText-start": "Для распознавания штрих-кодов выполните следующие действия:",
 		"vsdv-barcodeReadingInformationText-step1": "1. Выберите регион на изображении с помощью инструмента выбора, если в этом регионе необходимо искать штрих-коды.",
@@ -515,12 +566,12 @@
 		"vsdv-barcodeWritingInformationText-step1": "1. Нажмите кнопку 'Настройки устройства записи штрих-кода' и укажите необходимые настройки.",
 		"vsdv-barcodeWritingInformationText-step2": "2. Нажмите кнопку 'Создать штрих-код', и новое изображение штрих-кода будет добавлено в программу просмотра изображений.",
 		"vsdv-barcodeReader-title": "Результат распознавания штрих-кодов",
-		"vsdv-barcodeReader-recognizedBarcodes": "Распознаваемые штрих-коды:",
+		"vsdv-barcodeReader-recognizedBarcodes": "Распознанные штрих-коды:",
 		"vsdv-barcodeReader-barcodeType": "Тип штрих-кода:",
 		"vsdv-barcodeReader-value": "Значение штрих-кода:",
 		"vsdv-barcodeReader-baseValue": "Базовое значение штрих-кода:",
 		"vsdv-barcodeReader-confidence": "Уверенность в результате:",
-		"vsdv-barcodeReader-readingQuality": "Качество чтения результата:",
+		"vsdv-barcodeReader-readingQuality": "Качество распознавания:",
 		"vsdv-barcodeReader-threshold": "Порог:",
 		"vsdv-barcodeReader-region": "Область изображения:",
 		"vsdv-barcodeReader-angle": "Угол:",

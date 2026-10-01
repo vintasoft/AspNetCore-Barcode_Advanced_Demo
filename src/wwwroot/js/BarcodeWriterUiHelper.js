@@ -156,7 +156,7 @@ var BarcodeWriterUiHelperJS = function (showErrorMessageFunc) {
     }
 
     function __gs1ValueEditorButton_clicked(event, uiElement) {
-        new Gs1ValueEditorDialogJS();
+        new Gs1ValueEditorDialogJS(_localizer);
     }
 
 }

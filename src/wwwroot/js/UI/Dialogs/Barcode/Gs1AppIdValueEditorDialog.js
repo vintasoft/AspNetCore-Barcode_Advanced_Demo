@@ -4,29 +4,9 @@
 Gs1AppIdValueEditorDialogJS = function (gs1ValueEditorDialog, gs1AppIdValueIndex, gs1AppId, gs1AppIdData) {
 
     /**
-     Initializes the dialog.
-     */
-    function __init(gs1AppId, gs1AppIdData) {
-        // initialize the 'gs1AppId' item
-        var gs1AppIdItem = document.getElementById('gs1AppId');
-        gs1AppIdItem.value = gs1AppId;
-
-        // initialize the 'gs1AppIdData' item
-        var gs1AppIdDataItem = document.getElementById('gs1AppIdData');
-        gs1AppIdDataItem.value = gs1AppIdData;
-
-        var okButton = document.getElementById("gs1AppIdValueEditorDialog_OkButton");
-        // subscribe to the "click" event of "Ok" button
-        okButton.addEventListener("click", __gs1AppIdValueEditorDialog_okButton_clicked);
-
-        // show the dialog
-        $('#gs1AppIdValueEditorDialog').modal('show');
-    }
-
-    /**
      "Ok" button is clicked.
      */
-    function __gs1AppIdValueEditorDialog_okButton_clicked() {
+    Gs1AppIdValueEditorDialogJS.__gs1AppIdValueEditorDialog_okButton_clicked = function () {
         var gs1AppIdItem = document.getElementById('gs1AppId');
         var gs1AppIdDataItem = document.getElementById('gs1AppIdData');
 
@@ -56,14 +36,7 @@ Gs1AppIdValueEditorDialogJS = function (gs1ValueEditorDialog, gs1AppIdValueIndex
             // update the UI of GS1 value editor dialog
             gs1ValueEditorDialog.updateUI();
 
-            var okButton = document.getElementById("gs1AppIdValueEditorDialog_OkButton");
-            // unsubscribe from the "click" event of "Ok" button
-            okButton.removeEventListener("click", __gs1AppIdValueEditorDialog_okButton_clicked);
-
-            // hide this dialog
-            $('#gs1AppIdValueEditorDialog').modal('hide');
-            // show the GS1 Value Editor dialog
-            $('#gs1ValueEditorDialog').modal('show');
+            __close();
         }
         function __validateGs1AppIdValueRequest_error(data) {
             // show error message
@@ -87,6 +60,39 @@ Gs1AppIdValueEditorDialogJS = function (gs1ValueEditorDialog, gs1AppIdValueIndex
             requestParams);
         // send the request to the Barcode web service
         Vintasoft.Shared.WebServiceJS.defaultBarcodeService.sendRequest(request);
+    }
+
+    /**
+     "Close" button is clicked.
+    */
+    Gs1AppIdValueEditorDialogJS.__gs1AppIdValueEditorDialog_closeButton_clicked = function () {
+        __close();
+    }
+
+    /**
+     Initializes the dialog.
+    */
+    function __init(gs1AppId, gs1AppIdData) {
+        // initialize the 'gs1AppId' item
+        var gs1AppIdItem = document.getElementById('gs1AppId');
+        gs1AppIdItem.value = gs1AppId;
+
+        // initialize the 'gs1AppIdData' item
+        var gs1AppIdDataItem = document.getElementById('gs1AppIdData');
+        gs1AppIdDataItem.value = gs1AppIdData;
+
+        // show the dialog
+        $('#gs1AppIdValueEditorDialog').modal('show');
+    }
+
+    /**
+     Closes the dialog.
+    */
+    function __close() {
+        // hide this dialog
+        $('#gs1AppIdValueEditorDialog').modal('hide');
+        // show the GS1 Value Editor dialog
+        $('#gs1ValueEditorDialog').modal('show');
     }
 
 

@@ -69,6 +69,9 @@
 		"barcodeWriterSettingsButton": {
 			"title": "바코드 작성기 설정"
 		},
+		"gs1ValueEditorButton": {
+			"title": "GS1 value editor"
+		},
 		"sidePanelCloseButton": {
 			"title": "사이드바 보기"
 		},
@@ -498,6 +501,54 @@
 				"value": "취소"
 			}
 		}
+	},
+	"gs1AppIdValueEditorDialog_gs1AppIdValueEditorDialogTitle": {
+		"text": "GS1 Application Identifier Value Editor"
+	},
+	"gs1AppIdValueEditorDialog_gs1AppId": {
+		"text": "Application identifier:"
+	},
+	"gs1AppIdValueEditorDialog_gs1AppIdData": {
+		"text": "Data:"
+	},
+	"gs1AppIdValueEditorDialog_CloseButton": {
+		"text": "닫기"
+	},
+	"gs1ValueEditorDialog_gs1ValueEditorDialogTitle": {
+		"text": "GS1 Value Editor"
+	},
+	"gs1ValueEditorDialog_gs1PrintableValue": {
+		"text": "GS1 printable value:"
+	},
+	"gs1ValueEditorDialog_gs1Value": {
+		"text": "GS1 value (set of GS1 Application Identifier values):"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_ai": {
+		"text": "AI"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_aiName": {
+		"text": "AI name"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_aiData": {
+		"text": "AI data"
+	},
+	"gs1ValueEditorDialog_gs1ValuesTable_actions": {
+		"text": "Actions"
+	},
+	"gs1ValueEditorDialog_EditButton": {
+		"text": "편집 중"
+	},
+	"gs1ValueEditorDialog_DeleteButton": {
+		"text": "삭제"
+	},
+	"gs1ValueEditorDialog_addGs1AppIdValue": {
+		"value": "Add GS1 Application Identifier value to GS1 value"
+	},
+	"gs1ValueEditorDialog_copyValueToClipboadButton": {
+		"text": "Copy GS1 printable value to the clipboard"
+	},
+	"gs1ValueEditorDialog_closeButton": {
+		"text": "닫기"
 	},
 	"strings": {
 		"vsdv-barcodeReadingInformationText-start": "바코드를 읽으려면 다음 단계를 수행하십시오.",

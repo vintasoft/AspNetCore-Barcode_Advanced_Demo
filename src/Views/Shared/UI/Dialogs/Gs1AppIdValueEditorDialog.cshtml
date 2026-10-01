@@ -3,10 +3,10 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="gs1AppIdValueEditorDialogTitle">GS1 Application Identifier Value Editor</h5>
+                <h5 class="modal-title" id="gs1AppIdValueEditorDialogTitle"><label localizationId="gs1AppIdValueEditorDialog_gs1AppIdValueEditorDialogTitle">GS1 Application Identifier Value Editor</label></h5>
             </div>
             <div class="modal-body">
-                <label for="gs1AppId">Application identifier:</label>
+                <label localizationId="gs1AppIdValueEditorDialog_gs1AppId" for="gs1AppId">Application identifier:</label>
                 <br />
                 <select name="gs1AppId" id="gs1AppId" style="width: 550px;">
                     <option value="00">00: SSCC</option>
@@ -240,12 +240,13 @@
                 </select>
                 <br />
                 <br />
-                <label for="gs1AppIdData">Data:</label>
+                <label localizationId="gs1AppIdValueEditorDialog_gs1AppIdData" for="gs1AppIdData">Data:</label>
                 <br />
                 <input type="text" id="gs1AppIdData" style="width: 550px;" />
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="gs1AppIdValueEditorDialog_OkButton">OK</button>
+                <button type="button" class="btn btn-primary" id="gs1AppIdValueEditorDialog_OkButton" onclick="javascript: Gs1AppIdValueEditorDialogJS.__gs1AppIdValueEditorDialog_okButton_clicked(); return false;">OK</button>
+                <button type="button" class="btn btn-primary" id="gs1AppIdValueEditorDialog_CloseButton" onclick="javascript: Gs1AppIdValueEditorDialogJS.__gs1AppIdValueEditorDialog_closeButton_clicked(); return false;" localizationId="gs1AppIdValueEditorDialog_CloseButton">Close</button>
             </div>
         </div>
     </div>

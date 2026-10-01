@@ -259,28 +259,6 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
             for (var i = 0; i < barcodeInfoArray.length; i++) {
                 var barcodeInfo = barcodeInfoArray[i];
 
-                var barcodeValue;
-                if (barcodeInfo.barcodeType == "Mailmark CMDM Type7" || barcodeInfo.barcodeType == "Mailmark CMDM Type9" || barcodeInfo.barcodeType == "Mailmark CMDM Type29") {
-                    barcodeValue = '\n===\n' + __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, false, '\n') + '\n===';
-                }
-                else if (barcodeInfo.barcodeType == "PPN") {
-                    barcodeValue = '\n===\n' + __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, false, '\n') + '\n===';
-                }
-                else if (barcodeInfo.barcodeType == "AAMVA") {
-                    barcodeValue = '\n===\n' + __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, false, '\n') + '\n===';
-                }
-                else if (barcodeInfo.barcodeType == "Swiss QR Code") {
-                    barcodeValue = '\n===\n' + __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, false, '\n') + '\n===';
-                }
-                else if (barcodeInfo.barcodeType == "IATA BCBP Aztec" || barcodeInfo.barcodeType == "IATA BCBP DataMatrix" ||
-                    barcodeInfo.barcodeType == "IATA BCBP PDF417" || barcodeInfo.barcodeType == "IATA BCBP QR Code") {
-                    barcodeValue = '\n===\n' + __createMarkupWithInformationAboutIataBcbpBarcode(barcodeInfo, false, '\n') + '\n===';
-                }
-                else {
-                    barcodeValue = barcodeInfo.value;
-                }
-
-
                 var valueText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-value");
                 var confidenceText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-confidence");
                 var readingQualityText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-readingQuality");
@@ -288,9 +266,51 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
                 var regionText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-region");
                 var angleText = Vintasoft.Shared.VintasoftLocalizationJS.getStringConstant("vsdv-barcodeReader-angle");
 
-                // create a string with information about barcode
-                information += '[' + (i + 1) + ':' + barcodeInfo.barcodeType + ']\n' +
-                    valueText + ' ' + barcodeValue + '\n' +
+                information += '[' + (i + 1) + ':' + barcodeInfo.barcodeType + ']\n';
+
+                if (barcodeInfo.barcodeType == "Mailmark CMDM Type7" || barcodeInfo.barcodeType == "Mailmark CMDM Type9" || barcodeInfo.barcodeType == "Mailmark CMDM Type29") {
+                    information += 'Decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutMailmarkCMDMBarcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else if (barcodeInfo.barcodeType == "PPN") {
+                    information += 'Decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutPpnBarcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else if (barcodeInfo.barcodeType == "AAMVA") {
+                    information += 'Decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutAamvaBarcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else if (barcodeInfo.barcodeType == "Swiss QR Code") {
+                    information += 'Decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutSwissQrCodeBarcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else if (barcodeInfo.barcodeType == "IATA BCBP Aztec" || barcodeInfo.barcodeType == "IATA BCBP DataMatrix" || barcodeInfo.barcodeType == "IATA BCBP PDF417" || barcodeInfo.barcodeType == "IATA BCBP QR Code") {
+                    information += 'Decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutIataBcbpBarcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else if (barcodeInfo.barcodeType.substring(0, 3) == "GS1") {
+                    information += valueText + ' ' + barcodeInfo.value + '\n\n' +
+                        'Base value: ' + barcodeInfo.baseValue + '\n\n' +
+                        'GS1 decoded value: ' + '\n' +
+                        '===\n' +
+                        __createMarkupWithInformationAboutGS1Barcode(barcodeInfo, false, '\n') + '\n' +
+                        '===\n\n';
+                }
+                else {
+                    information += valueText + barcodeInfo.value + '\n';
+                }
+
+                information +=
                     confidenceText + ' ' + barcodeInfo.confidence + '\n' +
                     readingQualityText + ' ' + barcodeInfo.readingQuality.toFixed(2) + '\n' +
                     thresholdText + ' ' + barcodeInfo.threshold + '\n' +
@@ -391,6 +411,14 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
             htmlMarkup += '<b>' + valueText + '</b><br />';
             htmlMarkup += __createMarkupWithInformationAboutIataBcbpBarcode(barcodeInfo, true, '<br />') + '<br />';
             htmlMarkup += '<b>' + baseValueText + '</b> ' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+        }
+        else if (barcodeInfo.barcodeType.substring(0, 3) == "GS1") {
+            htmlMarkup += '<b>' + valueText + '</b>' + __replaceSpecialHtmlChars(barcodeInfo.value) + '<br />';
+            htmlMarkup += '<b>Base value: </b>' + __replaceSpecialHtmlChars(barcodeInfo.baseValue) + '<br />';
+            htmlMarkup += '<b>GS1 Decoded value: </b><br />';
+            htmlMarkup += '===<br />';
+            htmlMarkup += __createMarkupWithInformationAboutGS1Barcode(barcodeInfo, true, '<br />') + '<br />';
+            htmlMarkup += '===<br />';
         }
         else {
             htmlMarkup += '<b>' + valueText + '</b> ' + __replaceSpecialHtmlChars(barcodeInfo.value) + '<br />';
@@ -614,6 +642,26 @@ var BarcodeReaderHelperJS = function (recognizedInformationTextarea, blockUiFunc
         htmlMarkup += __createMarkupForBarcodeInfoParameter('ToCityAirportCode', barcodeInfo.decodedValue.toCityAirportCode, isBoldParameterTitle, brText);
         htmlMarkup += __createMarkupForBarcodeInfoParameter('UniqueConditionalsSize', barcodeInfo.decodedValue.uniqueConditionalsSize, isBoldParameterTitle, brText);
         htmlMarkup += __createMarkupForBarcodeInfoParameter('VersionNumber', barcodeInfo.decodedValue.versionNumber, isBoldParameterTitle, brText);
+        return htmlMarkup;
+    }
+
+    /**
+     Creates a HTML markup with information about recognized GS1 barcode.
+     @param {object} barcodeInfo Information about barcode.
+     @param {boolean} isBoldTextLabel A value indicating whether the parameter title must be shown using bold font.
+     @param {string} brText A string that should be used as line break symbol.
+    */
+    function __createMarkupWithInformationAboutGS1Barcode(barcodeInfo, isBoldParameterTitle, brText) {
+        var htmlMarkup = "";
+        if (barcodeInfo.applicationIdentifierValues != null) {
+            for (var i = 0; i < barcodeInfo.applicationIdentifierValues.length; i++) {
+                if (i == (barcodeInfo.applicationIdentifierValues.length - 1))
+                    brText = '';
+
+                var applicationIdentifierValue = barcodeInfo.applicationIdentifierValues[i];
+                htmlMarkup += __createMarkupForBarcodeInfoParameter(applicationIdentifierValue.applicationIdentifier.dataContent, applicationIdentifierValue.value, isBoldParameterTitle, brText);
+            }
+        }
         return htmlMarkup;
     }
 

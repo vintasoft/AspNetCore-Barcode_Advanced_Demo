@@ -365,6 +365,12 @@ function __createDocumentViewerDialogsForLocalization(tempDialogs) {
     var uploadImageFromUrlDialog = new Vintasoft.Imaging.UI.Dialogs.WebUiUploadImageFromUrlDialogJS();
     uploadImageFromUrlDialog.render(floatingContainer);
     tempDialogs.push(uploadImageFromUrlDialog);
+
+    var gs1ValueEditorDialog = new Gs1ValueEditorDialogJS(_localizer);
+    $('#gs1ValueEditorDialog').modal('hide');
+
+    var gs1AppIdValueEditorDialog = new Gs1AppIdValueEditorDialogJS();
+    $('#gs1AppIdValueEditorDialog').modal('hide');
 }
 
 

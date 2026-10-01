@@ -1,7 +1,11 @@
 ﻿/**
  A dialog that allows to edit the GS1 value.
 */
-Gs1ValueEditorDialogJS = function () {
+Gs1ValueEditorDialogJS = function (localizer) {
+
+    this._localizer = localizer;
+
+
 
     /**
      Updates the UI of this dialog.
@@ -37,6 +41,7 @@ Gs1ValueEditorDialogJS = function () {
             // set button settings
             editButton.textContent = "Edit";
             editButton.type = "button";
+            editButton.setAttribute("localizationId", "gs1ValueEditorDialog_EditButton");
             // save reference to the GS1 value editor dialog in custom field of button
             editButton.gs1ValueEditorDialog = this;
             // save index of the GS1 App Id object in custom field of button
@@ -58,6 +63,7 @@ Gs1ValueEditorDialogJS = function () {
             // set button settings
             deleteButton.textContent = "Delete";
             deleteButton.type = "button";
+            deleteButton.setAttribute("localizationId", "gs1ValueEditorDialog_DeleteButton");
             // save reference to the GS1 value editor dialog in custom field of button
             deleteButton.gs1ValueEditorDialog = this;
             // save index of the GS1 App Id object in custom field of button
@@ -72,6 +78,9 @@ Gs1ValueEditorDialogJS = function () {
             // add "Delete" button to the table cell
             cell4.appendChild(deleteButton);
         }
+
+        // localize DOM-elements of web page
+        this._localizer.localizeDocument();
     }
 
     /**
@@ -121,17 +130,7 @@ Gs1ValueEditorDialogJS = function () {
         }
     }
 
-    function __gs1ValueEditorDialog_okButton_clicked() {
-        var okButton = document.getElementById("gs1ValueEditorDialog_okButton");
-        // unsubscribe from the "click" event of "Ok" button
-        okButton.removeEventListener("click", __gs1ValueEditorDialog_okButton_clicked);
-
-        var copyValueToClipboardButton = document.getElementById("gs1ValueEditorDialog_copyValueToClipboadButton");
-        // unsubscribe from the "click" event of "Copy value to clipboard" button
-        copyValueToClipboardButton.removeEventListener("click", __gs1ValueEditorDialog_copyValueToClipboadButton_clicked);
-    }
-
-    function __gs1ValueEditorDialog_copyValueToClipboadButton_clicked() {
+    Gs1ValueEditorDialogJS.__gs1ValueEditorDialog_copyValueToClipboadButton_clicked = function () {
         var gs1PrintableValueItem = document.getElementById("gs1PrintableValue");
         gs1PrintableValueItem.select();
         document.execCommand("copy");
@@ -142,14 +141,6 @@ Gs1ValueEditorDialogJS = function () {
      Initializes this dialog.
      */
     Gs1ValueEditorDialogJS.prototype.__init = function () {
-        var okButton = document.getElementById("gs1ValueEditorDialog_okButton");
-        // subscribe to the "click" event of "Ok" button
-        okButton.addEventListener("click", __gs1ValueEditorDialog_okButton_clicked);
-
-        var copyValueToClipboardButton = document.getElementById("gs1ValueEditorDialog_copyValueToClipboadButton");
-        // subscribe to the "click" event of "Copy value to clipboard" button
-        copyValueToClipboardButton.addEventListener("click", __gs1ValueEditorDialog_copyValueToClipboadButton_clicked);
-
         var addGs1AppIdValueItem = document.getElementById("addGs1AppIdValue");
         addGs1AppIdValueItem.gs1ValueEditorDialog = this;
         addGs1AppIdValueItem.addEventListener("click", function () {
